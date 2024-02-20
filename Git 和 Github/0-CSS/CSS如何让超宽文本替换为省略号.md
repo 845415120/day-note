@@ -1,0 +1,8 @@
+---
+时间: 11分
+作者: "\r技术蛋老师"
+标题: CSS如何让超宽文本替换为省略号
+图片: https://i1.hdslb.com/bfs/archive/419be6faf51d0ab9e8acbe050f7b684fa1ed1de8.jpg@480w_300h_1c_!web-space-channel-video.webp
+链接: https://www.bilibili.com/video/BV1P4411q71a
+评价: ★★★★★
+---
