@@ -1,0 +1,1 @@
+![](Pasted%20image%2020240207150412.png)![](Pasted%20image%2020240207150425.png)![](Pasted%20image%2020240207150444.png)![](Pasted%20image%2020240207150526.png)![](Pasted%20image%2020240207150545.png)

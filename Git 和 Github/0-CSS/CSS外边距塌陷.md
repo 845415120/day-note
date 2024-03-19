@@ -1,0 +1,8 @@
+---
+时间: 11分
+作者: "\r技术蛋老师"
+标题: CSS外边距塌陷
+图片: https://i1.hdslb.com/bfs/archive/99aae20af879d9bf1935e1a4ca67085091e39797.jpg@480w_300h_1c_!web-space-channel-video.webp
+链接: https://www.bilibili.com/video/BV1DE41197Kc
+评价: ★★★★★
+---

@@ -1,0 +1,10 @@
+---
+时间: 2023-11-18
+标题: 微软官方的 AI 文生图服务
+图片: https://camo.githubusercontent.com/607ceb131252ec2bdb6064c2a8f10fa055dcd9ad7fe82fc35ff72d48ba502e16/68747470733a2f2f63646e2e6265656b6b612e636f6d2f626c6f67696d672f61737365742f3230323331312f6267323032333131313530352e77656270
+链接: https://www.bing.com/images/create/servlet-e9bb91e5ba95-e9bb84e5ad97/1-655835c0d79342a2a9c21795af7a33ad?FORM=GENCRE
+tags:
+---
+
+
+
