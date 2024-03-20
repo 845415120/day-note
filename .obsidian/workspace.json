@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-20.md",
+                "file": "O-电影2000/0-卡片/0-电影2000.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -238,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-20.md"
+                "file": "O-电影2000/0-卡片/0-电影2000.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-20.md",
+                "file": "O-电影2000/0-卡片/0-电影2000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-20.md",
+                "file": "O-电影2000/0-卡片/0-电影2000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,9 +312,13 @@
   },
   "active": "c16564d36976bd22",
   "lastOpenFiles": [
+    "O-电影2000/0-卡片/未命名.md",
+    "O-电影2000/0-卡片/0-电影2000.md",
+    "H-每日记录/2024-03-20.md",
+    "O-电影2000/007大破量子危机.md",
+    "O-电影2000/0-卡片",
     "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
     "H-每日记录/2024-03-20/未命名.md",
-    "H-每日记录/2024-03-20.md",
     "03-Javascript/00-JavaScript编程语言/03-运算符.md",
     "03-Javascript/00-JavaScript编程语言/05-字符串方法.md",
     "03-Javascript/JavaScript 面试笔记.md",
@@ -335,9 +339,6 @@
     "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "03-Javascript/00-JavaScript编程语言/05-数组-方法.md",
     "03-Javascript/00-JavaScript编程语言/04-流程控制.md",
-    "03-Javascript/00-JavaScript编程语言/03展开运算符.md",
-    "03-Javascript/00-JavaScript编程语言/02相等(==)和全等(===).md",
-    "A-前端视频记录/01-千峰 kerwin/03-原生JS项目.md",
     "H-每日记录/2024-03-20",
     "03-Javascript/代码质量/未命名",
     "03-Javascript/代码质量",
@@ -356,7 +357,6 @@
     "B-前端/Vuex",
     "A-前端视频记录/B站视频",
     "03-Javascript/03-JavaScript-高级",
-    "03-Javascript/00-JavaScript编程语言",
-    "03-Javascript/00-卡片"
+    "03-Javascript/00-JavaScript编程语言"
   ]
 }
