@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian-git",
+      "path": "H-每日记录/2024-03-20/obsidian-git.md"
+    },
+    {
+      "basename": "BBC-秦始皇兵马俑",
+      "path": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md"
+    },
+    {
+      "basename": "2024-03-20",
+      "path": "H-每日记录/2024-03-20.md"
+    },
+    {
+      "basename": "01.入门篇",
+      "path": "数据结构与算法之美笔记/docs/01.入门篇.md"
+    },
+    {
+      "basename": "学习JavaScript数据结构与算法（第3版）",
+      "path": "0-数据结构与算法/书籍学习/学习JavaScript数据结构与算法（第3版）.md"
+    },
+    {
       "basename": "1-电影2010",
       "path": "卡片/1-电影2010.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "02.数组",
       "path": "数据结构与算法之美笔记/docs/02.数组.md"
-    },
-    {
-      "basename": "2024-03-20",
-      "path": "H-每日记录/2024-03-20.md"
     },
     {
       "basename": "0-ES6",
@@ -75,10 +91,6 @@
     {
       "basename": "2024-03-19",
       "path": "H-每日记录/2024-03-19.md"
-    },
-    {
-      "basename": "BBC-秦始皇兵马俑",
-      "path": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md"
     },
     {
       "basename": "海棠依旧",
@@ -187,18 +199,6 @@
     {
       "basename": "00-JavaScript起步",
       "path": "03-Javascript/00-JavaScript编程语言/00-JavaScript起步.md"
-    },
-    {
-      "basename": "第一天",
-      "path": "0-前端黑马体系课/00-JavaScript高级/第一天.md"
-    },
-    {
-      "basename": "JavaScript重难点实例精讲",
-      "path": "Y-计算机书籍/JavaScript重难点实例精讲.md"
-    },
-    {
-      "basename": "3 手写Promise核心代码",
-      "path": "03-Javascript/02-JavaScript-异步编程/3 手写Promise核心代码.md"
     }
   ],
   "omittedPaths": [],

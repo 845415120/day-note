@@ -162,7 +162,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片/1-电影2010.md",
+                "file": "H-每日记录/2024-03-20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f9ed15fc015739b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e968aaf4deea10a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-20/obsidian-git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -170,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -189,7 +215,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "三元",
+                "query": "腾讯云ID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,9 +249,16 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "8e8b3acf4b2f7775",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "卡片/1-电影2010.md"
+                "file": "H-每日记录/2024-03-20/obsidian-git.md"
               }
             }
           },
@@ -255,18 +288,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "卡片/1-电影2010.md",
+                "file": "H-每日记录/2024-03-20/obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "8e8b3acf4b2f7775",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           },
           {
@@ -275,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "卡片/1-电影2010.md",
+                "file": "H-每日记录/2024-03-20/obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,11 +312,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,14 +330,20 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "30c7c128d3370406",
+  "active": "71428dd1d5256ed5",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
+    "H-每日记录/2024-03-20/obsidian-git.md",
+    "H-每日记录/2024-03-20.md",
+    "数据结构与算法之美笔记/docs/01.入门篇.md",
+    "0-数据结构与算法/书籍学习/学习JavaScript数据结构与算法（第3版）.md",
+    "卡片/1-电影2010.md",
+    "卡片/前端知识点卡.md",
     "03-Javascript/00-卡片/0-JavaScript卡片.md",
     "数据结构与算法之美笔记/docs/_sidebar.md",
     "数据结构与算法之美笔记/docs/02.数组.md",
     "数据结构与算法之美笔记/docs/14.红黑树.md",
     "数据结构与算法之美笔记/docs/12.哈希算法.md",
-    "H-每日记录/2024-03-20.md",
     "03-Javascript/01-ES6/箭头函数.md",
     "03-Javascript/01-ES6/14-解构赋值.md",
     "03-Javascript/01-ES6/0-ES6.md",
@@ -323,15 +355,9 @@
     "03-Javascript/00-JavaScript编程语言/03-运算符.md",
     "03-Javascript/00-JavaScript编程语言/02相等(==)和全等(===).md",
     "A-前端视频记录/01-千峰 kerwin/03-原生JS项目.md",
-    "卡片/1-电影2010.md",
     "Y-美食/一城一味.md",
     "O-电影2010/西虹市首富.md",
     "O-电影2010/朝圣之路 1.md",
-    "03-Javascript/00-JavaScript编程语言/02-typeof和instanceof.md",
-    "03-Javascript/00-JavaScript编程语言/01-数据类型.md",
-    "03-Javascript/00-JavaScript编程语言/00-JavaScript起步.md",
-    "03-Javascript/03-JavaScript-高级/JavaScript闭包.md",
-    "03-Javascript/JavaScript知识要点/JavaScriptSymbol类型的注意事项.md",
     "H-每日记录/2024-03-20",
     "03-Javascript/代码质量/未命名",
     "03-Javascript/代码质量",
