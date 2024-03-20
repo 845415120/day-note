@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian-git",
-      "path": "H-每日记录/2024-03-20/obsidian-git.md"
+      "basename": "JavaScript 面试笔记",
+      "path": "03-Javascript/JavaScript 面试笔记.md"
+    },
+    {
+      "basename": "2024-03-20",
+      "path": "H-每日记录/2024-03-20.md"
     },
     {
       "basename": "BBC-秦始皇兵马俑",
       "path": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md"
     },
     {
-      "basename": "2024-03-20",
-      "path": "H-每日记录/2024-03-20.md"
+      "basename": "obsidian-git",
+      "path": "H-每日记录/2024-03-20/obsidian-git.md"
     },
     {
       "basename": "01.入门篇",
@@ -195,10 +199,6 @@
     {
       "basename": "02数据类型转换",
       "path": "03-Javascript/00-JavaScript编程语言/02数据类型转换.md"
-    },
-    {
-      "basename": "00-JavaScript起步",
-      "path": "03-Javascript/00-JavaScript编程语言/00-JavaScript起步.md"
     }
   ],
   "omittedPaths": [],

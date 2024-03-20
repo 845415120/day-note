@@ -1,7 +1,15 @@
+---
+标题: 
+图片: https://dannyhatcher.com/wp-content/uploads/2023/03/git-backup-1024x576.jpg
+链接: 
+时时: 
+评价:
+---
 [Obsidian Git for beginners - Danny Hatcher](https://dannyhatcher.com/obsidian-git-for-beginners/)
 
 # Obsidian Git for beginners  
 适合初学者的黑曜石 Git
+
 
 - Last updated April 19, 2023  
     最后更新时间：2023年4月19日

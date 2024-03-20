@@ -168,35 +168,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4f9ed15fc015739b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e968aaf4deea10a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20/obsidian-git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "腾讯云ID",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,7 +232,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -278,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-20/obsidian-git.md"
+                "file": "03-Javascript/JavaScript 面试笔记.md"
               }
             }
           },
@@ -288,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-20/obsidian-git.md",
+                "file": "03-Javascript/JavaScript 面试笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-20/obsidian-git.md",
+                "file": "03-Javascript/JavaScript 面试笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,11 +305,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "71428dd1d5256ed5",
+  "active": "ca69a55d093c3545",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-20.md",
     "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
     "H-每日记录/2024-03-20/obsidian-git.md",
-    "H-每日记录/2024-03-20.md",
     "数据结构与算法之美笔记/docs/01.入门篇.md",
     "0-数据结构与算法/书籍学习/学习JavaScript数据结构与算法（第3版）.md",
     "卡片/1-电影2010.md",
