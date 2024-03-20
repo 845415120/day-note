@@ -1,0 +1,126 @@
+{
+  "aestheticStyle": "default",
+  "menuCommands": [
+    {
+      "id": "editor:insert-wikilink",
+      "name": "插入内部链接",
+      "icon": "bracket-glyph"
+    },
+    {
+      "id": "editor:insert-link",
+      "name": "插入链接",
+      "icon": "lucide-link",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "K"
+        }
+      ]
+    },
+    {
+      "id": "editor:toggle-code",
+      "name": "代码块",
+      "icon": "lucide-code-2"
+    },
+    {
+      "id": "editor:toggle-bullet-list",
+      "name": "无序列表",
+      "icon": "lucide-list"
+    },
+    {
+      "id": "editor:attach-file",
+      "name": "插入附件",
+      "icon": "lucide-paperclip"
+    },
+    {
+      "id": "editor:toggle-bold",
+      "name": "加粗/取消加粗",
+      "icon": "lucide-bold",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "B"
+        }
+      ]
+    },
+    {
+      "id": "editor:toggle-highlight",
+      "name": "高亮/取消高亮",
+      "icon": "lucide-highlighter"
+    },
+    {
+      "id": "obsidian-title-serial-number-plugin:set-title-serial-number-editor-command",
+      "name": "Title Serial Number Plugin: Set Serial Number For Title",
+      "icon": "add-note-glyph"
+    },
+    {
+      "id": "obsidian-title-serial-number-plugin:clear-title-serial-number-editor-command",
+      "name": "Title Serial Number Plugin: Clear Serial Number For Title",
+      "icon": "add-note-glyph"
+    },
+    {
+      "id": "markdown-table-editor:markdown-table-editor-open-horizontal",
+      "name": "Markdown Table Editor: Open Editor (Below the Active View)",
+      "icon": "blocks"
+    },
+    {
+      "id": "Enhanced editing:del-lines",
+      "name": "ZH增强编辑: 批量去除空行",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "l"
+        }
+      ],
+      "icon": "bracket-glyph"
+    },
+    {
+      "id": "editor:insert-codeblock",
+      "name": "插入代码块",
+      "icon": "lucide-code"
+    },
+    {
+      "id": "cmenu-plugin:editor:insert-link",
+      "name": "cMenu: Insert markdown link",
+      "icon": "link-glyph"
+    },
+    {
+      "id": "editor:toggle-checklist-status",
+      "name": "切换待办事项状态",
+      "icon": "lucide-check-square",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "l"
+        }
+      ]
+    },
+    {
+      "id": "Enhanced editing:shanchu-text",
+      "name": "ZH增强编辑: ~~删除线~~",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "S"
+        }
+      ],
+      "icon": "cross"
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4.25,
+  "cMenuNumRows": 9
+}

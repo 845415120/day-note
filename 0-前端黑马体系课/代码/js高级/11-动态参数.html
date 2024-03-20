@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function sum() {
+      // 这样的普通函数中，有一个固定的对象 叫做 arguments
+      // console.log(arguments)
+      let num = 0
+      for (let i = 0; i < arguments.length; i++) {
+        num = num + arguments[i]
+      }
+      console.log(num)
+      /*
+      {
+        0: 4,
+        1: 1,
+        2: 8,
+        3: 9,
+        4: 2,
+        length: 5
+      }
+      */
+    }
+
+    // 实参有几个不固定
+    // sum(2, 3) // 调用函数的时候，传递的是 实参
+    // sum(2, 3, 4, 5)
+    sum(4, 1, 8, 9, 2)
+  </script>
+</body>
+
+</html>

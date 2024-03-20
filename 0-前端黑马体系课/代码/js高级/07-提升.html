@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 代码运行的时候，会把函数的声明、创建提升到当前作用域的最开头
+    // 代码运行的时候，会把用var声明的变量的声明过程（没有赋值过程）提升到当前作用域的开头（在函数之后）
+
+    console.log(a) // undefined
+    fn() // 123
+
+    var a = 10
+    function fn() {
+      console.log(123)
+    }
+
+    console.log(b) // 报错，使用let、const声明的变量没有提升特点
+    let b = 123
+
+  </script>
+</body>
+
+</html>

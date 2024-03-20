@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function outer() {
+      let i = 1
+      function fn() {
+        console.log(`fn函数被调用了 ${i} 次`)
+        i++
+      }
+      return fn
+    }
+
+    let xx = outer() // 调用函数outer，得到它的返回值，所以 xx = fn函数
+    // 调用 xx，相当于调用了 fn函数
+    xx()
+    xx()
+    xx()
+
+
+  </script>
+</body>
+
+</html>

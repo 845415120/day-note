@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="./js/test.js"></script>
+  <script>
+    // 这里声明的变量就是全局变量
+    let a = 100
+
+
+    function fn() {
+      // 局部作用域，能够使用全局变量
+      console.log(a)
+      // 给window对象，添加一个属性，这个属性就是一个全局变量
+      window.b = 200
+      // 下面声明的变量，没有使用任何关键字(var let const)，函数调用后，这个c就是一个全局变量（非常不推荐）
+      c = 300
+    }
+
+    fn() // 函数调用后，函数中的代码执行；执行后，b、c 都是全局变量了
+
+
+
+    console.log(a)
+    console.log(b)
+    console.log(c)
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 基本写法
+    // let fn = (a, b) => {
+    //   console.log(12345)
+    // }
+
+    // 如果形参只有一个，则可以省略小括号
+    // 如果函数体只有一行代码，可以省略大括号，并且表示return函数体
+    // let fn = x => x * x
+    // console.log(fn(8))
+
+    // setTimeout(() => console.log(123), 1000)
+
+    // 特别注意：
+    let fn = () => ({ uname: 'zs', age: 20 })
+
+    console.log(fn())
+  </script>
+</body>
+
+</html>

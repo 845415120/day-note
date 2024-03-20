@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+    // 1. 局部作用域 - 函数作用域（使用var、let、const，都有函数作用域这个说法）
+    // function fn() {
+    //   // 这个a，就是局部变量，只能在函数内部使用
+    //   let a = 10
+    // }
+    // fn()
+    // console.log(a) // 报错，a没有定义
+
+
+    // 2. 局部作用域 - 块作用域（块作用域是ES6的东西，只有let、const声明的变量也有块作用域）
+    // 块就是一对大括号，比如 {} 、 if() {} 、for(...) {}
+    {
+      // 这里的大括号就形成了一个块级作用域
+      // 这里声明的变量，有效范围就是这个大括号里面
+      let b = 20
+      console.log(b)
+    }
+
+    // console.log(b) // 这里报错
+
+    // if (true) {
+    //   let c = 30
+    // }
+    // console.log(c) // 报错
+
+    for (let i = 1; i <= 3; i++) {
+      // 这里用到的i，就是一个局部变量，它只能在块内部使用
+      console.log(i)
+    }
+
+    // console.log(i) // 报错
+
+    for (let i = 1; i <= 5; i++) {
+      console.log(i)
+    }
+  </script>
+</body>
+
+</html>

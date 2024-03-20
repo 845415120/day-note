@@ -1,0 +1,13 @@
+{
+  "accentColor": "#8bc1ba",
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "cssTheme": "🔔 Chime",
+  "showViewHeader": false,
+  "translucency": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "1",
+    "新建 文本文档"
+  ]
+}

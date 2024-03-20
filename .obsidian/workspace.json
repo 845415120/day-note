@@ -1,0 +1,343 @@
+{
+  "main": {
+    "id": "f09d6a27fb509a15",
+    "type": "split",
+    "children": [
+      {
+        "id": "38445224d62da4d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92ba9543a1d8e6c2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a611fe7cf86db7b5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "eb5c5c8a3005e61b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "32769d9101f3cc8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/00-JavaScript编程语言/05-数组-方法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "822555bae77ae61a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/00-JavaScript编程语言/03-运算符.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca69a55d093c3545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/JavaScript 面试笔记.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1107dc85d083c866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片/7-计算机书籍.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9e4ea04ccf161a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-数据结构与算法/贪心算法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56de89b9edc2c128",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/02-JavaScript-异步编程/05-Promise.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0733ecf0ebbf4fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/JavaScript知识要点/JavaScript拖拽功能.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf638ca11baaaf2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片/1-电影2010.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6e132846ea5303e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6cd1d46bbe9c01b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71428dd1d5256ed5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "三元",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "1f1c718126619a98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7038bf0f824d815a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "04bcd9f5c94c8348",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "right": {
+    "id": "4c275809f335b52b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f51087a759ff49fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d04be78bd53daa5b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md"
+              }
+            }
+          },
+          {
+            "id": "c6064d0fc211579d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e8b3acf4b2f7775",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc30c1e6221bf4fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
+      "templates:插入模板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "graph:查看关系图谱": false
+    }
+  },
+  "active": "8e8b3acf4b2f7775",
+  "lastOpenFiles": [
+    "数据结构与算法之美笔记/docs/_sidebar.md",
+    "数据结构与算法之美笔记/docs/02.数组.md",
+    "数据结构与算法之美笔记/docs/14.红黑树.md",
+    "数据结构与算法之美笔记/docs/12.哈希算法.md",
+    "H-每日记录/2024-03-20.md",
+    "03-Javascript/00-卡片/0-JavaScript卡片.md",
+    "03-Javascript/01-ES6/箭头函数.md",
+    "03-Javascript/01-ES6/14-解构赋值.md",
+    "03-Javascript/01-ES6/0-ES6.md",
+    "03-Javascript/00-JavaScript编程语言/07-内置对象.md",
+    "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "03-Javascript/00-JavaScript编程语言/05-数组-方法.md",
+    "03-Javascript/00-JavaScript编程语言/04-流程控制.md",
+    "03-Javascript/00-JavaScript编程语言/03展开运算符.md",
+    "03-Javascript/00-JavaScript编程语言/03-运算符.md",
+    "03-Javascript/00-JavaScript编程语言/02相等(==)和全等(===).md",
+    "A-前端视频记录/01-千峰 kerwin/03-原生JS项目.md",
+    "卡片/1-电影2010.md",
+    "Y-美食/一城一味.md",
+    "O-电影2010/西虹市首富.md",
+    "O-电影2010/朝圣之路 1.md",
+    "03-Javascript/00-JavaScript编程语言/02-typeof和instanceof.md",
+    "03-Javascript/00-JavaScript编程语言/01-数据类型.md",
+    "03-Javascript/00-JavaScript编程语言/00-JavaScript起步.md",
+    "03-Javascript/03-JavaScript-高级/JavaScript闭包.md",
+    "03-Javascript/JavaScript知识要点/JavaScriptSymbol类型的注意事项.md",
+    "H-每日记录/2024-03-20",
+    "03-Javascript/代码质量/未命名",
+    "03-Javascript/代码质量",
+    "JS每日一题",
+    "B-前端/Vuex/images/首页文章_更多.gif",
+    "B-前端/Vuex/images/首页文章_刷新.gif",
+    "B-前端/Vuex/images/频道切换数据.gif",
+    "B-前端/Vuex/images/退出登录.gif",
+    "B-前端/Vuex/images/评论点击滑动.gif",
+    "B-前端/Vuex/images/进入频道.gif",
+    "B-前端/Vuex/images/跳转_编辑详情页面.gif",
+    "B-前端/Vuex/images/评论点亮.gif",
+    "B-前端/Vuex/images/评论效果.gif",
+    "B-前端/Vuex/images/评论列表_加载更多.gif",
+    "B-前端/Vuex/images",
+    "B-前端/Vuex",
+    "A-前端视频记录/B站视频",
+    "03-Javascript/03-JavaScript-高级",
+    "03-Javascript/00-JavaScript编程语言",
+    "03-Javascript/00-卡片"
+  ]
+}

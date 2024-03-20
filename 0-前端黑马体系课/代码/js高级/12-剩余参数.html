@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 剩余参数（后面，建议使用剩余参数语法，来代替arguments）
+    function fn(...c) {
+      // console.log(c) // [4, 1, 8, 9, 2]
+      let num = 0
+      for (let i = 0; i < c.length; i++) {
+        num = num + c[i]
+      }
+      console.log(num)
+    }
+
+    fn(4, 1, 8, 9, 2)
+  </script>
+</body>
+
+</html>

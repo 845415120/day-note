@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // --------------------------- 对象的解构 -----------------------
+    // 对象的解构不看顺序，和顺序无关
+    // 对象的解构，保证   【变量名 === 对象的键】   即可实现解构
+
+    // let { sex, uname, ...other } = {
+    //   uname: 'zs',
+    //   age: 20,
+    //   sex: '男',
+    //   height: 180,
+    //   weight: 80
+    // }
+
+    // console.log(sex, uname, other)
+
+    // let age = 20
+    // // let { uname, age: 其他名字 } = { uname: 'zs', age: 100 }
+    // let { uname, age: nianling } = { uname: 'zs', age: 100 }
+    // console.log(nianling)
+
+    let person = {
+      uname: 'zs',
+      age: 34,
+      dog: {
+        name: '汪仔',
+        age: 3
+      },
+      cat: {
+        name: '小花',
+        age: 2
+      }
+    }
+
+    let { uname, cat: { name } } = person
+
+    console.log(uname, name)
+  </script>
+</body>
+
+</html>

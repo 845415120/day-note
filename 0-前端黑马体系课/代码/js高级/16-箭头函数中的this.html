@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button>按钮</button>
+  <script>
+    let abc = 'hello'
+    // console.log(this) // 全局中的this === window
+    // 箭头函数中，没有固定的this
+    // 箭头函数中，如果使用this，把this当做普通变量看待即可（按照作用域去查找）
+
+    document.querySelector('button').addEventListener('click', () => {
+      console.log(abc) // hello
+      console.log(this) // window
+      // console.log(this.tagName)
+    })
+  </script>
+</body>
+
+</html>

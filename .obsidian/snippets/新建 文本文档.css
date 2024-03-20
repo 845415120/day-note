@@ -1,0 +1,22 @@
+/* 
+.cards {
+    background-color: #F0F8FF;
+}
+.block-language-dataview  {
+    display: block;
+    height: 400px;
+    overflow: auto;
+}
+
+.block-language-dataviewjs   {
+    display: block;
+    height: 400px;
+    overflow: auto;
+} */
+
+img {
+    width: 100% !important;
+    max-width: 100% !important;
+    transform: none !important;
+    margin: 0 auto !important;
+    padding-left: 0; }

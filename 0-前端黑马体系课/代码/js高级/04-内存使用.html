@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let a = 100
+
+    const b = 200
+
+    function fn() {
+      let c = 300
+      let d = 400
+    }
+
+    fn() // 函数调用，临时为函数再分配一小块内存，用于运行函数中的局部变量
+    // 到这一行，函数执行完毕，函数中的局部变量就会被释放掉（把占用的内存回收了）
+  </script>
+</body>
+
+</html>

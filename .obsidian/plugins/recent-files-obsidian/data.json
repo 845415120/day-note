@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "0-JavaScript卡片",
+      "path": "03-Javascript/00-卡片/0-JavaScript卡片.md"
+    },
+    {
+      "basename": "_sidebar",
+      "path": "数据结构与算法之美笔记/docs/_sidebar.md"
+    },
+    {
+      "basename": "02.数组",
+      "path": "数据结构与算法之美笔记/docs/02.数组.md"
+    },
+    {
+      "basename": "2024-03-20",
+      "path": "H-每日记录/2024-03-20.md"
+    },
+    {
+      "basename": "0-ES6",
+      "path": "03-Javascript/01-ES6/0-ES6.md"
+    },
+    {
+      "basename": "箭头函数",
+      "path": "03-Javascript/01-ES6/箭头函数.md"
+    },
+    {
+      "basename": "14-解构赋值",
+      "path": "03-Javascript/01-ES6/14-解构赋值.md"
+    },
+    {
+      "basename": "07-内置对象",
+      "path": "03-Javascript/00-JavaScript编程语言/07-内置对象.md"
+    },
+    {
+      "basename": "0-前端视频记录卡",
+      "path": "A-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "05-数组-方法",
+      "path": "03-Javascript/00-JavaScript编程语言/05-数组-方法.md"
+    },
+    {
+      "basename": "04-流程控制",
+      "path": "03-Javascript/00-JavaScript编程语言/04-流程控制.md"
+    },
+    {
+      "basename": "03展开运算符",
+      "path": "03-Javascript/00-JavaScript编程语言/03展开运算符.md"
+    },
+    {
+      "basename": "03-运算符",
+      "path": "03-Javascript/00-JavaScript编程语言/03-运算符.md"
+    },
+    {
+      "basename": "02相等(==)和全等(===)",
+      "path": "03-Javascript/00-JavaScript编程语言/02相等(==)和全等(===).md"
+    },
+    {
+      "basename": "03-原生JS项目",
+      "path": "A-前端视频记录/01-千峰 kerwin/03-原生JS项目.md"
+    },
+    {
+      "basename": "1-电影2010",
+      "path": "卡片/1-电影2010.md"
+    },
+    {
+      "basename": "一城一味",
+      "path": "Y-美食/一城一味.md"
+    },
+    {
+      "basename": "JavaScript拖拽功能",
+      "path": "03-Javascript/JavaScript知识要点/JavaScript拖拽功能.md"
+    },
+    {
+      "basename": "2024-03-19",
+      "path": "H-每日记录/2024-03-19.md"
+    },
+    {
+      "basename": "BBC-秦始皇兵马俑",
+      "path": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md"
+    },
+    {
+      "basename": "海棠依旧",
+      "path": "H-每日记录/2024-03-19/海棠依旧.md"
+    },
+    {
+      "basename": "25 Golang - 并发 扇出扇入模式",
+      "path": "H-每日记录/2024-03-19/25 Golang - 并发 扇出扇入模式.md"
+    },
+    {
+      "basename": "05-Polyfill 和转译器",
+      "path": "03-Javascript/代码质量/05-Polyfill 和转译器.md"
+    },
+    {
+      "basename": "1-代码风格",
+      "path": "03-Javascript/代码质量/1-代码风格.md"
+    },
+    {
+      "basename": "04-使用 Mocha 进行自动化测试",
+      "path": "03-Javascript/代码质量/04-使用 Mocha 进行自动化测试.md"
+    },
+    {
+      "basename": "3-代码技巧(误)",
+      "path": "03-Javascript/代码质量/3-代码技巧(误).md"
+    },
+    {
+      "basename": "2-注释",
+      "path": "03-Javascript/代码质量/2-注释.md"
+    },
+    {
+      "basename": "0-在浏览器中调试",
+      "path": "03-Javascript/代码质量/0-在浏览器中调试.md"
+    },
+    {
+      "basename": "16Class",
+      "path": "03-Javascript/01-ES6/16Class.md"
+    },
+    {
+      "basename": "15模版字面量",
+      "path": "03-Javascript/01-ES6/15模版字面量.md"
+    },
+    {
+      "basename": "06-对象",
+      "path": "03-Javascript/00-JavaScript编程语言/06-对象.md"
+    },
+    {
+      "basename": "03-跨域",
+      "path": "03-Javascript/02-JavaScript-异步编程/03-跨域.md"
+    },
+    {
+      "basename": "01-Ajax",
+      "path": "03-Javascript/02-JavaScript-异步编程/01-Ajax.md"
+    },
+    {
+      "basename": "WebSockets原理实时聊天室",
+      "path": "03-Javascript/JavaScript知识要点/WebSockets原理实时聊天室.md"
+    },
+    {
+      "basename": "01-数据类型",
+      "path": "03-Javascript/00-JavaScript编程语言/01-数据类型.md"
+    },
+    {
+      "basename": "重绘和回流",
+      "path": "03-Javascript/重绘和回流.md"
+    },
+    {
+      "basename": "JavaScript原型链",
+      "path": "03-Javascript/03-JavaScript-高级/JavaScript原型链.md"
+    },
+    {
+      "basename": "JavaScript闭包",
+      "path": "03-Javascript/03-JavaScript-高级/JavaScript闭包.md"
+    },
+    {
+      "basename": "05-Promise",
+      "path": "03-Javascript/02-JavaScript-异步编程/05-Promise.md"
+    },
+    {
+      "basename": "Event loop 事件循环",
+      "path": "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md"
+    },
+    {
+      "basename": "13-正则表达式",
+      "path": "03-Javascript/00-JavaScript编程语言/13-正则表达式.md"
+    },
+    {
+      "basename": "08-kerwin 面试题",
+      "path": "03-Javascript/08-kerwin 面试题.md"
+    },
+    {
+      "basename": "08-函数",
+      "path": "03-Javascript/00-JavaScript编程语言/08-函数.md"
+    },
+    {
+      "basename": "12-BOM",
+      "path": "03-Javascript/00-JavaScript编程语言/12-BOM.md"
+    },
+    {
+      "basename": "11-DOM",
+      "path": "03-Javascript/00-JavaScript编程语言/11-DOM.md"
+    },
+    {
+      "basename": "02数据类型转换",
+      "path": "03-Javascript/00-JavaScript编程语言/02数据类型转换.md"
+    },
+    {
+      "basename": "00-JavaScript起步",
+      "path": "03-Javascript/00-JavaScript编程语言/00-JavaScript起步.md"
+    },
+    {
+      "basename": "第一天",
+      "path": "0-前端黑马体系课/00-JavaScript高级/第一天.md"
+    },
+    {
+      "basename": "JavaScript重难点实例精讲",
+      "path": "Y-计算机书籍/JavaScript重难点实例精讲.md"
+    },
+    {
+      "basename": "3 手写Promise核心代码",
+      "path": "03-Javascript/02-JavaScript-异步编程/3 手写Promise核心代码.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

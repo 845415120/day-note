@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "53d75731b56f6ffd",
+    "type": "split",
+    "children": [
+      {
+        "id": "446c418964ea2645",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64c5763baeb38e89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "黑马JavaV12.5.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ab554d9fa411521",
+    "type": "split",
+    "children": [
+      {
+        "id": "43e78a1d3525bfdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f84bbadbdd7b2adb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "631dea877c8cfb01",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ede695931fc1158",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "645e8585e38c2038",
+    "type": "split",
+    "children": [
+      {
+        "id": "0367350bee6f0326",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3442d871ed79d5c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "黑马JavaV12.5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4054c4c37eaf256a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "黑马JavaV12.5.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e423daf7bfa2a14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9b6eaea1ef514da7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "黑马JavaV12.5.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "64c5763baeb38e89",
+  "lastOpenFiles": [
+    "黑马程序员 HTML&JS+前端 V8.md",
+    "黑马Python就业课 - 2022.md",
+    "历史纪录片.md",
+    "前端知识点卡.md",
+    "使用 Next.js 14 构建没有后端的应用程序.md",
+    "JavaScript知识点.md",
+    "Java知识卡片.md",
+    "1-电影.md"
+  ]
+}

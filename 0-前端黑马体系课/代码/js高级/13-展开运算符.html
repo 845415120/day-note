@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 1. 在构造数组时，将其他数组或字符串展开
+    let arr1 = [3, 4]
+    let arr2 = [5, 6]
+    let arr = [...arr1, ...arr2, ...'abc']
+    // console.log(arr)
+
+    // 2. 为函数传递参数，能够将数组或字符串展开
+    let arr3 = [2, 8, 7, 5, 3]
+    function fn(...a) {
+      console.log(a) // [2, 8, 7, 5, 3]
+    }
+    fn(...arr3) // fn(2, 8, 7, 5, 3)
+
+    // console.log(Math.max(2, 8, 7, 5, 3))
+    console.log(Math.max(...arr3))
+
+    // 3. 在构造字面量对象的时候，能够展开其他对象
+    let obj1 = { uname: 'zs', age: 20 }
+    let obj2 = { sex: '男', height: 180, age: 30 }
+    let obj = {
+      id: 100,
+      ...obj1,
+      ...obj2,
+      weight: 75
+    }
+    console.log(obj)
+  </script>
+</body>
+
+</html>

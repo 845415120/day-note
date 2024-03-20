@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let a = 10
+
+    function fn() {
+      // 这里有一个隐式的创建过程，会提升到当前作用域的最开头
+      console.log(a) // 在隐式的创建a只会，声明之前使用a，就表示进入了暂时性死区，报错
+      let a = 20
+    }
+    fn()
+
+    // console.log(abc)
+
+    // 面试问，var、let、const声明的变量有没有提升
+    // 首先，面试官就不咋滴。
+    // 首先，要搞清楚什么是变量提升，变量的创建，分为 创建、声明、赋值三个过程（ECMAScript官方文档有写）
+    // var会把创建、声明提升到前面； let只会把创建过程提升到前面（如果在创建之后，声明之前使用变量，就会进入暂时性死区）；
+
+  </script>
+</body>
+
+</html>

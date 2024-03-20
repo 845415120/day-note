@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 提升的时候，把函数提升到最前面，其次是用var声明的变量
+    // 提示，只会把声明提升到 当前作用域的最前面
+
+    var a = 1000
+
+    function fn() {
+      console.log(a) // undefined
+      var a = 10
+    }
+
+    fn()
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function fn(a, b = 10) {
+      console.log(a + b)
+    }
+
+    // fn(3, 4) // 传递了两个参数，优先使用我们传递进去的实参，也就是 a=3, b=4
+    fn(6) // 传递了1个参数，则 a=6，没有给b传递实参，则b使用默认的10
+  </script>
+</body>
+
+</html>

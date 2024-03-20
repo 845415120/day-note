@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 1. --------------------- 基础例子 ----------------------
+    // function outer() {
+    //   let a = 10 // 构成闭包的要素之一，外层函数中，得有一个变量
+    //   function fn() {
+    //     console.log(a) // 构成闭包的要素之二，内存函数中使用外层函数的变量
+    //     // console.log(123)
+    //   }
+    //   fn()
+    // }
+    // outer()
+
+    // 2. -------------------- 真正使用闭包的写法 -------------------
+    function outer() {
+      let a = 10 // 构成闭包的要素之一，外层函数中，得有一个变量
+      function fn() {
+        console.log(a) // 构成闭包的要素之二，内存函数中使用外层函数的变量
+      }
+      return fn
+    }
+    let xx = outer() // xx = function fn() { console.log(a) }
+    xx() // 调用 xx() 相当于调用了 fn
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 数组的方法，只能由数组来调用，比如曾经学过的 push、join
+    // 实际上，数组的方法还有很多，比如 forEach、filter、find、findIndex、map、some、every、sort、splice......
+    // 完整的数组方法，参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+    // -------------------- forEach ---------------------
+    // forEach的作用是遍历数组
+    // 语法：
+    /*
+    [4, 5, 8, 9].forEach(函数)
+
+    [4, 5, 8, 9].forEach(() => {})
+
+    [4, 5, 8, 9].forEach((item, index, self) => {
+      item 表示数组中的每一项，第1次循环，item=4; 第2次循环item=5 第3次循环item=8 第4次循环item=9
+      index 表示数组的每一项的下标（索引），这个形参可选
+      self 表示当前的这个数组 [4, 5, 8, 9]，这个形参可选
+    })
+    */
+    // [4, 5, 8, 9].forEach((item, index, self) => {
+    //   console.log(item)
+    // })
+
+    // [4, 5, 8, 9].forEach((item) => {
+    //   console.log(item)
+    // })
+
+    // [4, 5, 8, 9].forEach(item => console.log(item))
+
+
+    // -------------------- filter ---------------------
+    // filter - 过滤，过滤其实就是筛选
+    // 如果希望筛选数组中的一些元素，刚好可以使用filter
+    // 语法和forEach的语法几乎一样
+    let arr = [4, 10, 5, 8, 2, 9]
+    // 希望筛选数组的元素，选出大于7的元素
+    // let result = arr.filter((item, index, self) => {
+    //   // return 条件
+    //   return item > 7
+    // })
+
+    let result = arr.filter(item => item > 7)
+
+    console.log(result) // [10, 8, 9]
+  </script>
+</body>
+
+</html>

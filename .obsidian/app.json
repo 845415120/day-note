@@ -1,0 +1,18 @@
+{
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "Z-附件",
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "rightToLeft": false,
+  "useTab": false,
+  "smartIndentList": true,
+  "showIndentGuide": true,
+  "useMarkdownLinks": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": true,
+  "showInlineTitle": true,
+  "newFileLocation": "current"
+}
