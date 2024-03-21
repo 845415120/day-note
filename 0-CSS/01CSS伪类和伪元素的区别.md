@@ -6,3 +6,8 @@
 链接: https://www.bilibili.com/video/BV1h7411P7Pz
 评价: ★★★★★
 ---
+# 伪类和伪元素
+
+:hover
+
+::after
