@@ -287,39 +287,65 @@ KerwinPromise.prototype.catch= function(failCB){
 }
 ```
 
-## 六.Async与Await
 
-### 1.Async
+##### 6. promise
 
-async 函数，使得异步操作变得更加方便。
+```js
+	//异步处理方案
+	1. 回调函数
+    2. Promise
+    3. generator 生成器 yield 
+    4. async await
 
-- 更好的语义。
-- 返回值是 Promise。
+	//解决回调地狱 ，嵌套金字塔
+	
+	function test1(){
+		return new Promise((resolve,rejet)=>{
+			setTimeout(() => {
+			  	resolve("123")
+			}, 2000)
+		})
+	}
+	
+	test1().then(res=>{
+	
+	}).catch(error=>{
+	
+	})
+	// pending reject fullfilled
+	
+	axios.get("1.php").then(res=>{
+		return axios.get(2.php,{res})
+	}).then(res=>{
+		return axios.get(3.php)
+	}).then(res=>{
+		console.log(res.data)
+	}).catch(error=>{
+		console.log(error)
+	})
+	async await 写起来
+	
+	async function test(){
+		var a = await axios.get(1);
+		var b= await axios.get(2,{a});
+		var c= await axios.get(3,{b})
+		console.log(c);
+	}
+	
+	test()
+	
+	//所有的异步都结束
+	Promise.all([axios.get(1),axios.get(2)]).then(res=>{
+		//loading隐藏
+	}).catch(error=>{
+	
+	})
+	
+	Promise.race([axios.get(1),axios.get(2)])
 
-```javascript
-async function test(){
- 
-}
-test()
+	`Promise.any()`跟`Promise.race()`方法很像，只有一点不同，就是`Promise.any()`不会因为某个 Promise 变成`rejected`状态而结束，必须等到所有参数 Promise 变成`rejected`状态才会结束。
 ```
 
-### 2.Await
-
-`await`命令后面是一个 Promise 对象，返回该对象的结果。如果不是 Promise 对象，就直接返回对应的值。
-
-```javascript
-async function test(){
-    var res1 =  await ajax("http://localhost:3000/news1")
-    var res2 =  await ajax("http://localhost:3000/news2")
-    return res2
-}
-
-test().then(res=>{
- console.log("返回结果",res)
-}).catch(err=>{
- console.log("err",err)
-})
-```
 
 ### 3.错误处理
 

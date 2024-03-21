@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "cf147b26fd7e1515",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-CSS/0-卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "ed1841fb45586bda",
             "type": "leaf",
             "pinned": true,
@@ -110,111 +125,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/00-卡片/JavaScript卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0733ecf0ebbf4fe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/03-JavaScript-高级/36拖拽功能.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30c7c128d3370406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c1d9fac1ad8be09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/02-JavaScript-异步编程/19-async-await.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f0a5427b22dec99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/03-JavaScript-高级/37WebSockets原理实时聊天室.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22b69bb32d61276c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/03-JavaScript-高级/36拖拽功能.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "941b56fbce653452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/02-JavaScript-异步编程/26apply、bind、call 区别.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "604fbdfa7407f0d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/01-ES6/17-new 操作符.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f5248b3246380af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "03-Javascript/08-kerwin 面试题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cca4d7baa0f453f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-CSS/文本溢出.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "551c528b98418248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-CSS/CSSdisplaynonevisibilityhiddenopacity0区别.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -222,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -241,7 +178,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:海棠",
+                "query": "file:git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -297,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md"
+                "file": "0-CSS/CSSdisplaynonevisibilityhiddenopacity0区别.md"
               }
             }
           },
@@ -307,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md",
+                "file": "0-CSS/CSSdisplaynonevisibilityhiddenopacity0区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md",
+                "file": "0-CSS/CSSdisplaynonevisibilityhiddenopacity0区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,36 +284,37 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "4f5248b3246380af",
+  "active": "551c528b98418248",
   "lastOpenFiles": [
-    "03-Javascript/01-ES6/17箭头函数.md",
-    "03-Javascript/03-JavaScript-高级/JavaScript 面试笔记.md",
-    "03-Javascript/03-JavaScript-高级/28原型对象.md",
-    "03-Javascript/03-JavaScript-高级/30原型链继承.md",
-    "03-Javascript/03-JavaScript-高级/37WebSockets原理实时聊天室.md",
-    "03-Javascript/03-JavaScript-高级/29原型链.md",
-    "03-Javascript/02-JavaScript-异步编程/27Event loop 事件循环.md",
-    "03-Javascript/01-ES6/17-new 操作符.md",
-    "03-Javascript/01-ES6/14-解构赋值.md",
-    "03-Javascript/00-JavaScript编程语言/07-内置对象.md",
+    "0-CSS/0-卡片.md",
+    "0-CSS/CSSdisplaynonevisibilityhiddenopacity0区别.md",
+    "0-CSS/CSS过渡与动画的区别.md",
+    "0-CSS/文本溢出.md",
+    "0-CSS/文本溢出.md",
+    "0-CSS/03瀑布流.md",
+    "0-CSS/水平垂直居中.md",
+    "0-CSS/如何用纯CSS绘制三角形.md",
+    "0-CSS/传统的响应式网页设计挑战-freecodecamp.md",
+    "0-CSS/03-Grid布局.md",
+    "0-CSS/02BFC.md",
+    "0-CSS/01-CSS垂直居中.md",
+    "0-CSS/00-CSS基础.md",
+    "0-CSS/CSS如何水平居中元素.md",
+    "0-CSS/CSS3中有哪些新特性.md",
     "03-Javascript/08-kerwin 面试题.md",
-    "B-前端/04网络/01-OSI -7层网络模型.md",
-    "B-前端/01-HTML/lang 语言种类.md",
-    "B-前端/01-HTML/HTML5中进度元素的目的是什么？.md",
-    "B-前端/01-HTML/00-HTML 基础.md",
-    "B-前端/01-HTML/01-HTML5语义化与新特性.md",
+    "0-CSS/03-flex布局.md",
+    "0-CSS/CSS 预处理器/02-less.md",
+    "0-CSS/CSS 预处理器",
+    "0-CSS/CSS 预处理器/02-Sass.md",
+    "0-CSS/CSS单位rem和em的区别.md",
+    "0-CSS/flex 基础.md",
+    "0-CSS/Sass (2).md",
+    "0-CSS/less (2).md",
+    "0-CSS/Grid网格布局.md",
+    "0-CSS/Grid布局 (2).md",
+    "0-CSS/flex布局 (2).md",
     "B-前端/01-HTML/2.gif",
     "B-前端/01-HTML/1672740888066-c58c5e76-54c4-41c0-b90d-08bab0e93ddf.gif",
-    "B-前端/01-HTML/0-卡片.md",
-    "B-前端/01-HTML/0-index.md",
-    "B-前端/01-HTML/HTML5新特性.md",
-    "03-Javascript/00-卡片/JavaScript卡片.md",
-    "03-Javascript/02-JavaScript-异步编程/26apply、bind、call 区别.md",
-    "03-Javascript/02-JavaScript-异步编程/21setTimeout模拟实现setInterval.md",
-    "03-Javascript/02-JavaScript-异步编程/20script标签defer和async的区别.md",
-    "Vue.js数据双向绑定的原理及实现.md",
-    "重绘和回流.md",
-    "03-Javascript/00-JavaScript编程语言/03小数精度问题.md",
     "H-每日记录/2024-03-21",
     "未命名",
     "O-电影2000/0-卡片",
@@ -393,7 +331,6 @@
     "B-前端/Vuex/images/跳转_编辑详情页面.gif",
     "B-前端/Vuex/images/评论点亮.gif",
     "B-前端/Vuex/images",
-    "B-前端/Vuex",
-    "A-前端视频记录/B站视频"
+    "B-前端/Vuex"
   ]
 }

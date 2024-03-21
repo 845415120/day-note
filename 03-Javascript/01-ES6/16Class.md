@@ -6,6 +6,29 @@
 链接: https://www.bilibili.com/video/BV1tf4y1w7tv
 评价: ★★★★★
 ---
+#####  class (语法糖 =>  构造函数,babel-loader) 
+
+```js
+	class Person{
+		constructor(name,age) {
+		  this.name = name;
+		  this.age =age;
+		}
+		say=()=>{
+	
+		}
+	}
+	
+	class Test extends person{
+		constructor(name,age,location) {
+		  super(name,age);
+		  this.location = location;
+		}
+       
+	}
+```
+
+
 ## Class的基本用法
 
 ### 简介

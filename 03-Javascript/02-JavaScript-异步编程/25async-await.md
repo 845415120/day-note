@@ -6,6 +6,45 @@
 链接: https://www.bilibili.com/video/BV1tZ4y1Q7Zh
 评价: ★★★★★
 ---
+
+
+
+
+## 六.Async与Await
+
+### 1.Async
+
+async 函数，使得异步操作变得更加方便。
+
+- 更好的语义。
+- 返回值是 Promise。
+
+```javascript
+async function test(){
+ 
+}
+test()
+```
+
+### 2.Await
+
+`await`命令后面是一个 Promise 对象，返回该对象的结果。如果不是 Promise 对象，就直接返回对应的值。
+
+```javascript
+async function test(){
+    var res1 =  await ajax("http://localhost:3000/news1")
+    var res2 =  await ajax("http://localhost:3000/news2")
+    return res2
+}
+
+test().then(res=>{
+ console.log("返回结果",res)
+}).catch(err=>{
+ console.log("err",err)
+})
+```
+
+
 # async/await
 
 ## async/await （异步函数）概述
@@ -73,3 +112,4 @@ async 后面可以跟一个 Promise 实例对象。代码举例如下：
 
 - [js async await 终极异步解决方案](https://www.cnblogs.com/CandyManPing/p/9384104.html)
 - [理解 JavaScript 的 async/await](https://segmentfault.com/a/1190000007535316)
+

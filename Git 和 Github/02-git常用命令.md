@@ -230,3 +230,72 @@ Clone（下载）一个已存在于 GitHub 上的仓库，包括所有的文件�
 - **fork**: 一个属于另一用户的 GitHub 上的仓库的副本
 - **pull request 拉取请求**: 一处用于比较和讨论分支上引入的差异，且具有评审、评论、集成测试等功能的地方
 - **HEAD**: 代表你当前的工作目录。使用`git checkout` 可移动 HEAD 指针到不同的分支、标记(tags)或提交
+
+##### 1. git常用命令以及工作中都怎么工作
+
+```js
+git init 初始化仓库
+
+git status 查看当前各个区域的代码状态。
+
+git log查看commit记录
+
+git reflog查看完整记录
+
+git add 添加工作区代码到暂存区
+
+Git commit 暂存区代码的提交
+
+git reset 代码的版本回退
+
+git stash 将暂存处代码收起来
+
+git stash pop 将收起来的暂存区的代码释放出来
+
+Git tag 可以打标签
+
+Git branch 基于当前分支创建一个分支
+
+git checkout 切换分支
+
+git merge 合并分支
+
+git remote add origin 添加远端仓库地址
+
+git clone 克隆仓库
+
+git pull下拉对应分支代码
+
+git push 上传对应分支代码
+
+
+```
+
+
+
+公司中每一个项目都会有一个对应的远端仓库（gitLab），我们需要创建账号并配置权限。
+
+一般公司会有几个主要分支，分别对应4个环境，当代码更新的时候会通过流水线自动部署到对应的环境：
+
+1. 
+
+   发布分支（prod、master）这个分支代码对应的就是线上的代码
+
+2. 
+
+   UAT分支（uat），这个分支上的代码对应的是公司内部演示用的分支
+
+3. 
+
+   TEST分支（test），这个分支的代码是用于测试
+
+4. 
+
+   DEV分支（dev），研发自测分支
+
+正常功能开发或者bug修复， 从dev分支拉取代码，进行开发就可以。
+
+如果是解决线上bug，应该从master拉取一个分支（hotfix__）, 然后开发完成后将其合并到test或者uat，测试没有问题后，将其合并到master。还要将hotfix上对应的commit合并到dev分支， 专业dev分支也就修复了这个bug。
+
+如果当前版本代码需要回退（功能不做了，要么要去先着急干别的）， 执行git reset --hard， 再回到当前的commit也是git reset 只不过需要注意，此时要通过git reflog来查看时间最后的一次commit。
+
