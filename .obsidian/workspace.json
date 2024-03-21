@@ -14,7 +14,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "file": "03-Javascript/00-卡片/JavaScript卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ed1841fb45586bda",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/01-ES6/17箭头函数.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +110,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
+                "file": "03-Javascript/00-卡片/JavaScript卡片.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,20 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/JavaScript知识要点/JavaScript拖拽功能.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf638ca11baaaf2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "卡片/1-电影2010.md",
+                "file": "03-Javascript/03-JavaScript-高级/36拖拽功能.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -147,7 +149,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/02-JavaScript-异步编程/02-async-await.md",
+                "file": "03-Javascript/02-JavaScript-异步编程/19-async-await.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -160,7 +162,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
+                "file": "03-Javascript/03-JavaScript-高级/37WebSockets原理实时聊天室.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22b69bb32d61276c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/03-JavaScript-高级/36拖拽功能.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "941b56fbce653452",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/02-JavaScript-异步编程/26apply、bind、call 区别.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "604fbdfa7407f0d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/01-ES6/17-new 操作符.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f5248b3246380af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/08-kerwin 面试题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -168,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -243,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Javascript/03-JavaScript-高级/闭包.md"
+                "file": "03-Javascript/08-kerwin 面试题.md"
               }
             }
           },
@@ -253,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
+                "file": "03-Javascript/08-kerwin 面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
+                "file": "03-Javascript/08-kerwin 面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,13 +330,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,34 +347,36 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "4f0a5427b22dec99",
+  "active": "4f5248b3246380af",
   "lastOpenFiles": [
-    "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md",
-    "03-Javascript/03-JavaScript-高级/节流.md",
-    "03-Javascript/03-JavaScript-高级/防抖.md",
+    "03-Javascript/01-ES6/17箭头函数.md",
+    "03-Javascript/03-JavaScript-高级/JavaScript 面试笔记.md",
+    "03-Javascript/03-JavaScript-高级/28原型对象.md",
+    "03-Javascript/03-JavaScript-高级/30原型链继承.md",
+    "03-Javascript/03-JavaScript-高级/37WebSockets原理实时聊天室.md",
+    "03-Javascript/03-JavaScript-高级/29原型链.md",
+    "03-Javascript/02-JavaScript-异步编程/27Event loop 事件循环.md",
+    "03-Javascript/01-ES6/17-new 操作符.md",
+    "03-Javascript/01-ES6/14-解构赋值.md",
+    "03-Javascript/00-JavaScript编程语言/07-内置对象.md",
     "03-Javascript/08-kerwin 面试题.md",
-    "03-Javascript/防抖和节流.md",
-    "03-Javascript/00-卡片/0-JavaScript卡片.md",
-    "03-Javascript/00-JavaScript编程语言/03展开运算符.md",
-    "03-Javascript/JavaScript知识要点/JavaScript里document.write()和innerHTML的区别.md",
-    "03-Javascript/作用域.md",
-    "03-Javascript/代码质量/5-Polyfill 和转译器.md",
-    "03-Javascript/代码质量/4-使用 Mocha 进行自动化测试.md",
-    "03-Javascript/代码质量/3-代码技巧(误).md",
-    "03-Javascript/代码质量/2-注释.md",
-    "03-Javascript/执行上下文.md",
-    "03-Javascript/代码质量/1-代码风格.md",
-    "03-Javascript/JavaScript知识要点/JavaScript图片懒加载.md",
-    "03-Javascript/02-JavaScript-异步编程/05-实现call、apply和bind.md",
-    "03-Javascript/bind、call、apply 区别.md",
-    "03-Javascript/代码质量/0-在浏览器中调试.md",
-    "03-Javascript/JavaScript 面试笔记.md",
-    "03-Javascript/02-JavaScript-异步编程/02-async-await.md",
-    "03-Javascript/async与await.md",
-    "03-Javascript/axios.md",
-    "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "03-Javascript/02-JavaScript-异步编程/05-Promise.md",
-    "卡片/7-计算机书籍.md",
+    "B-前端/04网络/01-OSI -7层网络模型.md",
+    "B-前端/01-HTML/lang 语言种类.md",
+    "B-前端/01-HTML/HTML5中进度元素的目的是什么？.md",
+    "B-前端/01-HTML/00-HTML 基础.md",
+    "B-前端/01-HTML/01-HTML5语义化与新特性.md",
+    "B-前端/01-HTML/2.gif",
+    "B-前端/01-HTML/1672740888066-c58c5e76-54c4-41c0-b90d-08bab0e93ddf.gif",
+    "B-前端/01-HTML/0-卡片.md",
+    "B-前端/01-HTML/0-index.md",
+    "B-前端/01-HTML/HTML5新特性.md",
+    "03-Javascript/00-卡片/JavaScript卡片.md",
+    "03-Javascript/02-JavaScript-异步编程/26apply、bind、call 区别.md",
+    "03-Javascript/02-JavaScript-异步编程/21setTimeout模拟实现setInterval.md",
+    "03-Javascript/02-JavaScript-异步编程/20script标签defer和async的区别.md",
+    "Vue.js数据双向绑定的原理及实现.md",
+    "重绘和回流.md",
+    "03-Javascript/00-JavaScript编程语言/03小数精度问题.md",
     "H-每日记录/2024-03-21",
     "未命名",
     "O-电影2000/0-卡片",
@@ -338,8 +392,6 @@
     "B-前端/Vuex/images/进入频道.gif",
     "B-前端/Vuex/images/跳转_编辑详情页面.gif",
     "B-前端/Vuex/images/评论点亮.gif",
-    "B-前端/Vuex/images/评论效果.gif",
-    "B-前端/Vuex/images/评论列表_加载更多.gif",
     "B-前端/Vuex/images",
     "B-前端/Vuex",
     "A-前端视频记录/B站视频"

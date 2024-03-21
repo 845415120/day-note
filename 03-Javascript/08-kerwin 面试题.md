@@ -7,144 +7,6 @@
 评价: ★★★★
 ---
 
-
-#### 一. HTML5面试题
-
-##### 1. 如何理解HTML5结构语义化？
-
-简单来说，我们可以理解为：**用正确的标签做正确的事情。**
-
-段落用 p 标签，标题用 h 系列标签，边栏用 aside 标签，主要内容用 main 标签。
-
-对开发者：
-
-- 便于团队的开发和维护。
-
-- 在没有加载 CSS 的情况下也能呈现较好的内容结构与代码结构，易于阅读。
-
-对浏览器：
-
-- 有利于 SEO ，搜索引擎的爬⾍依赖于标签来确定上下⽂和各个关键字的权重。
-
-- 方便其他设备的解析（如屏幕阅读器、盲人阅读器等），利于无障碍阅读，提⾼可访问性。
-
-
-
-##### 2. html5的新特性？
-
-- HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存储，多任务等功能的增加
-  - 用于媒介回放的 video 和 audio 元素
-  - 本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失
-  - sessionStorage 的数据在浏览器关闭后自动删除
-  - 语意化更好的内容元素，比如 article、footer、header、nav、section
-  - 表单控件，calendar、date、time、email、url、search
-  - 新的技术webworker, websocket, Geolocation
-
-- 移除的元素：
-  - 纯表现的元素：basefont，big，center，font, s，strike，tt，u
-  - 对可用性产生负面影响的元素：frame，frameset，noframes
-
-- 支持HTML5新标签：
-  - IE8/IE7/IE6支持通过document.createElement方法产生的标签
-  - 可以利用这一特性让这些浏览器支持HTML5新标签
-  - 浏览器支持新标签后，还需要添加标签默认的样式
-
-- 当然也可以直接使用成熟的框架、比如html5shim
-
-```
-<!--[if lt IE 9]>
-<script> src="http://html5shim.googlecode.com
-/svn/trunk/html5.js"</script><![endif]-->
-```
-
-- 如何区分HTML5： DOCTYPE声明\新增的结构元素\功能元素
-
-
-
-##### 3. 请描述一下 cookies，sessionStorage 和 localStorage 的区别？
-
-- cookie是网站为了标示用户身份而储存在用户本地终端（Client Side）上的数据（通常经过加密）
-- cookie数据始终在同源的http请求中携带（即使不需要），记会在浏览器和服务器间来回传递
-- `sessionStorage`和`localStorage`不会自动把数据发给服务器，仅在本地保存
-- 存储大小：
-  - `cookie`数据大小不能超过4k
-  - `sessionStorage`和`localStorage`虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大
-
-- 有期时间：
-  - `localStorage` 存储持久数据，浏览器关闭后数据不丢失除非主动删除数据
-  - `sessionStorage`  数据在当前浏览器窗口关闭后自动删除
-  - `cookie`  设置的`cookie`过期时间之前一直有效，即使窗口或浏览器关闭
-
-##### 4. 浏览器的渲染机制一般分为几个步骤?
-
-- 处理 `HTML` 并构建 `DOM` 树。
-
-- 处理 `CSS` 构建 `CSSOM` 树。
-
-- 将 `DOM` 与 `CSSOM` 合并成一个渲染树。
-
-- 根据渲染树来布局，计算每个节点的位置。
-
-- 调用 `GPU` 绘制，合成图层，显示在屏幕上。
-
-  **注意：**
-
-- 在构建 CSSOM 树时，会阻塞渲染，直至 CSSOM 树构建完成。并且构建 CSSOM 树是一个十分消耗性能的过程，所以应该尽量保证层级扁平，减少过度层叠，越是具体的 CSS 选择器，执行速度越慢
-
-- 当 HTML 解析到 script 标签时，会暂停构建 DOM，完成后才会从暂停的地方重新开始。也就是说，如果你想首屏渲染的越快，就越不应该在首屏就加载 JS 文件。
-
-##### 5. 重绘（Repaint）和回流（Reflow）
-
-- 重绘是当节点需要更改外观而不会影响布局的，比如改变 color 就叫称为重绘
-- 回流是布局或者几何属性需要改变就称为回流（需要计算它们在设备视口(viewport)内的确切位置和大小）
-
-> 回流必定会发生重绘，重绘不一定会引发回流。回流所需的成本比重绘高的多，改变深层次的节点很可能导致父节点的一系列回流
-
-*所以以下几个动作可能会导致性能问题：*
-
-- 添加或删除可见的DOM元素
-- 元素的位置发生变化
-- 元素的尺寸发生变化（包括外边距、内边框、边框大小、高度和宽度等）
-- 内容发生变化，比如文本变化或图片被另一个不同尺寸的图片所替代。
-- 定位或者浮动
-- 浏览器的窗口尺寸变化（因为回流是根据视口的大小来计算元素的位置和大小的）
-
-*减少重绘和回流*
-
-- 批量修改DOM
-
-- 对于复杂动画效果,使用绝对定位让其脱离文档流
-
-- css3硬件加速（GPU加速）transform、opacity、filters这些动画不会引起回流重绘
-
-
-
-##### 6.  简述data:属性的用法（如何设置，如何获取），有何优势？
-
-data-* 的值的获取和设置，2种方法：
-
-1）传统方法 getAttribute() 获取data-属性值； setAttribute() 设置data-属性值
-
-getAttribute() 获取data-属性值；
-
-setAttribute() 设置data-属性值
-
-2)HTML5新⽅法 
-
-例如 data-kerwin
-
-dataset.kerwin 获取data-kerwin属性值
-
-dataset.kerwin = “赵钱孙李” 设置data-kerwin属性值
-
-注意：
-
-- 传统⽅法⽆兼容性问题，但是不够优雅、⽅便
-
-- HTML5新⽅法很优雅、⽅便，但是有兼容性问题。
-
-优势：⾃定义的数据可以让⻚⾯拥有更好的交互体验（不需要使⽤ Ajax 或去服务端查询数据）
-
 #### 二. CSS面试题
 
 ##### 1. display: none; 与 visibility: hidden; 的区别
@@ -658,13 +520,7 @@ animation在不需要触发任何事件的情况下，也可以显式的随时�
 
 
 
-#### 三. JS高频面试题
 
-##### 1. 介绍JS有哪些内置对象？
-
-- 数据封装类对象：Object、Array、Boolean、Number、String
-- 其他对象：Function、Arguments、Math、Date、RegExp、Error
-- ES6新增对象：Symbol（标识唯一性的ID）、Map、Set、Promises、Proxy、Reflect
 
 ##### 2. 如何最小化重绘(repaint)和回流(reflow)？
 
@@ -1210,31 +1066,6 @@ MicroTask（微任务）：* Process.nextTick（Node独有）、Promise...
 
 
 #### 四. ES6-ES13高频面试题
-
-
-
-##### 1. ES6新增的方法
-
-- let和const，解构赋值、模板字符串、箭头函数。
-
-- Symbol、Map、Set三种常用的数据类型。
-
-- Proxy重新定义了数据劫持的能力
-
-- Reflect定义了一套标准化的数据操作的方式
-
-- Promise确实的解决了异步逻辑嵌套及回调地狱问题。定义了异步逻辑的三种状态pending、rejected、fullfilled, 搭配then、catch、all、race等方法以及async await语法糖，大量简化了异步操作。
-
-
-
-- Generator函数，可以将异步逻辑划片执行。
-  - Generator 函数是 ES6 提供的一种异步编程解决方案
-  - Generator 函数是一个状态机，封装了多个内部状态。
-  - 执行 Generator 函数会返回一个遍历器对象，也就是说，Generator 函数除了状态机，还是一个遍历器对象生成函数。返回的遍历器对象，可以依次遍历 Generator 函数内部的每一个状态。
-
-- 新增了class类的概念
-
-- ES6 Modules
 
 
 
