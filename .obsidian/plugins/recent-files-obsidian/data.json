@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "闭包",
+      "path": "03-Javascript/03-JavaScript-高级/闭包.md"
+    },
+    {
+      "basename": "Event loop 事件循环",
+      "path": "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md"
+    },
+    {
+      "basename": "节流",
+      "path": "03-Javascript/03-JavaScript-高级/节流.md"
+    },
+    {
+      "basename": "防抖",
+      "path": "03-Javascript/03-JavaScript-高级/防抖.md"
+    },
+    {
       "basename": "08-kerwin 面试题",
       "path": "03-Javascript/08-kerwin 面试题.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "15模版字面量",
       "path": "03-Javascript/01-ES6/15模版字面量.md"
-    },
-    {
-      "basename": "06-对象",
-      "path": "03-Javascript/00-JavaScript编程语言/06-对象.md"
-    },
-    {
-      "basename": "03-跨域",
-      "path": "03-Javascript/02-JavaScript-异步编程/03-跨域.md"
-    },
-    {
-      "basename": "01-Ajax",
-      "path": "03-Javascript/02-JavaScript-异步编程/01-Ajax.md"
-    },
-    {
-      "basename": "WebSockets原理实时聊天室",
-      "path": "03-Javascript/JavaScript知识要点/WebSockets原理实时聊天室.md"
     }
   ],
   "omittedPaths": [],

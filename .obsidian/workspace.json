@@ -160,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md",
+                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md"
+                "file": "03-Javascript/03-JavaScript-高级/闭包.md"
               }
             }
           },
@@ -253,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md",
+                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Javascript/08-kerwin 面试题.md",
+                "file": "03-Javascript/03-JavaScript-高级/闭包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,6 +297,10 @@
   },
   "active": "4f0a5427b22dec99",
   "lastOpenFiles": [
+    "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md",
+    "03-Javascript/03-JavaScript-高级/节流.md",
+    "03-Javascript/03-JavaScript-高级/防抖.md",
+    "03-Javascript/08-kerwin 面试题.md",
     "03-Javascript/防抖和节流.md",
     "03-Javascript/00-卡片/0-JavaScript卡片.md",
     "03-Javascript/00-JavaScript编程语言/03展开运算符.md",
@@ -319,10 +323,6 @@
     "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "03-Javascript/02-JavaScript-异步编程/05-Promise.md",
     "卡片/7-计算机书籍.md",
-    "0-数据结构与算法/贪心算法.md",
-    "03-Javascript/00-JavaScript编程语言/05-字符串方法.md",
-    "H-每日记录/2024-03-20.md",
-    "H-每日记录/2024-03-19/海棠依旧.md",
     "H-每日记录/2024-03-21",
     "未命名",
     "O-电影2000/0-卡片",
