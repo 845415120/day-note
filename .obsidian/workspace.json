@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-20/未命名.md",
+                "file": "H-每日记录/2024-03-21/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -284,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-20/未命名.md"
+                "file": "H-每日记录/2024-03-21/未命名.md"
               }
             }
           },
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-20/未命名.md",
+                "file": "H-每日记录/2024-03-21/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-20/未命名.md",
+                "file": "H-每日记录/2024-03-21/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -338,9 +338,13 @@
   },
   "active": "ed3fe792a562b562",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-21.md",
+    "H-每日记录/2024-03-21/未命名.md",
+    "H-每日记录/2024-03-21",
+    "未命名",
+    "H-每日记录/2024-03-20/未命名.md",
     "H-每日记录/2024-03-20.md",
     "H-每日记录/2024-03-20/终结一切战争：奥本海默和原子弹.md",
-    "H-每日记录/2024-03-20/未命名.md",
     "O-电影2000/0-卡片/0-电影2000.md",
     "O-电影2000/0-卡片/未命名.md",
     "O-电影2000/007大破量子危机.md",
@@ -363,8 +367,6 @@
     "03-Javascript/01-ES6/14-解构赋值.md",
     "03-Javascript/01-ES6/0-ES6.md",
     "03-Javascript/00-JavaScript编程语言/07-内置对象.md",
-    "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "03-Javascript/00-JavaScript编程语言/05-数组-方法.md",
     "H-每日记录/2024-03-20",
     "03-Javascript/代码质量/未命名",
     "03-Javascript/代码质量",
@@ -381,8 +383,6 @@
     "B-前端/Vuex/images/评论列表_加载更多.gif",
     "B-前端/Vuex/images",
     "B-前端/Vuex",
-    "A-前端视频记录/B站视频",
-    "03-Javascript/03-JavaScript-高级",
-    "03-Javascript/00-JavaScript编程语言"
+    "A-前端视频记录/B站视频"
   ]
 }

@@ -2,6 +2,14 @@
   "recentFiles": [
     {
       "basename": "未命名",
+      "path": "H-每日记录/2024-03-21/未命名.md"
+    },
+    {
+      "basename": "2024-03-21",
+      "path": "H-每日记录/2024-03-21.md"
+    },
+    {
+      "basename": "未命名",
       "path": "H-每日记录/2024-03-20/未命名.md"
     },
     {
@@ -191,14 +199,6 @@
     {
       "basename": "Event loop 事件循环",
       "path": "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md"
-    },
-    {
-      "basename": "13-正则表达式",
-      "path": "03-Javascript/00-JavaScript编程语言/13-正则表达式.md"
-    },
-    {
-      "basename": "08-kerwin 面试题",
-      "path": "03-Javascript/08-kerwin 面试题.md"
     }
   ],
   "omittedPaths": [],
