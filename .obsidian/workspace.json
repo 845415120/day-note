@@ -23,6 +23,32 @@
             }
           },
           {
+            "id": "7b37a4469399aa5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/代码质量/2-注释.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "908384c36716f2bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/代码质量/0-在浏览器中调试.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a611fe7cf86db7b5",
             "type": "leaf",
             "pinned": true,
@@ -35,86 +61,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "eb5c5c8a3005e61b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "32769d9101f3cc8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc09fbf00f436ca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c16564d36976bd22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed3fe792a562b562",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-21.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0fa796f9fc3a2bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           },
           {
@@ -144,25 +90,12 @@
             }
           },
           {
-            "id": "b9e4ea04ccf161a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-数据结构与算法/贪心算法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "56de89b9edc2c128",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Javascript/02-JavaScript-异步编程/05-Promise.md",
+                "file": "03-Javascript/00-卡片/0-JavaScript卡片.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -207,9 +140,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8c1d9fac1ad8be09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/02-JavaScript-异步编程/02-async-await.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f0a5427b22dec99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Javascript/08-kerwin 面试题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -228,7 +187,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:海棠",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -284,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-21.md"
+                "file": "03-Javascript/08-kerwin 面试题.md"
               }
             }
           },
@@ -294,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-21.md",
+                "file": "03-Javascript/08-kerwin 面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-21.md",
+                "file": "03-Javascript/08-kerwin 面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,37 +295,37 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "ed3fe792a562b562",
+  "active": "4f0a5427b22dec99",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-21/【直播回放】AI时代的编程开发 2024年3月20日19点场.md",
-    "H-每日记录/2024-03-21.md",
+    "03-Javascript/防抖和节流.md",
+    "03-Javascript/00-卡片/0-JavaScript卡片.md",
+    "03-Javascript/00-JavaScript编程语言/03展开运算符.md",
+    "03-Javascript/JavaScript知识要点/JavaScript里document.write()和innerHTML的区别.md",
+    "03-Javascript/作用域.md",
+    "03-Javascript/代码质量/5-Polyfill 和转译器.md",
+    "03-Javascript/代码质量/4-使用 Mocha 进行自动化测试.md",
+    "03-Javascript/代码质量/3-代码技巧(误).md",
+    "03-Javascript/代码质量/2-注释.md",
+    "03-Javascript/执行上下文.md",
+    "03-Javascript/代码质量/1-代码风格.md",
+    "03-Javascript/JavaScript知识要点/JavaScript图片懒加载.md",
+    "03-Javascript/02-JavaScript-异步编程/05-实现call、apply和bind.md",
+    "03-Javascript/bind、call、apply 区别.md",
+    "03-Javascript/代码质量/0-在浏览器中调试.md",
+    "03-Javascript/JavaScript 面试笔记.md",
+    "03-Javascript/02-JavaScript-异步编程/02-async-await.md",
+    "03-Javascript/async与await.md",
+    "03-Javascript/axios.md",
+    "A-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "03-Javascript/02-JavaScript-异步编程/05-Promise.md",
+    "卡片/7-计算机书籍.md",
+    "0-数据结构与算法/贪心算法.md",
+    "03-Javascript/00-JavaScript编程语言/05-字符串方法.md",
+    "H-每日记录/2024-03-20.md",
+    "H-每日记录/2024-03-19/海棠依旧.md",
     "H-每日记录/2024-03-21",
     "未命名",
-    "H-每日记录/2024-03-20/未命名.md",
-    "H-每日记录/2024-03-20.md",
-    "H-每日记录/2024-03-20/终结一切战争：奥本海默和原子弹.md",
-    "O-电影2000/0-卡片/0-电影2000.md",
-    "O-电影2000/0-卡片/未命名.md",
-    "O-电影2000/007大破量子危机.md",
     "O-电影2000/0-卡片",
-    "H-每日记录/2024-03-20/BBC-秦始皇兵马俑.md",
-    "03-Javascript/00-JavaScript编程语言/03-运算符.md",
-    "03-Javascript/00-JavaScript编程语言/05-字符串方法.md",
-    "03-Javascript/JavaScript 面试笔记.md",
-    "H-每日记录/2024-03-20/obsidian-git.md",
-    "数据结构与算法之美笔记/docs/01.入门篇.md",
-    "0-数据结构与算法/书籍学习/学习JavaScript数据结构与算法（第3版）.md",
-    "卡片/1-电影2010.md",
-    "卡片/前端知识点卡.md",
-    "03-Javascript/00-卡片/0-JavaScript卡片.md",
-    "数据结构与算法之美笔记/docs/_sidebar.md",
-    "数据结构与算法之美笔记/docs/02.数组.md",
-    "数据结构与算法之美笔记/docs/14.红黑树.md",
-    "数据结构与算法之美笔记/docs/12.哈希算法.md",
-    "03-Javascript/01-ES6/箭头函数.md",
-    "03-Javascript/01-ES6/14-解构赋值.md",
-    "03-Javascript/01-ES6/0-ES6.md",
-    "03-Javascript/00-JavaScript编程语言/07-内置对象.md",
     "H-每日记录/2024-03-20",
     "03-Javascript/代码质量/未命名",
     "03-Javascript/代码质量",

@@ -1,6 +1,6 @@
 ---
 标题: 
-图片: 
+图片: https://live-static.segmentfault.com/314/489/3144892138-5e83efea746a5_render
 链接: https://zh.javascript.info/testing-mocha
 时时: 
 评价:

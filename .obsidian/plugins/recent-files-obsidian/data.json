@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "08-kerwin 面试题",
+      "path": "03-Javascript/08-kerwin 面试题.md"
+    },
+    {
+      "basename": "防抖和节流",
+      "path": "03-Javascript/防抖和节流.md"
+    },
+    {
+      "basename": "0-JavaScript卡片",
+      "path": "03-Javascript/00-卡片/0-JavaScript卡片.md"
+    },
+    {
+      "basename": "5-Polyfill 和转译器",
+      "path": "03-Javascript/代码质量/5-Polyfill 和转译器.md"
+    },
+    {
+      "basename": "4-使用 Mocha 进行自动化测试",
+      "path": "03-Javascript/代码质量/4-使用 Mocha 进行自动化测试.md"
+    },
+    {
+      "basename": "3-代码技巧(误)",
+      "path": "03-Javascript/代码质量/3-代码技巧(误).md"
+    },
+    {
+      "basename": "2-注释",
+      "path": "03-Javascript/代码质量/2-注释.md"
+    },
+    {
+      "basename": "1-代码风格",
+      "path": "03-Javascript/代码质量/1-代码风格.md"
+    },
+    {
+      "basename": "0-在浏览器中调试",
+      "path": "03-Javascript/代码质量/0-在浏览器中调试.md"
+    },
+    {
+      "basename": "02-async-await",
+      "path": "03-Javascript/02-JavaScript-异步编程/02-async-await.md"
+    },
+    {
+      "basename": "0-前端视频记录卡",
+      "path": "A-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "05-Promise",
+      "path": "03-Javascript/02-JavaScript-异步编程/05-Promise.md"
+    },
+    {
+      "basename": "7-计算机书籍",
+      "path": "卡片/7-计算机书籍.md"
+    },
+    {
+      "basename": "贪心算法",
+      "path": "0-数据结构与算法/贪心算法.md"
+    },
+    {
+      "basename": "05-字符串方法",
+      "path": "03-Javascript/00-JavaScript编程语言/05-字符串方法.md"
+    },
+    {
+      "basename": "2024-03-20",
+      "path": "H-每日记录/2024-03-20.md"
+    },
+    {
+      "basename": "海棠依旧",
+      "path": "H-每日记录/2024-03-19/海棠依旧.md"
+    },
+    {
       "basename": "2024-03-21",
       "path": "H-每日记录/2024-03-21.md"
     },
@@ -11,10 +79,6 @@
     {
       "basename": "未命名",
       "path": "H-每日记录/2024-03-20/未命名.md"
-    },
-    {
-      "basename": "2024-03-20",
-      "path": "H-每日记录/2024-03-20.md"
     },
     {
       "basename": "终结一切战争：奥本海默和原子弹",
@@ -31,10 +95,6 @@
     {
       "basename": "03-运算符",
       "path": "03-Javascript/00-JavaScript编程语言/03-运算符.md"
-    },
-    {
-      "basename": "05-字符串方法",
-      "path": "03-Javascript/00-JavaScript编程语言/05-字符串方法.md"
     },
     {
       "basename": "JavaScript 面试笔记",
@@ -55,10 +115,6 @@
     {
       "basename": "1-电影2010",
       "path": "卡片/1-电影2010.md"
-    },
-    {
-      "basename": "0-JavaScript卡片",
-      "path": "03-Javascript/00-卡片/0-JavaScript卡片.md"
     },
     {
       "basename": "_sidebar",
@@ -83,10 +139,6 @@
     {
       "basename": "07-内置对象",
       "path": "03-Javascript/00-JavaScript编程语言/07-内置对象.md"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "A-前端视频记录/00-卡片/0-前端视频记录卡.md"
     },
     {
       "basename": "05-数组-方法",
@@ -121,36 +173,8 @@
       "path": "H-每日记录/2024-03-19.md"
     },
     {
-      "basename": "海棠依旧",
-      "path": "H-每日记录/2024-03-19/海棠依旧.md"
-    },
-    {
       "basename": "25 Golang - 并发 扇出扇入模式",
       "path": "H-每日记录/2024-03-19/25 Golang - 并发 扇出扇入模式.md"
-    },
-    {
-      "basename": "05-Polyfill 和转译器",
-      "path": "03-Javascript/代码质量/05-Polyfill 和转译器.md"
-    },
-    {
-      "basename": "1-代码风格",
-      "path": "03-Javascript/代码质量/1-代码风格.md"
-    },
-    {
-      "basename": "04-使用 Mocha 进行自动化测试",
-      "path": "03-Javascript/代码质量/04-使用 Mocha 进行自动化测试.md"
-    },
-    {
-      "basename": "3-代码技巧(误)",
-      "path": "03-Javascript/代码质量/3-代码技巧(误).md"
-    },
-    {
-      "basename": "2-注释",
-      "path": "03-Javascript/代码质量/2-注释.md"
-    },
-    {
-      "basename": "0-在浏览器中调试",
-      "path": "03-Javascript/代码质量/0-在浏览器中调试.md"
     },
     {
       "basename": "16Class",
@@ -175,30 +199,6 @@
     {
       "basename": "WebSockets原理实时聊天室",
       "path": "03-Javascript/JavaScript知识要点/WebSockets原理实时聊天室.md"
-    },
-    {
-      "basename": "01-数据类型",
-      "path": "03-Javascript/00-JavaScript编程语言/01-数据类型.md"
-    },
-    {
-      "basename": "重绘和回流",
-      "path": "03-Javascript/重绘和回流.md"
-    },
-    {
-      "basename": "JavaScript原型链",
-      "path": "03-Javascript/03-JavaScript-高级/JavaScript原型链.md"
-    },
-    {
-      "basename": "JavaScript闭包",
-      "path": "03-Javascript/03-JavaScript-高级/JavaScript闭包.md"
-    },
-    {
-      "basename": "05-Promise",
-      "path": "03-Javascript/02-JavaScript-异步编程/05-Promise.md"
-    },
-    {
-      "basename": "Event loop 事件循环",
-      "path": "03-Javascript/03-JavaScript-高级/Event loop 事件循环.md"
     }
   ],
   "omittedPaths": [],
