@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "三体 第一季",
+      "path": "H-每日记录/2024-03-22/三体 第一季.md"
+    },
+    {
+      "basename": "马里乌波尔 20 天",
+      "path": "H-每日记录/2024-03-22/马里乌波尔 20 天.md"
+    },
+    {
       "basename": "2024-03-22",
       "path": "H-每日记录/2024-03-22.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "日常模板",
       "path": "z-模板/日常模板.md"
-    },
-    {
-      "basename": "马里乌波尔 20 天",
-      "path": "H-每日记录/2024-03-22/马里乌波尔 20 天.md"
     },
     {
       "basename": "B站 看过视频备份",
@@ -195,10 +199,6 @@
     {
       "basename": "JavaScript异步编程",
       "path": "B-前端/05面试题/JavaScript异步编程.md"
-    },
-    {
-      "basename": "JS判断⼀个数组",
-      "path": "B-前端/05面试题/JS判断⼀个数组.md"
     }
   ],
   "omittedPaths": [],
