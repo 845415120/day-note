@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "何 以 当 归",
+      "path": "H-每日记录/2024-03-22/何 以 当 归.md"
+    },
+    {
+      "basename": "B站 看过视频备份",
+      "path": "H-每日记录/2024-03-22/B站 看过视频备份.md"
+    },
+    {
       "basename": "2024-03-22",
       "path": "H-每日记录/2024-03-22.md"
     },
     {
-      "basename": "04重排重绘",
-      "path": "0-CSS/04重排重绘.md"
-    },
-    {
       "basename": "0-CSS卡片",
       "path": "0-CSS/0-卡片/0-CSS卡片.md"
+    },
+    {
+      "basename": "04重排重绘",
+      "path": "0-CSS/04重排重绘.md"
     },
     {
       "basename": "04响应式开发",
@@ -191,14 +199,6 @@
     {
       "basename": "技术蛋老师-CSS",
       "path": "A-前端视频记录/B站视频/00-技术蛋老师/技术蛋老师-CSS.md"
-    },
-    {
-      "basename": "03-CSS如何水平居中元素",
-      "path": "0-CSS/03-CSS如何水平居中元素.md"
-    },
-    {
-      "basename": "06多行省略 文本溢出",
-      "path": "0-CSS/06多行省略 文本溢出.md"
     }
   ],
   "omittedPaths": [],
