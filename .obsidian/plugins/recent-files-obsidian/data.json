@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "飞驰人生热爱篇",
+      "path": "H-每日记录/2024-03-22/飞驰人生热爱篇.md"
+    },
+    {
       "basename": "马里乌波尔 20 天",
       "path": "H-每日记录/2024-03-22/马里乌波尔 20 天.md"
+    },
+    {
+      "basename": "【WBG vs JDG】德云色解说：人机局暴虐jdg！？（2024春季赛）",
+      "path": "H-每日记录/2024-03-22/【WBG vs JDG】德云色解说：人机局暴虐jdg！？（2024春季赛）.md"
     },
     {
       "basename": "三体 第一季",
@@ -191,14 +199,6 @@
     {
       "basename": "DOM事件流",
       "path": "B-前端/05面试题/DOM事件流.md"
-    },
-    {
-      "basename": "ES6常用的API",
-      "path": "B-前端/05面试题/ES6常用的API.md"
-    },
-    {
-      "basename": "JavaScript异步编程",
-      "path": "B-前端/05面试题/JavaScript异步编程.md"
     }
   ],
   "omittedPaths": [],
