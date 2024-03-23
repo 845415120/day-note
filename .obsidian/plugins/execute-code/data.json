@@ -5,7 +5,7 @@
   "wslMode": true,
   "shellWSLMode": false,
   "onlyCurrentBlock": true,
-  "nodePath": "node",
+  "nodePath": "C:/Program Files/nodejs/node",
   "nodeArgs": "",
   "jsFileExtension": "js",
   "jsInject": "",
