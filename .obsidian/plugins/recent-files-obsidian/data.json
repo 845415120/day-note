@@ -5,6 +5,18 @@
       "path": "H-每日记录/2024-03-23.md"
     },
     {
+      "basename": "什么组织能在苏联和克格勃斗法？（上）",
+      "path": "H-每日记录/2024-03-23/什么组织能在苏联和克格勃斗法？（上）.md"
+    },
+    {
+      "basename": "【诸葛】蜜月之前",
+      "path": "H-每日记录/2024-03-23/【诸葛】蜜月之前.md"
+    },
+    {
+      "basename": "0-CSS卡片",
+      "path": "0-CSS/0-卡片/0-CSS卡片.md"
+    },
+    {
       "basename": "飞驰人生热爱篇 1",
       "path": "H-每日记录/2024-03-23/飞驰人生热爱篇 1.md"
     },
@@ -15,14 +27,6 @@
     {
       "basename": "08-kerwin 面试题",
       "path": "03-Javascript/08-kerwin 面试题.md"
-    },
-    {
-      "basename": "什么组织能在苏联和克格勃斗法？（上）",
-      "path": "H-每日记录/2024-03-23/什么组织能在苏联和克格勃斗法？（上）.md"
-    },
-    {
-      "basename": "01CSS伪类和伪元素的区别",
-      "path": "0-CSS/01CSS伪类和伪元素的区别.md"
     },
     {
       "basename": "2024-03-22",
@@ -77,22 +81,6 @@
       "path": "H-每日记录/2024-03-22/何 以 当 归.md"
     },
     {
-      "basename": "0-CSS卡片",
-      "path": "0-CSS/0-卡片/0-CSS卡片.md"
-    },
-    {
-      "basename": "04重排重绘",
-      "path": "0-CSS/04重排重绘.md"
-    },
-    {
-      "basename": "04响应式开发",
-      "path": "0-CSS/04响应式开发.md"
-    },
-    {
-      "basename": "02-CSS3中有哪些新特性",
-      "path": "0-CSS/02-CSS3中有哪些新特性.md"
-    },
-    {
       "basename": "2024-03-21",
       "path": "H-每日记录/2024-03-21.md"
     },
@@ -101,92 +89,12 @@
       "path": "03-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
-      "basename": "01-CSS选择器优先级",
-      "path": "0-CSS/01-CSS选择器优先级.md"
-    },
-    {
-      "basename": "02-display的属性值及其作用",
-      "path": "0-CSS/02-display的属性值及其作用.md"
-    },
-    {
-      "basename": "01- 垂直居中",
-      "path": "0-CSS/01- 垂直居中.md"
-    },
-    {
-      "basename": "03 等高布局",
-      "path": "0-CSS/03 等高布局.md"
-    },
-    {
-      "basename": "05三角形",
-      "path": "0-CSS/05三角形.md"
-    },
-    {
-      "basename": "00-CSS基础",
-      "path": "0-CSS/00-CSS基础.md"
-    },
-    {
-      "basename": "03瀑布流",
-      "path": "0-CSS/03瀑布流.md"
-    },
-    {
-      "basename": "01行内元素与块级元素",
-      "path": "0-CSS/01行内元素与块级元素.md"
-    },
-    {
-      "basename": "03-页面布局",
-      "path": "0-CSS/03-页面布局.md"
-    },
-    {
-      "basename": "02-CSS盒模型",
-      "path": "0-CSS/02-CSS盒模型.md"
-    },
-    {
-      "basename": "01CSS link和@import的区别",
-      "path": "0-CSS/01CSS link和@import的区别.md"
-    },
-    {
-      "basename": "16Web安全色",
-      "path": "0-CSS/16Web安全色.md"
-    },
-    {
-      "basename": "15css 高亮",
-      "path": "0-CSS/15css 高亮.md"
-    },
-    {
       "basename": "computed 和 watch 区别",
       "path": "computed 和 watch 区别.md"
     },
     {
-      "basename": "14Canvas和SVG",
-      "path": "0-CSS/14Canvas和SVG.md"
-    },
-    {
-      "basename": "13calc()应用场景",
-      "path": "0-CSS/13calc()应用场景.md"
-    },
-    {
-      "basename": "12设置鼠标指针在悬停在元素上时的样式",
-      "path": "0-CSS/12设置鼠标指针在悬停在元素上时的样式.md"
-    },
-    {
-      "basename": "11如何让超宽文本替换为省略号",
-      "path": "0-CSS/11如何让超宽文本替换为省略号.md"
-    },
-    {
-      "basename": "10过渡与动画的区别",
-      "path": "0-CSS/10过渡与动画的区别.md"
-    },
-    {
-      "basename": "09不使用border创建边框",
-      "path": "0-CSS/09不使用border创建边框.md"
-    },
-    {
       "basename": "传统的响应式网页设计挑战-freecodecamp",
       "path": "传统的响应式网页设计挑战-freecodecamp.md"
-    },
-    {
-      "basename": "04CSS清除浮动的多种方法",
-      "path": "0-CSS/04CSS清除浮动的多种方法.md"
     },
     {
       "basename": "05-字符串方法",
