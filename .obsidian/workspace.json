@@ -79,6 +79,7 @@
           {
             "id": "56de89b9edc2c128",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -86,7 +87,8 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -217,9 +219,11 @@
   },
   "active": "56de89b9edc2c128",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-23/飞驰人生热爱篇 1.md",
+    "H-每日记录/2024-03-23/1999年，成龙，周星驰，做配角捧新人，内地电影崛起！【港影风云】终章.md",
+    "H-每日记录/2024-03-23.md",
     "03-Javascript/08-kerwin 面试题.md",
     "H-每日记录/2024-03-23/什么组织能在苏联和克格勃斗法？（上）.md",
-    "H-每日记录/2024-03-23.md",
     "H-每日记录/2024-03-23",
     "0-CSS/01CSS伪类和伪元素的区别.md",
     "H-每日记录/2024-03-22.md",
@@ -243,8 +247,6 @@
     "H-每日记录/2024-03-21.md",
     "0-CSS/01- 垂直居中.md",
     "03-Javascript/00-卡片/JavaScript卡片.md",
-    "0-CSS/01-CSS选择器优先级.md",
-    "0-CSS/02-display的属性值及其作用.md",
     "0-CSS/0-卡片",
     "0-CSS/技巧",
     "0-CSS/面试题",
