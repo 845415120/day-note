@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md"
+                "file": "H-每日记录/2024-03-24.md"
               }
             }
           },
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
+                "file": "H-每日记录/2024-03-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
+                "file": "H-每日记录/2024-03-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,10 +159,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "00ea0e5def4fad0a",
+  "active": "8038a655a88d6947",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-24/早餐中国 第四季.md",
     "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
+    "H-每日记录/2024-03-24/早餐中国 第四季.md",
     "H-每日记录/2024-03-24/超人之死而复生.md",
     "H-每日记录/2024-03-24/无辣不欢.md",
     "H-每日记录/2024-03-24.md",
