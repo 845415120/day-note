@@ -97,20 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f337ec301c84a780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md",
+                "file": "06-Node/00-node与开发接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -137,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:邓小平",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md"
+                "file": "06-Node/00-node与开发接口.md"
               }
             }
           },
@@ -203,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md",
+                "file": "06-Node/00-node与开发接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md",
+                "file": "06-Node/00-node与开发接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,10 +230,29 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "f337ec301c84a780",
+  "active": "c386b3e7323b46b5",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
+    "06-Node/Node 笔记.md",
+    "06-Node/Koa 开发.md",
+    "06-Node/MongoDB.md",
+    "06-Node/Express 教程：本地图书馆网站.md",
+    "06-Node/记账本开发.md",
+    "06-Node/会话控制.md",
+    "06-Node/02-ES6模块化和webpack.md",
+    "06-Node/01-包和npm.md",
+    "06-Node/00-node与开发接口.md",
+    "06-Node/0-卡片/0-卡片.md",
+    "06-Node/实践demo/获取b站图片.md",
+    "06-Node/实践demo",
+    "04-Javascript/00-卡片/JavaScript卡片.md",
+    "06-Node/0-卡片",
+    "06-Node/重点.md",
+    "04-Javascript/02-JavaScript-异步编程/18Ajax.md",
+    "04-Javascript/02-JavaScript-异步编程/01-Ajax/Ajax第一天.md",
+    "0-前端资料/0-卡片/0-卡片.md",
+    "0-前端资料/黑马前端体系课  笔记.md",
     "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md",
+    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
     "H-每日记录/2024-03-24.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
@@ -254,33 +260,14 @@
     "16-LangChain/0-YouTube 视频.md",
     "16-LangChain/使用 Langchain Agents 运行 BabyAGI（使用 Python 代码）.md",
     "12-Python/黑马程序员python教程 1.md",
-    "12-Python/黑马程序员/0-卡片.md",
-    "16-LangChain/0-卡片/0-LangChain卡片.md",
     "16-LangChain/0-卡片",
-    "16-LangChain/抢先看 - ChatGPT + WolframAlpha （GPT-3.5 和 Wolfram Alpha via LangChain 作者 James Weaver）.md",
-    "16-LangChain/使用LangChain和GPT-Index构建自己的LLM应用程序.md",
-    "0-前端资料/0-卡片/0-卡片.md",
     "0-前端资料/0-卡片",
-    "00-数据结构与算法/0-卡片/0-卡片.md",
-    "0-前端视频记录/05-极客时间/前端面试之道.md",
     "0-前端资料",
-    "21-前端面试之道笔记/00-学习资源.md",
-    "H-每日记录/2023-12-14/前端面试之道.md",
-    "H-每日记录/2023-12-16/前端面试之道.md",
-    "21-前端面试之道笔记/ES6 知识点及常考面试题.md",
-    "21-前端面试之道笔记/Event Loop.md",
-    "21-前端面试之道笔记/JS 基础知识点及常考面试题（二）.md",
-    "21-前端面试之道笔记/JS 进阶知识点及常考面试题.md",
-    "21-前端面试之道笔记/JS 异步编程及常考面试题.md",
-    "21-前端面试之道笔记/DevTools Tips.md",
-    "21-前端面试之道笔记/手写 Promise.md",
     "01-HTML/0-卡片",
     "00-数据结构与算法/0-卡片",
     "20-计算机书籍/未命名",
     "0-计算机书籍/0-卡片",
     "18-计算机基础/0-卡片",
-    "18-计算机基础",
-    "15-AI/0-卡片",
     "17-JAVA/Java/03-zookeeper/assets/wps20.jpg",
     "17-JAVA/Java/03-zookeeper/assets/wps19.jpg",
     "17-JAVA/Java/03-zookeeper/assets/wps18.jpg",

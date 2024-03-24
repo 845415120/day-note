@@ -1,5 +1,4 @@
 
-# Node
 
 node 中使用的JavaScript 只包含 ECMAscript 不包含Web Api
 

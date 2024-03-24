@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "00-node与开发接口",
+      "path": "06-Node/00-node与开发接口.md"
+    },
+    {
+      "basename": "Node 笔记",
+      "path": "06-Node/Node 笔记.md"
+    },
+    {
+      "basename": "Koa 开发",
+      "path": "06-Node/Koa 开发.md"
+    },
+    {
+      "basename": "MongoDB",
+      "path": "06-Node/MongoDB.md"
+    },
+    {
+      "basename": "Express 教程：本地图书馆网站",
+      "path": "06-Node/Express 教程：本地图书馆网站.md"
+    },
+    {
+      "basename": "记账本开发",
+      "path": "06-Node/记账本开发.md"
+    },
+    {
+      "basename": "会话控制",
+      "path": "06-Node/会话控制.md"
+    },
+    {
+      "basename": "02-ES6模块化和webpack",
+      "path": "06-Node/02-ES6模块化和webpack.md"
+    },
+    {
+      "basename": "01-包和npm",
+      "path": "06-Node/01-包和npm.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "06-Node/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "18Ajax",
+      "path": "04-Javascript/02-JavaScript-异步编程/18Ajax.md"
+    },
+    {
+      "basename": "Ajax第一天",
+      "path": "04-Javascript/02-JavaScript-异步编程/01-Ajax/Ajax第一天.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "0-前端资料/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "黑马前端体系课  笔记",
+      "path": "0-前端资料/黑马前端体系课  笔记.md"
+    },
+    {
       "basename": "诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期",
       "path": "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md"
     },
@@ -43,10 +103,6 @@
     {
       "basename": "0-LangChain卡片",
       "path": "16-LangChain/0-卡片/0-LangChain卡片.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "0-前端资料/0-卡片/0-卡片.md"
     },
     {
       "basename": "0-卡片",
@@ -141,64 +197,8 @@
       "path": "03-Bootstrap/创建垂直表单.md"
     },
     {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
-    },
-    {
       "basename": "React 基础 (动画版)",
       "path": "10-React/0-React/React 基础 (动画版).md"
-    },
-    {
-      "basename": "React",
-      "path": "10-React/0-React/React.md"
-    },
-    {
-      "basename": "freecodecamp React",
-      "path": "10-React/0-React/freecodecamp React.md"
-    },
-    {
-      "basename": "2024-03-23",
-      "path": "H-每日记录/2024-03-23.md"
-    },
-    {
-      "basename": "1999年，成龙，周星驰，做配角捧新人，内地电影崛起！【港影风云】终章",
-      "path": "H-每日记录/2024-03-23/1999年，成龙，周星驰，做配角捧新人，内地电影崛起！【港影风云】终章.md"
-    },
-    {
-      "basename": "飞驰人生热爱篇 1",
-      "path": "H-每日记录/2024-03-23/飞驰人生热爱篇 1.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "H-每日记录/2024-03-23/未命名.md"
-    },
-    {
-      "basename": "高阶前端进阶必修，自主打造同比AntD的React组件库",
-      "path": "H-每日记录/2024-03-23/高阶前端进阶必修，自主打造同比AntD的React组件库.md"
-    },
-    {
-      "basename": "一九四四",
-      "path": "H-每日记录/2024-03-23/一九四四.md"
-    },
-    {
-      "basename": "从《疯狂的石头》到《红毯先生》，中国最叛逆导演之一【寻找·宁浩】",
-      "path": "H-每日记录/2024-03-23/从《疯狂的石头》到《红毯先生》，中国最叛逆导演之一【寻找·宁浩】.md"
-    },
-    {
-      "basename": "「也门3」南北统一，萨利赫的绝活，全图养蛊，青年信仰者的诞生。",
-      "path": "H-每日记录/2024-03-23/「也门3」南北统一，萨利赫的绝活，全图养蛊，青年信仰者的诞生。.md"
-    },
-    {
-      "basename": "「也门1」世界十字路口，千年帝国坟场，民风淳朴的山民伯伯",
-      "path": "H-每日记录/2024-03-23/「也门1」世界十字路口，千年帝国坟场，民风淳朴的山民伯伯.md"
-    },
-    {
-      "basename": "「也门2」纳赛尔的野望与保皇派的绝活，冷战热战，难觅新生，南北也门，挣扎轮回。",
-      "path": "H-每日记录/2024-03-23/「也门2」纳赛尔的野望与保皇派的绝活，冷战热战，难觅新生，南北也门，挣扎轮回。.md"
-    },
-    {
-      "basename": "「巴以1」百年冲突，为什么这是反侵略与民族解放斗争",
-      "path": "H-每日记录/2024-03-23/「巴以1」百年冲突，为什么这是反侵略与民族解放斗争.md"
     }
   ],
   "omittedPaths": [],
