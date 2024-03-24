@@ -5,6 +5,7 @@
 时时: 
 评价:
 ---
+
 # YouTube videos YouTube 视频
 
 ⛓ icon marks a new addition [last update 2023-09-21]  
@@ -55,9 +56,11 @@ LangChain的创建者Harrison Chase介绍LangChain
 ~~ [`BabyAGI` - New System of Autonomous AI Agents with LangChain](https://youtu.be/lg3kJvf1kXo) by [1littlecoder](https://www.youtube.com/@1littlecoder)  
 ~~`BabyAGI` - 带有 LangChain 的自主 AI 代理新系统 by 1littlecoder~~
 
+~~==[Run `BabyAGI` with Langchain Agents (with Python Code)](https://youtu.be/WosPGHPObx8) by [1littlecoder](https://www.youtube.com/@1littlecoder)== ~~
+~~使用 Langchain Agents Run `BabyAGI` with Langchain Agents （with Python Code） by 1littlecode~~
 
-- [Run `BabyAGI` with Langchain Agents (with Python Code)](https://youtu.be/WosPGHPObx8) by [1littlecoder](https://www.youtube.com/@1littlecoder)  
-    使用 Langchain Agents Run `BabyAGI` with Langchain Agents （with Python Code） by 1littlecoder
+
+
 - [How to Use Langchain With `Zapier` | Write and Send Email with GPT-3 | OpenAI API Tutorial](https://youtu.be/p9v2-xEa9A0) by [StarMorph AI](https://www.youtube.com/@starmorph)  
     如何使用 Langchain | `Zapier` 使用 GPT-3 编写和发送电子邮件 |StarMorph AI 开发的 OpenAI API 教程
 - [Use Your Locally Stored Files To Get Response From GPT - `OpenAI` | Langchain | Python](https://youtu.be/NC1Ni9KS-rk) by [Shweta Lodha](https://www.youtube.com/@shweta-lodha)  

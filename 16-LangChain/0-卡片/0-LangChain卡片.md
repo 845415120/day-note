@@ -12,7 +12,7 @@ tags:
 
 ```dataview
 table "![]("+图片+")" as 图片,"[地址]("+链接+")" as 链接
-from "0-LangChain"
+from "16-LangChain"
 ```
 
 LangChain是一个框架，旨在简化使用大型语言模型（）创建应用程序LLMs的过程。
