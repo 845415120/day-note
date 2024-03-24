@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:前端面试之道",
+                "query": "file:邓小平",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+                "file": "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,8 +217,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d04be78bd53daa5b",
+  "active": "2c378509df2e1024",
   "lastOpenFiles": [
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
     "0-前端资料/资源.md",
     "16-LangChain/0-YouTube 视频.md",
     "16-LangChain/使用 Langchain Agents 运行 BabyAGI（使用 Python 代码）.md",
@@ -247,9 +249,7 @@
     "01-HTML/0-卡片/0-卡片.md",
     "00-数据结构与算法/书籍学习/数据结构与算法之美笔记/docs/01.入门篇.md",
     "01-HTML/0-卡片",
-    "00-数据结构与算法/视频学习/0-数据结构与算法之美.md",
     "00-数据结构与算法/0-卡片",
-    "00-数据结构与算法/书籍学习/数据结构与算法之美笔记/docs/38.leetcode练习题.md",
     "20-计算机书籍/未命名",
     "0-计算机书籍/0-卡片",
     "18-计算机基础/0-卡片",
