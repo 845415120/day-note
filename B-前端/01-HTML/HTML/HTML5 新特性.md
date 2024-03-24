@@ -1,8 +1,0 @@
-- 语义化标签，比如 article 、footer、header、nav、section...
-- 表单控件 color、date、time、email、url、search、range...
-- 视频 video 和音频 audio 元素
-- 画布 canvas
-- SVG
-- localStorage、sessionStorage
-- 新的技术 webworker、websocket、Geolocation、getCurrentPosition
-- 拖拽释放(Drap and drop) API
