@@ -1,9 +1,18 @@
+---
+标题: 
+图片: 
+链接: 
+时时: 
+评价: 
+tags:
+---
 ## **开发属于自己的包**  
 ### **初始化 package.json**  
 注意，JSON文件不能有注释，下面加注释，是为了理解。  
 关于更多 license 许可协议相关的内容，可参考 [https://www.jianshu.com/p/23e61804d81e](https://www.jianshu.com/p/23e61804d81e)  
 **index.js 中定义功能方法**  
 **Readme.md包的使用文档**  
+
 编写功能的时候，如果需要使用其他人的包，也是可以的。比如我们的功能中需要用到 dayjs ，则安装dayjs使用即可。  
 ### **注册npm账号**  
 ●访问 [https://www.npmjs.com/](https://www.npmjs.com/) 网站  

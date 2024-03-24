@@ -4,108 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "38445224d62da4d2",
+        "id": "8514b91a6175f053",
         "type": "tabs",
         "children": [
           {
-            "id": "a611fe7cf86db7b5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "56de89b9edc2c128",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-23.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f48320714f7f1eb6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-24.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3503f5cb965a31ff",
+            "id": "25902f7fc2cc8426",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-数据结构与算法/0-卡片/0-卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "535da9d1ca7649bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "16-LangChain/0-卡片/0-LangChain卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c378509df2e1024",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-24.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c386b3e7323b46b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-Node/00-node与开发接口.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "06-Node/00-node与开发接口.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06-Node/00-node与开发接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06-Node/00-node与开发接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,53 +136,53 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "c386b3e7323b46b5",
+  "active": "25902f7fc2cc8426",
   "lastOpenFiles": [
-    "06-Node/Node 笔记.md",
-    "06-Node/Koa 开发.md",
-    "06-Node/MongoDB.md",
-    "06-Node/Express 教程：本地图书馆网站.md",
-    "06-Node/记账本开发.md",
-    "06-Node/会话控制.md",
-    "06-Node/02-ES6模块化和webpack.md",
-    "06-Node/01-包和npm.md",
-    "06-Node/00-node与开发接口.md",
-    "06-Node/0-卡片/0-卡片.md",
-    "06-Node/实践demo/获取b站图片.md",
-    "06-Node/实践demo",
-    "04-Javascript/00-卡片/JavaScript卡片.md",
-    "06-Node/0-卡片",
-    "06-Node/重点.md",
-    "04-Javascript/02-JavaScript-异步编程/18Ajax.md",
-    "04-Javascript/02-JavaScript-异步编程/01-Ajax/Ajax第一天.md",
-    "0-前端资料/0-卡片/0-卡片.md",
-    "0-前端资料/黑马前端体系课  笔记.md",
-    "H-每日记录/2024-03-24/诡辩大师高育良，聪明反被聪明误！《人民的名义》精讲第十二期.md",
-    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
-    "H-每日记录/2024-03-24.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "Y-历史-文学/邓小平/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
-    "0-前端资料/资源.md",
-    "16-LangChain/0-YouTube 视频.md",
-    "16-LangChain/使用 Langchain Agents 运行 BabyAGI（使用 Python 代码）.md",
-    "12-Python/黑马程序员python教程 1.md",
-    "16-LangChain/0-卡片",
-    "0-前端资料/0-卡片",
-    "0-前端资料",
-    "01-HTML/0-卡片",
-    "00-数据结构与算法/0-卡片",
-    "20-计算机书籍/未命名",
-    "0-计算机书籍/0-卡片",
-    "18-计算机基础/0-卡片",
-    "17-JAVA/Java/03-zookeeper/assets/wps20.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps19.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps18.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps17.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps16.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps15.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps14.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps13.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps12.jpg",
-    "17-JAVA/Java/03-zookeeper/assets/wps11.jpg"
+    "H-每日记录/2024-03-23.md",
+    "H-每日记录/2024-03-24.md",
+    "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md",
+    "16-LangChain/0-卡片/0-LangChain卡片.md",
+    "16-LangChain/LangChain是LLMs...基本上只是一个 Ansible 剧本.md",
+    "06-Node/0-卡片/0-卡片.md",
+    "04-Javascript/00-卡片/JavaScript卡片.md",
+    "04-Javascript/00-JavaScript高级/第二天.md",
+    "04-Javascript/00-JavaScript高级/第一天.md",
+    "04-Javascript/0-前端黑马体系课/api地址.md",
+    "0-前端黑马体系课/token.md",
+    "06-Node/node 开发属于自己的包.md",
+    "04-Javascript/0-前端黑马体系课/黑马.md",
+    "06-Node/记账本开发.md",
+    "08-项目/在线问诊/开发文档/assets/wzlc.png",
+    "08-项目/在线问诊/开发文档/assets/logo.svg",
+    "08-项目/在线问诊/开发文档/assets/image-20221115002038710.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221111001225822.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221111000518872.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221017234225459.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221017175953204.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221017162511480.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221015145523994.png",
+    "08-项目/在线问诊/开发文档/assets/image-20221015123835593.png",
+    "08-项目/在线问诊/开发文档/pinia-plugin-persistedstate 状态持久化.md",
+    "08-项目/在线问诊/开发文档/assets",
+    "08-项目/在线问诊/开发文档/9-问诊-问诊室.md",
+    "08-项目/在线问诊/开发文档/8-问诊-极速问诊.md",
+    "08-项目/在线问诊/开发文档/7-问诊-首页.md",
+    "08-项目/在线问诊/开发文档/6-问诊-用户.md",
+    "08-项目/在线问诊/开发文档/3-pinia基础.md",
+    "08-项目/在线问诊/开发文档/4-问诊-项目起步.md",
+    "08-项目/在线问诊/开发文档/2-typescript基础.md",
+    "08-项目/在线问诊/开发文档/5-问诊-登录.md",
+    "08-项目/在线问诊/开发文档/10-问诊-问诊订单.md",
+    "08-项目/在线问诊/开发文档/11-问诊-药品订单.md",
+    "08-项目/在线问诊/开发文档",
+    "08-项目/在线问诊",
+    "08-项目/人资/讲义/assets/media",
+    "08-项目/人资/讲义/assets",
+    "08-项目/人资/人资管理系统/assets",
+    "08-项目/人资/讲义",
+    "08-项目/人资/人资管理系统",
+    "08-项目/人资",
+    "08-项目/在线问诊2"
   ]
 }
