@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8514b91a6175f053",
+        "id": "6cc59b5c6da86468",
         "type": "tabs",
         "children": [
           {
-            "id": "25902f7fc2cc8426",
+            "id": "8038a655a88d6947",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md"
+              }
             }
           },
           {
@@ -98,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,11 +145,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "25902f7fc2cc8426",
+  "active": "8038a655a88d6947",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-24.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "H-每日记录/2024-03-23.md",
-    "H-每日记录/2024-03-24.md",
     "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md",
     "16-LangChain/0-卡片/0-LangChain卡片.md",
     "16-LangChain/LangChain是LLMs...基本上只是一个 Ansible 剧本.md",
