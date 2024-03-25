@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-24/夏日友晴天.md"
+                "file": "H-每日记录/2024-03-24.md"
               }
             }
           },
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-24/夏日友晴天.md",
+                "file": "H-每日记录/2024-03-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-24/夏日友晴天.md",
+                "file": "H-每日记录/2024-03-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,10 +185,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "51a2400fa0e4fe8f",
+  "active": "8038a655a88d6947",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-24/机器人之梦.md",
     "H-每日记录/2024-03-24/夏日友晴天.md",
+    "H-每日记录/2024-03-24/机器人之梦.md",
     "H-每日记录/2024-03-24.md",
     "H-每日记录/2024-03-24/无辣不欢.md",
     "H-每日记录/2024-03-24/周处除三害.md",
