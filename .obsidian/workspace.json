@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cc59b5c6da86468",
+        "id": "1cf10996413fe347",
         "type": "tabs",
         "children": [
           {
-            "id": "8038a655a88d6947",
+            "id": "8172609de2d89bac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-24.md",
+                "file": "H-每日记录/2024-03-25.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "45bcf4f9a2246efd",
+            "id": "70f6eef826bbb986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-24/机器人之梦.md",
+                "file": "H-每日记录/2024-03-25/决战犹马镇.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,32 +34,20 @@
             }
           },
           {
-            "id": "51a2400fa0e4fe8f",
+            "id": "ca910eb6cf618b10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-24/夏日友晴天.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00ea0e5def4fad0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
+                "file": "H-每日记录/2024-03-25/暴力街区.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-24.md"
+                "file": "H-每日记录/2024-03-25/暴力街区.md"
               }
             }
           },
@@ -144,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-24.md",
+                "file": "H-每日记录/2024-03-25/暴力街区.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-24.md",
+                "file": "H-每日记录/2024-03-25/暴力街区.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,14 +173,20 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "8038a655a88d6947",
+  "active": "ca910eb6cf618b10",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-25/决战犹马镇.md",
+    "H-每日记录/2024-03-25/暴力街区.md",
+    "H-每日记录/2024-03-25.md",
+    "H-每日记录/2024-03-25/未命名.md",
+    "H-每日记录/2024-03-25/春天不是读书天.md",
+    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
     "H-每日记录/2024-03-24/夏日友晴天.md",
     "H-每日记录/2024-03-24/机器人之梦.md",
+    "H-每日记录/2024-03-25",
     "H-每日记录/2024-03-24.md",
     "H-每日记录/2024-03-24/无辣不欢.md",
     "H-每日记录/2024-03-24/周处除三害.md",
-    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
     "H-每日记录/2024-03-24/早餐中国 第四季.md",
     "H-每日记录/2024-03-24/超人之死而复生.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
@@ -208,7 +202,6 @@
     "0-前端黑马体系课/token.md",
     "06-Node/node 开发属于自己的包.md",
     "04-Javascript/0-前端黑马体系课/黑马.md",
-    "06-Node/记账本开发.md",
     "08-项目/在线问诊/开发文档/assets/wzlc.png",
     "08-项目/在线问诊/开发文档/assets/logo.svg",
     "08-项目/在线问诊/开发文档/assets/image-20221115002038710.png",
@@ -219,11 +212,7 @@
     "08-项目/在线问诊/开发文档/assets/image-20221017162511480.png",
     "08-项目/在线问诊/开发文档/assets/image-20221015145523994.png",
     "08-项目/在线问诊/开发文档/assets/image-20221015123835593.png",
-    "08-项目/在线问诊/开发文档/pinia-plugin-persistedstate 状态持久化.md",
     "08-项目/在线问诊/开发文档/assets",
-    "08-项目/在线问诊/开发文档/9-问诊-问诊室.md",
-    "08-项目/在线问诊/开发文档/8-问诊-极速问诊.md",
-    "08-项目/在线问诊/开发文档/7-问诊-首页.md",
     "08-项目/在线问诊/开发文档",
     "08-项目/在线问诊",
     "08-项目/人资/讲义/assets/media",
@@ -231,7 +220,6 @@
     "08-项目/人资/人资管理系统/assets",
     "08-项目/人资/讲义",
     "08-项目/人资/人资管理系统",
-    "08-项目/人资",
-    "08-项目/在线问诊2"
+    "08-项目/人资"
   ]
 }
