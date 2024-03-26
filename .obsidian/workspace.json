@@ -71,9 +71,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cf08b57ba9548907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/艾玛·罗伯茨 Emma Roberts.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "820264970d3f904b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/短信情缘.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f11be666af1a271e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/蓝色大门.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -148,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-26.md"
+                "file": "H-每日记录/2024-03-26/蓝色大门.md"
               }
             }
           },
@@ -158,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-26.md",
+                "file": "H-每日记录/2024-03-26/蓝色大门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-26.md",
+                "file": "H-每日记录/2024-03-26/蓝色大门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,14 +238,17 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b132a2cf5fbadf1c",
+  "active": "f11be666af1a271e",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-26/堕落天使.md",
+    "H-每日记录/2024-03-26/蓝色大门.md",
+    "H-每日记录/2024-03-26/短信情缘.md",
+    "H-每日记录/2024-03-26/艾玛·罗伯茨 Emma Roberts.md",
+    "H-每日记录/2024-03-26.md",
     "H-每日记录/2024-03-26/不被理解的毛泽东.md",
     "H-每日记录/2024-03-26/法式火锅.md",
     "H-每日记录/2024-03-26/假日约会.md",
     "H-每日记录/2024-03-26/关于命运.md",
-    "H-每日记录/2024-03-26/艾玛·罗伯茨 Emma Roberts.md",
-    "H-每日记录/2024-03-26.md",
     "H-每日记录/2024-03-26/有哪些高质量的历史书籍值得推荐？.md",
     "H-每日记录/2024-03-26/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
     "H-每日记录/2024-03-26",
@@ -226,9 +268,6 @@
     "H-每日记录/2024-03-24/超人之死而复生.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "H-每日记录/2024-03-23.md",
-    "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md",
-    "16-LangChain/0-卡片/0-LangChain卡片.md",
     "08-项目/在线问诊/开发文档/assets/wzlc.png",
     "08-项目/在线问诊/开发文档/assets/logo.svg",
     "08-项目/在线问诊/开发文档/assets/image-20221115002038710.png",
