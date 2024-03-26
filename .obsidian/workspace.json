@@ -58,9 +58,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b132a2cf5fbadf1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c69a50eeb3a6a93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/不被理解的毛泽东.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37fe145a65eb98b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/法式火锅.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "176c7bfc49196b56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-26/假日约会.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -135,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-26/不被理解的毛泽东.md"
+                "file": "H-每日记录/2024-03-26/假日约会.md"
               }
             }
           },
@@ -145,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-26/不被理解的毛泽东.md",
+                "file": "H-每日记录/2024-03-26/假日约会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-26/不被理解的毛泽东.md",
+                "file": "H-每日记录/2024-03-26/假日约会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,11 +238,14 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "4dc4745f7ae127ee",
+  "active": "176c7bfc49196b56",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-26/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
+    "H-每日记录/2024-03-26/法式火锅.md",
+    "H-每日记录/2024-03-26/假日约会.md",
     "H-每日记录/2024-03-26/不被理解的毛泽东.md",
     "H-每日记录/2024-03-26.md",
+    "H-每日记录/2024-03-26/有哪些高质量的历史书籍值得推荐？.md",
+    "H-每日记录/2024-03-26/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
     "H-每日记录/2024-03-26",
     "H-每日记录/2024-03-25/暴力街区.md",
     "H-每日记录/2024-03-25/决战犹马镇.md",
@@ -213,9 +268,6 @@
     "16-LangChain/0-卡片/0-LangChain卡片.md",
     "16-LangChain/LangChain是LLMs...基本上只是一个 Ansible 剧本.md",
     "06-Node/0-卡片/0-卡片.md",
-    "04-Javascript/00-JavaScript高级/第二天.md",
-    "04-Javascript/00-JavaScript高级/第一天.md",
-    "04-Javascript/0-前端黑马体系课/api地址.md",
     "08-项目/在线问诊/开发文档/assets/wzlc.png",
     "08-项目/在线问诊/开发文档/assets/logo.svg",
     "08-项目/在线问诊/开发文档/assets/image-20221115002038710.png",
