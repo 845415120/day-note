@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-27",
+      "path": "H-每日记录/2024-03-27.md"
+    },
+    {
       "basename": "2004年--2021年《凤凰大视野》节目目录大全",
       "path": "H-每日记录/2024-03-26/2004年--2021年《凤凰大视野》节目目录大全.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ajax第一天",
       "path": "04-Javascript/02-JavaScript-异步编程/01-Ajax/Ajax第一天.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "0-前端资料/0-卡片/0-卡片.md"
     }
   ],
   "omittedPaths": [],
