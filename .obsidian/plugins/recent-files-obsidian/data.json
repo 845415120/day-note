@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "07-TypeScript/未命名.md"
+    },
+    {
       "basename": "20分钟学会TypeScript",
       "path": "07-TypeScript/20分钟学会TypeScript.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "会话控制",
       "path": "06-Node/会话控制.md"
-    },
-    {
-      "basename": "02-ES6模块化和webpack",
-      "path": "06-Node/02-ES6模块化和webpack.md"
     }
   ],
   "omittedPaths": [],

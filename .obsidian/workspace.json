@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-TypeScript/20分钟学会TypeScript.md",
+                "file": "07-TypeScript/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07-TypeScript/20分钟学会TypeScript.md"
+                "file": "07-TypeScript/未命名.md"
               }
             }
           },
@@ -249,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07-TypeScript/20分钟学会TypeScript.md",
+                "file": "07-TypeScript/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07-TypeScript/20分钟学会TypeScript.md",
+                "file": "07-TypeScript/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,8 +291,9 @@
   },
   "active": "385f0799d07e8b64",
   "lastOpenFiles": [
-    "07-TypeScript/TypeScript演练场.md",
     "07-TypeScript/20分钟学会TypeScript.md",
+    "07-TypeScript/未命名.md",
+    "07-TypeScript/TypeScript演练场.md",
     "H-每日记录/2024-03-28/如何给Github开源仓库提交PR（拉取请求）.md",
     "H-每日记录/2024-03-28/【尚学堂】前端练手项目实训.md",
     "H-每日记录/未命名.md",
@@ -322,7 +323,6 @@
     "H-每日记录/2024-03-25.md",
     "H-每日记录/2024-03-25/未命名.md",
     "H-每日记录/2024-03-25/春天不是读书天.md",
-    "H-每日记录/2024-03-24/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
     "H-每日记录/2024-03-25",
     "08-项目/在线问诊/开发文档/assets/wzlc.png",
     "08-项目/在线问诊/开发文档/assets/logo.svg",
