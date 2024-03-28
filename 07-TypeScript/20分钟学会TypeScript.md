@@ -72,6 +72,7 @@ log(MyEnum.A) == log(MyEnum[0])
 类似 null undefined
 
 void 只能被分配undefined值
+没有返回值 void
 ```ts
 function Myfun(a:number,b:string):Void{
     return a + b
@@ -80,9 +81,40 @@ function Myfun(a:number,b:string):Void{
 
 # 函数
 ```ts
-function Myfun(a:number,b:string){
+function Myfun(a:number,b:string):number{
     return a + b
 }
 ```
 
+# 接口
+interface
+对象的配置
+```ts
+interface Obj{
+	name:strIng,
+	age:number
+}
+cosnt obj:Obj ={
+	name:"a",
+	age:10
+}
+cosnt obj2:Obj ={
+	name:"a",
+	age:12
+}
+```
 
+# type 类型别名
+
+```ts
+type MyUserName = string | number
+let a:MyUserName = 10
+
+```
+
+
+# 泛型
+
+```ts
+function myFn ()
+```
