@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "20分钟学会TypeScript",
+      "path": "07-TypeScript/20分钟学会TypeScript.md"
+    },
+    {
+      "basename": "TypeScript演练场",
+      "path": "07-TypeScript/TypeScript演练场.md"
+    },
+    {
+      "basename": "如何给Github开源仓库提交PR（拉取请求）",
+      "path": "H-每日记录/2024-03-28/如何给Github开源仓库提交PR（拉取请求）.md"
+    },
+    {
       "basename": "【尚学堂】前端练手项目实训",
       "path": "H-每日记录/2024-03-28/【尚学堂】前端练手项目实训.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "02-ES6模块化和webpack",
       "path": "06-Node/02-ES6模块化和webpack.md"
-    },
-    {
-      "basename": "00-node与开发接口",
-      "path": "06-Node/00-node与开发接口.md"
-    },
-    {
-      "basename": "Koa 开发",
-      "path": "06-Node/Koa 开发.md"
-    },
-    {
-      "basename": "MongoDB",
-      "path": "06-Node/MongoDB.md"
     }
   ],
   "omittedPaths": [],
