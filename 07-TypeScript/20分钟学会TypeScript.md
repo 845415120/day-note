@@ -114,7 +114,15 @@ let a:MyUserName = 10
 
 
 # 泛型
+使返回值的类型与传入参数的类型是相同的
 
 ```ts
-function myFn ()
+function myFn (a:number,b:number):number[]{ 
+return [a,b]; 
+}
+function myFn <T> (a:T,b:T):T[]{ 
+return [a,b]; 
+myFn<number>(1,2)
+
+}
 ```
