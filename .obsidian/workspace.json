@@ -272,7 +272,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,7 +290,7 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "385f0799d07e8b64",
+  "active": "c6064d0fc211579d",
   "lastOpenFiles": [
     "07-TypeScript/20分钟学会TypeScript.md",
     "07-TypeScript/未命名.md",
