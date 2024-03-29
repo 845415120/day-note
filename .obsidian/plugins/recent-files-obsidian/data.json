@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名 12",
-      "path": "H-每日记录/2024-03-29/未命名 12.md"
+      "basename": "2024-03-29",
+      "path": "H-每日记录/2024-03-29.md"
     },
     {
-      "basename": "未命名 11",
-      "path": "H-每日记录/2024-03-29/未命名 11.md"
+      "basename": "01-Vue基础",
+      "path": "08-Vue/01-Vue基础.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "04-Javascript/Promise.md"
+    },
+    {
+      "basename": "20分钟学会TypeScript",
+      "path": "07-TypeScript/20分钟学会TypeScript.md"
+    },
+    {
+      "basename": "未命名 5",
+      "path": "H-每日记录/2024-03-29/未命名 5.md"
+    },
+    {
+      "basename": "未命名 6",
+      "path": "H-每日记录/2024-03-29/未命名 6.md"
+    },
+    {
+      "basename": "未命名 7",
+      "path": "H-每日记录/2024-03-29/未命名 7.md"
     },
     {
       "basename": "未命名 10",
       "path": "H-每日记录/2024-03-29/未命名 10.md"
+    },
+    {
+      "basename": "未命名 12",
+      "path": "H-每日记录/2024-03-29/未命名 12.md"
+    },
+    {
+      "basename": "docker",
+      "path": "H-每日记录/2024-03-29/docker.md"
+    },
+    {
+      "basename": "未命名 11",
+      "path": "H-每日记录/2024-03-29/未命名 11.md"
     },
     {
       "basename": "未命名 9",
@@ -19,22 +51,6 @@
     {
       "basename": "未命名 8",
       "path": "H-每日记录/2024-03-29/未命名 8.md"
-    },
-    {
-      "basename": "未命名 7",
-      "path": "H-每日记录/2024-03-29/未命名 7.md"
-    },
-    {
-      "basename": "未命名 6",
-      "path": "H-每日记录/2024-03-29/未命名 6.md"
-    },
-    {
-      "basename": "未命名 5",
-      "path": "H-每日记录/2024-03-29/未命名 5.md"
-    },
-    {
-      "basename": "2024-03-29",
-      "path": "H-每日记录/2024-03-29.md"
     },
     {
       "basename": "未命名 4",
@@ -103,14 +119,6 @@
     {
       "basename": "未命名 3",
       "path": "H-每日记录/2024-03-29/未命名 3.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "07-TypeScript/未命名.md"
-    },
-    {
-      "basename": "20分钟学会TypeScript",
-      "path": "07-TypeScript/20分钟学会TypeScript.md"
     },
     {
       "basename": "如何给Github开源仓库提交PR（拉取请求）",
@@ -191,14 +199,6 @@
     {
       "basename": "早餐中国 第四季",
       "path": "H-每日记录/2024-03-24/早餐中国 第四季.md"
-    },
-    {
-      "basename": "超人之死而复生",
-      "path": "H-每日记录/2024-03-24/超人之死而复生.md"
-    },
-    {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     }
   ],
   "omittedPaths": [],
