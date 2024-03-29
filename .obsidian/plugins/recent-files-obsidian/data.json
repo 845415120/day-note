@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "H-每日记录/2024-03-29/未命名.md"
+    },
+    {
+      "basename": "2024-03-29",
+      "path": "H-每日记录/2024-03-29.md"
+    },
+    {
       "basename": "2024-03-25",
       "path": "H-每日记录/2024-03-25.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Node 笔记",
       "path": "06-Node/Node 笔记.md"
-    },
-    {
-      "basename": "01-包和npm",
-      "path": "06-Node/01-包和npm.md"
-    },
-    {
-      "basename": "会话控制",
-      "path": "06-Node/会话控制.md"
     }
   ],
   "omittedPaths": [],
