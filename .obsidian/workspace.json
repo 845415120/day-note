@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "Y-电视剧/我们一起走过——致敬改革开放40周年.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -157,8 +157,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "file:我们一起",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -192,8 +192,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-30.md"
+                "file": "Y-电视剧/我们一起走过——致敬改革开放40周年.md"
               }
             }
           },
@@ -223,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "Y-电视剧/我们一起走过——致敬改革开放40周年.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "Y-电视剧/我们一起走过——致敬改革开放40周年.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,11 +264,11 @@
   },
   "active": "41ce607cb4df9ba8",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-30.md",
     "H-每日记录/2024-03-30/尚硅谷2024最新Linux零基础教程.md",
     "H-每日记录/2024-03-30/英语资源.md",
     "H-每日记录/2024-03-30/DownKyi.md",
     "H-每日记录/2024-03-30/Anaconda.md",
-    "H-每日记录/2024-03-30.md",
     "H-每日记录/2024-03-29/青龙安装.md",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
