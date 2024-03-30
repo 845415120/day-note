@@ -123,9 +123,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "abfa3562e77d7e8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-29/未命名 20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -199,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-29/未命名 19.md"
+                "file": "H-每日记录/2024-03-29/未命名 20.md"
               }
             }
           },
@@ -209,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-29/未命名 19.md",
+                "file": "H-每日记录/2024-03-29/未命名 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-29/未命名 19.md",
+                "file": "H-每日记录/2024-03-29/未命名 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,10 +262,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "7f30ab558a34ba66",
+  "active": "abfa3562e77d7e8a",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-29/未命名 18.md",
     "H-每日记录/2024-03-29/未命名 19.md",
+    "H-每日记录/2024-03-29/未命名 20.md",
+    "H-每日记录/2024-03-29/未命名 18.md",
     "H-每日记录/2024-03-29/未命名 17.md",
     "H-每日记录/2024-03-29/未命名 16.md",
     "H-每日记录/2024-03-29/未命名 15.md",
@@ -285,7 +299,6 @@
     "H-每日记录/2024-03-25.md",
     "H-每日记录/2024-03-25/决战犹马镇.md",
     "H-每日记录/2024-03-26/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
-    "H-每日记录/2024-03-26/不被理解的毛泽东.md",
     "H-每日记录/2024-03-29",
     "H-每日记录/2024-03-28",
     "Z-附件/Pasted image 20240326230937.png",
