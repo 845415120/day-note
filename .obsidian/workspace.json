@@ -65,7 +65,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-30/Anaconda.md",
+                "file": "H-每日记录/2024-03-29.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7edc7c7c8415827c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-29/青龙安装.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-30/Anaconda.md"
+                "file": "H-每日记录/2024-03-29/青龙安装.md"
               }
             }
           },
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-30/Anaconda.md",
+                "file": "H-每日记录/2024-03-29/青龙安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-30/Anaconda.md",
+                "file": "H-每日记录/2024-03-29/青龙安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,14 +224,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "f21c2e4826625f4f",
+  "active": "7edc7c7c8415827c",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-30/计算机视觉-Opencv项目实战(Python版).md",
-    "H-每日记录/2024-03-30/Anaconda.md",
-    "H-每日记录/2024-03-30/Boss 脚本.md",
-    "H-每日记录/2024-03-30.md",
-    "H-每日记录/2024-03-30",
     "H-每日记录/2024-03-29.md",
+    "H-每日记录/2024-03-29/青龙安装.md",
+    "H-每日记录/2024-03-30.md",
+    "H-每日记录/2024-03-30/Anaconda.md",
+    "H-每日记录/2024-03-30/计算机视觉-Opencv项目实战(Python版).md",
+    "H-每日记录/2024-03-30/Boss 脚本.md",
+    "H-每日记录/2024-03-30",
     "H-每日记录/2024-03-29/未命名 14.md",
     "H-每日记录/2024-03-29/未命名 15.md",
     "H-每日记录/2024-03-29/未命名 16.md",
@@ -229,7 +243,6 @@
     "H-每日记录/2024-03-29/未命名 12.md",
     "H-每日记录/2024-03-29/未命名 1.md",
     "H-每日记录/2024-03-29/未命名 13.md",
-    "H-每日记录/2024-03-29/青龙安装.md",
     "Z-附件/Pasted image 20240329215710.png",
     "Z-附件/Pasted image 20240329215704.png",
     "Z-附件/Pasted image 20240329215700.png",
