@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "7fd96319e715094e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-29/未命名 7.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a0cd28bed7c13c4d",
             "type": "leaf",
             "state": {
@@ -117,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "H-每日记录/2024-03-31/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -192,7 +179,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-30.md"
+                "file": "H-每日记录/2024-03-31/未命名.md"
               }
             }
           },
@@ -222,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "H-每日记录/2024-03-31/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-30.md",
+                "file": "H-每日记录/2024-03-31/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,6 +252,9 @@
   },
   "active": "41ce607cb4df9ba8",
   "lastOpenFiles": [
+    "H-每日记录/2024-03-31.md",
+    "H-每日记录/2024-03-31/未命名.md",
+    "H-每日记录/2024-03-31",
     "H-每日记录/2024-03-30.md",
     "H-每日记录/2024-03-30/尚硅谷2024最新Linux零基础教程.md",
     "H-每日记录/2024-03-30/英语资源.md",
@@ -299,8 +290,6 @@
     "07-TypeScript/20分钟学会TypeScript.md",
     "H-每日记录/2024-03-29/未命名 5.md",
     "H-每日记录/2024-03-29/未命名 6.md",
-    "H-每日记录/2024-03-29/未命名 10.md",
-    "H-每日记录/2024-03-29/docker.md",
     "H-每日记录/2024-03-29",
     "H-每日记录/2024-03-28",
     "H-每日记录/2024-03-26",
@@ -308,7 +297,6 @@
     "08-项目/在线问诊/开发文档/assets",
     "08-项目/在线问诊/开发文档",
     "08-项目/在线问诊",
-    "08-项目/人资/讲义/assets/media",
-    "08-项目/人资/讲义/assets"
+    "08-项目/人资/讲义/assets/media"
   ]
 }
