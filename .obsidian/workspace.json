@@ -216,6 +216,19 @@
             }
           },
           {
+            "id": "b3e150f54e06b055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "abfa3562e77d7e8a",
             "type": "leaf",
             "state": {
@@ -229,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -248,7 +261,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:我们一起",
+                "query": "tag:奴隶法典，美国历史，种族不平等",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -283,8 +296,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -304,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md"
+                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md"
               }
             }
           },
@@ -314,7 +326,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
+                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
+                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -354,10 +366,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b4732357aac4706f",
+  "active": "71428dd1d5256ed5",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
     "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
+    "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
+    "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
     "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
     "H-每日记录/2024-03-31/如何申请大学.md",
     "H-每日记录/2024-03-31/如何为大学做准备.md",
@@ -385,7 +398,6 @@
     "H-每日记录/2024-03-29/未命名 17.md",
     "H-每日记录/2024-03-29/未命名 18.md",
     "H-每日记录/2024-03-29/未命名 19.md",
-    "H-每日记录/2024-03-29/未命名 20.md",
     "Z-附件/Pasted image 20240329215710.png",
     "Z-附件/Pasted image 20240329215704.png",
     "Z-附件/Pasted image 20240329215700.png",
