@@ -229,6 +229,19 @@
             }
           },
           {
+            "id": "a4431a7947565ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "abfa3562e77d7e8a",
             "type": "leaf",
             "state": {
@@ -242,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -261,7 +274,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:奴隶法典，美国历史，种族不平等",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -296,7 +309,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -316,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md"
+                "file": "H-每日记录/2024-03-31/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md"
               }
             }
           },
@@ -326,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
+                "file": "H-每日记录/2024-03-31/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +352,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
+                "file": "H-每日记录/2024-03-31/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -366,10 +380,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "71428dd1d5256ed5",
+  "active": "a4431a7947565ce8",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
     "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
+    "H-每日记录/2024-03-31/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
+    "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
     "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
     "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
     "H-每日记录/2024-03-31/如何申请大学.md",
@@ -397,7 +412,6 @@
     "H-每日记录/2024-03-29/未命名 16.md",
     "H-每日记录/2024-03-29/未命名 17.md",
     "H-每日记录/2024-03-29/未命名 18.md",
-    "H-每日记录/2024-03-29/未命名 19.md",
     "Z-附件/Pasted image 20240329215710.png",
     "Z-附件/Pasted image 20240329215704.png",
     "Z-附件/Pasted image 20240329215700.png",
