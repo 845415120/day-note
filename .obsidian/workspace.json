@@ -112,6 +112,97 @@
             }
           },
           {
+            "id": "1770b82838c74c98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/如何上大学：预览.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c51e8661b8f37edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/上大学还是不上大学.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16ec1183c841219b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/如何选择学校.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0058650ad331a462",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/如何为大学做准备.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92a7cf8e352a5027",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/如何申请大学.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70c7749f7801b368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c221529adb985198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "abfa3562e77d7e8a",
             "type": "leaf",
             "state": {
@@ -125,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -200,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md"
+                "file": "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md"
               }
             }
           },
@@ -210,7 +301,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md",
+                "file": "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md",
+                "file": "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,10 +341,17 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "41ce607cb4df9ba8",
+  "active": "c221529adb985198",
   "lastOpenFiles": [
-    "H-每日记录/2024-03-31.md",
+    "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
+    "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
+    "H-每日记录/2024-03-31/如何申请大学.md",
+    "H-每日记录/2024-03-31/如何为大学做准备.md",
+    "H-每日记录/2024-03-31/如何选择学校.md",
+    "H-每日记录/2024-03-31/上大学还是不上大学.md",
+    "H-每日记录/2024-03-31/如何上大学：预览.md",
     "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md",
+    "H-每日记录/2024-03-31.md",
     "H-每日记录/2024-03-31",
     "H-每日记录/2024-03-30.md",
     "H-每日记录/2024-03-30/尚硅谷2024最新Linux零基础教程.md",
@@ -275,8 +373,6 @@
     "H-每日记录/2024-03-29/未命名 19.md",
     "H-每日记录/2024-03-29/未命名 20.md",
     "H-每日记录/2024-03-29/未命名 12.md",
-    "H-每日记录/2024-03-29/未命名 1.md",
-    "H-每日记录/2024-03-29/未命名 13.md",
     "Z-附件/Pasted image 20240329215710.png",
     "Z-附件/Pasted image 20240329215704.png",
     "Z-附件/Pasted image 20240329215700.png",
@@ -285,11 +381,6 @@
     "Z-附件/Pasted image 20240329214631.png",
     "Z-附件/Pasted image 20240329214619.png",
     "Z-附件/Pasted image 20240329214616.png",
-    "H-每日记录/2024-03-29/未命名 7.md",
-    "04-Javascript/Promise.md",
-    "07-TypeScript/20分钟学会TypeScript.md",
-    "H-每日记录/2024-03-29/未命名 5.md",
-    "H-每日记录/2024-03-29/未命名 6.md",
     "H-每日记录/2024-03-29",
     "H-每日记录/2024-03-28",
     "H-每日记录/2024-03-26",
