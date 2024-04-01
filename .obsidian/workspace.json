@@ -4,128 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5cd95fae03b8f8cf",
+        "id": "de0d4dc621b768fd",
         "type": "tabs",
         "children": [
           {
-            "id": "c405838a1deefe58",
+            "id": "866043f15e87321f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-03-31.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10a873ba8024b4f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "131dda167bda280b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01/魔力月光.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c76e02fa1f914a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01/千王之王2000.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "212e5eff70a88375",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cc5c938f1624106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5b6422dc6c413c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01/魔力月光.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf021b860be92dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01/我离不开的 4 种 UI 设计工具.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98815b7928f2a1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md",
+                "file": "08-Vue/0-卡片/0-卡片.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md"
+                "file": "08-Vue/0-卡片/0-卡片.md"
               }
             }
           },
@@ -210,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md",
+                "file": "08-Vue/0-卡片/0-卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md",
+                "file": "08-Vue/0-卡片/0-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,12 +145,17 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "98815b7928f2a1c5",
+  "active": "866043f15e87321f",
   "lastOpenFiles": [
+    "08-Vue/0-卡片/0-卡片.md",
+    "08-Vue/0-卡片",
+    "H-每日记录/2024-03-31.md",
+    "H-每日记录/2024-04-01.md",
+    "H-每日记录/2024-04-01/魔力月光.md",
     "H-每日记录/2024-04-01/我离不开的 4 种 UI 设计工具.md",
     "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md",
-    "H-每日记录/2024-04-01/魔力月光.md",
-    "H-每日记录/2024-04-01.md",
+    "H-每日记录/2024-04-01/未命名.md",
+    "H-每日记录/2024-04-01/未命名 1.md",
     "H-每日记录/2024-04-01/「既然青春留不住-還是做個大叔好」演唱會巡迴影音紀錄.md",
     "H-每日记录/2024-04-01/千王之王2000.md",
     "H-每日记录/2024-04-01/陈奕迅DUO演唱会.md",
@@ -264,7 +164,6 @@
     "H-每日记录/2024-03-31/未命名 3.md",
     "H-每日记录/2024-03-31/未命名 2.md",
     "H-每日记录/2024-03-31/上大学还是不上大学  速成班  如何上大学.md",
-    "H-每日记录/2024-03-31.md",
     "H-每日记录/2024-03-31/1793 年的逃亡奴隶法案：速成班美国黑人历史 12.md",
     "H-每日记录/2024-03-31/未命名 1.md",
     "H-每日记录/2024-03-30.md",
@@ -276,9 +175,6 @@
     "H-每日记录/2024-03-31/如何上大学：预览.md",
     "H-每日记录/2024-03-31/上大学还是不上大学.md",
     "H-每日记录/2024-03-31/如何选择学校.md",
-    "H-每日记录/2024-03-31/如何为大学做准备.md",
-    "H-每日记录/2024-03-31/如何申请大学.md",
-    "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
     "H-每日记录/2024-03-31",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
@@ -296,7 +192,6 @@
     "H-每日记录/2024-03-26",
     "H-每日记录/2024-03-25",
     "08-项目/在线问诊/开发文档/assets",
-    "08-项目/在线问诊/开发文档",
-    "08-项目/在线问诊"
+    "08-项目/在线问诊/开发文档"
   ]
 }
