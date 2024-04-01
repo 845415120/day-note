@@ -58,9 +58,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "212e5eff70a88375",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cc5c938f1624106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-01/千王之王2000.md"
+                "file": "H-每日记录/2024-04-01.md"
               }
             }
           },
@@ -145,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-01/千王之王2000.md",
+                "file": "H-每日记录/2024-04-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-01/千王之王2000.md",
+                "file": "H-每日记录/2024-04-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,12 +211,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "6c76e02fa1f914a6",
+  "active": "7cc5c938f1624106",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-01/陈奕迅DUO演唱会.md",
-    "H-每日记录/2024-04-01/千王之王2000.md",
-    "H-每日记录/2024-04-01/魔力月光.md",
     "H-每日记录/2024-04-01.md",
+    "H-每日记录/2024-04-01/「既然青春留不住-還是做個大叔好」演唱會巡迴影音紀錄.md",
+    "H-每日记录/2024-04-01/千王之王2000.md",
+    "H-每日记录/2024-04-01/陈奕迅DUO演唱会.md",
+    "H-每日记录/2024-04-01/魔力月光.md",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31/未命名 4.md",
     "H-每日记录/2024-03-31/未命名 3.md",
@@ -213,7 +240,6 @@
     "H-每日记录/2024-03-31/速成班美国黑人历史预览.md",
     "H-每日记录/2024-03-31/跨大西洋奴隶贸易.md",
     "H-每日记录/2024-03-31/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
-    "H-每日记录/2024-03-31/奴隶代码： 速成班美国黑人历史 4.md",
     "H-每日记录/2024-03-31",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
