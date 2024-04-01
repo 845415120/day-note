@@ -216,9 +216,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96b1bfabe5a18774",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-01/灿烂人生.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -293,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-01/悲情城市.md"
+                "file": "H-每日记录/2024-04-01/灿烂人生.md"
               }
             }
           },
@@ -303,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-01/悲情城市.md",
+                "file": "H-每日记录/2024-04-01/灿烂人生.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-01/悲情城市.md",
+                "file": "H-每日记录/2024-04-01/灿烂人生.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,10 +356,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "5608b4ffbcc1e572",
+  "active": "96b1bfabe5a18774",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-01/纵贯线演唱会.md",
     "H-每日记录/2024-04-01/悲情城市.md",
+    "H-每日记录/2024-04-01/灿烂人生.md",
+    "H-每日记录/2024-04-01/纵贯线演唱会.md",
     "H-每日记录/2024-04-01/我真正的天才女友.md",
     "H-每日记录/2024-04-01/未命名 11.md",
     "H-每日记录/2024-04-01/未命名 10.md",
@@ -371,7 +385,6 @@
     "H-每日记录/2024-04-01/未命名.md",
     "H-每日记录/2024-04-01/「既然青春留不住-還是做個大叔好」演唱會巡迴影音紀錄.md",
     "H-每日记录/2024-04-01/千王之王2000.md",
-    "H-每日记录/2024-04-01/陈奕迅DUO演唱会.md",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
     "Z-附件/Pasted image 20240330122003.png",
