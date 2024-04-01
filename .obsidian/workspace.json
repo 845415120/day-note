@@ -229,9 +229,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c76a8cc5181c5d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-01/影武者.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -306,7 +319,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-01/灿烂人生.md"
+                "file": "H-每日记录/2024-04-01/影武者.md"
               }
             }
           },
@@ -316,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-01/灿烂人生.md",
+                "file": "H-每日记录/2024-04-01/影武者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +341,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-01/灿烂人生.md",
+                "file": "H-每日记录/2024-04-01/影武者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,10 +369,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "96b1bfabe5a18774",
+  "active": "c76a8cc5181c5d09",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-01/悲情城市.md",
     "H-每日记录/2024-04-01/灿烂人生.md",
+    "H-每日记录/2024-04-01/影武者.md",
+    "H-每日记录/2024-04-01/悲情城市.md",
     "H-每日记录/2024-04-01/纵贯线演唱会.md",
     "H-每日记录/2024-04-01/我真正的天才女友.md",
     "H-每日记录/2024-04-01/未命名 11.md",
@@ -384,7 +398,6 @@
     "H-每日记录/2024-04-01/北京师范大学 陈志新 社会科学概论.md",
     "H-每日记录/2024-04-01/未命名.md",
     "H-每日记录/2024-04-01/「既然青春留不住-還是做個大叔好」演唱會巡迴影音紀錄.md",
-    "H-每日记录/2024-04-01/千王之王2000.md",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
     "Z-附件/Pasted image 20240330122003.png",
