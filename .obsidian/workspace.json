@@ -71,9 +71,58 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51438b6a6c97d561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-02/Windows11系统设置指南.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d62b860e3df18bef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-02/5 个维度、6 个 App，帮你选出最适合自己的「背单词神器」.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bff84afa3bcf81e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0797ce58014b8258",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -148,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md"
+                "file": "H-每日记录/2024-04-02/未命名.md"
               }
             }
           },
@@ -158,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
+                "file": "H-每日记录/2024-04-02/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
+                "file": "H-每日记录/2024-04-02/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,10 +247,14 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "6e2e291dcfcd67b8",
+  "active": "0797ce58014b8258",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-02/20分钟学会网络请求的一切 前端新手遇到问题最多的技能 AJAX Axios Fetch API.md",
+    "Z-附件/Pasted image 20240402163836.png",
+    "H-每日记录/2024-04-02/5 个维度、6 个 App，帮你选出最适合自己的「背单词神器」.md",
+    "H-每日记录/2024-04-02/未命名.md",
+    "H-每日记录/2024-04-02/Windows11系统设置指南.md",
     "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
+    "H-每日记录/2024-04-02/20分钟学会网络请求的一切 前端新手遇到问题最多的技能 AJAX Axios Fetch API.md",
     "H-每日记录/2024-04-02/150秒学会鸿蒙HarmonyOS4.0开发 掌握ArkTS开发多端应用 遥遥领先！.md",
     "H-每日记录/2024-04-02/Bun 1.1.md",
     "H-每日记录/2024-04-02.md",
@@ -223,10 +276,6 @@
     "H-每日记录/2024-04-01/我真正的天才女友.md",
     "H-每日记录/2024-04-01/纵贯线演唱会.md",
     "H-每日记录/2024-04-01/悲情城市.md",
-    "H-每日记录/2024-04-01/灿烂人生.md",
-    "H-每日记录/2024-04-01/影武者.md",
-    "H-每日记录/未命名 2.md",
-    "H-每日记录/未命名 1.md",
     "08-Vue/0-卡片",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
