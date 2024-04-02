@@ -138,6 +138,19 @@
             }
           },
           {
+            "id": "1d0a6a5a621da09a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-02/食影双修.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0797ce58014b8258",
             "type": "leaf",
             "state": {
@@ -148,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -223,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-02/未命名 1.md"
+                "file": "H-每日记录/2024-04-02/食影双修.md"
               }
             }
           },
@@ -233,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-02/未命名 1.md",
+                "file": "H-每日记录/2024-04-02/食影双修.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-02/未命名 1.md",
+                "file": "H-每日记录/2024-04-02/食影双修.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,10 +286,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d5090053babc107a",
+  "active": "1d0a6a5a621da09a",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
     "H-每日记录/2024-04-02/未命名 1.md",
+    "H-每日记录/2024-04-02/食影双修.md",
+    "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
     "H-每日记录/2024-04-02.md",
     "Z-附件/Pasted image 20240402163836.png",
     "H-每日记录/2024-04-02/5 个维度、6 个 App，帮你选出最适合自己的「背单词神器」.md",
@@ -302,7 +316,6 @@
     "H-每日记录/2024-04-01/未命名 11.md",
     "H-每日记录/2024-04-01/我真正的天才女友.md",
     "H-每日记录/2024-04-01/纵贯线演唱会.md",
-    "H-每日记录/2024-04-01/悲情城市.md",
     "08-Vue/0-卡片",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
