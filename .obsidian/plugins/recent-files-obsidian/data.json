@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2",
+      "path": "H-每日记录/2024-04-03/2.md"
+    },
+    {
       "basename": "2024-04-03",
       "path": "H-每日记录/2024-04-03.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "计算机视觉-Opencv项目实战(Python版)",
       "path": "H-每日记录/2024-03-30/计算机视觉-Opencv项目实战(Python版).md"
-    },
-    {
-      "basename": "Anaconda",
-      "path": "H-每日记录/2024-03-30/Anaconda.md"
     }
   ],
   "omittedPaths": [],
