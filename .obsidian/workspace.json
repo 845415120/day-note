@@ -110,9 +110,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f88257a1b55e0d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-04/战马.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "083b47a7c52d02b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-04/新不了情.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -187,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-04.md"
+                "file": "H-每日记录/2024-04-04/新不了情.md"
               }
             }
           },
@@ -197,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-04.md",
+                "file": "H-每日记录/2024-04-04/新不了情.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,14 +246,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d044b351fd0a0274",
+  "active": "083b47a7c52d02b0",
   "lastOpenFiles": [
     "H-每日记录/2024-04-04/战马.md",
+    "H-每日记录/2024-04-04/新不了情.md",
+    "H-每日记录/2024-04-04.md",
     "H-每日记录/2024-04-04/秋菊打官司.md",
     "H-每日记录/2024-04-04/我的父亲母亲.md",
     "H-每日记录/2024-04-04/阳光小美女.md",
     "H-每日记录/2024-04-04/T1 vs HLE 季后赛 0-3.md",
-    "H-每日记录/2024-04-04.md",
     "H-每日记录/2024-04-04/哈利·波特20周年：回到霍格沃茨.md",
     "H-每日记录/2024-04-04/NIP vs FPX 24 春 季后赛.md",
     "H-每日记录/2024-04-04/巴里·林登.md",
@@ -252,7 +279,6 @@
     "H-每日记录/2024-04-02/Bun 1.1.md",
     "H-每日记录/2024-03-31/如何申请大学.md",
     "H-每日记录/2024-04-02",
-    "08-Vue/0-卡片/0-卡片.md",
     "08-Vue/0-卡片",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
