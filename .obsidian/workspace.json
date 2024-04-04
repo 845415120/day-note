@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-03/2.md",
+                "file": "H-每日记录/2024-04-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-03/2.md"
+                "file": "H-每日记录/2024-04-04.md"
               }
             }
           },
@@ -246,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-03/2.md",
+                "file": "H-每日记录/2024-04-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-03/2.md",
+                "file": "H-每日记录/2024-04-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,8 +288,10 @@
   },
   "active": "1d0a6a5a621da09a",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-03.md",
+    "H-每日记录/2024-04-04",
     "H-每日记录/2024-04-03/2.md",
+    "H-每日记录/2024-04-04.md",
+    "H-每日记录/2024-04-03.md",
     "H-每日记录/2024-04-03",
     "H-每日记录/2024-04-02/食影双修.md",
     "H-每日记录/2024-04-02/未命名 1.md",
@@ -315,8 +317,6 @@
     "H-每日记录/2024-04-01/未命名 7.md",
     "H-每日记录/2024-04-01/未命名 8.md",
     "H-每日记录/2024-04-01/未命名 9.md",
-    "H-每日记录/2024-04-01/未命名 10.md",
-    "H-每日记录/2024-04-01/未命名 11.md",
     "08-Vue/0-卡片",
     "H-每日记录/2024-04-01",
     "H-每日记录/2024-03-31",
