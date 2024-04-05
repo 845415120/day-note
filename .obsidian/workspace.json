@@ -151,38 +151,12 @@
             }
           },
           {
-            "id": "c79bc670f98284cd",
+            "id": "bf6b4c44ff2739e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-05/拆弹部队.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97b42522ccbc39fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-05/中东与冲突（2）：从历史中解读无休止的冲突的原因.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f62c7ddb573648a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-05/一条闲木鱼.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -190,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -209,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:Lin",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -265,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-05/一条闲木鱼.md"
+                "file": "H-每日记录/2024-04-05/第167期 - 碧空雪涛-潮流周刊.md"
               }
             }
           },
@@ -275,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-05/一条闲木鱼.md",
+                "file": "H-每日记录/2024-04-05/第167期 - 碧空雪涛-潮流周刊.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-05/一条闲木鱼.md",
+                "file": "H-每日记录/2024-04-05/第167期 - 碧空雪涛-潮流周刊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,11 +289,17 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "8f62c7ddb573648a",
+  "active": "a9e3f296426a8dc9",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-05/中东与冲突（2）：从历史中解读无休止的冲突的原因.md",
-    "H-每日记录/2024-04-05/一条闲木鱼.md",
     "H-每日记录/2024-04-05/拆弹部队.md",
+    "11-Linux/尚硅谷2024最新Linux零基础教程 1.md",
+    "11-Linux/0-卡片.md",
+    "11-Linux/19-Linux-命令.md",
+    "0-前端视频记录/尚硅谷2024最新Linux零基础教程.md",
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "H-每日记录/2024-03-30/尚硅谷2024最新Linux零基础教程.md",
+    "H-每日记录/2024-04-05/一条闲木鱼.md",
+    "H-每日记录/2024-04-05/中东与冲突（2）：从历史中解读无休止的冲突的原因.md",
     "H-每日记录/2024-04-05/第167期 - 碧空雪涛-潮流周刊.md",
     "H-每日记录/2024-04-05/第168期 - 想去现场-潮流周刊.md",
     "H-每日记录/2024-04-05/Bun or Node.js in 2024.md",
@@ -338,12 +318,6 @@
     "H-每日记录/2024-04-02/20分钟学会网络请求的一切 前端新手遇到问题最多的技能 AJAX Axios Fetch API.md",
     "H-每日记录/2024-04-02/拿破仑和大革命是如何塑造今日之世界的.md",
     "H-每日记录/2024-04-02/Windows11系统设置指南.md",
-    "H-每日记录/2024-04-02/5 个维度、6 个 App，帮你选出最适合自己的「背单词神器」.md",
-    "H-每日记录/2024-04-02.md",
-    "H-每日记录/2024-04-04/铁乌鸦.md",
-    "H-每日记录/2024-04-04/中央车站.md",
-    "H-每日记录/2024-04-02/未命名 1.md",
-    "z-模板/日常模板.md",
     "H-每日记录/2024-04-04",
     "H-每日记录/2024-04-03",
     "Z-附件/Pasted image 20240402163836.png",
