@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-04/新不了情.md",
+                "file": "H-每日记录/2024-04-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-04/新不了情.md"
+                "file": "H-每日记录/2024-04-04.md"
               }
             }
           },
@@ -223,8 +223,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-04/新不了情.md",
+                "file": "H-每日记录/2024-04-04.md",
                 "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1be96e87defd3e79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "H-每日记录/2024-04-04.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -248,8 +265,8 @@
   },
   "active": "083b47a7c52d02b0",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-04/战马.md",
     "H-每日记录/2024-04-04/新不了情.md",
+    "H-每日记录/2024-04-04/战马.md",
     "H-每日记录/2024-04-04.md",
     "H-每日记录/2024-04-04/秋菊打官司.md",
     "H-每日记录/2024-04-04/我的父亲母亲.md",
