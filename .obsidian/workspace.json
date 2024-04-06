@@ -113,8 +113,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-05/wolf 复盘 SKT HLE.md"
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
               }
             }
           },
@@ -199,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-05/wolf 复盘 SKT HLE.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-05/wolf 复盘 SKT HLE.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +238,7 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "207cbb32a5688e41",
+  "active": "97e2297878661967",
   "lastOpenFiles": [
     "H-每日记录/2024-04-05.md",
     "H-每日记录/2024-04-05/JDG vs WBG.md",
