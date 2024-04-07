@@ -171,7 +171,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-06/秦颂.md",
+                "file": "H-每日记录/2024-04-07/恋爱兄妹.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d79781c2a6df8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-07/地球脉动 第三季.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -205,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -280,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-06/秦颂.md"
+                "file": "H-每日记录/2024-04-07/地球脉动 第三季.md"
               }
             }
           },
@@ -290,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-06/秦颂.md",
+                "file": "H-每日记录/2024-04-07/地球脉动 第三季.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-06/秦颂.md",
+                "file": "H-每日记录/2024-04-07/地球脉动 第三季.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,10 +343,14 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "10b03e748a4a80af",
+  "active": "2d79781c2a6df8bb",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-06/硫磺岛的来信.md",
+    "H-每日记录/2024-04-07/恋爱兄妹.md",
+    "H-每日记录/2024-04-07/地球脉动 第三季.md",
+    "H-每日记录/2024-04-07.md",
+    "H-每日记录/2024-04-07",
     "H-每日记录/2024-04-06/秦颂.md",
+    "H-每日记录/2024-04-06/硫磺岛的来信.md",
     "H-每日记录/2024-04-06/MFC-255.md",
     "H-每日记录/2024-04-06/uoik.md",
     "H-每日记录/2024-04-06/邓小平时代.md",
@@ -356,9 +373,6 @@
     "H-每日记录/Flutter 3.19 的新增功能.md",
     "0-前端视频记录/【尚硅谷】在线支付开发 - 带源码课件.md",
     "0-前端视频记录/算法训练营2021版第0期.md",
-    "0-前端视频记录/Web前端开发工程师高薪进阶班【金渡教育】.md",
-    "0-前端视频记录/Zed代码编辑器.md",
-    "H-每日记录/2024-04-04/秋菊打官司.md",
     "H-每日记录/2024-04-05",
     "H-每日记录/2024-04-04",
     "H-每日记录/2024-04-03",
@@ -376,7 +390,6 @@
     "Z-附件/Pasted image 20240329215655.png",
     "Z-附件/Pasted image 20240329214636.png",
     "Z-附件/Pasted image 20240329214631.png",
-    "Z-附件/Pasted image 20240329214619.png",
-    "H-每日记录/2024-03-29"
+    "Z-附件/Pasted image 20240329214619.png"
   ]
 }
