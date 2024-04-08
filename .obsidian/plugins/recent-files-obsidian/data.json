@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-08",
+      "path": "H-每日记录/2024-04-08.md"
+    },
+    {
+      "basename": "Vue.js面试",
+      "path": "H-每日记录/2024-04-08/Vue.js面试.md"
+    },
+    {
+      "basename": "看理想-自由的黎明：文艺复兴经典",
+      "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
+    },
+    {
+      "basename": "黑马前端V8.5",
+      "path": "H-每日记录/2023-12-06/黑马前端V8.5.md"
+    },
+    {
+      "basename": "0-前端视频记录卡",
+      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "黑马前端V8.5",
+      "path": "0-前端视频记录/15-体系课/黑马前端V8.5.md"
+    },
+    {
       "basename": "0-卡片",
       "path": "0-计算机书籍/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "数据结构与算法JavaScript描述",
+      "path": "0-计算机书籍/数据结构与算法JavaScript描述.md"
+    },
+    {
+      "basename": "JavaScript重难点实例精讲",
+      "path": "0-计算机书籍/JavaScript重难点实例精讲.md"
+    },
+    {
+      "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
+      "path": "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
+    },
+    {
+      "basename": "Vue.js 设计与实现",
+      "path": "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md"
+    },
+    {
+      "basename": "JavaScript高级程序设计",
+      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
+    },
+    {
+      "basename": "算法之美",
+      "path": "0-计算机书籍/算法之美.md"
+    },
+    {
+      "basename": "编码",
+      "path": "0-计算机书籍/编码.md"
+    },
+    {
+      "basename": "程序员的数学",
+      "path": "0-计算机书籍/程序员的数学.md"
+    },
+    {
+      "basename": "04.廖雪峰 JavaScript教程",
+      "path": "0-计算机书籍/04.廖雪峰 JavaScript教程.md"
+    },
+    {
+      "basename": "数学之美（第三版）",
+      "path": "0-计算机书籍/数学之美（第三版）.md"
+    },
+    {
+      "basename": "黑客与画家",
+      "path": "0-计算机书籍/黑客与画家.md"
+    },
+    {
+      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
+      "path": "0-计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
+    },
+    {
+      "basename": "浪潮之巅",
+      "path": "0-计算机书籍/浪潮之巅.md"
+    },
+    {
+      "basename": "信息传",
+      "path": "0-计算机书籍/信息传.md"
+    },
+    {
+      "basename": "JavaScript 二十年",
+      "path": "0-计算机书籍/JavaScript 二十年.md"
+    },
+    {
+      "basename": "程序员超强大脑",
+      "path": "0-计算机书籍/程序员超强大脑.md"
     },
     {
       "basename": "大话程序员：从入门到优秀全攻略",
@@ -21,10 +109,6 @@
       "path": "0-计算机书籍/算法图解.md"
     },
     {
-      "basename": "JavaScript重难点实例精讲",
-      "path": "0-计算机书籍/JavaScript重难点实例精讲.md"
-    },
-    {
       "basename": "Hello 算法",
       "path": "0-计算机书籍/Hello 算法.md"
     },
@@ -35,10 +119,6 @@
     {
       "basename": "《你不知道的JavaScript上》",
       "path": "0-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md"
-    },
-    {
-      "basename": "JavaScript高级程序设计",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
     },
     {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
@@ -55,10 +135,6 @@
     {
       "basename": "《JavaScript权威指南第7版》上",
       "path": "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
-    },
-    {
-      "basename": "数据结构与算法JavaScript描述",
-      "path": "0-计算机书籍/数据结构与算法JavaScript描述.md"
     },
     {
       "basename": "面向对象是怎样工作的",
@@ -105,16 +181,8 @@
       "path": "H-每日记录/2024-04-06/Pinia.md"
     },
     {
-      "basename": "2024-04-08",
-      "path": "H-每日记录/2024-04-08.md"
-    },
-    {
       "basename": "宦海沉浮",
       "path": "H-每日记录/2024-04-08/宦海沉浮.md"
-    },
-    {
-      "basename": "看理想-自由的黎明：文艺复兴经典",
-      "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
     },
     {
       "basename": "计算机是怎样跑起来的",
@@ -131,66 +199,6 @@
     {
       "basename": "TCP_IP网络编程 1",
       "path": "0-计算机书籍/TCP_IP网络编程 1.md"
-    },
-    {
-      "basename": "Head First HTML与CSS（第2版）",
-      "path": "0-计算机书籍/Head First HTML与CSS（第2版）.md"
-    },
-    {
-      "basename": "图解HTTP",
-      "path": "0-计算机书籍/图解HTTP.md"
-    },
-    {
-      "basename": "图解设计模式",
-      "path": "0-计算机书籍/图解设计模式.md"
-    },
-    {
-      "basename": "程序员的README",
-      "path": "0-计算机书籍/程序员的README.md"
-    },
-    {
-      "basename": "现代JavaScript库开发：原理、技术与实战",
-      "path": "0-计算机书籍/现代JavaScript库开发：原理、技术与实战.md"
-    },
-    {
-      "basename": "我的第一本算法书",
-      "path": "0-计算机书籍/我的第一本算法书.md"
-    },
-    {
-      "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
-      "path": "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
-    },
-    {
-      "basename": "Tailwind CSS 的终极工具",
-      "path": "H-每日记录/2024-04-06/Tailwind CSS 的终极工具.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "Y-历史-文学/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "程序员超强大脑",
-      "path": "0-计算机书籍/程序员超强大脑.md"
-    },
-    {
-      "basename": "安卓传奇",
-      "path": "0-计算机书籍/安卓传奇.md"
-    },
-    {
-      "basename": "操作系统革命",
-      "path": "0-计算机书籍/操作系统革命.md"
-    },
-    {
-      "basename": "代码",
-      "path": "0-计算机书籍/代码.md"
-    },
-    {
-      "basename": "技术为径",
-      "path": "0-计算机书籍/技术为径.md"
-    },
-    {
-      "basename": "前端程序员面试秘籍",
-      "path": "0-计算机书籍/前端程序员面试秘籍.md"
     }
   ],
   "omittedPaths": [],

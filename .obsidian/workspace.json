@@ -36,9 +36,74 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a0a40c4a71df371f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f813f807c9366345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad0b8a65beb55f36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32e3a975692184ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2514e73d84029f72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08/Vue.js面试.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -57,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:安卓传奇",
+                "query": "file:黑马",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md"
+                "file": "H-每日记录/2024-04-08.md"
               }
             }
           },
@@ -123,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,34 +228,34 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "03e2143a154a6f66",
+  "active": "32e3a975692184ff",
   "lastOpenFiles": [
-    "0-计算机书籍/JavaScript从入门到实战开发最强教科书.md",
+    "H-每日记录/2024-04-08.md",
+    "H-每日记录/2024-04-08/Vue.js面试.md",
+    "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
+    "H-每日记录/2023-12-06/黑马前端V8.5.md",
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "0-前端视频记录/15-体系课/黑马前端V8.5.md",
     "0-计算机书籍/0-卡片/0-卡片.md",
-    "0-计算机书籍/大话程序员：从入门到优秀全攻略.md",
-    "0-计算机书籍/前端程序员面试秘籍.md",
-    "0-计算机书籍/Node.js+Webpack开发实战.md",
-    "0-计算机书籍/现代JavaScript库开发：原理、技术与实战.md",
-    "0-计算机书籍/软技能.md",
-    "0-计算机书籍/《软技能：代码之外的生存指南》.md",
-    "0-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md",
-    "0-计算机书籍/面向对象是怎样工作的.md",
-    "0-计算机书籍/微信小程序开发入门与实践.md",
     "0-计算机书籍/数据结构与算法JavaScript描述.md",
-    "0-计算机书籍/十分钟速成课计算机科学.md",
-    "0-计算机书籍/CSS权威指南.md",
-    "0-计算机书籍/我的第一本算法书.md",
-    "0-计算机书籍/Head First HTML与CSS（第2版）.md",
-    "0-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md",
-    "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md",
-    "0-计算机书籍/TCP_IP网络编程 1.md",
-    "0-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
-    "0-计算机书籍/Web性能权威指南.md",
+    "0-计算机书籍/JavaScript重难点实例精讲.md",
+    "0-计算机书籍/微信小程序开发入门与实践.md",
     "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md",
-    "0-计算机书籍/算法图解.md",
-    "0-计算机书籍/漫画Java.md",
-    "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
-    "0-计算机书籍/学习JavaScript数据结构与算法.md",
+    "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md",
+    "0-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md",
+    "0-计算机书籍/Vue.js3应用开发与核心源码解析.md",
+    "0-计算机书籍/CSS选择器世界.md",
+    "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md",
+    "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md",
+    "0-计算机书籍/算法之美.md",
+    "0-计算机书籍/编码.md",
+    "0-计算机书籍/程序员的数学.md",
+    "0-计算机书籍/前端技术架构与工程.md",
+    "0-计算机书籍/04.廖雪峰 JavaScript教程.md",
+    "0-计算机书籍/数学之美（第三版）.md",
+    "0-计算机书籍/黑客与画家.md",
+    "0-计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md",
+    "0-计算机书籍/浪潮之巅.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",

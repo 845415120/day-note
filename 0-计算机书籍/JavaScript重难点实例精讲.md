@@ -5,7 +5,7 @@
 图片: https://img1.doubanio.com/view/subject/s/public/s33819017.jpg
 链接: https://book.douban.com/subject/35348757/
 评价: 9.9★★★★★
-价格价格:
+地址: file:///D:/%E8%BD%AF%E4%BB%B6/%E4%B9%A6%E5%BA%93/%E8%AE%A1%E7%AE%97%E6%9C%BA_%E7%9C%8B%E5%AE%8C%E7%9A%84/Zhou%20Xiong/JavaScriptZhong%20Nan%20Dian%20Shi%20Li%20Jing%20(27)/JavaScriptZhong%20Nan%20Dian%20Shi%20Li%20-%20Zhou%20Xiong.pdf
 ---
 # JavaScript重难点实例精讲-笔记
 
