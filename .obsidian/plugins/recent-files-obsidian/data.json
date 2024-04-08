@@ -1,8 +1,140 @@
 {
   "recentFiles": [
     {
+      "basename": "安卓传奇",
+      "path": "0-计算机书籍/安卓传奇.md"
+    },
+    {
       "basename": "0-卡片",
       "path": "0-计算机书籍/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "程序员超强大脑",
+      "path": "0-计算机书籍/程序员超强大脑.md"
+    },
+    {
+      "basename": "操作系统革命",
+      "path": "0-计算机书籍/操作系统革命.md"
+    },
+    {
+      "basename": "代码",
+      "path": "0-计算机书籍/代码.md"
+    },
+    {
+      "basename": "黑客与画家",
+      "path": "0-计算机书籍/科普类---/黑客与画家.md"
+    },
+    {
+      "basename": "代码奔腾",
+      "path": "0-计算机书籍/科普类---/代码奔腾.md"
+    },
+    {
+      "basename": "技术为径",
+      "path": "0-计算机书籍/技术为径.md"
+    },
+    {
+      "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
+      "path": "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
+    },
+    {
+      "basename": "前端程序员面试秘籍",
+      "path": "0-计算机书籍/前端程序员面试秘籍.md"
+    },
+    {
+      "basename": "你好哇，程序员",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/你好哇，程序员.md"
+    },
+    {
+      "basename": "人月神话",
+      "path": "0-计算机书籍/人月神话.md"
+    },
+    {
+      "basename": "深入理解现代JavaScript",
+      "path": "0-计算机书籍/深入理解现代JavaScript.md"
+    },
+    {
+      "basename": "师兄教你找工作",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/师兄教你找工作.md"
+    },
+    {
+      "basename": "十分钟速成课计算机科学",
+      "path": "0-计算机书籍/十分钟速成课计算机科学.md"
+    },
+    {
+      "basename": "数据结构与算法JavaScript描述",
+      "path": "0-计算机书籍/数据结构与算法JavaScript描述.md"
+    },
+    {
+      "basename": "数学之美（第三版）",
+      "path": "0-计算机书籍/数学之美（第三版）.md"
+    },
+    {
+      "basename": "图解算法数据结构",
+      "path": "0-计算机书籍/图解算法数据结构.md"
+    },
+    {
+      "basename": "学习JavaScript数据结构与算法",
+      "path": "0-计算机书籍/学习JavaScript数据结构与算法.md"
+    },
+    {
+      "basename": "AIGC未来已来",
+      "path": "0-计算机书籍/科普类---/AIGC未来已来.md"
+    },
+    {
+      "basename": "CSS权威指南",
+      "path": "0-计算机书籍/CSS权威指南.md"
+    },
+    {
+      "basename": "JavaScript设计模式",
+      "path": "0-计算机书籍/JavaScript设计模式.md"
+    },
+    {
+      "basename": "Node.js+Webpack开发实战",
+      "path": "0-计算机书籍/Node.js+Webpack开发实战.md"
+    },
+    {
+      "basename": "Webpack+Babel入门与实例详解",
+      "path": "0-计算机书籍/Webpack+Babel入门与实例详解.md"
+    },
+    {
+      "basename": "Vue.js3应用开发与核心源码解析",
+      "path": "0-计算机书籍/Vue.js3应用开发与核心源码解析.md"
+    },
+    {
+      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
+      "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+    },
+    {
+      "basename": "JavaScript语言精粹",
+      "path": "0-计算机书籍/JavaScript语言精粹.md"
+    },
+    {
+      "basename": "JavaScript设计模式与开发实践",
+      "path": "0-计算机书籍/JavaScript设计模式与开发实践.md"
+    },
+    {
+      "basename": "Head First HTML与CSS（第2版）",
+      "path": "0-计算机书籍/Head First HTML与CSS（第2版）.md"
+    },
+    {
+      "basename": "ChatGPT_AI革命 1",
+      "path": "0-计算机书籍/科普类---/ChatGPT_AI革命 1.md"
+    },
+    {
+      "basename": "CPU通识课",
+      "path": "0-计算机书籍/科普类---/CPU通识课.md"
+    },
+    {
+      "basename": "浪潮之巅",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/浪潮之巅.md"
+    },
+    {
+      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
+    },
+    {
+      "basename": "大话程序员：从入门到优秀全攻略",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/大话程序员：从入门到优秀全攻略.md"
     },
     {
       "basename": "计算机是怎样跑起来的",
@@ -17,16 +149,8 @@
       "path": "0-计算机书籍/网络是怎样连接的.md"
     },
     {
-      "basename": "编码",
-      "path": "0-计算机书籍/计算机书籍/编码.md"
-    },
-    {
       "basename": "微信小程序开发入门与实践",
       "path": "0-计算机书籍/微信小程序开发入门与实践.md"
-    },
-    {
-      "basename": "师兄教你找工作",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/师兄教你找工作.md"
     },
     {
       "basename": "循序渐进Vue.js 3前端开发实战",
@@ -53,10 +177,6 @@
       "path": "0-计算机书籍/技术书籍笔记/书籍/信息传.md"
     },
     {
-      "basename": "大话程序员：从入门到优秀全攻略",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/大话程序员：从入门到优秀全攻略.md"
-    },
-    {
       "basename": "Tailwind CSS 的终极工具",
       "path": "H-每日记录/2024-04-06/Tailwind CSS 的终极工具.md"
     },
@@ -79,126 +199,6 @@
     {
       "basename": "前端开发核心知识进阶：从夯实基础到突破瓶颈",
       "path": "0-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md"
-    },
-    {
-      "basename": "漫画Java",
-      "path": "0-计算机书籍/计算机书籍/漫画Java.md"
-    },
-    {
-      "basename": "浪潮之巅",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/浪潮之巅.md"
-    },
-    {
-      "basename": "JavaScript设计模式与开发实践",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md"
-    },
-    {
-      "basename": "《JavaScript语言精粹(修订版)》",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript语言精粹(修订版)》.md"
-    },
-    {
-      "basename": "深入理解现代 JavaScript",
-      "path": "0-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md"
-    },
-    {
-      "basename": "现代 JavaScript 库开发",
-      "path": "0-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
-    },
-    {
-      "basename": "《JavaScript权威指南第7版》上",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
-    },
-    {
-      "basename": "JavaScript 二十年",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/JavaScript 二十年.md"
-    },
-    {
-      "basename": "JavaScript高级程序设计",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
-    },
-    {
-      "basename": "《你不知道的JavaScript上》",
-      "path": "0-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md"
-    },
-    {
-      "basename": "Vue.js 设计与实现",
-      "path": "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md"
-    },
-    {
-      "basename": "Hello 算法",
-      "path": "0-计算机书籍/Hello 算法.md"
-    },
-    {
-      "basename": "CSS选择器世界",
-      "path": "0-计算机书籍/CSS选择器世界.md"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
-    },
-    {
-      "basename": "JavaScript重难点实例精讲",
-      "path": "0-计算机书籍/JavaScript重难点实例精讲.md"
-    },
-    {
-      "basename": "硫磺岛的来信",
-      "path": "H-每日记录/2024-04-06/硫磺岛的来信.md"
-    },
-    {
-      "basename": "GitHub入门与实践",
-      "path": "0-计算机书籍/GitHub入门与实践.md"
-    },
-    {
-      "basename": "恋爱兄妹",
-      "path": "H-每日记录/2024-04-07/恋爱兄妹.md"
-    },
-    {
-      "basename": "算法之美",
-      "path": "0-计算机书籍/计算机书籍/算法之美.md"
-    },
-    {
-      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
-      "path": "0-计算机书籍/计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
-    },
-    {
-      "basename": "软技能",
-      "path": "0-计算机书籍/计算机书籍/软技能.md"
-    },
-    {
-      "basename": "黑客与画家",
-      "path": "0-计算机书籍/科普类---/黑客与画家.md"
-    },
-    {
-      "basename": "代码奔腾",
-      "path": "0-计算机书籍/科普类---/代码奔腾.md"
-    },
-    {
-      "basename": "AIGC未来已来",
-      "path": "0-计算机书籍/科普类---/AIGC未来已来.md"
-    },
-    {
-      "basename": "ChatGPT_AI革命 1",
-      "path": "0-计算机书籍/科普类---/ChatGPT_AI革命 1.md"
-    },
-    {
-      "basename": "CPU通识课",
-      "path": "0-计算机书籍/科普类---/CPU通识课.md"
-    },
-    {
-      "basename": "04.廖雪峰 JavaScript教程",
-      "path": "0-计算机书籍/技术书籍笔记/04.廖雪峰 JavaScript教程.md"
-    },
-    {
-      "basename": "2024-04-08",
-      "path": "H-每日记录/2024-04-08.md"
-    },
-    {
-      "basename": "2024-04-07",
-      "path": "H-每日记录/2024-04-07.md"
-    },
-    {
-      "basename": "地球脉动 第三季",
-      "path": "H-每日记录/2024-04-07/地球脉动 第三季.md"
     }
   ],
   "omittedPaths": [],

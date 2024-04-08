@@ -5,7 +5,8 @@ cssclasses:
 标题: Vue.js 3.0企业级管理后台开发实战：基于Element Plus
 图片: https://img9.doubanio.com/view/subject/s/public/s34325466.jpg
 链接: 
-tags:
+tags: 
+评价: 9.5★★★★★
 ---
 
 ```dataview
