@@ -38,19 +38,6 @@
             }
           },
           {
-            "id": "00cb0ddfb34453a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-计算机书籍/程序员超强大脑.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a86d74133de62990",
             "type": "leaf",
             "state": {
@@ -155,19 +142,6 @@
             }
           },
           {
-            "id": "0612daf5384fa2b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-06/邓小平时代.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "81f0d4063ba4ea8f",
             "type": "leaf",
             "state": {
@@ -186,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-06/Tailwind CSS 的终极工具.md",
+                "file": "0-计算机书籍/0-卡片/0-卡片.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -194,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -269,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-计算机书籍/程序员超强大脑.md"
+                "file": "0-计算机书籍/0-卡片/0-卡片.md"
               }
             }
           },
@@ -279,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-计算机书籍/程序员超强大脑.md",
+                "file": "0-计算机书籍/0-卡片/0-卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-计算机书籍/程序员超强大脑.md",
+                "file": "0-计算机书籍/0-卡片/0-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,11 +293,19 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "00cb0ddfb34453a5",
+  "active": "d04be78bd53daa5b",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-08.md",
+    "H-每日记录/2024-04-06/Tailwind CSS 的终极工具.md",
+    "H-每日记录/2024-04-08/宦海沉浮.md",
+    "H-每日记录/2024-04-08",
+    "Y-历史-文学/0-卡片/0-卡片.md",
+    "Y-历史-文学/循序渐进Vue.js3前端开发实战.md",
+    "0-计算机书籍/循序渐进Vue.js3前端开发实战.md",
     "0-计算机书籍/0-卡片/0-卡片.md",
-    "0-计算机书籍/安卓传奇.md",
+    "Y-历史-文学/0-卡片",
     "0-计算机书籍/程序员超强大脑.md",
+    "0-计算机书籍/安卓传奇.md",
     "0-计算机书籍/操作系统革命.md",
     "0-计算机书籍/代码.md",
     "0-计算机书籍/技术书籍笔记/书籍/大话程序员：从入门到优秀全攻略.md",
@@ -341,12 +323,6 @@
     "0-计算机书籍/数学之美（第三版）.md",
     "0-计算机书籍/图解算法数据结构.md",
     "0-计算机书籍/微信小程序开发入门与实践.md",
-    "0-计算机书籍/现代JavaScript库开发：原理、技术与实战.md",
-    "0-计算机书籍/学习JavaScript数据结构与算法.md",
-    "0-计算机书籍/科普类---/AIGC未来已来.md",
-    "0-计算机书籍/CSS权威指南.md",
-    "0-计算机书籍/JavaScript设计模式.md",
-    "0-计算机书籍/JavaScript高级程序设计（第4版）.md",
     "0-计算机书籍/科普类---",
     "H-每日记录/2024-04-07",
     "H-每日记录/2024-04-06",
@@ -356,8 +332,6 @@
     "Z-附件/Pasted image 20240402163836.png",
     "H-每日记录/2024-04-02",
     "08-Vue/0-卡片",
-    "H-每日记录/2024-04-01",
-    "H-每日记录/2024-03-31",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
     "Z-附件/Pasted image 20240329215710.png",
