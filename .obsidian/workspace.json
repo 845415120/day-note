@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-08/金智秀.md",
+                "file": "00-下载音乐/1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -161,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:启动",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,7 +196,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -216,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-08/金智秀.md"
+                "file": "00-下载音乐/1.md"
               }
             }
           },
@@ -226,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-08/金智秀.md",
+                "file": "00-下载音乐/1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-08/金智秀.md",
+                "file": "00-下载音乐/1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,10 +268,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d407a046e8734f94",
+  "active": "1f1c718126619a98",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
     "H-每日记录/2024-04-08/金智秀.md",
+    "00-下载音乐/1.md",
+    "00-下载音乐",
+    "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
     "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
     "H-每日记录/2024-04-08.md",
     "19-工具类/D-软件/开机启动.md",
@@ -294,7 +297,6 @@
     "0-计算机书籍/CSS选择器世界.md",
     "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md",
     "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md",
-    "0-计算机书籍/算法之美.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",
@@ -305,7 +307,6 @@
     "H-每日记录/2024-04-03",
     "Z-附件/Pasted image 20240402163836.png",
     "H-每日记录/2024-04-02",
-    "08-Vue/0-卡片",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
     "Z-附件/Pasted image 20240329215710.png",
