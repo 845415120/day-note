@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "0-卡片",
+      "path": "0-计算机书籍/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
+      "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+    },
+    {
+      "basename": "计算机是怎样跑起来的",
+      "path": "0-计算机书籍/计算机是怎样跑起来的.md"
+    },
+    {
+      "basename": "JavaScript 工程师的 Python 指南",
+      "path": "0-计算机书籍/JavaScript 工程师的 Python 指南.md"
+    },
+    {
+      "basename": "GitHub入门与实践",
+      "path": "0-计算机书籍/GitHub入门与实践.md"
+    },
+    {
+      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
+      "path": "0-计算机书籍/技术书籍笔记/书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
+    },
+    {
+      "basename": "软技能",
+      "path": "0-计算机书籍/软技能.md"
+    },
+    {
+      "basename": "TCP_IP网络编程 1",
+      "path": "0-计算机书籍/TCP_IP网络编程 1.md"
+    },
+    {
+      "basename": "Head First HTML与CSS（第2版）",
+      "path": "0-计算机书籍/Head First HTML与CSS（第2版）.md"
+    },
+    {
+      "basename": "图解HTTP",
+      "path": "0-计算机书籍/图解HTTP.md"
+    },
+    {
+      "basename": "图解设计模式",
+      "path": "0-计算机书籍/图解设计模式.md"
+    },
+    {
+      "basename": "程序员的README",
+      "path": "0-计算机书籍/程序员的README.md"
+    },
+    {
+      "basename": "现代JavaScript库开发：原理、技术与实战",
+      "path": "0-计算机书籍/现代JavaScript库开发：原理、技术与实战.md"
+    },
+    {
+      "basename": "我的第一本算法书",
+      "path": "0-计算机书籍/我的第一本算法书.md"
+    },
+    {
       "basename": "看理想-自由的黎明：文艺复兴经典",
       "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
     },
@@ -11,10 +67,6 @@
     {
       "basename": "2024-04-08",
       "path": "H-每日记录/2024-04-08.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "0-计算机书籍/0-卡片/0-卡片.md"
     },
     {
       "basename": "微信小程序开发入门与实践",
@@ -125,20 +177,12 @@
       "path": "0-计算机书籍/Vue.js3应用开发与核心源码解析.md"
     },
     {
-      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
-      "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
-    },
-    {
       "basename": "JavaScript语言精粹",
       "path": "0-计算机书籍/JavaScript语言精粹.md"
     },
     {
       "basename": "JavaScript设计模式与开发实践",
       "path": "0-计算机书籍/JavaScript设计模式与开发实践.md"
-    },
-    {
-      "basename": "Head First HTML与CSS（第2版）",
-      "path": "0-计算机书籍/Head First HTML与CSS（第2版）.md"
     },
     {
       "basename": "ChatGPT_AI革命 1",
@@ -153,52 +197,8 @@
       "path": "0-计算机书籍/技术书籍笔记/书籍/浪潮之巅.md"
     },
     {
-      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
-    },
-    {
       "basename": "大话程序员：从入门到优秀全攻略",
       "path": "0-计算机书籍/技术书籍笔记/书籍/大话程序员：从入门到优秀全攻略.md"
-    },
-    {
-      "basename": "计算机是怎样跑起来的",
-      "path": "0-计算机书籍/计算机是怎样跑起来的.md"
-    },
-    {
-      "basename": "程序是怎样跑起来的",
-      "path": "0-计算机书籍/程序是怎样跑起来的.md"
-    },
-    {
-      "basename": "网络是怎样连接的",
-      "path": "0-计算机书籍/网络是怎样连接的.md"
-    },
-    {
-      "basename": "循序渐进Vue.js 3前端开发实战",
-      "path": "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md"
-    },
-    {
-      "basename": "程序员的数学",
-      "path": "0-计算机书籍/程序员的数学.md"
-    },
-    {
-      "basename": "失控",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/失控.md"
-    },
-    {
-      "basename": "必然",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/必然.md"
-    },
-    {
-      "basename": "黑客与画家",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/黑客与画家.md"
-    },
-    {
-      "basename": "信息传",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/信息传.md"
-    },
-    {
-      "basename": "面向对象是怎样工作的",
-      "path": "0-计算机书籍/面向对象是怎样工作的.md"
     }
   ],
   "omittedPaths": [],
