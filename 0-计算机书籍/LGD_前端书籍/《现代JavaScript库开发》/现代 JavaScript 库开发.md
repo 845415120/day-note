@@ -4,7 +4,7 @@
 标题: 一小时读完《现代 JavaScript 库开发》
 图片: https://img2.doubanio.com/view/subject/s/public/s34357293.jpg
 链接: https://www.bilibili.com/video/BV1fY4y1C7bx
-评价: ★★★★★
+评价: 8★★★★★
 ---
 
 

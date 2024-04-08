@@ -4,7 +4,7 @@
 标题: 循序渐进Vue.js 3前端开发实战
 图片: https://img1.doubanio.com/view/subject/s/public/s34255757.jpg
 链接: https://book.douban.com/subject/35960313/
-评价: ★★★★
+评价: 8.5★★★★
 价格价格:
 ---
 # 循序渐进vue.js

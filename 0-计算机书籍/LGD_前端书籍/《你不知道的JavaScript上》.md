@@ -4,7 +4,7 @@
 标题: 你不知道的JavaScript上
 图片: https://img2.doubanio.com/view/subject/s/public/s28033372.jpg
 链接: https://www.bilibili.com/video/BV1zk4y1b7w5
-评价: ★★★★★
+评价: 9.5★★★★★
 ---
 
 # 你不知道的JavaScript(上)

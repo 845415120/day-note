@@ -4,7 +4,7 @@
 标题: 一小时读完《JavaScript 语言精粹(修订版)》
 图片: https://img9.doubanio.com/view/subject/s/public/s3651235.jpg
 链接: https://www.bilibili.com/video/BV1JY4y1R7vq
-评价: ★★★★★
+评价: 7★★★★★
 ---
 Hello，各位小伙伴大家好。
 

@@ -4,7 +4,7 @@
 标题: 一小时读完《Vue.js 设计与实现》
 图片: https://img9.doubanio.com/view/subject/s/public/s34120804.jpg
 链接: https://www.bilibili.com/video/BV1K24y1q7eJ/
-评价: ★★★★★
+评价: 9.6★★★★★
 ---
 
 # 一小时读完《Vue.js 设计与实现》

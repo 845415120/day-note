@@ -4,7 +4,7 @@
 标题: 一小时读完《JavaScript设计模式与开发实践》
 图片: https://img9.doubanio.com/view/subject/s/public/s28065006.jpg
 链接: https://www.bilibili.com/video/BV1rM4y1U7w1
-评价: ★★★★★
+评价: 7★★★★★
 ---
 
 

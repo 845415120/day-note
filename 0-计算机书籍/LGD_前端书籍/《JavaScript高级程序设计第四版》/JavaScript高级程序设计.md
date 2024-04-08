@@ -4,7 +4,7 @@
 标题: 一小时读完《JavaScript高级程序设计第四版》
 图片: https://img9.doubanio.com/view/subject/s/public/s33703494.jpg
 链接: https://www.bilibili.com/video/BV12M411V7NR
-评价: ★★★★★
+评价: 9.7★★★★★
 ---
 
 
