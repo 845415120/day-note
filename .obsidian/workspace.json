@@ -160,7 +160,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-08.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7aa987310af2afea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08/宦海沉浮.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "178acfb4c066a9e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -168,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -243,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md"
+                "file": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
               }
             }
           },
@@ -253,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-计算机书籍/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,17 +319,18 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "90880642d8c3ac16",
+  "active": "178acfb4c066a9e2",
   "lastOpenFiles": [
-    "0-计算机书籍/微信小程序开发入门与实践.md",
+    "H-每日记录/2024-04-08/宦海沉浮.md",
+    "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
+    "H-每日记录/2024-04-08.md",
     "0-计算机书籍/0-卡片/0-卡片.md",
+    "0-计算机书籍/微信小程序开发入门与实践.md",
     "0-计算机书籍/十分钟速成课计算机科学.md",
     "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md",
     "0-计算机书籍/Hello 算法.md",
     "0-计算机书籍/Vue.js3应用开发与核心源码解析.md",
-    "H-每日记录/2024-04-08.md",
     "H-每日记录/2024-04-06/Tailwind CSS 的终极工具.md",
-    "H-每日记录/2024-04-08/宦海沉浮.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片/0-卡片.md",
     "Y-历史-文学/循序渐进Vue.js3前端开发实战.md",
@@ -322,7 +349,6 @@
     "0-计算机书籍/人月神话.md",
     "0-计算机书籍/深入理解现代JavaScript.md",
     "0-计算机书籍/技术书籍笔记/书籍/师兄教你找工作.md",
-    "0-计算机书籍/数据结构与算法JavaScript描述.md",
     "0-计算机书籍/科普类---",
     "H-每日记录/2024-04-07",
     "H-每日记录/2024-04-06",
