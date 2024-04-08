@@ -116,6 +116,19 @@
             }
           },
           {
+            "id": "865da5cf89123211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-08/惊天危机.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2514e73d84029f72",
             "type": "leaf",
             "state": {
@@ -129,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-08/铁娘子：坚固柔情.md"
+                "file": "H-每日记录/2024-04-08/惊天危机.md"
               }
             }
           },
@@ -214,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
+                "file": "H-每日记录/2024-04-08/惊天危机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
+                "file": "H-每日记录/2024-04-08/惊天危机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,10 +268,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "a61c99f32566e72c",
+  "active": "865da5cf89123211",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
     "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
+    "H-每日记录/2024-04-08/惊天危机.md",
+    "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
     "H-每日记录/2024-04-08.md",
     "H-每日记录/2024-04-08/Vue.js面试.md",
     "H-每日记录/2023-12-06/黑马前端V8.5.md",
@@ -282,7 +296,6 @@
     "0-计算机书籍/04.廖雪峰 JavaScript教程.md",
     "0-计算机书籍/数学之美（第三版）.md",
     "0-计算机书籍/黑客与画家.md",
-    "0-计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",
