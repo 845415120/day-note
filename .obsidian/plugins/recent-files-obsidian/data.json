@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-08",
+      "path": "H-每日记录/2024-04-08.md"
+    },
+    {
       "basename": "惊天危机",
       "path": "H-每日记录/2024-04-08/惊天危机.md"
+    },
+    {
+      "basename": "勇往直前",
+      "path": "H-每日记录/2024-04-08/勇往直前.md"
     },
     {
       "basename": "铁娘子：坚固柔情",
@@ -11,10 +19,6 @@
     {
       "basename": "看理想-自由的黎明：文艺复兴经典",
       "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
-    },
-    {
-      "basename": "2024-04-08",
-      "path": "H-每日记录/2024-04-08.md"
     },
     {
       "basename": "Vue.js面试",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机是怎样跑起来的",
       "path": "0-计算机书籍/计算机是怎样跑起来的.md"
-    },
-    {
-      "basename": "JavaScript 工程师的 Python 指南",
-      "path": "0-计算机书籍/JavaScript 工程师的 Python 指南.md"
     }
   ],
   "omittedPaths": [],
