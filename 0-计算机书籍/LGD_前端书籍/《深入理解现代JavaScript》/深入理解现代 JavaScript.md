@@ -4,7 +4,7 @@
 标题: 一小时读完《深入理解现代 JavaScript》
 图片: https://img9.doubanio.com/view/subject/s/public/s34192976.jpg
 链接: https://www.bilibili.com/video/BV1qD4y1G7YK
-评价: 8★★★★★
+评价: 8.0★★★★★
 ---
 
 

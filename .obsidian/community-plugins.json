@@ -27,5 +27,6 @@
   "oz-clear-unused-images",
   "obsidian-auto-link-title",
   "obsidian-local-rest-api",
-  "obsidian-git"
+  "obsidian-git",
+  "floating-toc"
 ]

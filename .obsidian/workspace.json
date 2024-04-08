@@ -36,162 +36,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a86d74133de62990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-02.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d37d9e6653e9887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-02/Bun 1.1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04945d7bb4d8e942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-04.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f78a4650edd4748",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-04/T1 vs HLE 季后赛 0-3.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "159eac6216b68853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-04/阳光小美女.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2c04a927f456c64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-04/我的父亲母亲.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eb03f035c4244e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-05.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "887d99b07c7c8d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-06.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81f0d4063ba4ea8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-06/Pinia.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90880642d8c3ac16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7aa987310af2afea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08/宦海沉浮.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "178acfb4c066a9e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -306,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,32 +166,32 @@
   },
   "active": "03e2143a154a6f66",
   "lastOpenFiles": [
-    "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+    "0-计算机书籍/JavaScript从入门到实战开发最强教科书.md",
     "0-计算机书籍/0-卡片/0-卡片.md",
-    "0-计算机书籍/Vue.js3应用开发与核心源码解析.md",
-    "0-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md",
-    "0-计算机书籍/计算机是怎样跑起来的.md",
+    "0-计算机书籍/大话程序员：从入门到优秀全攻略.md",
+    "0-计算机书籍/前端程序员面试秘籍.md",
+    "0-计算机书籍/Node.js+Webpack开发实战.md",
     "0-计算机书籍/现代JavaScript库开发：原理、技术与实战.md",
-    "0-计算机书籍/数据结构与算法JavaScript描述.md",
-    "0-计算机书籍/技术书籍笔记/书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md",
-    "0-计算机书籍/JavaScript 工程师的 Python 指南.md",
-    "0-计算机书籍/GitHub入门与实践.md",
     "0-计算机书籍/软技能.md",
-    "0-计算机书籍/TCP_IP网络编程 1.md",
-    "0-计算机书籍/Head First HTML与CSS（第2版）.md",
-    "0-计算机书籍/图解HTTP.md",
-    "0-计算机书籍/图解设计模式.md",
-    "0-计算机书籍/程序员的README.md",
-    "0-计算机书籍/柏拉图与技术呆子.md",
-    "0-计算机书籍/循序渐进Vue.js3前端开发实战.md",
-    "0-计算机书籍/我的第一本算法书.md",
-    "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
-    "H-每日记录/2024-04-08/宦海沉浮.md",
-    "H-每日记录/2024-04-08.md",
+    "0-计算机书籍/《软技能：代码之外的生存指南》.md",
+    "0-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md",
+    "0-计算机书籍/面向对象是怎样工作的.md",
     "0-计算机书籍/微信小程序开发入门与实践.md",
+    "0-计算机书籍/数据结构与算法JavaScript描述.md",
     "0-计算机书籍/十分钟速成课计算机科学.md",
+    "0-计算机书籍/CSS权威指南.md",
+    "0-计算机书籍/我的第一本算法书.md",
+    "0-计算机书籍/Head First HTML与CSS（第2版）.md",
+    "0-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md",
+    "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md",
+    "0-计算机书籍/TCP_IP网络编程 1.md",
+    "0-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
+    "0-计算机书籍/Web性能权威指南.md",
     "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md",
-    "0-计算机书籍/Hello 算法.md",
+    "0-计算机书籍/算法图解.md",
+    "0-计算机书籍/漫画Java.md",
+    "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+    "0-计算机书籍/学习JavaScript数据结构与算法.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",

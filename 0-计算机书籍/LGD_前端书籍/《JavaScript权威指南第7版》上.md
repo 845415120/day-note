@@ -4,7 +4,7 @@
 标题: 一小时读完《JavaScript权威指南第7版》上
 图片: https://img9.doubanio.com/view/subject/s/public/s9056065.jpg
 链接: https://www.bilibili.com/video/BV1Ts4y1N7S2
-评价: 8★★★★★
+评价: 8.0★★★★★
 ---
 # 第1章：JavaScript 简介
 

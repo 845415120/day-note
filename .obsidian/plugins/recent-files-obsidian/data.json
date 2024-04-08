@@ -5,8 +5,116 @@
       "path": "0-计算机书籍/0-卡片/0-卡片.md"
     },
     {
+      "basename": "大话程序员：从入门到优秀全攻略",
+      "path": "0-计算机书籍/大话程序员：从入门到优秀全攻略.md"
+    },
+    {
+      "basename": "《软技能：代码之外的生存指南》",
+      "path": "0-计算机书籍/《软技能：代码之外的生存指南》.md"
+    },
+    {
+      "basename": "现代 JavaScript 库开发",
+      "path": "0-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
+    },
+    {
+      "basename": "算法图解",
+      "path": "0-计算机书籍/算法图解.md"
+    },
+    {
+      "basename": "JavaScript重难点实例精讲",
+      "path": "0-计算机书籍/JavaScript重难点实例精讲.md"
+    },
+    {
+      "basename": "Hello 算法",
+      "path": "0-计算机书籍/Hello 算法.md"
+    },
+    {
+      "basename": "循序渐进Vue.js 3前端开发实战",
+      "path": "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md"
+    },
+    {
+      "basename": "《你不知道的JavaScript上》",
+      "path": "0-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md"
+    },
+    {
+      "basename": "JavaScript高级程序设计",
+      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
+    },
+    {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
       "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+    },
+    {
+      "basename": "微信小程序开发入门与实践",
+      "path": "0-计算机书籍/微信小程序开发入门与实践.md"
+    },
+    {
+      "basename": "深入理解现代 JavaScript",
+      "path": "0-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md"
+    },
+    {
+      "basename": "《JavaScript权威指南第7版》上",
+      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
+    },
+    {
+      "basename": "数据结构与算法JavaScript描述",
+      "path": "0-计算机书籍/数据结构与算法JavaScript描述.md"
+    },
+    {
+      "basename": "面向对象是怎样工作的",
+      "path": "0-计算机书籍/面向对象是怎样工作的.md"
+    },
+    {
+      "basename": "JavaScript语言精粹",
+      "path": "0-计算机书籍/JavaScript语言精粹.md"
+    },
+    {
+      "basename": "2024-04-02",
+      "path": "H-每日记录/2024-04-02.md"
+    },
+    {
+      "basename": "Bun 1.1",
+      "path": "H-每日记录/2024-04-02/Bun 1.1.md"
+    },
+    {
+      "basename": "2024-04-04",
+      "path": "H-每日记录/2024-04-04.md"
+    },
+    {
+      "basename": "T1 vs HLE 季后赛 0-3",
+      "path": "H-每日记录/2024-04-04/T1 vs HLE 季后赛 0-3.md"
+    },
+    {
+      "basename": "阳光小美女",
+      "path": "H-每日记录/2024-04-04/阳光小美女.md"
+    },
+    {
+      "basename": "我的父亲母亲",
+      "path": "H-每日记录/2024-04-04/我的父亲母亲.md"
+    },
+    {
+      "basename": "2024-04-05",
+      "path": "H-每日记录/2024-04-05.md"
+    },
+    {
+      "basename": "2024-04-06",
+      "path": "H-每日记录/2024-04-06.md"
+    },
+    {
+      "basename": "Pinia",
+      "path": "H-每日记录/2024-04-06/Pinia.md"
+    },
+    {
+      "basename": "2024-04-08",
+      "path": "H-每日记录/2024-04-08.md"
+    },
+    {
+      "basename": "宦海沉浮",
+      "path": "H-每日记录/2024-04-08/宦海沉浮.md"
+    },
+    {
+      "basename": "看理想-自由的黎明：文艺复兴经典",
+      "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
     },
     {
       "basename": "计算机是怎样跑起来的",
@@ -19,14 +127,6 @@
     {
       "basename": "GitHub入门与实践",
       "path": "0-计算机书籍/GitHub入门与实践.md"
-    },
-    {
-      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
-    },
-    {
-      "basename": "软技能",
-      "path": "0-计算机书籍/软技能.md"
     },
     {
       "basename": "TCP_IP网络编程 1",
@@ -57,22 +157,6 @@
       "path": "0-计算机书籍/我的第一本算法书.md"
     },
     {
-      "basename": "看理想-自由的黎明：文艺复兴经典",
-      "path": "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md"
-    },
-    {
-      "basename": "宦海沉浮",
-      "path": "H-每日记录/2024-04-08/宦海沉浮.md"
-    },
-    {
-      "basename": "2024-04-08",
-      "path": "H-每日记录/2024-04-08.md"
-    },
-    {
-      "basename": "微信小程序开发入门与实践",
-      "path": "0-计算机书籍/微信小程序开发入门与实践.md"
-    },
-    {
       "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
       "path": "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
     },
@@ -101,104 +185,12 @@
       "path": "0-计算机书籍/代码.md"
     },
     {
-      "basename": "黑客与画家",
-      "path": "0-计算机书籍/科普类---/黑客与画家.md"
-    },
-    {
-      "basename": "代码奔腾",
-      "path": "0-计算机书籍/科普类---/代码奔腾.md"
-    },
-    {
       "basename": "技术为径",
       "path": "0-计算机书籍/技术为径.md"
     },
     {
       "basename": "前端程序员面试秘籍",
       "path": "0-计算机书籍/前端程序员面试秘籍.md"
-    },
-    {
-      "basename": "你好哇，程序员",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/你好哇，程序员.md"
-    },
-    {
-      "basename": "人月神话",
-      "path": "0-计算机书籍/人月神话.md"
-    },
-    {
-      "basename": "深入理解现代JavaScript",
-      "path": "0-计算机书籍/深入理解现代JavaScript.md"
-    },
-    {
-      "basename": "师兄教你找工作",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/师兄教你找工作.md"
-    },
-    {
-      "basename": "十分钟速成课计算机科学",
-      "path": "0-计算机书籍/十分钟速成课计算机科学.md"
-    },
-    {
-      "basename": "数据结构与算法JavaScript描述",
-      "path": "0-计算机书籍/数据结构与算法JavaScript描述.md"
-    },
-    {
-      "basename": "数学之美（第三版）",
-      "path": "0-计算机书籍/数学之美（第三版）.md"
-    },
-    {
-      "basename": "图解算法数据结构",
-      "path": "0-计算机书籍/图解算法数据结构.md"
-    },
-    {
-      "basename": "学习JavaScript数据结构与算法",
-      "path": "0-计算机书籍/学习JavaScript数据结构与算法.md"
-    },
-    {
-      "basename": "AIGC未来已来",
-      "path": "0-计算机书籍/科普类---/AIGC未来已来.md"
-    },
-    {
-      "basename": "CSS权威指南",
-      "path": "0-计算机书籍/CSS权威指南.md"
-    },
-    {
-      "basename": "JavaScript设计模式",
-      "path": "0-计算机书籍/JavaScript设计模式.md"
-    },
-    {
-      "basename": "Node.js+Webpack开发实战",
-      "path": "0-计算机书籍/Node.js+Webpack开发实战.md"
-    },
-    {
-      "basename": "Webpack+Babel入门与实例详解",
-      "path": "0-计算机书籍/Webpack+Babel入门与实例详解.md"
-    },
-    {
-      "basename": "Vue.js3应用开发与核心源码解析",
-      "path": "0-计算机书籍/Vue.js3应用开发与核心源码解析.md"
-    },
-    {
-      "basename": "JavaScript语言精粹",
-      "path": "0-计算机书籍/JavaScript语言精粹.md"
-    },
-    {
-      "basename": "JavaScript设计模式与开发实践",
-      "path": "0-计算机书籍/JavaScript设计模式与开发实践.md"
-    },
-    {
-      "basename": "ChatGPT_AI革命 1",
-      "path": "0-计算机书籍/科普类---/ChatGPT_AI革命 1.md"
-    },
-    {
-      "basename": "CPU通识课",
-      "path": "0-计算机书籍/科普类---/CPU通识课.md"
-    },
-    {
-      "basename": "浪潮之巅",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/浪潮之巅.md"
-    },
-    {
-      "basename": "大话程序员：从入门到优秀全攻略",
-      "path": "0-计算机书籍/技术书籍笔记/书籍/大话程序员：从入门到优秀全攻略.md"
     }
   ],
   "omittedPaths": [],

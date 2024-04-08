@@ -4,7 +4,7 @@
 标题: JavaScript重难点实例精讲
 图片: https://img1.doubanio.com/view/subject/s/public/s33819017.jpg
 链接: https://book.douban.com/subject/35348757/
-评价: 9.2★★★★★
+评价: 9.9★★★★★
 价格价格:
 ---
 # JavaScript重难点实例精讲-笔记
@@ -1566,3 +1566,9 @@ import命令
 
 1. 一个文件只有一个export default语句
 2. import的内容不需要使用大括号括起来
+
+
+
+
+
+
