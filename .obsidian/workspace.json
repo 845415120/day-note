@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "H-每日记录/2024-04-09.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,77 +51,12 @@
             }
           },
           {
-            "id": "f813f807c9366345",
+            "id": "ec2d614ad8eda559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad0b8a65beb55f36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32e3a975692184ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "895b047e6e21639e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b019420b772b3ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d407a046e8734f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
+                "file": "H-每日记录/2024-04-09/故事里的中国.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -142,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md"
+                "file": "H-每日记录/2024-04-09/故事里的中国.md"
               }
             }
           },
@@ -227,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
+                "file": "H-每日记录/2024-04-09/故事里的中国.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
+                "file": "H-每日记录/2024-04-09/故事里的中国.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,18 +203,22 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d407a046e8734f94",
+  "active": "ec2d614ad8eda559",
   "lastOpenFiles": [
     "H-每日记录/2024-04-09.md",
-    "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
-    "H-每日记录/2024-04-09",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "H-每日记录/2024-04-08.md",
+    "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
+    "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
+    "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
+    "H-每日记录/2024-04-09/泪之谷.md",
+    "H-每日记录/2024-04-09/故事里的中国.md",
+    "H-每日记录/2024-04-09/故事里的中国 第三季.md",
+    "H-每日记录/2024-04-09/故事里的中国 第二季.md",
+    "H-每日记录/2024-04-09",
     "H-每日记录/2024-04-08/金智秀.md",
     "00-下载音乐/1.md",
     "00-下载音乐",
-    "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
-    "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
-    "H-每日记录/2024-04-08.md",
     "19-工具类/D-软件/开机启动.md",
     "H-每日记录/2024-04-08/看理想-自由的黎明：文艺复兴经典.md",
     "H-每日记录/2024-02-17/自启动文件夹.md",
@@ -294,10 +233,6 @@
     "0-计算机书籍/JavaScript重难点实例精讲.md",
     "0-计算机书籍/微信小程序开发入门与实践.md",
     "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md",
-    "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md",
-    "0-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md",
-    "0-计算机书籍/Vue.js3应用开发与核心源码解析.md",
-    "0-计算机书籍/CSS选择器世界.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",
