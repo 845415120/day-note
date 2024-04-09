@@ -51,19 +51,6 @@
             }
           },
           {
-            "id": "ec2d614ad8eda559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-09/故事里的中国.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2514e73d84029f72",
             "type": "leaf",
             "state": {
@@ -77,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-09/故事里的中国.md"
+                "file": "H-每日记录/2024-04-09.md"
               }
             }
           },
@@ -162,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-09/故事里的中国.md",
+                "file": "H-每日记录/2024-04-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-09/故事里的中国.md",
+                "file": "H-每日记录/2024-04-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,8 +190,9 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "ec2d614ad8eda559",
+  "active": "a0a40c4a71df371f",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-09/故事里的中国.md",
     "H-每日记录/2024-04-09.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "H-每日记录/2024-04-08.md",
@@ -212,7 +200,6 @@
     "H-每日记录/2024-04-08/BLACKPINK 2021年线上演唱会.md",
     "H-每日记录/2024-04-09/VS Code 教程——提高工作效率.md",
     "H-每日记录/2024-04-09/泪之谷.md",
-    "H-每日记录/2024-04-09/故事里的中国.md",
     "H-每日记录/2024-04-09/故事里的中国 第三季.md",
     "H-每日记录/2024-04-09/故事里的中国 第二季.md",
     "H-每日记录/2024-04-09",
