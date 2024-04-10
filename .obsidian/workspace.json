@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-09.md",
+                "file": "H-每日记录/2024-04-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-09.md"
+                "file": "H-每日记录/2024-04-10.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-09.md",
+                "file": "H-每日记录/2024-04-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-09.md",
+                "file": "H-每日记录/2024-04-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,8 +192,10 @@
   },
   "active": "a0a40c4a71df371f",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-09/故事里的中国.md",
+    "H-每日记录/2024-04-10",
     "H-每日记录/2024-04-09.md",
+    "H-每日记录/2024-04-10.md",
+    "H-每日记录/2024-04-09/故事里的中国.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "H-每日记录/2024-04-08.md",
     "H-每日记录/2024-04-08/铁娘子：坚固柔情.md",
@@ -218,8 +220,6 @@
     "0-计算机书籍/0-卡片/0-卡片.md",
     "0-计算机书籍/数据结构与算法JavaScript描述.md",
     "0-计算机书籍/JavaScript重难点实例精讲.md",
-    "0-计算机书籍/微信小程序开发入门与实践.md",
-    "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",
