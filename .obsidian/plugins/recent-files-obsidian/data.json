@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "NestJS 入门到实战 前端必学服务端新趋势 1",
-      "path": "H-每日记录/2024-04-11/NestJS 入门到实战 前端必学服务端新趋势 1.md"
+      "basename": "0-前端视频记录卡",
+      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析）",
+      "path": "0-前端视频记录/【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析）.md"
+    },
+    {
+      "basename": "黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）",
+      "path": "0-前端视频记录/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md"
     },
     {
       "basename": "2024-04-11",
       "path": "H-每日记录/2024-04-11.md"
+    },
+    {
+      "basename": "【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析） 1",
+      "path": "H-每日记录/2024-04-11/【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析） 1.md"
+    },
+    {
+      "basename": "算法训练营2021版第0期",
+      "path": "0-前端视频记录/算法训练营2021版第0期.md"
+    },
+    {
+      "basename": "15 分钟解释每种编程语言",
+      "path": "15 分钟解释每种编程语言.md"
+    },
+    {
+      "basename": "Zed代码编辑器",
+      "path": "0-前端资料/Zed代码编辑器.md"
+    },
+    {
+      "basename": "0-数据结构与算法卡片",
+      "path": "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md"
+    },
+    {
+      "basename": "算法训练营2021版第0期 1",
+      "path": "00-数据结构与算法/视频学习/算法训练营2021版第0期 1.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "07-TypeScript/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "08-Vue/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "09-小程序-UniApp/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "10-React/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "11-Linux/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "12-Python/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "05-网络/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "【腾讯课堂-3449042】大厂算法和数据结构刷题",
+      "path": "00-数据结构与算法/视频学习/【腾讯课堂-3449042】大厂算法和数据结构刷题.md"
+    },
+    {
+      "basename": "0-Hello 算法",
+      "path": "00-数据结构与算法/书籍学习/0-Hello 算法.md"
+    },
+    {
+      "basename": "2-链表",
+      "path": "00-数据结构与算法/数据结构/2-链表.md"
+    },
+    {
+      "basename": "1-数组",
+      "path": "00-数据结构与算法/数据结构/1-数组.md"
+    },
+    {
+      "basename": "NestJS 入门到实战 前端必学服务端新趋势 1",
+      "path": "H-每日记录/2024-04-11/NestJS 入门到实战 前端必学服务端新趋势 1.md"
     },
     {
       "basename": "NestJS 入门到实战 前端必学服务端新趋势",
@@ -47,10 +127,6 @@
     {
       "basename": "故事里的中国",
       "path": "H-每日记录/2024-04-09/故事里的中国.md"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
     },
     {
       "basename": "2024-04-08",
@@ -123,82 +199,6 @@
     {
       "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
       "path": "0-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
-    },
-    {
-      "basename": "Vue.js 设计与实现",
-      "path": "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md"
-    },
-    {
-      "basename": "JavaScript高级程序设计",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
-    },
-    {
-      "basename": "算法之美",
-      "path": "0-计算机书籍/算法之美.md"
-    },
-    {
-      "basename": "编码",
-      "path": "0-计算机书籍/编码.md"
-    },
-    {
-      "basename": "程序员的数学",
-      "path": "0-计算机书籍/程序员的数学.md"
-    },
-    {
-      "basename": "04.廖雪峰 JavaScript教程",
-      "path": "0-计算机书籍/04.廖雪峰 JavaScript教程.md"
-    },
-    {
-      "basename": "数学之美（第三版）",
-      "path": "0-计算机书籍/数学之美（第三版）.md"
-    },
-    {
-      "basename": "黑客与画家",
-      "path": "0-计算机书籍/黑客与画家.md"
-    },
-    {
-      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
-      "path": "0-计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
-    },
-    {
-      "basename": "浪潮之巅",
-      "path": "0-计算机书籍/浪潮之巅.md"
-    },
-    {
-      "basename": "信息传",
-      "path": "0-计算机书籍/信息传.md"
-    },
-    {
-      "basename": "JavaScript 二十年",
-      "path": "0-计算机书籍/JavaScript 二十年.md"
-    },
-    {
-      "basename": "程序员超强大脑",
-      "path": "0-计算机书籍/程序员超强大脑.md"
-    },
-    {
-      "basename": "大话程序员：从入门到优秀全攻略",
-      "path": "0-计算机书籍/大话程序员：从入门到优秀全攻略.md"
-    },
-    {
-      "basename": "《软技能：代码之外的生存指南》",
-      "path": "0-计算机书籍/《软技能：代码之外的生存指南》.md"
-    },
-    {
-      "basename": "现代 JavaScript 库开发",
-      "path": "0-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
-    },
-    {
-      "basename": "算法图解",
-      "path": "0-计算机书籍/算法图解.md"
-    },
-    {
-      "basename": "Hello 算法",
-      "path": "0-计算机书籍/Hello 算法.md"
-    },
-    {
-      "basename": "循序渐进Vue.js 3前端开发实战",
-      "path": "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md"
     }
   ],
   "omittedPaths": [],
