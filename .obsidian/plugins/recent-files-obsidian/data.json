@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "小岛浪吹",
+      "path": "H-每日记录/2024-04-11/小岛浪吹.md"
+    },
+    {
       "basename": "虎胆龙威",
       "path": "H-每日记录/2024-04-11/虎胆龙威.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
       "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
-    },
-    {
-      "basename": "微信小程序开发入门与实践",
-      "path": "0-计算机书籍/微信小程序开发入门与实践.md"
     }
   ],
   "omittedPaths": [],

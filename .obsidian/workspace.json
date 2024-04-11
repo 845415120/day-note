@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e95aab6781072c6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-11/小岛浪吹.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-11/虎胆龙威.md"
+                "file": "H-每日记录/2024-04-11/小岛浪吹.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-11/虎胆龙威.md",
+                "file": "H-每日记录/2024-04-11/小岛浪吹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-11/虎胆龙威.md",
+                "file": "H-每日记录/2024-04-11/小岛浪吹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,10 +190,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "2514e73d84029f72",
+  "active": "e95aab6781072c6c",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-11.md",
+    "Y-B站/木JJ",
+    "Y-B站/小岛浪吹",
     "H-每日记录/2024-04-11/虎胆龙威.md",
+    "H-每日记录/2024-04-11/小岛浪吹.md",
+    "H-每日记录/2024-04-11.md",
     "H-每日记录/2024-04-11",
     "H-每日记录/2024-04-10.md",
     "H-每日记录/2024-04-10/王蒙自传（第1部）.md",
@@ -208,13 +224,10 @@
     "H-每日记录/2024-02-17/自启动文件夹.md",
     "Y-电视剧/启动了.md",
     "H-每日记录/2024-04-08/勇往直前.md",
-    "H-每日记录/2024-04-08/惊天危机.md",
-    "H-每日记录/2023-12-06/黑马前端V8.5.md",
     "H-每日记录/2024-04-08",
     "Y-历史-文学/0-卡片",
     "0-计算机书籍/科普类---",
     "H-每日记录/2024-04-07",
-    "H-每日记录/2024-04-06",
     "Z-附件/Pasted image 20240402163836.png",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
