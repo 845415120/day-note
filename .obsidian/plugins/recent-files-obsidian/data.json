@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "虎胆龙威",
+      "path": "H-每日记录/2024-04-11/虎胆龙威.md"
+    },
+    {
+      "basename": "2024-04-11",
+      "path": "H-每日记录/2024-04-11.md"
+    },
+    {
       "basename": "2024-04-10",
       "path": "H-每日记录/2024-04-10.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "微信小程序开发入门与实践",
       "path": "0-计算机书籍/微信小程序开发入门与实践.md"
-    },
-    {
-      "basename": "深入理解现代 JavaScript",
-      "path": "0-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md"
-    },
-    {
-      "basename": "《JavaScript权威指南第7版》上",
-      "path": "0-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
     }
   ],
   "omittedPaths": [],
