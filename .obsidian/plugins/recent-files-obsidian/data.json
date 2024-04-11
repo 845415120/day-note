@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "NestJS 入门到实战 前端必学服务端新趋势 1",
+      "path": "H-每日记录/2024-04-11/NestJS 入门到实战 前端必学服务端新趋势 1.md"
+    },
+    {
       "basename": "2024-04-11",
       "path": "H-每日记录/2024-04-11.md"
+    },
+    {
+      "basename": "NestJS 入门到实战 前端必学服务端新趋势",
+      "path": "0-前端视频记录/14-慕课/NestJS 入门到实战 前端必学服务端新趋势.md"
     },
     {
       "basename": "小岛浪吹",
@@ -191,14 +199,6 @@
     {
       "basename": "循序渐进Vue.js 3前端开发实战",
       "path": "0-计算机书籍/循序渐进Vue.js 3前端开发实战.md"
-    },
-    {
-      "basename": "《你不知道的JavaScript上》",
-      "path": "0-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md"
-    },
-    {
-      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
-      "path": "0-计算机书籍/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
     }
   ],
   "omittedPaths": [],
