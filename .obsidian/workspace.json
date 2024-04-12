@@ -160,7 +160,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "H-每日记录/2024-04-12.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be748ae3a22312af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "H-每日记录/2024-04-12/AI学习.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fdd2438670b80da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-12/鸣梁海战.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -168,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -243,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-12/AI学习.md"
+                "file": "H-每日记录/2024-04-12/鸣梁海战.md"
               }
             }
           },
@@ -253,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-12/AI学习.md",
+                "file": "H-每日记录/2024-04-12/鸣梁海战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-12/AI学习.md",
+                "file": "H-每日记录/2024-04-12/鸣梁海战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,11 +320,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "c6ce0101a8fd4586",
+  "active": "4fdd2438670b80da",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-12/1.md",
     "H-每日记录/2024-04-12/AI学习.md",
+    "H-每日记录/2024-04-12/鸣梁海战.md",
     "H-每日记录/2024-04-12.md",
+    "H-每日记录/2024-04-12/1.md",
     "0-前端资料/0-卡片/0-卡片.md",
     "0-前端资料/web前端面试 - 面试官系列.md",
     "0-前端资料/资源.md",
@@ -323,7 +350,6 @@
     "0-前端视频记录/算法训练营2021版第0期.md",
     "15 分钟解释每种编程语言.md",
     "0-前端视频记录/【BitTiger】CS501硅谷程序员直通车.md",
-    "0-前端资料/Zed代码编辑器.md",
     "C-英语/0-卡片",
     "17-JAVA/0-卡片",
     "13-大数据/0-卡片",
