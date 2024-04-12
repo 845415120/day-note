@@ -1760,3 +1760,1379 @@ export default async function CardWrapper() {
   );
 }
 ```
+刷新页面，你应该会看到所有的卡片同时加载。当你希望多个组件同时加载时，可以使用这种模式。
+
+## 决定放置 Suspense 边界的位置[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E5%86%B3%E5%AE%9A%E6%94%BE%E7%BD%AE-suspense-%E8%BE%B9%E7%95%8C%E7%9A%84%E4%BD%8D%E7%BD%AE)
+
+放置 Suspense 边界的位置取决于几个因素：
+
+1. 您希望用户在页面流式传输时如何体验。
+2. 您希望优先考虑哪些内容。
+3. 组件是否依赖于数据获取。
+
+看看您的 Dashboard 页面，有没有什么您会做得不同的？
+
+别担心。没有一个正确的答案。
+
+- 您可以像我们在 `loading.tsx` 中所做的那样流式传输整个页面... 但如果其中一个组件具有较慢的数据获取，这可能会导致较长的加载时间。
+- 您可以逐个流式传输每个组件... 但这可能会导致UI在准备就绪时突然出现在屏幕上。
+- 您还可以通过流式传输页面部分来创建错开效果。但您需要创建包装组件。
+
+放置 suspense 边界的位置将取决于您的应用程序。总的来说，将数据获取移到需要它的组件中，然后在这些组件周围包装 Suspense 是一种良好的实践。但是，如果您的应用程序需要，将整个页面或部分页面进行流式传输也没有问题。
+
+不要害怕尝试使用 Suspense，看看哪种方法最有效，它是一个强大的 API，可以帮助您创建更令人愉悦的用户体验。
+
+## 展望未来[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5)
+
+流式传输和服务器组件为我们处理数据获取和加载状态提供了新的方式，最终目标是改善最终用户体验。
+
+在下一章中，您将了解到 “部分预渲染”（Partial Prerendering），这是一种专为流式传输而构建的新的 Next.js 渲染模型。
+# 部分预渲染（可选）
+
+部分预渲染是在 Next.js 14 中引入的实验性功能。随着该功能在稳定性方面的进展，本页内容可能会进行更新。如果您不喜欢使用实验性功能，您可以跳过这一章节。完成课程不需要学习这一章节。
+
+以下是本章中将涵盖的主题：
+
+- 部分预渲染是什么。
+- 部分预渲染是如何工作的。
+## 结合静态和动态内容[](https://qufei1993.github.io/nextjs-learn-cn/chapter10#%E7%BB%93%E5%90%88%E9%9D%99%E6%80%81%E5%92%8C%E5%8A%A8%E6%80%81%E5%86%85%E5%AE%B9)
+
+目前，如果您在路由内调用[动态函数(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/route-handlers#dynamic-functions)（例如 `noStore()`、`cookies()` 等），整个路由将变为动态。
+
+这与今天大多数 Web 应用程序的构建方式相一致，您可以在整个**应用程序**或**特定路由**中选择静态或动态渲染。
+
+然而，大多数路由既不是完全静态也不是完全动态。您可能有一个既包含静态又包含动态内容的路由。例如，假设您有一个社交媒体动态，帖子可能是静态的，但帖子的点赞数是动态的。或者是电子商务网站，产品详情是静态的，但用户的购物车是动态的。
+
+回到您的 Dashboard 页面，您会考虑哪些组件是静态的，哪些是动态的？
+
+一旦准备好，点击下面的按钮，看看我们如何拆分仪表板路由：
+![](Pasted%20image%2020240412215859.png)
+
+## 部分预渲染是什么？[](https://qufei1993.github.io/nextjs-learn-cn/chapter10#%E9%83%A8%E5%88%86%E9%A2%84%E6%B8%B2%E6%9F%93%E6%98%AF%E4%BB%80%E4%B9%88)
+
+在 Next.js 14 中，有一个名为部分预渲染的新渲染模型的预览。部分预渲染是一项实验性功能，允许您在呈现具有静态加载外壳的路由的同时，保持一些部分是动态的。换句话说，您可以隔离路由的动态部分。例如：
+
+![部分预渲染的产品页面显示静态导航和产品信息，以及动态的购物车和推荐产品](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter10-thinking-in-ppr.2b7b7e06.avif)
+
+当用户访问一个路由时：
+
+- 提供一个静态路由外壳，这使得初始加载很快。
+- 外壳中留下动态内容将异步加载。
+- 异步洞在并行加载，减少页面的整体加载时间。
+
+这与您的应用程序今天的行为不同，其中整个路由要么完全是静态的，要么是动态的。
+
+部分预渲染将超快的静态边缘交付与完全动态的能力结合在一起，我们相信它[有可能成为Web 应用程序的默认渲染模型(opens in a new tab)](https://vercel.com/blog/partial-prerendering-with-next-js-creating-a-new-default-rendering-model)，将静态站点生成和动态交付的优点融为一体。
+## 部分预渲染是如何工作的？[](https://qufei1993.github.io/nextjs-learn-cn/chapter10#%E9%83%A8%E5%88%86%E9%A2%84%E6%B8%B2%E6%9F%93%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84)
+
+部分预渲染利用 React 的 [Concurrent APIs(opens in a new tab)](https://react.dev/blog/2021/12/17/react-conf-2021-recap#react-18-and-concurrent-features)，并使用 [Suspense(opens in a new tab)](https://react.dev/reference/react/Suspense) 推迟渲染应用程序的某些部分，直到满足某些条件（例如加载数据）。
+
+fallback 被嵌入到初始静态文件中，以及其他静态内容。在构建时（或重新验证期间），路由的静态部分被预渲染，其余部分被推迟到用户请求路由时。
+
+值得注意的是，将组件包装在 Suspense 中并不会使组件本身变为动态的（请记住使用 unstable_noStore 来实现此行为），而是 Suspense 用作路由的静态和动态部分之间的边界。
+
+部分预渲染的好处在于，您无需更改代码即可使用它。只要使用 Suspense 包装路由的动态部分，Next.js 就会知道路由的哪些部分是静态的，哪些是动态的。
+
+> 注意：要了解有关如何配置部分预渲染的详细信息，请查阅[部分预渲染（实验性）文档(opens in a new tab)](https://nextjs.org/docs/app/api-reference/next-config-js/partial-prerendering)或尝试使用[部分预渲染模板和演示(opens in a new tab)](https://vercel.com/templates/next.js/partial-prerendering-nextjs)。重要的是要注意，该功能目前处于实验性阶段，尚未准备好用于生产部署。
+
+## 总结[](https://qufei1993.github.io/nextjs-learn-cn/chapter10#%E6%80%BB%E7%BB%93)
+
+回顾一下，您已经采取了一些优化应用程序数据获取的步骤，您已经：
+
+- 在与应用程序代码相同的地区创建了一个数据库，以减少服务器和数据库之间的延迟。
+- 在服务器上使用 React 服务器组件获取数据。这允许您将昂贵的数据获取和逻辑保留在服务器上，减少客户端 JavaScript 捆绑，并防止数据库机密信息暴露给客户端。
+- 使用 SQL 仅获取所需的数据，减少每个请求传输的数据量和内存中转换数据所需的 JavaScript 量。
+- 在 JavaScript 中并行获取数据（在有意义的情况下）。
+- 实施了流式传输以防止慢速数据请求阻塞整个页面，并允许用户在等待所有内容加载完成之前开始与 UI 进行交互。
+- 将数据获取移动到需要它的组件，从而隔离了路由中应该是动态的部分，为部分预渲染做好准备。
+
+在下一章中，我们将研究在获取数据时您可能需要实现的两种常见模式：搜索和分页。
+
+# 添加搜索和分页
+
+在前一章中，通过流式传输提高了 Dashboard 的初始加载性能。现在让我们转到 `/invoices` 页面，学习如何添加搜索和分页！
+
+以下是本章中将涵盖的主题：
+
+- 学习如何使用 Next.js 的 API：searchParams、usePathname 和 useRouter。
+- 使用 URL 搜索参数实现搜索和分页。
+
+## 初始代码
+
+在您的 `/dashboard/invoices/page.tsx` 文件中，粘贴以下代码：
+
+/app/dashboard/invoices/page.tsx
+
+```tsx
+import Pagination from '@/app/ui/invoices/pagination';
+import Search from '@/app/ui/search';
+import Table from '@/app/ui/invoices/table';
+import { CreateInvoice } from '@/app/ui/invoices/buttons';
+import { lusitana } from '@/app/ui/fonts';
+import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
+import { Suspense } from 'react';
+ 
+export default async function Page() {
+  return (
+    <div className="w-full">
+      <div className="flex w-full items-center justify-between">
+        <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+      </div>
+      <div className="mt-4 flex items-center justify-between gap-2 md:mt-8">
+        <Search placeholder="Search invoices..." />
+        <CreateInvoice />
+      </div>
+      {/*  <Suspense key={query + currentPage} fallback={<InvoicesTableSkeleton />}>
+        <Table query={query} currentPage={currentPage} />
+      </Suspense> */}
+      <div className="mt-5 flex w-full justify-center">
+        {/* <Pagination totalPages={totalPages} /> */}
+      </div>
+    </div>
+  );
+}
+```
+
+花一些时间熟悉页面和您将要使用的组件：
+
+- `<Search/>` 允许用户搜索特定的发票。
+- `<Pagination/>` 允许用户在发票的页面之间导航。
+- `<Table/>` 显示发票。
+您的搜索功能将跨足客户端和服务器。当用户在客户端搜索发票时，URL 参数将被更新，在服务器上获取数据，并使用新数据重新呈现表格。
+
+## 为什么使用 URL 搜索参数？[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8-url-%E6%90%9C%E7%B4%A2%E5%8F%82%E6%95%B0)
+
+如上所述，您将使用 URL 搜索参数来管理搜索状态。如果您习惯于使用客户端状态进行搜索，这种模式可能是新的。
+
+使用 URL 参数实现搜索有一些好处：
+
+- **书签和共享的 URL**：由于搜索参数在 URL 中，用户可以将应用程序的当前状态，包括其搜索查询和过滤器，收藏夹起来以供将来参考或分享。
+- **服务器端渲染和初始加载**：可以直接在服务器上使用 URL 参数以呈现初始状态，使处理服务器端渲染变得更容易。
+- **分析和跟踪**：直接在 URL 中包含搜索查询和过滤器使得更容易跟踪用户行为，而无需额外的客户端逻辑。
+## 添加搜索功能[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD)
+
+以下是您将用于实现搜索功能的 Next.js 客户端 hooks：
+
+- `useSearchParams` - 允许您访问当前 URL 的参数。例如，此 URL `/dashboard/invoices?page=1&query=pending` 的搜索参数将是：`{page: '1', query: 'pending'}`。
+- `usePathname` - 允许您读取当前 URL 的路径名。例如，对于路由 `/dashboard/invoices`，`usePathname` 将返回 `'/dashboard/invoices'`。
+- `useRouter` - 使您能够在客户端组件内以编程方式在路由之间导航。有[多种方法(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/use-router#userouter)可供您使用。
+
+以下是实现步骤的快速概述：
+
+- 捕获用户的输入。
+- 使用搜索参数更新 URL。
+- 保持 URL 与输入字段同步。
+- 更新表以反映搜索查询。
+## 1. 捕获用户的输入[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#1-%E6%8D%95%E8%8E%B7%E7%94%A8%E6%88%B7%E7%9A%84%E8%BE%93%E5%85%A5)
+
+进入 `<Search>` 组件（`/app/ui/search.tsx`），您会注意到：
+
+- `"use client"` - 这是一个客户端组件，这意味着您可以使用事件监听器和 hook。
+- `<input>` - 这是搜索输入。
+
+创建一个新的 `handleSearch` 函数，并为 `<input>` 元素添加一个 `onChange` 监听器。每当输入值发生变化时，`onChange` 将调用 `handleSearch`。
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+ 
+export default function Search({ placeholder }: { placeholder: string }) {
+  function handleSearch(term: string) {
+    console.log(term);
+  }
+ 
+  return (
+    <div className="relative flex flex-1 flex-shrink-0">
+      <label htmlFor="search" className="sr-only">
+        Search
+      </label>
+      <input
+        className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
+        placeholder={placeholder}
+        onChange={(e) => {
+          handleSearch(e.target.value);
+        }}
+      />
+      <MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
+    </div>
+  );
+}
+```
+
+打开开发者工具中的控制台（console）测试上述代码是否正常工作，然后在搜索框架内输入内容。您应该在控制台中看到搜索词被记录。
+
+太棒了！您已经捕获了用户的搜索输入。现在，您需要使用搜索词更新 URL。
+
+## 2. 随着搜索参数更新 URL
+
+从 `'next/navigation'` 导入 `useSearchParams` hook， 并将其赋值给一个变量：
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { useSearchParams } from 'next/navigation';
+ 
+export default function Search() {
+  const searchParams = useSearchParams();
+ 
+  function handleSearch(term: string) {
+    console.log(term);
+  }
+  // ...
+}
+```
+
+在 handleSearch 中，使用新的 searchParams 变量创建一个新的 URLSearchParams 实例。
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { useSearchParams } from 'next/navigation';
+ 
+export default function Search() {
+  const searchParams = useSearchParams();
+ 
+  function handleSearch(term: string) {
+    const params = new URLSearchParams(searchParams);
+  }
+  // ...
+}
+```
+
+`URLSearchParams` 是一个 `Web API`，提供了操纵 `URL` 查询参数的实用方法。与创建复杂的字符串文字不同，您可以使用它获取参数字符串，例如 `?page=1&query=a`。
+
+接下来，根据用户的输入设置 `params` 字符串。如果输入为空，您将要删除它：
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { useSearchParams } from 'next/navigation';
+ 
+export default function Search() {
+  const searchParams = useSearchParams();
+ 
+  function handleSearch(term: string) {
+    const params = new URLSearchParams(searchParams);
+    if (term) {
+      params.set('query', term);
+    } else {
+      params.delete('query');
+    }
+  }
+  // ...
+}
+```
+
+现在您有了查询字符串。您可以使用 Next.js 的 `useRouter` 和 `usePathname` hook 来更新 URL。
+
+从 `'next/navigation'` 导入 `useRouter` 和 `usePathname`，并在 `handleSearch` 中使用 `useRouter()` 的 `replace` 方法：
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+ 
+export default function Search() {
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const { replace } = useRouter();
+ 
+  function handleSearch(term: string) {
+    const params = new URLSearchParams(searchParams);
+    if (term) {
+      params.set('query', term);
+    } else {
+      params.delete('query');
+    }
+    replace(`${pathname}?${params.toString()}`);
+  }
+}
+```
+
+这里是正在发生的事情的详细说明：
+
+- `${pathname}` 是当前路径，在您的案例中是 `"/dashboard/invoices"`。
+- 当用户在搜索栏中键入时，`params.toString()` 将此输入转换为友好的 URL 格式。
+- `replace(${pathname}?${params.toString()})` 更新 URL，其中包含用户的搜索数据。例如，如果用户搜索 "Lee"，则为 `/dashboard/invoices?query=lee`。
+- 由于 Next.js 的客户端导航（您在[导航页面的章节中(opens in a new tab)](https://qufei1993.github.io/nextjs-learn-cn/chapter5)了解到的）URL 无需重新加载页面即可更新。
+## 3. 保持 URL 和输入同步[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#3-%E4%BF%9D%E6%8C%81-url-%E5%92%8C%E8%BE%93%E5%85%A5%E5%90%8C%E6%AD%A5)
+为确保输入字段与 URL 同步，并在共享时填充，您可以通过从 `searchParams` 中读取传递一个 `defaultValue` 给 input：
+  
+/app/ui/search.tsx
+
+```tsx
+<input
+  className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
+  placeholder={placeholder}
+  onChange={(e) => {
+    handleSearch(e.target.value);
+  }}
+  defaultValue={searchParams.get('query')?.toString()}
+/>
+```
+
+## 4. 更新表格[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#4-%E6%9B%B4%E6%96%B0%E8%A1%A8%E6%A0%BC)
+
+最后，您需要更新表格组件以反映搜索查询。
+
+导航回到发票页面。
+
+页面组件接受一个[名为 searchParams 的 prop(opens in a new tab)](https://nextjs.org/docs/app/api-reference/file-conventions/page)，因此您可以将当前的 URL 参数传递给 `<Table>` 组件。
+
+  
+/app/dashboard/invoices/page.tsx
+
+```tsx
+import Pagination from '@/app/ui/invoices/pagination';
+import Search from '@/app/ui/search';
+import Table from '@/app/ui/invoices/table';
+import { CreateInvoice } from '@/app/ui/invoices/buttons';
+import { lusitana } from '@/app/ui/fonts';
+import { Suspense } from 'react';
+import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
+ 
+export default async function Page({
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string;
+    page?: string;
+  };
+}) {
+  const query = searchParams?.query || '';
+  const currentPage = Number(searchParams?.page) || 1;
+ 
+  return (
+    <div className="w-full">
+      <div className="flex w-full items-center justify-between">
+        <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+      </div>
+      <div className="mt-4 flex items-center justify-between gap-2 md:mt-8">
+        <Search placeholder="Search invoices..." />
+        <CreateInvoice />
+      </div>
+      <Suspense key={query + currentPage} fallback={<InvoicesTableSkeleton />}>
+        <Table query={query} currentPage={currentPage} />
+      </Suspense>
+      <div className="mt-5 flex w-full justify-center">
+        {/* <Pagination totalPages={totalPages} /> */}
+      </div>
+    </div>
+  );
+}
+```
+
+如果导航到 `<Table>` 组件，您将看到两个 prop，`query` 和 `currentPage`，传递给 `fetchFilteredInvoices()` 函数，该函数返回与查询匹配的发票。
+
+  
+/app/ui/invoices/table.tsx
+
+```tsx
+// ...
+export default async function InvoicesTable({
+  query,
+  currentPage,
+}: {
+  query: string;
+  currentPage: number;
+}) {
+  const invoices = await fetchFilteredInvoices(query, currentPage);
+  // ...
+}
+```
+
+有了这些变化，继续测试。如果搜索一个词，您将更新 URL，这将向服务器发送一个新的请求，在服务器上获取数据，只有与查询匹配的发票将被返回。
+
+> **何时使用 `useSearchParams()` hook vs. `searchParams` prop？**  
+> 您可能已经注意到您使用了两种不同的方法来提取搜索参数。您使用其中一种取决于您是在客户端还是服务器上工作。
+> 
+> - `<Search>` 是一个客户端组件，因此您使用 `useSearchParams()` hook 从客户端访问参数。
+> - `<Table>` 是一个服务器组件，它自己获取数据，因此您可以将 `searchParams prop` 从页面传递给组件。
+> 
+> 作为一般规则，如果要从客户端读取参数，请使用 `useSearchParams()` hook，因为这样可以避免返回到服务器。
+> 
+## 最佳实践：防抖[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E9%98%B2%E6%8A%96)
+
+恭喜！您已经在 Next.js 中实现了搜索！但是有一些优化操作可以进行。
+
+在您的 `handleSearch` 函数内部，添加以下 `console.log`：
+
+/app/ui/search.tsx
+
+```tsx
+function handleSearch(term: string) {
+  console.log(`Searching... ${term}`);
+ 
+  const params = new URLSearchParams(searchParams);
+  if (term) {
+    params.set('query', term);
+  } else {
+    params.delete('query');
+  }
+  replace(`${pathname}?${params.toString()}`);
+}
+```
+
+然后在搜索栏中键入 "Emil" 并检查开发工具中的控制台。发生了什么？
+
+Dev Tools Console
+
+```
+Searching... E
+Searching... Em
+Searching... Emi
+Searching... Emil
+```
+
+您在每次按键时都更新了 URL，因此在每次按键时都在查询数据库！虽然在我们的应用程序中这不是问题，但想象一下如果您的应用程序有数千用户，每个用户在每次按键时都向数据库发送新请求，那将会是一个问题。
+
+防抖是一种编程实践，用于限制函数触发的速率。在我们的情况下，只有在用户停止输入时才希望查询数据库。
+
+防抖的工作原理：
+
+1. 触发事件：当发生应该被防抖的事件（比如搜索框中的按键）时，定时器启动。
+2. 等待：如果在计时器到期之前发生新事件，则重置计时器。
+3. 执行：如果计时器达到倒计时结束，将执行防抖函数。
+
+您可以以几种方式实现防抖，包括手动创建自己的防抖函数。为了保持简单，我们将使用一个名为 use-debounce 的库。
+
+安装 use-debounce：
+
+Terminal
+
+```
+npm i use-debounce
+```
+
+在您的 `<Search>` 组件中，导入一个名为 `useDebouncedCallback` 的函数：
+
+/app/ui/search.tsx
+
+```tsx
+// ...
+import { useDebouncedCallback } from 'use-debounce';
+ 
+// Inside the Search Component...
+const handleSearch = useDebouncedCallback((term) => {
+  console.log(`Searching... ${term}`);
+ 
+  const params = new URLSearchParams(searchParams);
+  if (term) {
+    params.set('query', term);
+  } else {
+    params.delete('query');
+  }
+  replace(`${pathname}?${params.toString()}`);
+}, 300);
+```
+
+这个函数将包装 `handleSearch` 的内容，并且只有在用户停止输入一段时间后（300 毫秒）才运行代码。
+
+现在再次在搜索栏中键入，并在开发工具中打开控制台。您应该会看到以下内容：
+
+Dev Tools Console
+
+```
+Searching... Emil
+```
+
+通过防抖，您可以减少发送到数据库的请求数量，从而节省资源。
+
+## 添加分页[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#%E6%B7%BB%E5%8A%A0%E5%88%86%E9%A1%B5)
+
+在引入搜索功能之后，您会注意到表格一次只显示 6 张发票。这是因为 `data.ts` 中的 `fetchFilteredInvoices()` 函数每页返回最多 6 张发票。
+
+添加分页允许用户浏览不同页面以查看所有发票。让我们看看如何使用 URL 参数实现分页，就像您在搜索中所做的那样。
+
+导航到 `<Pagination/>` 组件，您会注意到它是一个客户端组件。您不希望在客户端上获取数据，因为这会暴露您的数据库凭据（请记住，您没有使用 API 层）。相反，您可以在服务器上获取数据，并将其作为 prop 传递给组件。
+
+在 `/dashboard/invoices/page.tsx` 中，导入一个名为 `fetchInvoicesPages` 的新函数，并将 `searchParams` 中的查询作为参数传递：
+
+  
+/app/dashboard/invoices/page.tsx
+
+```tsx
+// ...
+import { fetchInvoicesPages } from '@/app/lib/data';
+ 
+export default async function Page({
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string,
+    page?: string,
+  },
+}) {
+  const query = searchParams?.query || '';
+  const currentPage = Number(searchParams?.page) || 1;
+ 
+  const totalPages = await fetchInvoicesPages(query);
+ 
+  return (
+    // ...
+  );
+}
+```
+
+`fetchInvoicesPages` 根据搜索查询返回页面的总数。例如，如果有 12 张与搜索查询匹配的发票，并且每页显示 6 张发票，那么总页数将为 2。
+
+接下来，将 `totalPages` 属性传递给 `<Pagination/>` 组件：
+
+/app/dashboard/invoices/page.tsx
+
+```tsx
+// ...
+ 
+export default async function Page({
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string;
+    page?: string;
+  };
+}) {
+  const query = searchParams?.query || '';
+  const currentPage = Number(searchParams?.page) || 1;
+ 
+  const totalPages = await fetchInvoicesPages(query);
+ 
+  return (
+    <div className="w-full">
+      <div className="flex w-full items-center justify-between">
+        <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+      </div>
+      <div className="mt-4 flex items-center justify-between gap-2 md:mt-8">
+        <Search placeholder="Search invoices..." />
+        <CreateInvoice />
+      </div>
+      <Suspense key={query + currentPage} fallback={<InvoicesTableSkeleton />}>
+        <Table query={query} currentPage={currentPage} />
+      </Suspense>
+      <div className="mt-5 flex w-full justify-center">
+        <Pagination totalPages={totalPages} />
+      </div>
+    </div>
+  );
+}
+```
+
+导航到 `<Pagination/>` 组件并导入 `usePathname` 和 `useSearchParams` hooks。我们将使用这两者来获取当前页并设置新的页数。确保在此组件中取消注释代码。由于您尚未实现 `<Pagination/>` 逻辑，您的应用程序将暂时中断。现在让我们来做这个！
+
+/app/ui/invoices/pagination.tsx
+
+```tsx
+'use client';
+ 
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
+import clsx from 'clsx';
+import Link from 'next/link';
+import { generatePagination } from '@/app/lib/utils';
+import { usePathname, useSearchParams } from 'next/navigation';
+ 
+export default function Pagination({ totalPages }: { totalPages: number }) {
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const currentPage = Number(searchParams.get('page')) || 1;
+ 
+  // ...
+}
+```
+
+接下来，在 `<Pagination>` 组件中创建一个名为 `createPageURL` 的新函数。类似于搜索，您将使用 `URLSearchParams` 来设置新的页码，并使用 `pathName` 创建 URL 字符串。
+
+/app/ui/invoices/pagination.tsx
+
+```tsx
+'use client';
+ 
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
+import clsx from 'clsx';
+import Link from 'next/link';
+import { generatePagination } from '@/app/lib/utils';
+import { usePathname, useSearchParams } from 'next/navigation';
+ 
+export default function Pagination({ totalPages }: { totalPages: number }) {
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const currentPage = Number(searchParams.get('page')) || 1;
+ 
+  const createPageURL = (pageNumber: number | string) => {
+    const params = new URLSearchParams(searchParams);
+    params.set('page', pageNumber.toString());
+    return `${pathname}?${params.toString()}`;
+  };
+ 
+  // ...
+}
+```
+
+这里是正在发生的事情的详细说明：
+
+- `createPageURL` 创建当前搜索参数的实例。
+- 然后，它更新 `"page"` 参数为提供的 `pageNumber`。
+- 最后，使用 `pathname` 和更新后的搜索参数构造完整的 URL。
+
+`<Pagination>` 组件的其余部分涉及样式和不同状态（第一页、最后一页、活动、禁用等）。我们不会详细介绍这门课程，但请随时查看代码以查看 `createPageURL` 在哪里被调用。
+
+最后，当用户键入新的搜索查询时，您希望将页码重置为 1。您可以通过更新 `<Search>` 组件中的 `handleSearch` 函数来实现这一点：
+
+/app/ui/search.tsx
+
+```tsx
+'use client';
+ 
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useDebouncedCallback } from 'use-debounce';
+ 
+export default function Search({ placeholder }: { placeholder: string }) {
+  const searchParams = useSearchParams();
+  const { replace } = useRouter();
+  const pathname = usePathname();
+ 
+  const handleSearch = useDebouncedCallback((term) => {
+    const params = new URLSearchParams(searchParams);
+    params.set('page', '1');
+    if (term) {
+      params.set('query', term);
+    } else {
+      params.delete('query');
+    }
+    replace(`${pathname}?${params.toString()}`);
+  }, 300);
+}
+```
+
+## 总结[](https://qufei1993.github.io/nextjs-learn-cn/chapter11#%E6%80%BB%E7%BB%93)
+
+恭喜你！你刚刚使用 URL 参数和 Next.js API 实现了搜索和分页。
+
+总结一下，在本章中：
+
+- 你使用 URL 搜索参数而不是客户端状态处理了搜索和分页。
+- 你在服务器上获取了数据。
+- 你使用了 useRouter 路由 Hook 以实现更平滑的客户端过渡。
+
+这些模式与你在使用客户端 React 时可能习惯的方式有所不同，但希望现在你更好地理解了使用 URL 搜索参数并将该状态提升到服务器的好处。
+
+# Mutating 数据
+
+在上一章节中，使用 URL 搜索参数和 Next.js API 实现了搜索和分页。让我们继续在发票（Invoices）页面上工作，添加创建、更新和删除发票的功能！
+
+以下是本章中将涵盖的主题：
+
+- React Server Actions 是什么以及如何使用它们来改变数据。
+- 如何处理表单和 Server Components。
+- 使用原生 `formData` 对象的最佳实践，包括类型验证。
+- 如何使用 `revalidatePath` API 重新验证客户端缓存。
+- 如何创建具有特定 IDs 的动态路由段。
+- 如何使用 React 的 `useFormStatus` hook 进行乐观更新。
+## 什么是 Server Actions？[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#%E4%BB%80%E4%B9%88%E6%98%AF-server-actions)
+
+React Server Actions 允许您在服务器上直接运行异步代码。它们消除了通过创建 API 改变数据的方式。相反，您编写的在服务器上执行的异步函数，可以在客户端或 Server Components 中直接调用。
+
+对于 Web 应用程序安全性是最重要的，因为它们可能受到各种威胁。这就是 Server Actions 发挥作用的地方。它们提供了一种有效的安全解决方案，防范各种类型的攻击，保护您的数据，并确保访问是经过授权的。Server Actions 通过诸如 POST 请求、加密闭包、严格的输入检查、错误消息 hashing 和主机限制等技术实现这一点，所有这些技术共同作用以显着增强应用程序的安全性。
+
+## Server Actions 和 forms[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#server-actions-%E5%92%8C-forms)
+
+在 React 中，您可以在 `<form>` 元素中使用 `action` 属性来调用操作。该操作将自动接收包含捕获数据的原生 `FormData` 对象。
+
+例如：
+
+```js
+// Server Component
+export default function Page() {
+  // Action
+  async function create(formData: FormData) {
+    'use server';
+ 
+    // Logic to mutate data...
+  }
+ 
+  // Invoke the action using the "action" attribute
+  return <form action={create}>...</form>;
+}
+```
+
+在 Server Component 中调用 Server Action 的一个优势是渐进增强 - 即使客户端上禁用了 JavaScript，forms 仍可以工作。
+
+## Next.js with Server Actions[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#nextjs-with-server-actions)
+
+Server Actions 与 Next.js [缓存(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/caching)深度集成。通过 Server Action 提交表单时，您不仅可以使用该操作来改变数据，还可以使用 `revalidatePath` 和 `revalidateTag` 等 API 来重新验证相关的缓存。
+
+## 创建发票[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#%E5%88%9B%E5%BB%BA%E5%8F%91%E7%A5%A8)
+
+以下是创建一个新发票的步骤：
+
+- 创建一个捕获用户输入的 form。
+- 创建一个 Server Action，并从 form 中调用它。
+- 在 Server Action 中，从 formData 对象中提取数据。
+- 验证和准备要插入数据库的数据。
+- 插入数据并处理任何错误。
+- 重新验证缓存并将用户重定向回发票页面。
+### 1. 创建新 route 和 form[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#1-%E5%88%9B%E5%BB%BA%E6%96%B0-route-%E5%92%8C-form)
+
+首先，在 `/invoices` 目录内，添加一个名为 `/create` 的新路由段，包含一个 `page.tsx` 文件：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter-12-create-invoice-route.1e37f5b2.avif)
+
+您将使用此路由来创建新的发票。在您的 `page.tsx` 文件中，粘贴以下代码，然后花些时间研究它
+/dashboard/invoices/create/page.tsx
+
+```tsx
+import Form from '@/app/ui/invoices/create-form';
+import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
+import { fetchCustomers } from '@/app/lib/data';
+ 
+export default async function Page() {
+  const customers = await fetchCustomers();
+ 
+  return (
+    <main>
+      <Breadcrumbs
+        breadcrumbs={[
+          { label: 'Invoices', href: '/dashboard/invoices' },
+          {
+            label: 'Create Invoice',
+            href: '/dashboard/invoices/create',
+            active: true,
+          },
+        ]}
+      />
+      <Form customers={customers} />
+    </main>
+  );
+}
+```
+
+您的页面是一个 Server Component，用于获取 `customers` 并将其传递给 `<Form>` 组件。为了节省时间，我们已经为您创建了 `<Form>` 组件。
+
+转到 `<Form>` 组件，您会看到该表单：
+
+- 有一个包含 `customers` 列表的 `<select>`（下拉）元素。
+- 有一个用于 `amount` 的带有 `type="number"` 的 `<input>` 元素。
+- 有两个带有 `type="radio"` 的 `<input>` 元素，用于状态。
+- 有一个 `type="submit"` 的按钮。
+
+在 [http://localhost:3000/dashboard/invoices/create(opens in a new tab)](http://localhost:3000/dashboard/invoices/create) 上，您应该看到以下 UI：
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter12-create-invoice-page.7d61ad37.avif)
+### 2. 创建 Server Action[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#2-%E5%88%9B%E5%BB%BA-server-action)
+
+太好了，现在让我们创建一个 Server Action，当 form 提交时将调用该 Server Action。
+
+导航到您的 `lib` 目录并创建一个名为 `actions.ts` 的新文件。在该文件顶部添加 React 的 · 指令：
+
+/app/lib/actions.ts
+
+```
+'use server';
+```
+
+通过添加 `'use server'`，您将文件中的所有导出函数标记为服务器函数。然后可以将这些服务器函数导入到 Client 和 Server 组件中，使它们变得非常灵活。
+
+您还可以通过在 action 内部添加 `"use server"` 直接在 Server Component 中编写 Server Actions。但是在本课程中，我们将把它们都组织在一个单独的文件中。
+
+在您的 `actions.ts` 文件中，创建一个接受 `formData` 的新异步函数：
+  
+/app/lib/actions.ts
+
+```
+'use server'; export async function createInvoice(formData: FormData) {}
+```
+
+然后，在您的 `<Form>` 组件中，从 `actions.ts` 文件中导入 `createInvoice`。给 `<form>` 元素添加 action 属性，并调用 `createInvoice` action。
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+'use client';
+ 
+import { customerField } from '@/app/lib/definitions';
+import Link from 'next/link';
+import {
+  CheckIcon,
+  ClockIcon,
+  CurrencyDollarIcon,
+  UserCircleIcon,
+} from '@heroicons/react/24/outline';
+import { Button } from '@/app/ui/button';
+import { createInvoice } from '@/app/lib/actions';
+ 
+export default function Form({
+  customers,
+}: {
+  customers: customerField[];
+}) {
+  return (
+    <form action={createInvoice}>
+      // ...
+  )
+}
+```
+
+> 值得知道：在 HTML 中，您会将 URL 传递给 `action` 属性。此 URL 将是您的 form 数据应提交的目标（通常是 API 端点）。  
+> 然而，在 React 中，action 属性被视为一个特殊的 prop - 这意味着 React 在其之上构建，以允许调用 actions。  
+> 在幕后，Server Actions 创建一个 POST API 端点。这就是在使用 Server Actions 时为什么不需要手动创建 API 端点的原因。
+> 
+### 3. 从 formData 中提取数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#3-%E4%BB%8E-formdata-%E4%B8%AD%E6%8F%90%E5%8F%96%E6%95%B0%E6%8D%AE)
+
+回到您的 `actions.ts` 文件，您需要提取 formData 的值，有几种方法可以使用。在本例中，让我们使用 `.get(name)` 方法。
+
+/app/lib/actions.ts
+
+```ts
+'use server';
+ 
+export async function createInvoice(formData: FormData) {
+  const rawFormData = {
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  };
+  // Test it out:
+  console.log(rawFormData);
+}
+```
+
+> 提示：如果您正在处理包含许多字段的 forms，您可能想考虑使用 JavaScript 的 `Object.fromEntries()` 方法与 `entries()` 方法。例如：  
+> `const rawFormData = Object.fromEntries(formData.entries())`
+
+为了检查一切是否连接正确，尝试填写 form。提交后，您应该在终端中看到您刚刚输入到 forms 中的数据。
+
+现在，您的数据呈对象形式，将更容易处理。
+
+### 4. 验证和准备数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#4-%E9%AA%8C%E8%AF%81%E5%92%8C%E5%87%86%E5%A4%87%E6%95%B0%E6%8D%AE)
+
+在将 form 数据发送到数据库之前，您希望确保它具有正确的格式和正确的类型。如果您还记得在本课程前面的部分，您的 invoices 表期望以下格式的数据：
+
+/app/lib/definitions.ts
+
+```
+export type Invoice = {
+  id: string; // Will be created on the database
+  customer_id: string;
+  amount: number; // Stored in cents
+  status: 'pending' | 'paid';
+  date: string;
+};
+```
+
+到目前为止，您只有来自 form 的 `customer_id`、`amount` 和 `status`。
+
+**类型验证和强制转换**
+
+验证来自 form 的数据是否符合数据库中期望的类型非常重要。例如，如果您在 action 中添加一个 console.log：
+
+```
+console.log(typeof rawFormData.amount);
+```
+
+您会注意到 `amount` 是字符串类型，而不是数字。这是因为具有 `type="number"` 的输入元素实际上返回一个字符串，而不是数字！
+
+为了处理类型验证，您有几个选择。虽然您可以手动验证类型，但使用类型验证库可以为您节省时间和精力。对于您的示例，我们将使用 [Zod(opens in a new tab)](https://zod.dev/)，这是一个 TypeScript 优先的验证库，可以为你简化这些校验任务。
+
+在您的 `actions.ts` 文件中，导入 Zod 并定义一个与 form 对象形状匹配的 schema。这个 schema 将在 formData 保存到数据库之前验证它。
+  
+/app/lib/actions.ts
+
+```ts
+'use server';
+ 
+import { z } from 'zod';
+ 
+const FormSchema = z.object({
+  id: z.string(),
+  customerId: z.string(),
+  amount: z.coerce.number(),
+  status: z.enum(['pending', 'paid']),
+  date: z.string(),
+});
+ 
+const CreateInvoice = FormSchema.omit({ id: true, date: true });
+ 
+export async function createInvoice(formData: FormData) {
+  // ...
+}
+```
+
+`amount` 字段被专门设置为强制（更改）从字符串更改为数字，同时还验证其类型。
+然后，您可以将 `rawFormData` 传递给 `CreateInvoice` 以验证类型：
+
+/app/lib/actions.ts
+
+```ts
+// ...
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+}
+```
+
+**以分为单位存储值**
+
+通常，将货币值以分为单位存储在数据库中是一种良好的做法，以消除 JavaScript 浮点错误并确保更高的准确性。
+
+让我们将金额转换为分：
+  
+/app/lib/actions.ts
+
+```ts
+// ...
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+  const amountInCents = amount * 100;
+}
+```
+
+**创建新日期**
+
+最后，让我们为发票的创建日期创建一个新的格式为 "YYYY-MM-DD" 的日期：
+
+/app/lib/actions.ts
+
+```ts
+// ...
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+  const amountInCents = amount * 100;
+  const date = new Date().toISOString().split('T')[0];
+}
+```
+### 5. 插入数据到数据库[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#5-%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93)
+
+现在您已经拥有数据库所需的所有值，您可以创建一个 SQL 查询，将新发票插入数据库并传入变量：
+
+/app/lib/actions.ts
+
+```ts
+import { z } from 'zod';
+import { sql } from '@vercel/postgres'; // 这里需要注意
+ 
+// ...
+ 
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+  const amountInCents = amount * 100;
+  const date = new Date().toISOString().split('T')[0];
+ 
+  await sql`
+    INSERT INTO invoices (customer_id, amount, status, date)
+    VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
+  `;
+}
+```
+
+> **译者注**：因为 Vercel Postgres 搭配本地数据库还存在一些问题，在 [nextjs-learn-example(opens in a new tab)](https://github.com/qufei1993/nextjs-learn-example) 示例中，我使用了一种 hack 的方式来处理，如果您在本地开发是按照我的 hack 方式，请替换 `import { sql } from '@vercel/postgres';` 为 `import { sql } from './sql-hack';` 详情参见 [https://qufei1993.github.io/nextjs-learn-cn/chapter17(opens in a new tab)](https://qufei1993.github.io/nextjs-learn-cn/chapter17)
+
+现在，我们还没有处理任何错误。我们将在下一章中处理错误。让我们继续进行下一步。
+
+### 6. 重新验证和重定向[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#6-%E9%87%8D%E6%96%B0%E9%AA%8C%E8%AF%81%E5%92%8C%E9%87%8D%E5%AE%9A%E5%90%91)
+
+Next.js 拥有一个[客户端路由缓存(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/caching#router-cache)，它在用户的浏览器中存储路由段一段时间。除了[prefetching(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#1-prefetching)，此缓存确保用户在路由之间快速导航的同时减少向服务器发出的请求次数。
+
+由于您正在更新发票路由中显示的数据，因此您希望清除此缓存并触发对服务器的新请求。您可以使用 Next.js 的 [revalidatePath(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/revalidatePath) 函数来实现：
+
+/app/lib/actions.ts
+
+```ts
+'use server';
+ 
+import { z } from 'zod';
+import { sql } from '@vercel/postgres';
+import { revalidatePath } from 'next/cache';
+ 
+// ...
+ 
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+  const amountInCents = amount * 100;
+  const date = new Date().toISOString().split('T')[0];
+ 
+  await sql`
+    INSERT INTO invoices (customer_id, amount, status, date)
+    VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
+  `;
+ 
+  revalidatePath('/dashboard/invoices');
+}
+```
+
+一旦数据库已更新，将重新验证 `/dashboard/invoices` 路径，并从服务器获取新数据。
+
+此时，您还希望将用户重定向回 `/dashboard/invoices` 页面。您可以使用 Next.js 的 `[redirect](https://nextjs.org/docs/app/api-reference/functions/redirect)` 函数来实现：
+
+  
+/app/lib/actions.ts
+
+```ts
+'use server';
+ 
+import { z } from 'zod';
+import { sql } from '@vercel/postgres';
+import { revalidatePath } from 'next/cache';
+import { redirect } from 'next/navigation';
+ 
+// ...
+ 
+export async function createInvoice(formData: FormData) {
+  // ...
+ 
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
+
+恭喜！您刚刚实现了您的第一个 Server Action。通过添加一个新的发票来测试它，如果一切正常：
+
+- 在提交时，您应该被重定向到 `/dashboard/invoices` 路由。
+- 您应该看到新发票在表格的顶部。
+## 更新发票[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#%E6%9B%B4%E6%96%B0%E5%8F%91%E7%A5%A8)
+
+更新发票 form 同创建发票 form 类似，唯一区别是你需要传递发票 `id` 来更新数据库中的记录。让我们看看如何获取并传递发票 `id`。
+
+以下是更新发票的步骤：
+
+- 创建一个带有发票 `id` 的新动态路由段。
+- 从页面参数中读取发票 `id`。
+- 从数据库中获取特定发票。
+- 使用发票数据预填充 form。
+- 更新数据库中的发票数据。
+
+### 1. 创建带有发票 id 的动态路由段[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#1-%E5%88%9B%E5%BB%BA%E5%B8%A6%E6%9C%89%E5%8F%91%E7%A5%A8-id-%E7%9A%84%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E6%AE%B5)
+
+Next.js 允许您在不知道确切段名称的情况下创建[动态路由段(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)，并希望基于数据创建路由。这可以是博客文章标题、产品页面等。您可以通过将文件夹名称包装在方括号中来创建动态路由段。例如，`[id]`、`[post]` 或 `[slug]`。
+
+在 `/invoices` 文件夹中，创建一个名为 `[id]` 的新动态路由，然后创建一个名为 `edit` 的新路由，其中包含一个 `page.tsx` 文件。您的文件结构应如下所示：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter12-edit-invoice-route.12871faf.avif)
+
+在您的 `<Table>` 组件中，请注意有一个 `<UpdateInvoice />` 按钮，它从表记录中接收发票的 `id`。
+
+  
+/app/ui/invoices/table.tsx
+
+```tsx
+export default async function InvoicesTable({
+  query,
+  currentPage,
+}: {
+  query: string;
+  currentPage: number;
+}) {
+  return (
+    // ...
+    <td className="flex justify-end gap-2 whitespace-nowrap px-6 py-4 text-sm">
+      <UpdateInvoice id={invoice.id} />
+      <DeleteInvoice id={invoice.id} />
+    </td>
+    // ...
+  );
+}
+```
+
+导航到您的 `<UpdateInvoice />` 组件，并更新 `Link` 的 `href` 以接收 `id` 属性。您可以使用模板文字链接到动态路由段：
+
+/app/ui/invoices/buttons.tsx
+
+```tsx
+import { PencilIcon, PlusIcon, TrashIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+ 
+// ...
+ 
+export function UpdateInvoice({ id }: { id: string }) {
+  return (
+    <Link
+      href={`/dashboard/invoices/${id}/edit`}
+      className="rounded-md border p-2 hover:bg-gray-100"
+    >
+      <PencilIcon className="w-5" />
+    </Link>
+  );
+}
+```
+
+### 2. 从页面参数中读取发票 `id`[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#2-%E4%BB%8E%E9%A1%B5%E9%9D%A2%E5%8F%82%E6%95%B0%E4%B8%AD%E8%AF%BB%E5%8F%96%E5%8F%91%E7%A5%A8-id)
+
+回到您的 `<Page>` 组件，粘贴以下代码：
+
+/app/dashboard/invoices/[id]/edit/page.tsx
+
+```tsx
+import Form from '@/app/ui/invoices/edit-form';
+import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
+import { fetchCustomers } from '@/app/lib/data';
+ 
+export default async function Page() {
+  return (
+    <main>
+      <Breadcrumbs
+        breadcrumbs={[
+          { label: 'Invoices', href: '/dashboard/invoices' },
+          {
+            label: 'Edit Invoice',
+            href: `/dashboard/invoices/${id}/edit`,
+            active: true,
+          },
+        ]}
+      />
+      <Form invoice={invoice} customers={customers} />
+    </main>
+  );
+}
+```
+
+请注意，它与您的 `/create` 发票页面类似，只是导入了不同的 form（来自 `edit-form.tsx` 文件）。该 form 应该使用客户的名称、发票金额和状态的 `defaultValue` 进行预填充。要预填充 form 字段，您需要使用 `id` 获取特定的发票。
+
+除了 `searchParams` 之外，页面组件还接收一个称为 `params` 的属性，您可以使用它来访问 `id`。更新您的 `<Page>` 组件以接收此属性：
+
+/app/dashboard/invoices/[id]/edit/page.tsx
+
+```tsx
+import Form from '@/app/ui/invoices/edit-form';
+import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
+import { fetchCustomers } from '@/app/lib/data';
+ 
+export default async function Page({ params }: { params: { id: string } }) {
+  const id = params.id;
+  // ...
+}
+```
+
+### 3. 获取特定发票[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#3-%E8%8E%B7%E5%8F%96%E7%89%B9%E5%AE%9A%E5%8F%91%E7%A5%A8)
+
+然后：
+
+- 导入一个名为 `fetchInvoiceById` 的新函数，并将 `id` 作为参数传递。
+- 导入 `fetchCustomers` 以获取下拉列表的客户名称。
+
+您可以使用 `Promise.all` 并行获取发票和客户：
+
+/app/dashboard/invoices/[id]/edit/page.tsx
+
+```tsx
+import Form from '@/app/ui/invoices/edit-form';
+import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
+import { fetchInvoiceById, fetchCustomers } from '@/app/lib/data';
+ 
+export default async function Page({ params }: { params: { id: string } }) {
+  const id = params.id;
+  const [invoice, customers] = await Promise.all([
+    fetchInvoiceById(id),
+    fetchCustomers(),
+  ]);
+  // ...
+}
+```
+
+您将在终端中看到有关 `invoice` 属性的临时 TS 错误，因为 `invoice` 可能是 `undefined`。现在不要担心，当您添加错误处理时，将在下一章中解决它。
+
+太好了！现在，测试一切是否连接正确。访问 [http://localhost:3000/dashboard/invoices(opens in a new tab)](http://localhost:3000/dashboard/invoices) 然后单击铅笔图标以编辑发票。导航后，您应该看到一个预填充有发票详细信息的 form：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter12-edit-invoice-page.90ede370.avif)
+
+URL 也应更新为带有 `id` 的形式：[http://localhost:3000/dashboard/invoice/uuid/edit(opens in a new tab)](http://localhost:3000/dashboard/invoice/uuid/edit)
+
+> **UUID VS 自增键** 我们使用 `UUID` 而不是自增键（例如 1、2、3 等）。这会使 URL 变得更长；然而，UUID 消除了 ID 冲突的风险，是全球唯一的，并减少了枚举攻击的风险 - 这使它们非常适用于大型数据库。
+
+然而，如果您喜欢更清晰的 URL，您可能更喜欢使用自增键。
+
+### 4. 将 id 传递给 Server Action[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#4-%E5%B0%86-id-%E4%BC%A0%E9%80%92%E7%BB%99-server-action)
+
+最后，您希望将 `id` 传递给 Server Action，以便您可以在数据库中更新正确的记录。您不能像这样将 `id` 作为参数传递：
+
+/app/ui/invoices/edit-form.tsx
+
+```tsx
+// Passing an id as argument won't work
+<form action={updateInvoice(id)}>
+```
+
+反而，您可以使用 JS `bind` 将 `id` 传递给 Server Action。这将确保传递给 Server Action 的任何值都被编码。
+
+/app/ui/invoices/edit-form.tsx
+
+```tsx
+// ...
+import { updateInvoice } from '@/app/lib/actions';
+ 
+export default function EditInvoiceForm({
+  invoice,
+  customers,
+}: {
+  invoice: InvoiceForm;
+  customers: CustomerField[];
+}) {
+  const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
+ 
+  return (
+    <form action={updateInvoiceWithId}>
+      <input type="hidden" name="id" value={invoice.id} />
+    </form>
+  );
+}
+```
+
+注意：在 form 中使用隐藏的 input 字段也是可行的（例如 `<input type="hidden" name="id" value={invoice.id} />`）。然而，这些值将以完整文本形式出现在 HTML 源代码中，对于 id 等敏感数据来说并不理想。
+
+然后，在您的 actions.ts 文件中，创建一个新的 action `updateInvoice`：
+
+/app/lib/actions.ts
+
+```ts
+// Use Zod to update the expected types
+const UpdateInvoice = FormSchema.omit({ id: true, date: true });
+ 
+// ...
+ 
+export async function updateInvoice(id: string, formData: FormData) {
+  const { customerId, amount, status } = UpdateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  const amountInCents = amount * 100;
+ 
+  await sql`
+    UPDATE invoices
+    SET customer_id = ${customerId}, amount = ${amountInCents}, status = ${status}
+    WHERE id = ${id}
+  `;
+ 
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
+
+与 `createInvoice` action 类似，在这里您正在：
+
+- 从 `formData` 中提取数据。
+- 使用 Zod 验证类型。
+- 将金额转换为分。
+- 将变量传递给 SQL 查询。
+- 调用 `revalidatePath` 以清除客户端缓存并发出新的服务器请求。
+- 调用 `redirect` 将用户重定向到发票页面。
+
+通过编辑发票进行测试。提交 form 后，您应该被重定向到发票页面，并且发票应该已更新。
+
+## 删除发票[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#%E5%88%A0%E9%99%A4%E5%8F%91%E7%A5%A8)
+
+要使用 Server Action 删除发票，请将删除按钮包装在 `<form>` 元素中，并使用 `bind` 将 `id` 传递给 Server Action：
+
+/app/ui/invoices/buttons.tsx
+
+```tsx
+import { deleteInvoice } from '@/app/lib/actions';
+ 
+// ...
+ 
+export function DeleteInvoice({ id }: { id: string }) {
+  const deleteInvoiceWithId = deleteInvoice.bind(null, id);
+ 
+  return (
+    <form action={deleteInvoiceWithId}>
+      <button className="rounded-md border p-2 hover:bg-gray-100">
+        <span className="sr-only">Delete</span>
+        <TrashIcon className="w-4" />
+      </button>
+    </form>
+  );
+}
+```
+
+在您的 `actions.ts` 文件中，创建一个名为 `deleteInvoice` 的新 action。
+
+/app/lib/actions.ts
+
+```ts
+export async function deleteInvoice(id: string) {
+  await sql`DELETE FROM invoices WHERE id = ${id}`;
+  revalidatePath('/dashboard/invoices');
+}
+```
+
+由于此 action 是在 `/dashboard/invoices` 路径中调用的，您不需要调用 `redirect`。调用 `revalidatePath` 将触发新的服务器请求并重新渲染表格。
+
+## 进一步阅读[](https://qufei1993.github.io/nextjs-learn-cn/chapter12#%E8%BF%9B%E4%B8%80%E6%AD%A5%E9%98%85%E8%AF%BB)
+
+在本章中，您学习了如何使用 Server Actions 来改变数据。您还学会了如何使用 `revalidatePath` API 来重新验证Next.js 缓存，并使用 `redirect` 将用户重定向到新页面。
+
+您还可以阅读更多关于[使用 Server Actions 进行安全性方面(opens in a new tab)](https://nextjs.org/blog/security-nextjs-server-components-actions)的内容，以获取更多学习资料。
+
+# 错误处理
+
+在上一章节中，您学到了如何使用 Server Actions 来改变数据。让我们看看如何使用 JavaScript 的 `try/catch` 语句和 Next.js API 优雅地处理错误。
+
+以下是本章中将涵盖的主题：
+
+- 如何使用特殊的 `error.tsx` 文件捕获路由段中的错误，并向用户显示一个备用 UI。
+- 如何使用 `notFound` 函数和 `not-found` 文件来处理 404 错误（对于不存在的资源）。
+## 为 Server Actions 添加 try/catch[](https://qufei1993.github.io/nextjs-learn-cn/chapter13#%E4%B8%BA-server-actions-%E6%B7%BB%E5%8A%A0-trycatch)
+
+首先，让我们向您的 Server Actions 添加 JavaScript 的 `try/catch` 语句，以使您能够优雅地处理错误。
+
+如果您知道如何操作，请花费几分钟更新您的 Server Actions，或者您可以复制下面的代码：
+
+/app/lib/actions.ts
+
+```t
+export async function createInvoice(formData: FormData) {
+  const { customerId, amount, status } = CreateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  const amountInCents = amount * 100;
+  const date = new Date().toISOString().split('T')[0];
+ 
+  try {
+    await sql`
+      INSERT INTO invoices (customer_id, amount, status, date)
+      VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
+    `;
+  } catch (error) {
+    return {
+      message: 'Database Error: Failed to Create Invoice.',
+    };
+  }
+ 
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
