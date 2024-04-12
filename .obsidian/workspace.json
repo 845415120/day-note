@@ -134,7 +134,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-前端资料/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-12.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a8afb10c9d4f051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-12/1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6ce0101a8fd4586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-12/AI学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -142,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -217,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端资料/0-卡片/0-卡片.md"
+                "file": "H-每日记录/2024-04-12/AI学习.md"
               }
             }
           },
@@ -227,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端资料/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-12/AI学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端资料/0-卡片/0-卡片.md",
+                "file": "H-每日记录/2024-04-12/AI学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,21 +294,22 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "99dd6c5333dd2d4f",
+  "active": "c6ce0101a8fd4586",
   "lastOpenFiles": [
-    "0-前端资料/web前端面试 - 面试官系列.md",
+    "H-每日记录/2024-04-12/1.md",
+    "H-每日记录/2024-04-12/AI学习.md",
+    "H-每日记录/2024-04-12.md",
     "0-前端资料/0-卡片/0-卡片.md",
+    "0-前端资料/web前端面试 - 面试官系列.md",
     "0-前端资料/资源.md",
     "Z-附件/Pasted image 20240412152139.png",
     "0-周刊.md",
     "H-每日记录/2023-09-19.md",
-    "H-每日记录/2024-04-12/1.md",
     "H-每日记录/2023-09-18.md",
     "H-每日记录/Flutter 3.19 的新增功能.md",
     "H-每日记录/未命名 2.md",
     "H-每日记录/未命名 1.md",
     "H-每日记录/未命名.md",
-    "H-每日记录/2024-04-12.md",
     "H-每日记录/2024-04-12",
     "H-每日记录/2023-09-25.md",
     "H-每日记录/2023-09-24.md",
@@ -297,7 +324,6 @@
     "15 分钟解释每种编程语言.md",
     "0-前端视频记录/【BitTiger】CS501硅谷程序员直通车.md",
     "0-前端资料/Zed代码编辑器.md",
-    "0-前端视频记录/【千锋教育】前端项目_uni-app入门到实战项目之《仿网易云音乐》.md",
     "C-英语/0-卡片",
     "17-JAVA/0-卡片",
     "13-大数据/0-卡片",
