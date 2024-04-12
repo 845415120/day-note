@@ -1,6 +1,6 @@
 ---
 标题: 
-图片: 
+图片: https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-loading-page-with-skeleton.a338e330.avif
 链接: https://qufei1993.github.io/nextjs-learn-cn/chapter8
 时时: 
 评价: 
@@ -637,3 +637,1126 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 ```
 
 这段代码中发生了一些事情，让我们来详细解释一下：
+
+首先，你将 `<SideNav />` 组件导入到你的布局中。你导入到这个文件中的任何组件都将成为布局的一部分。
+
+`<Layout />` 组件接收一个 `children` 属性。这个子组件可以是一个页面或另一个布局。在你的情况下，位于 `/dashboard` 中的页面将自动嵌套在 `<Layout />` 中，如下所示：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter-4-shared-layout.07e30869.avif)
+
+检查一切是否正确运行，保存你的更改并检查你的本地主机。你应该会看到以下内容：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter4-shared-layout-page.736619c4.avif)
+
+在 Next.js 中使用布局的一个好处是，在导航时，只有页面组件会更新，而布局不会重新渲染。这被称为[部分渲染(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#3-partial-rendering)。
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter4-partial-rendering-dashboard.c473fa40.avif)
+
+## 根布局（layout）[](https://qufei1993.github.io/nextjs-learn-cn/chapter4#%E6%A0%B9%E5%B8%83%E5%B1%80layout)
+
+在第三章中，你将 Inter 字体引入到另一个布局中：`/app/layout.tsx`。作为提醒：
+
+```tsx
+import '@/app/ui/global.css';
+import { inter } from '@/app/ui/fonts';
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={`${inter.className} antialiased`}>{children}</body>
+    </html>
+  );
+}
+```
+这被称为根布局，是必需的。你添加到根布局的任何 UI 将在应用程序中的所有页面之间共享。你可以使用根布局来修改 `<html>` 和 `<body>` 标签，添加元数据（关于元数据的更多内容将在后面的章节中学到）。
+
+由于你刚刚创建的新布局（`/app/dashboard/layout.tsx`）专门用于 dashboard 页面，因此不需要在上述根布局中添加任何 UI。
+
+# 页面之间导航
+在上一章中，您创建了 dashboard 的布局和页面。现在，让我们添加一些链接，以便用户可以在仪表板路由之间进行导航。
+以下是本章中将涵盖的主题：
+- 如何使用 `next/link` 组件。
+- 如何使用 `usePathname()` 钩子显示活动链接。
+- Next.js 中导航的工作原理。
+## 为什么要优化导航？[](https://qufei1993.github.io/nextjs-learn-cn/chapter5#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BC%98%E5%8C%96%E5%AF%BC%E8%88%AA)
+
+为了在页面之间创建链接，传统上会使用 `<a>` HTML 元素。目前，侧边栏链接使用 `<a>` 元素，但请注意在浏览器中在主页、发票和客户页面之间导航时发生了什么。
+
+您看到了吗？
+
+每次页面导航时都会出现完整的页面刷新！
+
+## `<Link>` 组件[](https://qufei1993.github.io/nextjs-learn-cn/chapter5#link-%E7%BB%84%E4%BB%B6)
+
+在 Next.js 中，您可以使用 `<Link />` 组件在应用程序的页面之间进行链接。`<Link>` 允许您使用 JavaScript 进行[客户端导航(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#how-routing-and-navigation-works)。
+
+要使用 `<Link />` 组件，请打开 `/app/ui/dashboard/nav-links.tsx`，并从 [next/link(opens in a new tab)](https://nextjs.org/docs/app/api-reference/components/link) 导入 `Link` 组件。然后，将 `<a>` 标签替换为 `<Link>`：
+
+/app/ui/dashboard/nav-links.tsx
+
+```tsx
+import {
+  UserGroupIcon,
+  HomeIcon,
+  DocumentDuplicateIcon,
+} from '@heroicons/react/24/outline';
+import Link from 'next/link';
+ 
+// ...
+ 
+export default function NavLinks() {
+  return (
+    <>
+      {links.map((link) => {
+        const LinkIcon = link.icon;
+        return (
+          <Link
+            key={link.name}
+            href={link.href}
+            className="flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3"
+          >
+            <LinkIcon className="w-6" />
+            <p className="hidden md:block">{link.name}</p>
+          </Link>
+        );
+      })}
+    </>
+  );
+}
+```
+
+正如您所见，Link 组件类似于使用 `<a>` 标签，但是您使用的不是 `<a href="…">`，而是 `<Link href="…">`。
+
+保存更改并检查它是否在您的 localhost 上运行。现在，您应该能够在页面之间导航，而无需看到完整的刷新。尽管应用程序的某些部分是在服务器上渲染的，但没有完整的页面刷新，使其感觉像一个 web 应用程序。这是为什么呢？
+
+## 自动代码拆分和预取[](https://qufei1993.github.io/nextjs-learn-cn/chapter5#%E8%87%AA%E5%8A%A8%E4%BB%A3%E7%A0%81%E6%8B%86%E5%88%86%E5%92%8C%E9%A2%84%E5%8F%96)
+
+为了提高导航体验，Next.js 会自动按路由段拆分您的应用程序。这与传统的 React [SPA(opens in a new tab)](https://developer.mozilla.org/en-US/docs/Glossary/SPA) 不同，传统 SPA 在初始加载时会加载应用程序的所有代码。
+
+按路由拆分代码意味着页面变得隔离。如果某个页面抛出错误，应用程序的其余部分仍将正常工作。
+
+此外，在生产环境中，每当 `<Link>` 组件出现在浏览器的视口中时，Next.js 会自动在后台预取链接路由的代码。当用户点击链接时，目标页面的代码将在后台已经加载，这就是使页面过渡几乎瞬间完成的原因！
+
+了解更多关于[导航如何工作(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#how-routing-and-navigation-works)的信息。
+
+## 模式：显示活动链接[](https://qufei1993.github.io/nextjs-learn-cn/chapter5#%E6%A8%A1%E5%BC%8F%E6%98%BE%E7%A4%BA%E6%B4%BB%E5%8A%A8%E9%93%BE%E6%8E%A5)
+
+一种常见的用户界面模式是显示活动链接，以向用户指示他们当前所在的页面。为了做到这一点，您需要从 URL 中获取用户当前的路径。Next.js 提供了一个名为 `usePathname()` 的钩子，您可以使用它来检查路径并实现此模式。
+
+由于 [usePathname()(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/use-pathname) 是一个钩子，您需要将 `nav-links.tsx` 转换为客户端组件。在文件顶部添加 React 的 `"use client"` 指令，然后从 `next/navigation` 导入 `usePathname()`：
+
+```tsx
+'use client';
+ 
+import {
+  UserGroupIcon,
+  HomeIcon,
+  InboxIcon,
+} from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+ 
+// ...
+```
+
+接下来，在你的 `<NavLinks />` 组件内部，将路径赋值给一个名为 pathname 的变量：
+
+```tsx
+export default function NavLinks() {
+  const pathname = usePathname();
+  // ...
+}
+```
+
+你可以使用在 [CSS 样式(opens in a new tab)](https://nextjs.org/learn/dashboard-app/css-styling)章节介绍的 `clsx` 库，在链接处于活动状态时有条件地应用类名。当 `link.href` 与 `pathname` 匹配时，链接应该显示为蓝色文本和浅蓝色背景。
+
+以下是 `nav-links.tsx` 的最终代码：
+
+```tsx
+'use client';
+ 
+import {
+  UserGroupIcon,
+  HomeIcon,
+  DocumentDuplicateIcon,
+} from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import clsx from 'clsx';
+ 
+// ...
+ 
+export default function NavLinks() {
+  const pathname = usePathname();
+ 
+  return (
+    <>
+      {links.map((link) => {
+        const LinkIcon = link.icon;
+        return (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={clsx(
+              'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3',
+              {
+                'bg-sky-100 text-blue-600': pathname === link.href,
+              },
+            )}
+          >
+            <LinkIcon className="w-6" />
+            <p className="hidden md:block">{link.name}</p>
+          </Link>
+        );
+      })}
+    </>
+  );
+}
+```
+
+保存并检查你的本地主机。现在，你应该看到活动链接以蓝色突出显示。
+
+# 建立你的数据库
+
+在继续工作于你的 dashboard 之前，你需要一些数据。在这一章中，你将使用 @vercel/postgres 来设置一个 PostgreSQL 数据库。如果你已经熟悉 PostgreSQL 并且更愿意使用自己的提供者，你可以跳过这一章并自行设置。否则，让我们继续吧！
+
+以下是本章中将涵盖的主题：
+
+- 将你的项目推送到 GitHub。
+- 设置 Vercel 账户并链接你的 GitHub 存储库以进行即时预览和部署。
+- 创建并将你的项目链接到一个 PostgreSQL 数据库。
+- 使用初始数据填充数据库。
+
+## 创建 GitHub 存储库
+首先，如果你还没有这样做，让我们将你的存储库推送到 GitHub。这将使设置数据库和部署变得更容易。
+
+如果你需要帮助设置你的存储库，请查看 GitHub 上的[这篇指南(opens in a new tab)](https://help.github.com/en/github/getting-started-with-github/create-a-repo)。
+
+> 需要注意的是：
+> 
+> - 你也可以使用其他 Git 提供者，如 GitLab 或 Bitbucket。
+> - 如果你对 GitHub 不熟悉，我们推荐使用 [GitHub Desktop App(opens in a new tab)](https://desktop.github.com/) 以简化开发工作流程。
+
+## 创建 Vercel 账户[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#%E5%88%9B%E5%BB%BA-vercel-%E8%B4%A6%E6%88%B7)
+
+访问 [vercel.com/signup(opens in a new tab)](https://vercel.com/signup) 创建一个账户。选择免费的 "`hobby`" 计划。选择 **"Continue with GitHub"** 来连接你的 GitHub 和 Vercel 账户。
+
+## 连接并部署你的项目[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#%E8%BF%9E%E6%8E%A5%E5%B9%B6%E9%83%A8%E7%BD%B2%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE)
+
+接下来，你将被带到这个屏幕，在这里你可以选择导入你刚刚创建的 GitHub 存储库：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-import-git-repo.17adcf4c.avif)
+
+给你的项目取一个名字，然后点击 Deploy（部署）。
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-configure-project.85ed5f9c.avif)
+
+太棒了！🎉 你的项目现在已经部署完成。
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-deployed-project.25bb1256.avif)
+
+通过连接你的 GitHub 存储库，每当你推送更改到主分支时，Vercel 将自动重新部署你的应用程序，无需额外配置。在发起拉取请求时，你还将获得[即时预览(opens in a new tab)](https://vercel.com/docs/deployments/preview-deployments#preview-urls)，这样你就可以及早发现部署错误，并与团队成员分享项目的预览以获得反馈。
+
+## 创建一个 Postgres 数据库
+
+接下来，为了设置数据库，点击 **Continue to Dashboard** 并从项目仪表板中选择 **Storage** 选项卡。选择 **Connect Store** → **Create New** → **Postgres** → **Continue**.
+
+![Connect Store 屏幕显示了 Postgres 选项以及 KV、Blob 和 Edge Config](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-create-database.f7195c58.avif)
+
+接受条款，为你的数据库分配一个名称，并确保你的数据库区域设置为 **Washington D.C (iad1)** - 这也是所有新 Vercel 项目的[默认区域(opens in a new tab)](https://vercel.com/docs/functions/serverless-functions/regions#select-a-default-serverless-region)。通过将数据库放置在与应用程序代码相同的区域或靠近应用程序代码的区域，可以减少数据请求的延迟。
+
+![数据库创建模态框显示了数据库名称和区域](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-database-region.af101a2c.avif)
+
+**需要注意的是**：一旦初始化后，你无法更改数据库区域。如果你想使用不同的[区域(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/limits#supported-regions)，你应该在创建数据库之前设置它。
+
+连接后，转到 `.env.local` 选项卡，点击 “Show secret” 并复制片段。
+
+![.env.local 选项卡显示了隐藏的数据库秘密](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-database-dashboard.c0425bc9.avif)
+
+转到你的代码编辑器，将 `.env.example` 文件重命名为 `.env`。粘贴从 Vercel 复制的内容。
+
+**重要提示**：进入你的 `.gitignore` 文件，确保 `.env` 是被忽略的文件之一，以防止在推送到 GitHub 时暴露你的数据库秘密。
+
+最后，在终端中运行 `npm i @vercel/postgres` 安装 [Vercel Postgres SDK(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/sdk)。
+
+## 填充你的数据库[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#%E5%A1%AB%E5%85%85%E4%BD%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93)
+
+既然你的数据库已经创建好了，让我们使用一些初始数据填充它。这将使你在构建 Dashboard 时有一些可用的数据。
+
+在项目的 `/scripts` 文件夹中，有一个名为 `seed.js` 的文件。这个脚本包含了创建和填充发票、客户、用户、收入表的指令。
+
+如果你不理解代码在做什么的话，不用担心，但为了给你一个概述，该脚本使用 SQL 来创建表，然后使用 `placeholder-data.js` 文件中的数据在表创建后填充它们。
+
+接下来，在你的 `package.json` 文件中，添加以下行到你的 scripts：
+
+/package.json
+
+```
+"scripts": {
+  "build": "next build",
+  "dev": "next dev",
+  "start": "next start",
+  "seed": "node -r dotenv/config ./scripts/seed.js"
+},
+```
+这是执行 `seed.js` 的命令。
+
+现在，运行 `npm run seed`。你应该在终端中看到一些 `console.log` 消息，让你知道脚本正在运行。
+
+**故障排除**：
+
+- 确保在将数据库秘密复制到 `.env` 文件之前先将其显示出来。
+- 脚本使用 bcrypt 对用户密码进行哈希，如果 bcrypt 与你的环境不兼容，你可以更新脚本以使用 [bcryptjs(opens in a new tab)](https://www.npmjs.com/package/bcryptjs)。
+- 如果在填充数据库时遇到任何问题并希望重新运行脚本，可以通过在数据库查询界面中运行 `DROP TABLE tablename` 来删除任何现有表。有关更多详细信息，请参阅下面的[执行查询部分(opens in a new tab)](https://nextjs.org/learn/dashboard-app/setting-up-your-database#executing-queries)。但要小心，这个命令将删除表和它们的所有数据。由于你在示例应用中使用占位数据，因此在这种情况下可以这样做，但在生产应用中不应该运行此命令。
+- 如果在填充你的 Vercel Postgres 数据库时继续遇到问题，请在 [GitHub 上发起讨论(opens in a new tab)](https://github.com/vercel/next-learn/issues)。
+
+## 浏览你的数据库[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#%E6%B5%8F%E8%A7%88%E4%BD%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93)
+
+让我们看看你的数据库是什么样子。回到 Vercel，并点击侧边导航上的 **Data**。
+
+在这个部分，你会找到四个新表：users、customers、invoices 和 revenue。
+
+![数据库屏幕显示了下拉列表，其中有四个表：users、customers、invoices 和 revenue](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter6-database-tables.2d296700.avif)
+
+通过选择每个表，你可以查看其记录，并确保条目与 `placeholder-data.js` 文件中的数据一致。
+
+## 执行查询[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#%E6%89%A7%E8%A1%8C%E6%9F%A5%E8%AF%A2)
+
+你可以切换到 `“query”` 选项卡与数据库进行交互。这个部分支持标准的 SQL 命令。例如，输入 `DROP TABLE customers` 将删除 `"customers"` 表以及所有其数据 - 所以要小心！
+
+让我们运行你的第一个数据库查询。将以下 SQL 代码粘贴并运行到 Vercel 界面中：
+
+```
+SELECT invoices.amount, customers.name
+FROM invoices
+JOIN customers ON invoices.customer_id = customers.id
+WHERE invoices.amount = 666;
+```
+
+## Vercel Postgres 搭配本地数据库[](https://qufei1993.github.io/nextjs-learn-cn/chapter6#vercel-postgres-%E6%90%AD%E9%85%8D%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E5%BA%93)
+
+在本地开发时你可能想使用本地搭建的 Postgres 数据库，但 `Vercel Postgres` 目前支持的并不是特别好，详情请参见 [扩展篇 1：Vercel Postgres 搭配本地数据库](https://qufei1993.github.io/nextjs-learn-cn/chapter17)
+
+# 获取数据
+
+既然你已经创建并填充了你的数据库，让我们讨论一下获取应用程序数据的不同方式，以及构建 Dashboard 概览页面。
+
+以下是本章中将涵盖的主题：
+
+- 了解一些获取数据的方法：API、ORM、SQL 等。
+- 如何使用 Server Components 更安全地访问后端资源。
+- 什么是网络瀑布。
+- 如何使用 JavaScript 模式实现并行数据获取。
+## 选择如何获取数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E9%80%89%E6%8B%A9%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE)
+
+### API 层[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#api-%E5%B1%82)
+
+API 是你的应用程序代码和数据库之间的中间层。有几种情况下你可能会使用 API：
+
+- 如果你使用提供 API 的第三方服务。
+- 如果你从客户端获取数据，你希望有一个在服务器上运行的 API 层，以避免将数据库秘密暴露给客户端。
+
+在 Next.js 中，你可以使用[路由处理程序(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)创建 API 端点。
+
+### 数据库查询[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9F%A5%E8%AF%A2)
+
+当你创建一个全栈应用程序时，你还需要编写与数据库交互的逻辑。对于像 Postgres 这样的[关系数据库(opens in a new tab)](https://aws.amazon.com/cn/relational-database/)，你可以使用 SQL 或像 [Prisma(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/using-an-orm#) 这样的 [ORM(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/using-an-orm#) 来实现。
+
+有几种情况下你需要编写数据库查询：
+
+- 当创建 API 端点时，你需要编写与数据库交互的逻辑。
+- 如果你正在使用 React Server Components（在服务器上获取数据），你可以跳过 API 层，直接查询数据库，而不会有暴露数据库秘密给客户端的风险。
+让我们更深入地了解 React Server Components。
+
+### 使用 Server Components 获取数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E4%BD%BF%E7%94%A8-server-components-%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE)
+
+默认情况下，Next.js 应用程序使用 React Server Components。使用 Server Components 获取数据是一种相对较新的方法，使用它们有一些好处：
+
+- Server Components 支持 promises，为异步任务（如数据获取）提供了更简单的解决方案。你可以使用 async/await 语法，而无需使用 useEffect、useState 或数据获取库。
+- Server Components 在服务器上执行，因此你可以将昂贵的数据获取和逻辑保留在服务器上，并仅将结果发送到客户端。
+
+如前所述，由于 Server Components 在服务器上执行，你可以直接查询数据库，而无需额外的 API 层。
+
+### 使用 SQL[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E4%BD%BF%E7%94%A8-sql)
+
+在你的仪表板项目中，你将使用 [Vercel Postgres SDK(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/sdk) 和 SQL 编写数据库查询。我们使用 SQL 的原因有几点：
+
+- 在关系查询数据库中 SQL 是行业标准（例如，ORM 在底层生成 SQL）。
+- 对 SQL 的基本理解可以帮助你理解关系数据库的基础知识，使你能够将你的知识应用于其他工具。
+- SQL 是多才多艺的，允许你获取和操作特定的数据。
+- Vercel Postgres SDK 提供了对 [SQL 注入(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/sdk#preventing-sql-injections)的保护。
+
+如果你以前没有使用过 SQL，不用担心 - 我们已经为你提供了查询。
+
+打开 `/app/lib/data.ts`，这里你会看到我们正在从 @vercel/postgres 导入 [sql(opens in a new tab)](https://vercel.com/docs/storage/vercel-postgres/sdk#sql) 函数。这个函数允许你查询你的数据库：
+
+/app/lib/data.ts
+
+```
+import { sql } from '@vercel/postgres';
+```
+
+你可以在任何 Server Component 中调用 sql。但为了让你更轻松地浏览组件，我们将所有数据查询都保留在 data.ts 文件中，你可以将它们导入到组件中。
+
+## 获取 Dashboard 概览页面的数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E8%8E%B7%E5%8F%96-dashboard-%E6%A6%82%E8%A7%88%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%95%B0%E6%8D%AE)
+
+既然你了解了不同的获取数据方式，让我们获取 Dashboard 概览页面的数据。导航到 `/app/dashboard/page.tsx`，粘贴以下代码，并花些时间来探索它：
+
+/app/dashboard/page.tsx
+
+```
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+import { lusitana } from '@/app/ui/fonts';
+ 
+export default async function Page() {
+  return (
+    <main>
+      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+        仪表板
+      </h1>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {/* <Card title="已收款" value={totalPaidInvoices} type="collected" /> */}
+        {/* <Card title="待处理" value={totalPendingInvoices} type="pending" /> */}
+        {/* <Card title="总发票数" value={numberOfInvoices} type="invoices" /> */}
+        {/* <Card
+          title="总客户数"
+          value={numberOfCustomers}
+          type="customers"
+        /> */}
+      </div>
+      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+        {/* <RevenueChart revenue={revenue}  /> */}
+        {/* <LatestInvoices latestInvoices={latestInvoices} /> */}
+      </div>
+    </main>
+  );
+}     </div>    </main>  );}
+```
+
+在上面的代码中：
+
+- Page 是一个异步组件。这允许你使用 await 来获取数据。
+- 还有 3 个组件接收数据：`<Card>`、`<RevenueChart>` 和 `<LatestInvoices>`。它们当前被注释掉，以防止应用程序出错。
+## 获取 `<RevenueChart/>` 组件的数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E8%8E%B7%E5%8F%96-revenuechart-%E7%BB%84%E4%BB%B6%E7%9A%84%E6%95%B0%E6%8D%AE)
+
+要获取 `<RevenueChart/>` 组件的数据，从 `data.ts` 中导入 `fetchRevenue` 函数，并在你的组件内调用它：
+
+/app/dashboard/page.tsx
+
+```tsx
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchRevenue } from '@/app/lib/data';
+ 
+export default async function Page() {
+  const revenue = await fetchRevenue();
+  // ...
+}
+```
+
+然后，取消注释 `<RevenueChart/>` 组件，导航到组件文件（/`app/ui/dashboard/revenue-chart.tsx`）并取消注释其中的代码。检查你的 localhost，你应该能够看到一个使用收入数据的图表。
+
+![收入图表显示过去 12 个月的总收入](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter7-recent-revenue.1c075c34.avif)
+
+让我们继续导入更多的数据查询！
+
+## 获取 `<LatestInvoices />` 组件的数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E8%8E%B7%E5%8F%96-latestinvoices--%E7%BB%84%E4%BB%B6%E7%9A%84%E6%95%B0%E6%8D%AE)
+
+对于 `<LatestInvoices />` 组件，我们需要获取最新的 5 张发票，并按日期排序。
+
+你可以获取所有的发票，然后使用 JavaScript 进行排序。这对于我们的小型数据来说不是问题，但随着应用程序的增长，它可能会显著增加每个请求传输的数据量和用于排序的 JavaScript。
+
+与在内存中对最新发票进行排序不同，你可以使用 SQL 查询仅获取最近的 5 张发票。例如，这是你的 `data.ts` 文件中的 SQL 查询：
+
+/app/lib/data.ts
+
+```tsx
+// 获取最近的 5 张发票，按日期排序
+const data = await sql<LatestInvoiceRaw>`
+  SELECT invoices.amount, customers.name, customers.image_url, customers.email
+  FROM invoices
+  JOIN customers ON invoices.customer_id = customers.id
+  ORDER BY invoices.date DESC
+  LIMIT 5`;
+```
+
+在你的页面中，导入 `fetchLatestInvoices` 函数：
+
+/app/dashboard/page.tsx
+
+```tsx
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchRevenue, fetchLatestInvoices } from '@/app/lib/data';
+ 
+export default async function Page() {
+  const revenue = await fetchRevenue();
+  const latestInvoices = await fetchLatestInvoices();
+  // ...
+}
+```
+
+然后，取消注释 `<LatestInvoices />` 组件。你还需要在 `<LatestInvoices />` 组件本身（位于 `/app/ui/dashboard/latest-invoices`）中取消注释相关代码。
+
+如果你访问 localhost，你应该会看到只有最近的 5 张发票从数据库返回。希望你开始看到直接查询数据库的优势了！
+
+![最新发票组件和收入图表一起显示](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter7-latest-invoices.fe9376ac.avif)
+
+## 练习：为 `<Card>` 组件获取数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E7%BB%83%E4%B9%A0%E4%B8%BA-card-%E7%BB%84%E4%BB%B6%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE)
+
+现在轮到你为 `<Card>` 组件获取数据了。卡片将显示以下数据：
+
+- 已收款的发票总额。
+- 待处理的发票总额。
+- 发票的总数。
+- 客户的总数。
+
+再次，你可能会诱惑地获取所有发票和客户，并使用 JavaScript 操纵数据。例如，你可以使用 `Array.length` 来获取发票和客户的总数：
+
+```
+const totalInvoices = allInvoices.length;
+const totalCustomers = allCustomers.length;
+```
+
+但是使用 SQL，你可以仅获取需要的数据。虽然使用 Array.length 要短一些，但这意味着在请求期间需要传输的数据较少。这是 SQL 的替代方法：
+
+/app/lib/data.ts
+
+```
+const invoiceCountPromise = sql`SELECT COUNT(*) FROM invoices`;
+const customerCountPromise = sql`SELECT COUNT(*) FROM customers`;
+```
+
+你需要导入的函数叫做 `fetchCardData`。你需要解构函数返回的值。
+
+提示：
+
+- 检查卡片组件，看看它们需要什么数据。
+- 检查 data.ts 文件，看看该函数返回什么。
+
+当你准备好后，展开下面的切换以查看最终代码：
+
+点击展开/折叠
+
+/app/dashboard/page.tsx
+
+```tsx
+  import { Card } from '@/app/ui/dashboard/cards';
+  import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+  import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+  import { lusitana } from '@/app/ui/fonts';
+  import {
+    fetchRevenue,
+    fetchLatestInvoices,
+    fetchCardData,
+  } from '@/app/lib/data';
+  
+  export default async function Page() {
+    const revenue = await fetchRevenue();
+    const latestInvoices = await fetchLatestInvoices();
+    const {
+      numberOfInvoices,
+      numberOfCustomers,
+      totalPaidInvoices,
+      totalPendingInvoices,
+    } = await fetchCardData();
+  
+    return (
+      <main>
+        <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+          Dashboard
+        </h1>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Card title="Collected" value={totalPaidInvoices} type="collected" />
+          <Card title="Pending" value={totalPendingInvoices} type="pending" />
+          <Card title="Total Invoices" value={numberOfInvoices} type="invoices" />
+          <Card
+            title="Total Customers"
+            value={numberOfCustomers}
+            type="customers"
+          />
+        </div>
+        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+          <RevenueChart revenue={revenue} />
+          <LatestInvoices latestInvoices={latestInvoices} />
+        </div>
+      </main>
+    );
+  }
+```
+
+太好了！你现在已经为仪表板概览页面获取了所有数据。你的页面应该看起来像这样：
+
+![仪表板页面，已获取所有数据](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter7-complete-dashboard.433aebc0.avif)
+
+然而...有两件事情需要注意：
+
+- 数据请求无意中相互阻塞，形成请求瀑布。
+- 默认情况下，Next.js 对路由进行预渲染以提高性能，这称为静态渲染。因此，如果你的数据发生变化，它不会反映在你的 Dashboard 中。
+
+让我们在本章中讨论第一点，然后在下一章详细了解第二点。
+
+## 请求瀑布是什么？[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E8%AF%B7%E6%B1%82%E7%80%91%E5%B8%83%E6%98%AF%E4%BB%80%E4%B9%88)
+
+"瀑布" 指的是一系列的网络请求序列，这些请求依赖于前面请求的完成。在数据获取的情况下，每个请求只能在前一个请求返回数据后才能开始。
+
+![示意图显示按时间顺序进行顺序数据获取和并行数据获取](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter7-sequential-parallel-data-fetching.9bb1c5c1.avif)
+
+例如，我们需要等待 `fetchRevenue()` 执行完毕，然后 `fetchLatestInvoices()` 才能开始运行，以此类推。
+
+  
+/app/dashboard/page.tsx
+
+```tsx
+const revenue = await fetchRevenue();
+const latestInvoices = await fetchLatestInvoices(); // 等待 fetchRevenue() 完成
+const {
+  numberOfInvoices,
+  numberOfCustomers,
+  totalPaidInvoices,
+  totalPendingInvoices,
+} = await fetchCardData(); // 等待 fetchLatestInvoices() 完成
+```
+
+这种模式不一定是不好的。有些情况下，你可能希望有瀑布，因为你希望在进行下一个请求之前满足某个条件。例如，你可能希望先获取用户的 ID 和个人资料信息。一旦有了 ID，你可能会继续获取他们的朋友列表。在这种情况下，每个请求都依赖于前一个请求返回的数据。
+
+然而，这种行为也可能是无意的，并且会影响性能。
+
+## 并行数据获取[](https://qufei1993.github.io/nextjs-learn-cn/chapter7#%E5%B9%B6%E8%A1%8C%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96)
+
+避免瀑布的一种常见方式是同时启动所有数据请求 - 进行并行处理。
+
+在 JavaScript 中，您可以使用 `Promise.all()` 或 `Promise.allSettled()` 函数同时启动所有 Promise。例如，在 `data.ts` 中，我们在 `fetchCardData()` 函数中使用了 `Promise.all()`：
+
+/app/lib/data.js
+
+```js
+export async function fetchCardData() {
+  try {
+    const invoiceCountPromise = sql`SELECT COUNT(*) FROM invoices`;
+    const customerCountPromise = sql`SELECT COUNT(*) FROM customers`;
+    const invoiceStatusPromise = sql`SELECT
+         SUM(CASE WHEN status = 'paid' THEN amount ELSE 0 END) AS "paid",
+         SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END) AS "pending"
+         FROM invoices`;
+ 
+    const data = await Promise.all([
+      invoiceCountPromise,
+      customerCountPromise,
+      invoiceStatusPromise,
+    ]);
+    // ...
+  }
+}
+```
+
+通过使用这种模式，您可以：
+
+- 同时开始执行所有数据获取，这可能会带来性能提升。
+- 使用可应用于任何库或框架的本机 JavaScript 模式。
+
+然而，仅依赖此 JavaScript 模式有一个缺点：如果一个数据请求比其他所有请求慢，会发生什么？
+
+# 静态和动态渲染
+
+在上一章中，您为 Dashboard 概述页面获取了数据。但是，我们简要讨论了当前设置的两个局限性：
+
+- 数据请求正在创造一个无意的瀑布。
+- Dashboard 是静态的，因此任何数据更新都不会反映在您的应用程序上。
+
+以下是本章中将涵盖的主题：
+
+- 什么是静态渲染，以及它如何提高应用程序的性能。
+- 什么是动态渲染以及何时使用它。
+- 使 Dashboard 动态化的不同方法。
+- 模拟一个缓慢的数据获取，看看会发生什么。
+## 什么是静态渲染？[](https://qufei1993.github.io/nextjs-learn-cn/chapter8#%E4%BB%80%E4%B9%88%E6%98%AF%E9%9D%99%E6%80%81%E6%B8%B2%E6%9F%93)
+
+使用静态渲染，数据获取和渲染在构建时（部署时）或[重新验证期间(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#revalidating-data)在服务器上进行。然后，结果可以在[内容分发网络（CDN）(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/rendering/server-components#static-rendering-default)中分发和缓存。
+
+![显示用户在请求页面时如何访问 CDN 而不是服务器的图](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter8-static-site-generation.4e6914d8.avif)
+
+每当用户访问你的应用程序时，缓存的结果都会被提供。静态渲染有几个好处：
+
+- **更快的网站** - 预渲染的内容可以被缓存和全球分布。这确保了世界各地的用户可以更快、更可靠地访问您的网站内容。
+- **减少服务器负载** - 由于内容被缓存，您的服务器不必为每个用户请求动态生成内容。
+- **搜索引擎优化** - 预渲染内容更容易被搜索引擎爬虫索引，因为当页面加载时，内容已经可用。这可以提高搜索引擎排名。
+
+静态渲染对于**没有数据**或**跨用户共享数据**的 UI（如静态博客文章或产品页面）非常有用。它可能不适合具有定期更新的个性化数据的 Dashboard。
+
+与静态渲染相反的是动态渲染。
+
+## 什么是动态渲染？[](https://qufei1993.github.io/nextjs-learn-cn/chapter8#%E4%BB%80%E4%B9%88%E6%98%AF%E5%8A%A8%E6%80%81%E6%B8%B2%E6%9F%93)
+
+通过动态渲染，内容在请求时（当用户访问页面时）在服务器上为每个用户呈现。动态渲染有几个好处：
+
+- **实时数据** - 动态渲染允许您的应用程序显示实时或频繁更新的数据。这对于数据经常变化的应用程序来说是理想的。
+- **用户特定内容** - 提供个性化内容（如 Dashboard 或用户配置文件）并根据用户交互更新数据更容易。
+- **请求时间信息** - 动态渲染允许您访问只能在请求时知道的信息，如 Cookie 或 URL 搜索参数。****
+## 使 Dashboard 动态化[](https://qufei1993.github.io/nextjs-learn-cn/chapter8#%E4%BD%BF-dashboard-%E5%8A%A8%E6%80%81%E5%8C%96)
+
+默认情况下，`@vercel/postgresql` 不设置自己的缓存语义。这允许框架设置自己的静态和动态行为。
+
+您可以在服务器组件或数据获取函数中使用名为 `unstable_noStore` 的 Next.js API 来选择退出静态呈现。让我们添加这个。
+
+在你的 `data.ts` 中，从 `next/cache` 导入 `unstable_noStore`，并在数据获取函数的顶部调用它：
+
+/app/lib/data.ts
+
+```ts
+// ...
+import { unstable_noStore as noStore } from 'next/cache';
+ 
+export async function fetchRevenue() {
+  // Add noStore() here to prevent the response from being cached.
+  // This is equivalent to in fetch(..., {cache: 'no-store'}).
+  noStore();
+ 
+  // ...
+}
+ 
+export async function fetchLatestInvoices() {
+  noStore();
+  // ...
+}
+ 
+export async function fetchCardData() {
+  noStore();
+  // ...
+}
+ 
+export async function fetchFilteredInvoices(
+  query: string,
+  currentPage: number,
+) {
+  noStore();
+  // ...
+}
+ 
+export async function fetchInvoicesPages(query: string) {
+  noStore();
+  // ...
+}
+ 
+export async function fetchFilteredCustomers(query: string) {
+  noStore();
+  // ...
+}
+ 
+export async function fetchInvoiceById(query: string) {
+  noStore();
+  // ...
+}
+```
+
+**注意**：`unstable_noStore` 是一个实验性的 API，可能在将来发生变化。如果您更喜欢在自己的项目中使用稳定的 API，您也可以使用 [Segment 配置选项(opens in a new tab)](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config) `export const dynamic = "force-dynamic"`。
+
+## 模拟慢速数据获取[](https://qufei1993.github.io/nextjs-learn-cn/chapter8#%E6%A8%A1%E6%8B%9F%E6%85%A2%E9%80%9F%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96)
+
+使 Dashboard 动态化是迈出的良好第一步。然而... 还有一个我们在上一章提到的问题。如果一个数据请求比其他所有请求都慢，会发生什么？
+
+让我们模拟一次慢速数据获取。在您的 `data.ts` 文件中，取消注释 `fetchRevenue()` 函数内部的 `console.log` 和 `setTimeout`：
+
+/app/lib/data.ts
+
+```ts
+export async function fetchRevenue() {
+  try {
+    // 为演示目的，我们人为延迟响应。
+    // 在生产中请勿这样做 :)
+    console.log('Fetching revenue data...');
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+ 
+    const data = await sql<Revenue>`SELECT * FROM revenue`;
+ 
+    console.log('Data fetch completed after 3 seconds.');
+ 
+    return data.rows;
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch revenue data.');
+  }
+}
+```
+
+现在在新标签页中打开 [http://localhost:3000/dashboard/，(opens in a new tab)](http://localhost:3000/dashboard/%EF%BC%8C) 注意页面加载所需的时间较长。在终端中，您还应该看到以下消息：
+
+```
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+```
+
+在这里，您添加了一个人为的 3 秒延迟，以模拟慢速数据获取。结果是在获取数据时整个页面被阻塞。
+
+这引出了开发者必须解决的一个常见挑战：
+
+使用动态渲染，**您的应用程序速度只有在最慢的数据获取完成时才能达到**。
+
+# 流式传输
+
+在上一章中，您使得 Dashboard 页面变得动态化，然而，我们讨论了慢速数据获取如何影响应用程序性能的问题。让我们看看在存在慢速数据请求时如何改善用户体验。
+
+以下是本章中将涵盖的主题：
+
+- 什么是流式传输以及何时可能使用它。
+- 如何使用 loading.tsx 和 Suspense 实现流式传输。
+- 什么是加载骨架。
+- 什么是路由组，以及何时可能使用它们。
+- 在应用程序中放置 Suspense 边界的位置。
+## 什么是流式传输？[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E4%BB%80%E4%B9%88%E6%98%AF%E6%B5%81%E5%BC%8F%E4%BC%A0%E8%BE%93)
+
+流式传输是一种数据传输技术，允许您将路由分解为较小的 “chunks（块）”，并在它们准备就绪时逐步从服务器流式传输到客户端。
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-server-rendering-with-streaming.224147f5.avif)
+
+通过流式传输，您可以防止慢速数据请求阻塞整个页面。这允许用户在等待所有数据加载之前看到和与页面的某些部分交互，而无需等待在向用户显示任何 UI 之前加载所有数据。
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-server-rendering-with-streaming-chart.3e1e4035.avif)
+
+流式传输在 React 的组件模型中表现良好，因为可以将每个组件视为一个块。
+
+在 Next.js 中，有两种实现流式传输的方式：
+
+- 在页面级别，使用 `loading.tsx` 文件。
+- 对于特定组件，使用 `<Suspense>`。
+
+让我们看看这是如何工作的。
+
+## 使用 `loading.tsx` 流式传输整个页面[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E4%BD%BF%E7%94%A8-loadingtsx-%E6%B5%81%E5%BC%8F%E4%BC%A0%E8%BE%93%E6%95%B4%E4%B8%AA%E9%A1%B5%E9%9D%A2)
+
+在 `/app/dashboard` 文件夹中，创建一个名为 `loading.tsx` 的新文件：
+
+/app/dashboard/loading.tsx
+
+```tsx
+export default function Loading() {
+  return <div>Loading...</div>;
+}
+```
+
+刷新 [http://localhost:3000/dashboard，(opens in a new tab)](http://localhost:3000/dashboard%EF%BC%8C) 您现在应该会看到：
+
+![带有'Loading...'文本的仪表板页面](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-loading-page.297bb486.avif)
+
+这里发生了一些事情：
+
+- `loading.tsx` 是一个基于 Suspense 构建的特殊 Next.js 文件，它允许您创建回退 UI，以在页面内容加载时显示为替代。
+- 由于 `<Sidebar>` 是静态的，因此它会立即显示。用户可以在动态内容加载时与 `<Sidebar>` 进行交互。
+- 用户在导航离开之前不必等待页面完成加载（这称为可中断导航）。
+
+恭喜！您刚刚实现了流式传输。但我们可以做更多来改善用户体验。让我们显示一个加载骨架，而不是 `Loading...` 文本。
+
+## 添加加载骨架[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E6%B7%BB%E5%8A%A0%E5%8A%A0%E8%BD%BD%E9%AA%A8%E6%9E%B6)
+
+加载骨架是 UI 的简化版本。许多网站将它们用作占位符（或备用），以指示用户内容正在加载。您嵌入到 loading.tsx 中的任何 UI 都将作为静态文件的一部分嵌入并首先发送。然后，服务器将其余的动态内容从服务器流式传输到客户端。
+
+在您的 loading.tsx 文件中，导入一个名为 `<DashboardSkeleton>` 的新组件：
+
+/app/dashboard/loading.tsx
+
+```
+import DashboardSkeleton from '@/app/ui/skeletons'; export default function Loading() {  return <DashboardSkeleton />;}
+```
+
+然后，刷新 [http://localhost:3000/dashboard，(opens in a new tab)](http://localhost:3000/dashboard%EF%BC%8C) 您现在应该会看到：
+
+![带有加载骨架的仪表板页面](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-loading-page-with-skeleton.a338e330.avif)
+
+## 修复使用路由组的加载骨架错误
+
+当前，您的加载骨架也会应用于发票和客户页面。
+
+由于 `loading.tsx` 处于文件系统中 `/invoices/page.tsx` 和 `/customers/page.tsx` 的上一级，它也应用于这些页面。
+
+我们可以通过使用[路由组(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/route-groups)来更改这一点。在 dashboard 文件夹内创建一个名为 `/(overview)` 的新文件夹。然后，将您的 `loading.tsx` 和 `page.tsx` 文件移到该文件夹内：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-route-group.7ff82119.avif)
+
+现在，loading.tsx 文件将仅适用于您的 Dashboard 概览页面。
+
+路由组允许您将文件组织成逻辑组，而不影响 URL 路径结构。当您使用括号 `()` 创建一个新文件夹时，该名称将不包括在 URL 路径中。因此，`/dashboard/(overview)/page.tsx` 变成了 `/dashboard`。
+
+在这里，您使用了一个路由组来确保 `loading.tsx` 仅适用于您的仪表板概览页面。但是，您还可以使用路由组将应用程序分成不同的部分（例如 `(marketing)` 路由和 `(shop)` 路由），或者按团队对更大的应用程序进行组织。
+
+## 流式传输一个组件[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E6%B5%81%E5%BC%8F%E4%BC%A0%E8%BE%93%E4%B8%80%E4%B8%AA%E7%BB%84%E4%BB%B6)
+
+到目前为止，您一直在流式传输整个页面。但是，相反，您可以更加细致，并使用 React Suspense 流式传输特定组件。
+
+Suspense 允许您推迟呈现应用程序的某些部分，直到满足某些条件（例如加载数据）。您可以在 Suspense 中包装动态组件。然后，传递一个回退组件，以在动态组件加载时显示。
+
+如果您记得慢数据请求 `fetchRevenue()`，这是减缓整个页面速度的请求。您可以使用 Suspense 来流式传输仅此组件，并立即显示页面其余的 UI，而不是阻塞整个页面。
+
+要这样做，您需要将数据获取移至组件内部，让我们更新代码看看会是什么样子：
+
+删除 `/dashboard/(overview)/page.tsx` 中的 `fetchRevenue()` 及其数据的所有实例：
+
+  
+/app/dashboard/(overview)/page.tsx
+
+```tsx
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchLatestInvoices, fetchCardData } from '@/app/lib/data'; // 删除 fetchRevenue
+ 
+export default async function Page() {
+  const revenue = await fetchRevenue // 删除这一行
+  const latestInvoices = await fetchLatestInvoices();
+  const {
+    numberOfInvoices,
+    numberOfCustomers,
+    totalPaidInvoices,
+    totalPendingInvoices,
+  } = await fetchCardData();
+ 
+  return (
+    // ...
+  );
+}
+```
+
+然后，从 React 中导入 `<Suspense>`，并将其包装在 `<RevenueChart />` 周围。您可以传递一个名为 `<RevenueChartSkeleton>` 的回退组件。
+
+/app/dashboard/(overview)/page.tsx
+
+```tsx
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchLatestInvoices, fetchCardData } from '@/app/lib/data';
+import { Suspense } from 'react';
+import { RevenueChartSkeleton } from '@/app/ui/skeletons';
+ 
+export default async function Page() {
+  const latestInvoices = await fetchLatestInvoices();
+  const {
+    numberOfInvoices,
+    numberOfCustomers,
+    totalPaidInvoices,
+    totalPendingInvoices,
+  } = await fetchCardData();
+ 
+  return (
+    <main>
+      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+        Dashboard
+      </h1>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <Card title="Collected" value={totalPaidInvoices} type="collected" />
+        <Card title="Pending" value={totalPendingInvoices} type="pending" />
+        <Card title="Total Invoices" value={numberOfInvoices} type="invoices" />
+        <Card
+          title="Total Customers"
+          value={numberOfCustomers}
+          type="customers"
+        />
+      </div>
+      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+        <Suspense fallback={<RevenueChartSkeleton />}>
+          <RevenueChart />
+        </Suspense>
+        <LatestInvoices latestInvoices={latestInvoices} />
+      </div>
+    </main>
+  );
+}
+```
+
+最后，更新 `<RevenueChart>` 组件以获取其自己的数据，并删除传递给它的 prop：
+
+/app/ui/dashboard/revenue-chart.tsx
+
+```tsx
+import { generateYAxis } from '@/app/lib/utils';
+import { CalendarIcon } from '@heroicons/react/24/outline';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchRevenue } from '@/app/lib/data';
+ 
+// ...
+ 
+export default async function RevenueChart() { // 使组件异步，删除 props
+  const revenue = await fetchRevenue(); // 在组件内获取数据
+ 
+  const chartHeight = 350;
+  const { yAxisLabels, topLabel } = generateYAxis(revenue);
+ 
+  if (!revenue || revenue.length === 0) {
+    return <p className="mt-4 text-gray-400">No data available.</p>;
+  }
+ 
+  return (
+    // ...
+  );
+}
+```
+
+现在刷新页面，您应该会看到几乎立即显示仪表板信息，而 `<RevenueChart>` 显示为回退骨架：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter9-loading-revenue-chart.2cc710cd.avif)
+### 练习：流式传输 `<LatestInvoices>`[](https://qufei1993.github.io/nextjs-learn-cn/chapter9#%E7%BB%83%E4%B9%A0%E6%B5%81%E5%BC%8F%E4%BC%A0%E8%BE%93-latestinvoices)
+
+现在轮到你了！通过流式传输 `<LatestInvoices>` 组件来实践刚学到的内容。
+
+将 `fetchLatestInvoices()` 从页面下移至 `<LatestInvoices>` 组件。使用名为 `<LatestInvoicesSkeleton>` 的回退 `（fallback）` 包装该组件。
+
+当你准备好时，展开切换以查看解决方案代码：
+
+点击展开/折叠
+
+Dashboard Page:
+
+/app/dashboard/(overview)/page.tsx
+
+```tsx
+  import { Card } from '@/app/ui/dashboard/cards';
+  import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+  import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
+  import { lusitana } from '@/app/ui/fonts';
+  import { fetchCardData } from '@/app/lib/data'; // Remove fetchLatestInvoices
+  import { Suspense } from 'react';
+  import {
+    RevenueChartSkeleton,
+    LatestInvoicesSkeleton,
+  } from '@/app/ui/skeletons';
+  
+  export default async function Page() {
+    // Remove `const latestInvoices = await fetchLatestInvoices()`
+    const {
+      numberOfInvoices,
+      numberOfCustomers,
+      totalPaidInvoices,
+      totalPendingInvoices,
+    } = await fetchCardData();
+  
+    return (
+      <main>
+        <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+          Dashboard
+        </h1>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Card title="Collected" value={totalPaidInvoices} type="collected" />
+          <Card title="Pending" value={totalPendingInvoices} type="pending" />
+          <Card title="Total Invoices" value={numberOfInvoices} type="invoices" />
+          <Card
+            title="Total Customers"
+            value={numberOfCustomers}
+            type="customers"
+          />
+        </div>
+        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+          <Suspense fallback={<RevenueChartSkeleton />}>
+            <RevenueChart />
+          </Suspense>
+          <Suspense fallback={<LatestInvoicesSkeleton />}>
+            <LatestInvoices />
+          </Suspense>
+        </div>
+      </main>
+    );
+  }
+```
+
+`<LatestInvoices>` 组件。记得删除 props！
+
+/app/ui/dashboard/latest-invoices.tsx
+
+```tsx
+import { ArrowPathIcon } from '@heroicons/react/24/outline';
+import clsx from 'clsx';
+import Image from 'next/image';
+import { lusitana } from '@/app/ui/fonts';
+import { fetchLatestInvoices } from '@/app/lib/data';
+ 
+export default async function LatestInvoices() { // Remove props
+  const latestInvoices = await fetchLatestInvoices();
+ 
+  return (
+    // ...
+  );
+}
+```
+
+## 组件分组
+太好了！你已经接近成功，现在你需要将 `<Card>` 组件包装在 Suspense 中。虽然你可以为每个单独的卡片获取数据，但这可能会导致卡片加载时出现弹出效果，这对用户来说可能是视觉上的冲击。
+
+那么，你会如何解决这个问题呢？
+
+为了创建更具阶梯效果，你可以使用一个包装组件来组织这些卡片。这意味着静态的 `<Sidebar/>` 会首先显示，然后是卡片，依此类推。
+
+在你的 page.tsx 文件中：
+
+1. 删除 `<Card>` 组件。
+2. 删除 `fetchCardData()` 函数。
+3. 导入一个名为 `<CardWrapper />` 的新包装组件。
+4. 导入一个名为 `<CardsSkeleton />` 的新骨架组件。
+5. 使用 Suspense 包装 `<CardWrapper />`。
+/app/dashboard/page.tsx
+
+```tsx
+import CardWrapper from '@/app/ui/dashboard/cards';
+// ...
+import {
+  RevenueChartSkeleton,
+  LatestInvoicesSkeleton,
+  CardsSkeleton,
+} from '@/app/ui/skeletons';
+ 
+export default async function Page() {
+  return (
+    <main>
+      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+        Dashboard
+      </h1>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <Suspense fallback={<CardsSkeleton />}>
+          <CardWrapper />
+        </Suspense>
+      </div>
+      // ...
+    </main>
+  );
+}
+```
+然后，进入 /`app/ui/dashboard/cards.tsx` 文件，导入 `fetchCardData()` 函数，并在 `<CardWrapper/>` 组件内调用它。确保在此组件中取消注释任何必要的代码。
+/app/ui/dashboard/cards.tsx
+
+```tsx
+// ...
+import { fetchCardData } from '@/app/lib/data';
+ 
+// ...
+ 
+export default async function CardWrapper() {
+  const {
+    numberOfInvoices,
+    numberOfCustomers,
+    totalPaidInvoices,
+    totalPendingInvoices,
+  } = await fetchCardData();
+ 
+  return (
+    <>
+      <Card title="Collected" value={totalPaidInvoices} type="collected" />
+      <Card title="Pending" value={totalPendingInvoices} type="pending" />
+      <Card title="Total Invoices" value={numberOfInvoices} type="invoices" />
+      <Card
+        title="Total Customers"
+        value={numberOfCustomers}
+        type="customers"
+      />
+    </>
+  );
+}
+```
