@@ -192,9 +192,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "581736d21b7e0489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-12/前端开发人员面试问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49ad09ae5bd298f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-12/Next.js 中文教程.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -253,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "4c275809f335b52b",
@@ -269,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-12/鸣梁海战.md"
+                "file": "H-每日记录/2024-04-12/Next.js 中文教程.md"
               }
             }
           },
@@ -279,7 +306,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-12/鸣梁海战.md",
+                "file": "H-每日记录/2024-04-12/Next.js 中文教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-12/鸣梁海战.md",
+                "file": "H-每日记录/2024-04-12/Next.js 中文教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,10 +347,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "4fdd2438670b80da",
+  "active": "49ad09ae5bd298f9",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-12/AI学习.md",
+    "H-每日记录/2024-04-12/前端开发人员面试问题.md",
+    "H-每日记录/2024-04-12/Next.js 中文教程.md",
+    "Z-附件/Pasted image 20240412203752.png",
     "H-每日记录/2024-04-12/鸣梁海战.md",
+    "H-每日记录/2024-04-12/AI学习.md",
     "H-每日记录/2024-04-12.md",
     "H-每日记录/2024-04-12/1.md",
     "0-前端资料/0-卡片/0-卡片.md",
@@ -348,8 +378,6 @@
     "H-每日记录/2024-04-11.md",
     "H-每日记录/2024-04-11/【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析） 1.md",
     "0-前端视频记录/算法训练营2021版第0期.md",
-    "15 分钟解释每种编程语言.md",
-    "0-前端视频记录/【BitTiger】CS501硅谷程序员直通车.md",
     "C-英语/0-卡片",
     "17-JAVA/0-卡片",
     "13-大数据/0-卡片",
@@ -366,7 +394,6 @@
     "Z-附件/Pasted image 20240329215704.png",
     "Z-附件/Pasted image 20240329215700.png",
     "Z-附件/Pasted image 20240329215655.png",
-    "Z-附件/Pasted image 20240329214636.png",
-    "Z-附件/Pasted image 20240329214631.png"
+    "Z-附件/Pasted image 20240329214636.png"
   ]
 }
