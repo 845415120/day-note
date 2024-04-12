@@ -3110,7 +3110,7 @@ export async function deleteInvoice(id: string) {
 
 /app/lib/actions.ts
 
-```t
+```ts
 export async function createInvoice(formData: FormData) {
   const { customerId, amount, status } = CreateInvoice.parse({
     customerId: formData.get('customerId'),
@@ -3136,3 +3136,1545 @@ export async function createInvoice(formData: FormData) {
   redirect('/dashboard/invoices');
 }
 ```
+
+/app/lib/actions.ts
+
+```ts
+export async function updateInvoice(id: string, formData: FormData) {
+  const { customerId, amount, status } = UpdateInvoice.parse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  const amountInCents = amount * 100;
+ 
+  try {
+    await sql`
+        UPDATE invoices
+        SET customer_id = ${customerId}, amount = ${amountInCents}, status = ${status}
+        WHERE id = ${id}
+      `;
+  } catch (error) {
+    return { message: 'Database Error: Failed to Update Invoice.' };
+  }
+ 
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
+
+/app/lib/actions.ts
+
+```ts
+export async function deleteInvoice(id: string) {
+  try {
+    await sql`DELETE FROM invoices WHERE id = ${id}`;
+    revalidatePath('/dashboard/invoices');
+    return { message: 'Deleted Invoice.' };
+  } catch (error) {
+    return { message: 'Database Error: Failed to Delete Invoice.' };
+  }
+}
+```
+
+注意，`redirect` 是在 `try/catch` 块之外调用的。这是因为 `redirect` 的工作方式是通过抛出一个错误，该错误会被 `catch` 块捕获。为了避免这种情况，您可以在 `try/catch` 之后调用 `redirect`。`redirect` 只有在 `try` 成功的情况下才会被执行。
+
+现在，让我们看一下在 Server Action 中抛出错误时会发生什么。您可以更早的抛出一个错误。例如，在 `deleteInvoice` 操作中，在函数的最上面抛出一个错误：
+
+/app/lib/actions.ts
+
+```ts
+export async function deleteInvoice(id: string) {
+  throw new Error('Failed to Delete Invoice');
+ 
+  // Unreachable code block
+  try {
+    await sql`DELETE FROM invoices WHERE id = ${id}`;
+    revalidatePath('/dashboard/invoices');
+    return { message: 'Deleted Invoice' };
+  } catch (error) {
+    return { message: 'Database Error: Failed to Delete Invoice' };
+  }
+}
+```
+当您尝试删除发票时，您应该在本机上看到一个错误。
+
+在开发过程中看到这些错误非常有帮助，因为它可以让您尽早捕获任何潜在的问题。然而，您还希望向用户显示错误，以避免突然的故障并允许您的应用程序继续运行。
+
+这就是 Next.js 的 [error.tsx(opens in a new tab)](https://nextjs.org/docs/app/api-reference/file-conventions/error) 文件发挥作用的地方。
+
+## 使用 `error.tsx` 处理全局错误[](https://qufei1993.github.io/nextjs-learn-cn/chapter13#%E4%BD%BF%E7%94%A8-errortsx-%E5%A4%84%E7%90%86%E5%85%A8%E5%B1%80%E9%94%99%E8%AF%AF)
+
+`error.tsx` 文件可用于为路由段定义 UI 边界。它用作意外错误的综合处理并允许您向用户显示备用 UI。
+
+在您的 `/dashboard/invoices` 文件夹内，创建一个名为 `error.tsx` 的新文件并粘贴以下代码：
+
+/dashboard/invoices/error.tsx
+
+```tsx
+'use client';
+ 
+import { useEffect } from 'react';
+ 
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    // Optionally log the error to an error reporting service
+    console.error(error);
+  }, [error]);
+ 
+  return (
+    <main className="flex h-full flex-col items-center justify-center">
+      <h2 className="text-center">Something went wrong!</h2>
+      <button
+        className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400"
+        onClick={
+          // Attempt to recover by trying to re-render the invoices route
+          () => reset()
+        }
+      >
+        Try again
+      </button>
+    </main>
+  );
+}
+```
+
+以上面代码有几个要点你需要注意：
+
+- **`"use client"`** - `error.tsx` 需要是一个客户端组件（Client Component）。
+- 它接受两个参数：
+    - `error`：这个对象是 JavaScript 原生 [Error(opens in a new tab)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) 对象的一个实例。
+    - `reset`：这是一个重置错误边界的函数。当执行时，该函数将尝试重新渲染路由段。
+
+当您再次尝试删除发票时，应该会看到以下 UI：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter13-error-page.73698b5b.avif)
+
+## 使用 `notFound` 函数处理 404 错误[](https://qufei1993.github.io/nextjs-learn-cn/chapter13#%E4%BD%BF%E7%94%A8-notfound-%E5%87%BD%E6%95%B0%E5%A4%84%E7%90%86-404-%E9%94%99%E8%AF%AF)
+
+另一种优雅处理错误的方式是使用 `notFound` 函数。虽然 `error.tsx` 对于捕获全局错误很有用，但在尝试获取不存在的资源时，可以使用 `notFound`。
+
+例如，访问 [http://localhost:3000/dashboard/invoices/2e94d1ed-d220-449f-9f11-f0bbceed9645/edit。(opens in a new tab)](http://localhost:3000/dashboard/invoices/2e94d1ed-d220-449f-9f11-f0bbceed9645/edit%E3%80%82)
+
+这是一个不存在于您的数据库中的虚假 UUID。
+
+您将立即看到 `error.tsx` 启动，因为这是 `/invoices` 的子路由，其中定义了 `error.tsx`。
+
+然而，如果您想更具体，可以显示一个 404 错误，告诉用户他们尝试访问的资源未被找到。
+
+您可以通过进入 `data.ts` 中的 `fetchInvoiceById` 函数，并在控制台记录返回的发票来确认资源不存在：
+
+/app/lib/data.ts
+
+```ts
+export async function fetchInvoiceById(id: string) {
+  noStore();
+  try {
+    // ...
+ 
+    console.log(invoice); // Invoice is an empty array []
+    return invoice[0];
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch invoice.');
+  }
+}
+```
+
+现在您知道发票在数据库中不存在，让我们使用 `notFound` 来处理它。导航到 `/dashboard/invoices/[id]/edit/page.tsx`，并从 `'next/navigation'` 导入 `{ notFound }`。
+
+然后，您可以使用条件语句在发票不存在时调用 `notFound`：
+
+/dashboard/invoices/[id]/edit/page.tsx
+
+```tsx
+import { fetchInvoiceById, fetchCustomers } from '@/app/lib/data';
+import { updateInvoice } from '@/app/lib/actions';
+import { notFound } from 'next/navigation';
+ 
+export default async function Page({ params }: { params: { id: string } }) {
+  const id = params.id;
+  const [invoice, customers] = await Promise.all([
+    fetchInvoiceById(id),
+    fetchCustomers(),
+  ]);
+ 
+  if (!invoice) {
+    notFound();
+  }
+ 
+  // ...
+}
+```
+
+完美！如果找不到特定的发票，`<Page>` 现在会抛出一个错误。为了向用户显示错误 UI，请在 `/edit` 文件夹内创建一个 `not-found.tsx` 文件。
+
+然后，在 `not-found.tsx` 文件中，粘贴以下代码：
+
+/dashboard/invoices/[id]/edit/not-found.tsx
+
+```tsx
+import Link from 'next/link';
+import { FaceFrownIcon } from '@heroicons/react/24/outline';
+ 
+export default function NotFound() {
+  return (
+    <main className="flex h-full flex-col items-center justify-center gap-2">
+      <FaceFrownIcon className="w-10 text-gray-400" />
+      <h2 className="text-xl font-semibold">404 Not Found</h2>
+      <p>Could not find the requested invoice.</p>
+      <Link
+        href="/dashboard/invoices"
+        className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400"
+      >
+        Go Back
+      </Link>
+    </main>
+  );
+}
+```
+
+刷新路由，现在您应该看到以下 UI：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter13-404-not-found-page.715a0341.avif)
+
+这是要记住的事情，`notFound` 会优先于 `error.tsx`，因此当您想处理更具体的错误时，可以使用它！
+
+## ## 进一步阅读[](https://qufei1993.github.io/nextjs-learn-cn/chapter13#%E8%BF%9B%E4%B8%80%E6%AD%A5%E9%98%85%E8%AF%BB)
+
+要了解有关在 Next.js 中处理错误的更多信息，请查看以下文档：
+
+- [错误处理(opens in a new tab)](https://nextjs.org/docs/app/building-your-application/routing/error-handling)
+- [error.js API 参考(opens in a new tab)](https://nextjs.org/docs/app/api-reference/file-conventions/error)
+- [notFound() API 参考(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/not-found)
+- [not-found.js API 参考](https://nextjs.org/docs/app/api-reference/file-conventions/not-found)
+# 提高可访问性
+
+在上一章中，我们讨论了如何捕获错误（包括 404 错误）并向用户显示备用界面。然而，我们仍然需要讨论谜题的另一部分：form 验证。让我们看看如何使用 Server Actions 实现服务器端验证，以及如何使用 `useFormState` hook 在保持可访问性的同时展示 form 错误。
+
+以下是本章中将涵盖的主题：
+
+- 如何使用 `eslint-plugin-jsx-a11y` 与 Next.js 一起实现可访问性的最佳实践。
+- 如何实现服务器端 form 验证。
+- 如何使用 React 的 `useFormState` hook 处理 form 错误，并将其展示给用户。
+
+## 什么是可访问性？[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E4%BB%80%E4%B9%88%E6%98%AF%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7)
+
+可访问性是指设计和实现每个人都可以使用的 Web 应用程序，包括那些具有残障的人。这是一个广泛的主题，涵盖了许多领域，如键盘导航，语义 HTML，图像，颜色，视频等。
+
+虽然在这个课程中我们不会深入讨论可访问性，但我们将讨论 Next.js 中可用的可访问性功能以及一些常见的实践，以使您的应用程序更具可访问性。
+
+## 在 Next.js 中使用 ESLint 可访问性插件[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E5%9C%A8-nextjs-%E4%B8%AD%E4%BD%BF%E7%94%A8-eslint-%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7%E6%8F%92%E4%BB%B6)
+
+默认情况下，Next.js 包含 [eslint-plugin-jsx-a11y(opens in a new tab)](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) 插件，以帮助早发现可访问性问题。例如，该插件会在没有 alt 文本的图像、错误使用 `aria-*` 和 `role` 属性等情况下发出警告。
+
+让我们看看这是如何工作的！
+在您的 `package.json` 文件中将 `next lint` 添加为一个脚本：
+
+/package.json
+
+```
+"scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "start": "next start",
+    "lint": "next lint"
+},
+```
+
+然后在终端中运行 `npm run lint`：
+
+```Terminal
+npm run lint
+```
+
+您应该会看到以下警告：
+
+```Terminal
+✔ No ESLint warnings or errors
+```
+
+然而，如果您有一个没有 alt 文本的图像会发生什么呢？让我们试试！
+
+转到 `/app/ui/invoices/table.tsx` 并从图像中删除 `alt` 属性。您可以使用编辑器的搜索功能快速找到 `<Image>`：
+
+/app/ui/invoices/table.tsx
+
+```tsx
+<Image
+  src={invoice.image_url}
+  className="rounded-full"
+  width={28}
+  height={28}
+  alt={`${invoice.name}'s profile picture`} // 删除这一行
+/>
+```
+
+现在再次运行 `npm run lint`，您应该会看到以下警告：
+
+
+```
+./app/ui/invoices/table.tsx
+45:25  Warning: Image elements must have an alt prop,
+either with meaningful text, or an empty string for decorative images. jsx-a11y/alt-text
+```
+
+如果您尝试将应用程序部署到 Vercel，此警告还将显示在构建日志中。这是因为 `next lint` 作为构建过程的一部分运行。因此，您可以在部署应用程序之前在本地运行 `lint` 以捕获可访问性问题。
+
+## 提升 form 可访问性[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E6%8F%90%E5%8D%87-form-%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7)
+
+在我们的 form 中，已经有三件事情可以改进可访问性：
+
+- **语义化 HTML**：使用语义元素（如`<input>`、`<option>` 等）而不是 `<div>`。这使辅助技术（AT）能够专注于输入元素，并向用户提供适当的上下文信息，使 form 更易于导航和理解。
+- **标签**：包括 `<label>` 和 `htmlFor` 属性确保每个 form 字段都有一个描述性的文本标签。这通过提供上下文来改善AT支持，并通过允许用户单击标签以聚焦到相应的输入字段来增强可用性。 ** **聚焦轮廓（Focus Outline）**：字段在聚焦时被正确地样式化，以显示轮廓。这对于可访问性至关重要，因为它在视觉上指示页面上的活动元素，帮助键盘和屏幕阅读器用户理解他们在 form 上的位置。您可以通过按 `Tab` 键进行验证。
+
+这些实践为使您的 forms 更适用于许多用户打下了良好的基础。然而，它们并没有解决 **form 验证**和**错误**的问题。
+
+## Form 验证[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#form-%E9%AA%8C%E8%AF%81)
+
+访问 [http://localhost:3000/dashboard/invoices/create(opens in a new tab)](http://localhost:3000/dashboard/invoices/create) 并提交一个空 form。会发生什么？
+
+您会收到一个错误！这是因为您正在将空 form 值发送到您的 Server Action。您可以通过在客户端或服务器上验证 form 来防止这种情况。
+
+### 客户端验证[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%AA%8C%E8%AF%81)
+
+有几种方法可以在客户端验证 forms。最简单的方法是依赖浏览器提供的 form 验证，通过在 form 的 `<input>` 和`<select>` 元素中添加 `required` 属性。例如：
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+<input
+  id="amount"
+  name="amount"
+  type="number"
+  placeholder="Enter USD amount"
+  className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
+  required
+/>
+```
+
+再次提交 form，如果尝试提交带有空值的 form，您现在应该会看到浏览器发出的警告。
+
+这种方法通常是可以的，因为一些 ATs 支持浏览器验证。
+
+客户端验证的另一种选择是服务器端验证。让我们在下一节中看看如何实现它。目前，如果已添加 `required` 属性，请删除它们。
+
+### 服务端验证[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%AA%8C%E8%AF%81)
+
+通过在服务器上验证 form，您可以：
+
+- 确保数据发送到数据库之前是预期的格式。
+- 减少恶意用户绕过客户端验证的风险。
+- 拥有一个被认为是有效数据的真实来源。
+
+在 `create-form.tsx` 组件中，从 `react-dom` 中导入 `useFormState` hook。由于 `useFormState` 是一个hook，您将需要使用 `"use client"` 指令将您的 form 转换为客户端组件：
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+'use client';
+ 
+// ...
+import { useFormState } from 'react-dom';
+```
+
+在 Form 组件内，使用 `useFormState` hook：
+
+- 接收两个参数：`(action，initialState)`。
+- 返回两个值：`[state，dispatch]` - form 状态和一个 dispatch 函数（类似于 [useReducer(opens in a new tab)](https://react.dev/reference/react/useReducer)）。
+
+将 `createInvoice` action 作为 `useFormState` 的参数传递，并在 `<form action={}>` 属性内调用 `dispatch`。
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+// ...
+import { useFormState } from 'react-dom';
+ 
+export default function Form({ customers }: { customers: CustomerField[] }) {
+  const [state, dispatch] = useFormState(createInvoice, initialState);
+ 
+  return <form action={dispatch}>...</form>;
+}
+```
+
+`initialState` 可以是您定义的任何内容，在这个案例中，创建一个带有两个空 key（`message` 和 `errors`）的对象。
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+// ...
+import { useFormState } from 'react-dom';
+ 
+export default function Form({ customers }: { customers: CustomerField[] }) {
+  const initialState = { message: null, errors: {} };
+  const [state, dispatch] = useFormState(createInvoice, initialState);
+ 
+  return <form action={dispatch}>...</form>;
+}
+```
+
+这一开始看起来也许有点混乱，但一旦您更新 Server Action，它就会更加清晰。现在让我们做这个。
+
+在 `action.ts` 文件中，您可以使用 Zod 来验证 form 数据。更新您的 `FormSchema` 如下：
+
+/app/lib/action.ts
+
+```ts
+const FormSchema = z.object({
+  id: z.string(),
+  customerId: z.string({
+    invalid_type_error: 'Please select a customer.',
+  }),
+  amount: z.coerce
+    .number()
+    .gt(0, { message: 'Please enter an amount greater than $0.' }),
+  status: z.enum(['pending', 'paid'], {
+    invalid_type_error: 'Please select an invoice status.',
+  }),
+  date: z.string(),
+});
+```
+
+- `customerId` - 如果 customer 字段为空，Zod 会抛出一个错误，因为它期望是一个 `string` 类型。但是，让我们添加一条友好的提示消息，以防用户没有选择 customer。
+- `amount` - 由于您正在将 amount 类型从 `string` 强制转换为 `number`，如果字符串为空，则默认为零。使用 `.gt()` 函数告诉 Zod 我们始终希望 `amount` 大于 0。
+- `status` - 如果 status 字段为空，Zod 会抛出一个错误，因为它期望是 `"pending"` 或 `"paid"`。让我们添加一条友好的提示消息，以防用户没有选择 status。
+
+接下来，更新您的 `createInvoice` 动作以接受两个参数：
+
+/app/lib/action.ts
+
+```ts
+// This is temporary until @types/react-dom is updated
+export type State = {
+  errors?: {
+    customerId?: string[];
+    amount?: string[];
+    status?: string[];
+  };
+  message?: string | null;
+};
+ 
+export async function createInvoice(prevState: State, formData: FormData) {
+  // ...
+}
+```
+
+- `formData` - 与之前相同。
+- `prevState` - 包含从 `useFormState` hook 传递的状态。在此示例中，您将不会在 action 中使用它，但它是一个必需的属性。
+
+然后，将 Zod 的 `parse()` 函数更改为 `safeParse()`：
+
+/app/lib/action.ts
+
+```ts
+export async function createInvoice(prevState: State, formData: FormData) {
+  // Validate form fields using Zod
+  const validatedFields = CreateInvoice.safeParse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  // ...
+}
+```
+
+`safeParse()` 将返回一个包含 `success` 或 `error` 字段的对象。这将有助于更优雅地处理验证，而无需将此逻辑放在 `try/catch` 块中。
+
+在将信息发送到数据库之前，请使用条件语句检查 form 字段是否已正确验证：
+
+/app/lib/action.ts
+
+```ts
+export async function createInvoice(prevState: State, formData: FormData) {
+  // Validate form fields using Zod
+  const validatedFields = CreateInvoice.safeParse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  // If form validation fails, return errors early. Otherwise, continue.
+  if (!validatedFields.success) {
+    return {
+      errors: validatedFields.error.flatten().fieldErrors,
+      message: 'Missing Fields. Failed to Create Invoice.',
+    };
+  }
+ 
+  // ...
+}
+```
+
+如果 `validatedFields` 不成功，我们将提前返回带有 Zod 错误消息的函数。
+
+> **Tip**：使用 console.log `validatedFields`，并提交一个空 form 以查看其结构。
+
+最后，由于您正在单独处理 form 验证，不在 try/catch 块中，您可以为任何数据库错误返回一个特定的消息，您的最终代码应如下所示：
+
+/app/lib/action.ts
+
+```ts
+export async function createInvoice(prevState: State, formData: FormData) {
+  // Validate form using Zod
+  const validatedFields = CreateInvoice.safeParse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  // If form validation fails, return errors early. Otherwise, continue.
+  if (!validatedFields.success) {
+    return {
+      errors: validatedFields.error.flatten().fieldErrors,
+      message: 'Missing Fields. Failed to Create Invoice.',
+    };
+  }
+ 
+  // Prepare data for insertion into the database
+  const { customerId, amount, status } = validatedFields.data;
+  const amountInCents = amount * 100;
+  const date = new Date().toISOString().split('T')[0];
+ 
+  // Insert data into the database
+  try {
+    await sql`
+      INSERT INTO invoices (customer_id, amount, status, date)
+      VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
+    `;
+  } catch (error) {
+    // If a database error occurs, return a more specific error.
+    return {
+      message: 'Database Error: Failed to Create Invoice.',
+    };
+  }
+ 
+  // Revalidate the cache for the invoices page and redirect the user.
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
+
+太好了，现在让我们在您的 form 组件中展示错误。回到 `create-form.tsx` 组件，在该组件中，您可以使用 form 状态访问错误。
+
+添加一个三元运算符，检查每个特定的错误。例如，在 customer 字段之后，您可以添加：
+
+/app/ui/invoices/create-form.tsx
+
+```tsx
+<form action={dispatch}>
+  <div className="rounded-md bg-gray-50 p-4 md:p-6">
+    {/* Customer Name */}
+    <div className="mb-4">
+      <label htmlFor="customer" className="mb-2 block text-sm font-medium">
+        Choose customer
+      </label>
+      <div className="relative">
+        <select
+          id="customer"
+          name="customerId"
+          className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
+          defaultValue=""
+          aria-describedby="customer-error"
+        >
+          <option value="" disabled>
+            Select a customer
+          </option>
+          {customers.map((name) => (
+            <option key={name.id} value={name.id}>
+              {name.name}
+            </option>
+          ))}
+        </select>
+        <UserCircleIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500" />
+      </div>
+      <div id="customer-error" aria-live="polite" aria-atomic="true">
+        {state.errors?.customerId &&
+          state.errors.customerId.map((error: string) => (
+            <p className="mt-2 text-sm text-red-500" key={error}>
+              {error}
+            </p>
+          ))}
+      </div>
+    </div>
+    // ...
+  </div>
+</form>
+```
+
+> **Tip**：您可以在组件内使用 console.log(state) 来检查是否一切都连接正确。在 Dev Tools 中检查控制台，因为您的 form 现在是一个客户端组件。
+
+在上面的代码中，您还添加了以下 aria 标签：
+
+- `aria-describedby="customer-error"`：这在 `select` 元素和错误消息容器之间建立了关系。它表示具有 `id="customer-error"` 的容器描述了 `select` 元素。屏幕阅读器在用户与选择框交互时将阅读此描述，以通知他们存在错误。
+- `id="customer-error"`：此 id 属性唯一标识包含 `select` 输入错误消息的 HTML 元素。这对于 `aria-describedby` 建立关系是必要的。
+- `aria-live="polite"`：屏幕阅读器应在 div 内的错误更新时礼貌地通知用户。当内容发生更改时（例如，用户更正错误），屏幕阅读器将在用户处于空闲状态时宣布这些更改，以免打断他们。
+
+## 练习：添加 aria 标签[](https://qufei1993.github.io/nextjs-learn-cn/chapter14#%E7%BB%83%E4%B9%A0%E6%B7%BB%E5%8A%A0-aria-%E6%A0%87%E7%AD%BE)
+
+使用上面的示例，添加错误到你的其余 form 字段。如果任何字段是错误的，您还应该在 form 底部展示一个消息。您的 UI 看起来应该如下所示：
+
+![](https://qufei1993.github.io/nextjs-learn-cn//_next/static/media/chapter14-form-validation-page.d3e2a642.avif)
+
+一切准备就绪后，运行 `npm run lint` 检查您是否正确使用了 aria 标签。
+
+如果您想挑战自己，请将本章学到的知识添加到 `edit-form.tsx` 组件中并进行 form 验证。
+
+您需要：
+
+- 在 `edit-form.tsx` 组件中添加 `useFormState`。
+- 编辑 `updateInvoice` 操作以处理来自 Zod 的验证错误。
+- 在组件中展示错误，并添加 aria 标签以提高可访问性。
+
+准备好后，请展开下面的代码片段查看解决方案：
+
+**编辑发票 Form:**
+
+/app/ui/invoices/edit-form.tsx
+
+```tsx
+export default function EditInvoiceForm({
+  invoice,
+  customers,
+}: {
+  invoice: InvoiceForm;
+  customers: CustomerField[];
+}) {
+  const initialState = { message: null, errors: {} };
+  const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
+  const [state, dispatch] = useFormState(updateInvoiceWithId, initialState);
+ 
+  return <form action={dispatch}></form>;
+}
+```
+
+**Server Action:**
+
+/app/ui/invoices/edit-form.tsx
+
+```tsx
+export async function updateInvoice(
+  id: string,
+  prevState: State,
+  formData: FormData,
+) {
+  const validatedFields = UpdateInvoice.safeParse({
+    customerId: formData.get('customerId'),
+    amount: formData.get('amount'),
+    status: formData.get('status'),
+  });
+ 
+  if (!validatedFields.success) {
+    return {
+      errors: validatedFields.error.flatten().fieldErrors,
+      message: 'Missing Fields. Failed to Update Invoice.',
+    };
+  }
+ 
+  const { customerId, amount, status } = validatedFields.data;
+  const amountInCents = amount * 100;
+ 
+  try {
+    await sql`
+      UPDATE invoices
+      SET customer_id = ${customerId}, amount = ${amountInCents}, status = ${status}
+      WHERE id = ${id}
+    `;
+  } catch (error) {
+    return { message: 'Database Error: Failed to Update Invoice.' };
+  }
+ 
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
+}
+```
+
+# 添加身份验证
+
+在前一章中，通过添加 form 验证和改善可访问性，你完成了构建发票路由的过程。在这一章中，你将为 dashboard 添加身份验证。
+
+以下是本章中将涵盖的主题：
+
+- 什么是身份验证。
+- 如何使用 NextAuth.js 为应用添加身份验证。
+- 如何使用中间件重定向用户并保护你的路由。
+- 如何使用 React 的 `useFormStatus` 和 `useFormState` 处理 pending 状态和 form 错误。
+
+## 什么是身份验证？[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E4%BB%80%E4%B9%88%E6%98%AF%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81)
+
+身份验证是当今许多 Web 应用程序的关键部分。这是系统检查用户是否是他们所说的那个人的方式。
+
+一个安全的网站通常使用多种方法来检查用户的身份。例如，在输入用户名和密码后，网站可能会向你的设备发送验证代码，或者使用像 Google Authenticator 这样的外部应用程序。这种双因素身份验证（2FA）有助于提高安全性。即使有人知道你的密码，他们也无法在没有你的唯一令牌的情况下访问你的帐户。
+
+### 身份验证（Authentication）vs 授权（Authorization）[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81authenticationvs-%E6%8E%88%E6%9D%83authorization)
+
+在 Web 开发中，身份验证（Authentication）和授权（Authorization）扮演不同的角色：
+
+- **身份验证**是确保用户是他们所说的那个人。你通过拥有的东西（如用户名和密码）证明你的身份。
+- **授权**是下一步。一旦用户的身份确认，授权决定了他们被允许使用应用程序中的哪些部分。
+
+所以，身份验证检查你是谁，而授权确定你在应用程序中可以做什么或访问什么。
+
+## 创建登录路由[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E5%88%9B%E5%BB%BA%E7%99%BB%E5%BD%95%E8%B7%AF%E7%94%B1)
+
+首先，在你的应用程序中创建一个名为 `/login` 的新路由，并粘贴以下代码：
+
+/app/login/page.tsx
+
+```tsx
+import AcmeLogo from '@/app/ui/acme-logo';
+import LoginForm from '@/app/ui/login-form';
+ 
+export default function LoginPage() {
+  return (
+    <main className="flex items-center justify-center md:h-screen">
+      <div className="relative mx-auto flex w-full max-w-[400px] flex-col space-y-2.5 p-4 md:-mt-32">
+        <div className="flex h-20 w-full items-end rounded-lg bg-blue-500 p-3 md:h-36">
+          <div className="w-32 text-white md:w-36">
+            <AcmeLogo />
+          </div>
+        </div>
+        <LoginForm />
+      </div>
+    </main>
+  );
+}
+```
+
+你会注意到页面导入了 `<LoginForm />`，你将在本章后面更新这部分内容。
+
+## NextAuth.js[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#nextauthjs)
+
+我们将使用 [NextAuth.js(opens in a new tab)](https://authjs.dev/reference/nextjs) 为你的应用程序添加身份验证。NextAuth.js 抽象了管理会话、登录和退出登录以及身份验证其他方面的许多复杂性。虽然你可以手动实现这些功能，但这个过程可能会耗时且容易出错。NextAuth.js 简化了这个过程，为 Next.js 应用程序提供了身份验证的统一解决方案。
+
+### 设置 NextAuth.js[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E8%AE%BE%E7%BD%AE-nextauthjs)
+
+在终端中运行以下命令安装 NextAuth.js：
+
+```
+npm install next-auth@beta
+```
+
+在这里，你正在安装 NextAuth.js 的 `beta` 版本，该版本与 Next.js 14 兼容。
+
+接下来，为你的应用程序生成一个密钥。该密钥用于加密 cookie，确保用户会话的安全性。你可以通过在终端中运行以下命令来完成：
+
+```
+openssl rand -base64 32
+```
+
+然后，在你的 `.env` 文件中，将生成的密钥添加到 `AUTH_SECRET` 变量中：
+
+```
+AUTH_SECRET=your-secret-key
+```
+
+为了使身份验证在生产环境中正常工作，你还需要在 Vercel 项目中更新环境变量。查看这篇关于如何在 Vercel 上添加环境变量的[指南(opens in a new tab)](https://vercel.com/docs/projects/environment-variables)。
+
+### 添加 pages 选项[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E6%B7%BB%E5%8A%A0-pages-%E9%80%89%E9%A1%B9)
+
+在项目的根目录创建一个 `auth.config.ts` 文件，该文件导出一个 `authConfig` 对象。此对象将包含 NextAuth.js 的配置选项。目前，它将只包含 `pages` 选项：
+
+/auth.config.ts
+
+```ts
+import type { NextAuthConfig } from 'next-auth';
+ 
+export const authConfig = {
+  pages: {
+    signIn: '/login',
+  },
+};
+```
+
+你可以使用 pages 选项指定自定义登录、退出登录和错误页面的路由。这不是必需的，但通过将 `signIn: '/login'` 添加到我们的 `pages` 选项中，用户将被重定向到我们的自定义登录页面，而不是 NextAuth.js 默认页面。
+
+## 使用 Next.js Middleware 保护路由[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E4%BD%BF%E7%94%A8-nextjs-middleware-%E4%BF%9D%E6%8A%A4%E8%B7%AF%E7%94%B1)
+
+接下来，添加保护路由的逻辑。这将阻止用户在未登录的情况下访问 dashboard 页面。
+/auth.config.ts
+
+```ts
+import type { NextAuthConfig } from 'next-auth';
+ 
+export const authConfig = {
+  pages: {
+    signIn: '/login',
+  },
+  callbacks: {
+    authorized({ auth, request: { nextUrl } }) {
+      const isLoggedIn = !!auth?.user;
+      const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
+      if (isOnDashboard) {
+        if (isLoggedIn) return true;
+        return false; // Redirect unauthenticated users to login page
+      } else if (isLoggedIn) {
+        return Response.redirect(new URL('/dashboard', nextUrl));
+      }
+      return true;
+    },
+  },
+  providers: [], // Add providers with an empty array for now
+} satisfies NextAuthConfig;
+```
+`authorized` 回调用于验证通过 Next.js 中间件访问页面的请求是否被授权。它在请求完成之前调用，并接收一个包含 `auth` 和 `request` 属性的对象。`auth` 属性包含用户的会话，`request` 属性包含传入的请求。
+
+providers 选项是一个数组，其中列出了不同的登录选项。目前，它是一个空数组，以满足 NextAuth 配置。你将在 “添加 Credentials provider” 部分中了解更多信息。
+
+接下来，你需要将 `authConfig` 对象导入到一个中间件文件中。在你的项目根目录中，创建一个名为 `middleware.ts` 的文件，并粘贴以下代码：
+
+/middleware.ts
+
+```ts
+import NextAuth from 'next-auth';
+import { authConfig } from './auth.config';
+ 
+export default NextAuth(authConfig).auth;
+ 
+export const config = {
+  // https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
+  matcher: ['/((?!api|_next/static|_next/image|.*\\.png$).*)'],
+};
+```
+在这里，你正在使用 `authConfig` 对象初始化 NextAuth.js，并导出 `auth` 属性。你还使用 Middleware 的 `matcher` 选项指定它应该在特定路径上运行。
+
+使用中间件执行此任务的优势在于，受保护的路由在中间件验证身份之前甚至不会开始渲染，从而增强了应用程序的安全性和性能。
+
+### 密码哈希[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E5%AF%86%E7%A0%81%E5%93%88%E5%B8%8C)
+
+在将密码存储到数据库之前，对密码进行哈希处理是一种良好的做法。哈希将密码转换为一串固定长度的字符，看起来是随机的，即使用户的数据被曝露，也提供了一层安全性。
+
+在 `seed.js` 文件中，你使用了一个名为 `bcrypt` 的包来哈希用户的密码，然后将其存储在数据库中。在本章的后面，你将再次使用它来比较用户输入的密码是否与数据库中的密码匹配。但是，你需要为 `bcrypt` 包创建一个单独的文件。这是因为 `bcrypt` 依赖于 Next.js 中间件中不可用的 Node.js API。
+
+创建一个名为 `auth.ts` 的新文件，该文件包含你的 `authConfig` 对象：
+/auth.ts
+
+```ts
+import NextAuth from 'next-auth';
+import { authConfig } from './auth.config';
+ 
+export const { auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+});
+```
+
+### 添加 Credentials provider[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E6%B7%BB%E5%8A%A0-credentials-provider)
+
+接下来，你需要为 NextAuth.js 添加 `providers` 选项。providers 是一个数组，其中列出了不同的登录选项，如 Google 或 GitHub。在本课程中，我们将专注于仅使用 [Credentials provider(opens in a new tab)](https://authjs.dev/getting-started/providers/credentials-tutorial)。
+
+Credentials provider 允许用户使用用户名和密码登录。
+
+/auth.ts
+
+```ts
+import NextAuth from 'next-auth';
+import { authConfig } from './auth.config';
+import Credentials from 'next-auth/providers/credentials';
+ 
+export const { auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+  providers: [Credentials({})],
+});
+```
+
+> **Good to know**: 尽管我们使用了 Credentials provider，但通常建议使用替代 providers，例如 [OAuth(opens in a new tab)](https://authjs.dev/getting-started/providers/oauth-tutorial) 或 [email(opens in a new tab)](https://authjs.dev/getting-started/providers/email-tutorial) providers。请查看 [NextAuth.js 文档(opens in a new tab)](https://authjs.dev/getting-started/providers) 以获取完整的选项列表。
+
+### 添加登录功能
+
+你可以使用 `authorize` 函数处理身份验证逻辑。类似于 Server Actions，你可以使用 zod 在检查用户是否存在于数据库之前验证电子邮件和密码：
+
+/auth.ts
+
+```ts
+import NextAuth from 'next-auth';
+import { authConfig } from './auth.config';
+import Credentials from 'next-auth/providers/credentials';
+import { z } from 'zod';
+ 
+export const { auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+  providers: [
+    Credentials({
+      async authorize(credentials) {
+        const parsedCredentials = z
+          .object({ email: z.string().email(), password: z.string().min(6) })
+          .safeParse(credentials);
+      },
+    }),
+  ],
+});
+```
+
+在验证凭据之后，创建一个新的 `getUser` 函数，该函数从数据库查询用户。
+
+/auth.ts
+
+```ts
+import NextAuth from 'next-auth';
+import Credentials from 'next-auth/providers/credentials';
+import { authConfig } from './auth.config';
+import { z } from 'zod';
+import { sql } from '@vercel/postgres'; // 这里需要注意！！！
+import type { User } from '@/app/lib/definitions';
+import bcrypt from 'bcrypt';
+ 
+async function getUser(email: string): Promise<User | undefined> {
+  try {
+    const user = await sql<User>`SELECT * FROM users WHERE email=${email}`;
+    return user.rows[0];
+  } catch (error) {
+    console.error('Failed to fetch user:', error);
+    throw new Error('Failed to fetch user.');
+  }
+}
+ 
+export const { auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+  providers: [
+    Credentials({
+      async authorize(credentials) {
+        const parsedCredentials = z
+          .object({ email: z.string().email(), password: z.string().min(6) })
+          .safeParse(credentials);
+ 
+        if (parsedCredentials.success) {
+          const { email, password } = parsedCredentials.data;
+          const user = await getUser(email);
+          if (!user) return null;
+        }
+ 
+        return null;
+      },
+    }),
+  ],
+});
+```
+
+> **译者注**：因为 Vercel Postgres 搭配本地数据库还存在一些问题，在 [nextjs-learn-example(opens in a new tab)](https://github.com/qufei1993/nextjs-learn-example) 示例中，我使用了一种 hack 的方式来处理，如果您在本地开发是按照我的 hack 方式，请替换 `import { sql } from '@vercel/postgres';` 为 `import { sql } from './sql-hack';` 详情参见 [https://qufei1993.github.io/nextjs-learn-cn/chapter17](https://qufei1993.github.io/nextjs-learn-cn/chapter17)
+> 
+然后，调用 `bcrypt.compare` 检查密码是否匹配：
+
+/auth.ts
+
+```ts
+import NextAuth from 'next-auth';
+import Credentials from 'next-auth/providers/credentials';
+import { authConfig } from './auth.config';
+import { sql } from '@vercel/postgres'; // 这里需要注意！！！
+import { z } from 'zod';
+import type { User } from '@/app/lib/definitions';
+import bcrypt from 'bcrypt';
+ 
+// ...
+ 
+export const { auth, signIn, signOut } = NextAuth({
+  ...authConfig,
+  providers: [
+    Credentials({
+      async authorize(credentials) {
+        // ...
+ 
+        if (parsedCredentials.success) {
+          const { email, password } = parsedCredentials.data;
+          const user = await getUser(email);
+          if (!user) return null;
+          const passwordsMatch = await bcrypt.compare(password, user.password);
+ 
+          if (passwordsMatch) return user;
+        }
+ 
+        console.log('Invalid credentials');
+        return null;
+      },
+    }),
+  ],
+});
+```
+
+最后，如果密码匹配返回 user，否则返回 null 以防止用户登录。
+
+### 更新登录 form[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E6%9B%B4%E6%96%B0%E7%99%BB%E5%BD%95-form)
+
+现在你需要将身份验证逻辑与登录 form 连接起来。在你的 `actions.ts` 文件中，创建一个名为 `authenticate` 的新 action。此 action 应该从 `auth.ts` 导入 `signIn` 函数：
+
+  
+/app/lib/actions.ts
+
+```ts
+import { signIn } from '@/auth';
+import { AuthError } from 'next-auth';
+ 
+// ...
+ 
+export async function authenticate(
+  prevState: string | undefined,
+  formData: FormData,
+) {
+  try {
+    await signIn('credentials', formData);
+  } catch (error) {
+    if (error instanceof AuthError) {
+      switch (error.type) {
+        case 'CredentialsSignin':
+          return 'Invalid credentials.';
+        default:
+          return 'Something went wrong.';
+      }
+    }
+    throw error;
+  }
+}
+```
+
+如果出现 `'CredentialsSignin'` 错误，你希望显示一个合适的错误消息。你可以在[文档(opens in a new tab)](https://authjs.dev/reference/core/errors/)中了解有关 NextAuth.js 错误的信息。
+最后，在你的 `login-form.tsx` 组件中，你可以使用 React 的 `useFormState` 调用服务器操作并处理 form 错误，并使用 `useFormStatus` 处理 form 的 pending 状态：
+
+app/ui/login-form.tsx
+
+```tsx
+'use client';
+ 
+import { lusitana } from '@/app/ui/fonts';
+import {
+  AtSymbolIcon,
+  KeyIcon,
+  ExclamationCircleIcon,
+} from '@heroicons/react/24/outline';
+import { ArrowRightIcon } from '@heroicons/react/20/solid';
+import { Button } from '@/app/ui/button';
+import { useFormState, useFormStatus } from 'react-dom';
+import { authenticate } from '@/app/lib/actions';
+ 
+export default function LoginForm() {
+  const [errorMessage, dispatch] = useFormState(authenticate, undefined);
+ 
+  return (
+    <form action={dispatch} className="space-y-3">
+      <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
+        <h1 className={`${lusitana.className} mb-3 text-2xl`}>
+          Please log in to continue.
+        </h1>
+        <div className="w-full">
+          <div>
+            <label
+              className="mb-3 mt-5 block text-xs font-medium text-gray-900"
+              htmlFor="email"
+            >
+              Email
+            </label>
+            <div className="relative">
+              <input
+                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <AtSymbolIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
+            </div>
+          </div>
+          <div className="mt-4">
+            <label
+              className="mb-3 mt-5 block text-xs font-medium text-gray-900"
+              htmlFor="password"
+            >
+              Password
+            </label>
+            <div className="relative">
+              <input
+                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                required
+                minLength={6}
+              />
+              <KeyIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
+            </div>
+          </div>
+        </div>
+        <LoginButton />
+        <div
+          className="flex h-8 items-end space-x-1"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          {errorMessage && (
+            <>
+              <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
+              <p className="text-sm text-red-500">{errorMessage}</p>
+            </>
+          )}
+        </div>
+      </div>
+    </form>
+  );
+}
+ 
+function LoginButton() {
+  const { pending } = useFormStatus();
+ 
+  return (
+    <Button className="mt-4 w-full" aria-disabled={pending}>
+      Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
+    </Button>
+  );
+}
+```
+
+### 添加注销功能
+
+要将注销功能添加到 `<SideNav />`，在你的 `<form>` 元素中调用来自 `auth.ts` 的 `signOut` 函数：
+
+/app/ui/dashboard/sidenav.tsx
+
+```tsx
+import Link from 'next/link';
+import NavLinks from '@/app/ui/dashboard/nav-links';
+import AcmeLogo from '@/app/ui/acme-logo';
+import { PowerIcon } from '@heroicons/react/24/outline';
+import { signOut } from '@/auth';
+ 
+export default function SideNav() {
+  return (
+    <div className="flex h-full flex-col px-3 py-4 md:px-2">
+      // ...
+      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+        <NavLinks />
+        <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
+        <form
+          action={async () => {
+            'use server';
+            await signOut();
+          }}
+        >
+          <button className="flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3">
+            <PowerIcon className="w-6" />
+            <div className="hidden md:block">Sign Out</div>
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+```
+
+### 试试看[](https://qufei1993.github.io/nextjs-learn-cn/chapter15#%E8%AF%95%E8%AF%95%E7%9C%8B)
+
+现在，试试看。你应该能够使用以下凭据登录和退出你的应用程序：
+
+Email: [user@nextmail.com](mailto:user@nextmail.com) Password: 123456
+
+# 添加元数据（Metadata）
+
+元数据对于 SEO 和可共享性至关重要。在本章中，我们将讨论如何向你的 Next.js 应用程序添加元数据。
+
+以下是本章中将涵盖的主题：
+
+- 什么是元数据。
+- 元数据的类型。
+- 如何使用元数据添加 Open Graph 图像。
+- 如何使用元数据添加 favicon。
+
+## 什么是元数据？[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E4%BB%80%E4%B9%88%E6%98%AF%E5%85%83%E6%95%B0%E6%8D%AE)
+
+在 Web 开发中，元数据提供有关网页的其他详细信息。元数据对于访问页面的用户来说是不可见的。相反，它在幕后工作，嵌入在页面的 HTML 中，通常位于 `<head>` 元素内。这些隐藏的信息对于搜索引擎和其他需要更好了解你的网页内容的系统非常重要。
+
+## 为什么元数据很重要？[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%85%83%E6%95%B0%E6%8D%AE%E5%BE%88%E9%87%8D%E8%A6%81)
+
+元数据在增强网页的 SEO 方面起着重要作用，使其对搜索引擎和社交媒体平台更易访问和理解。正确的元数据有助于搜索引擎有效地索引网页，提高其在搜索结果中的排名。此外，像 Open Graph 这样的元数据提高了应用在社交媒体上的外观，使其更具吸引力。
+
+## 元数据类型[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E5%85%83%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+
+有各种各样的元数据类型，每种都具有独特的目的。一些常见的类型包括：
+
+**标题元数据（Title Metadata）**：负责显示在浏览器标签上的网页标题。对于 SEO 来说非常关键，因为它帮助搜索引擎了解网页的主题。
+
+```
+<title>Page Title</title>
+```
+
+**描述元数据（Description Metadata）**：提供对网页内容的简要概述，通常显示在搜索引擎结果中。
+
+```
+<meta name="description" content="A brief description of the page content." />
+```
+
+**关键字元数据（Keyword Metadata）**：包括与网页内容相关的关键字，帮助搜索引擎索引页面。
+
+```
+<meta name="keywords" content="keyword1, keyword2, keyword3" />
+```
+
+**Open Graph 元数据（Open Graph Metadata）**：当在社交媒体平台上分享时，此元数据增强了网页的表示，提供标题、描述和预览图像等信息。
+
+```
+<meta property="og:title" content="Title Here" /><meta property="og:description" content="Description Here" /><meta property="og:image" content="image_url_here" />
+```
+
+**Favicon 元数据（Favicon Metadata）**：将网页的图标（小图标）链接到网页，显示在浏览器的地址栏或标签中。
+
+```
+<link rel="icon" href="path/to/favicon.ico" />
+```
+
+## 添加元数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E6%B7%BB%E5%8A%A0%E5%85%83%E6%95%B0%E6%8D%AE)
+
+Next.js 提供了一个 Metadata API，可用于定义应用程序的元数据。有两种方法可以向应用程序添加元数据：
+
+- **基于配置**：在 `layout.js` 或 `page.js` 文件中导出一个[静态的 metadata 对象(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object)或一个[动态的 generateMetadata 函数(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#generatemetadata-function)。
+- **基于文件**：Next.js 有一系列专门用于元数据目的的特殊文件：
+    - `favicon.ico`、`apple-icon.jpg` 和 `icon.jpg`：用于 favicon 和图标
+    - `opengraph-image.jpg` 和 `twitter-image.jpg`：用于社交媒体图片
+    - `robots.txt`：提供搜索引擎爬取的指令
+    - `sitemap.xml`：提供有关网站结构的信息
+
+您可以灵活使用这些文件进行静态元数据，或者可以在项目中以编程方式生成它们。
+
+使用这两种选项，Next.js 将自动为您的页面生成相关的 `<head>` 元素。
+
+### Favicon 和 Open Graph 图像[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#favicon-%E5%92%8C-open-graph-%E5%9B%BE%E5%83%8F)
+
+在 `/public` 文件夹中，您会注意到有两个图像：`favicon.ico` 和 `opengraph-image.jpg`。
+
+将这些图像移动到 `/app` 文件夹的根目录。
+
+这样做后，Next.js 将自动识别并使用这些文件作为您的 favicon 和 OG 图像。您可以通过在 dev 工具中检查应用程序的 `<head>` 元素来验证这一点。
+
+**需要注意的是**：您还可以使用 `ImageResponse` 构造函数创建动态 OG 图像。
+
+### 页面标题和描述[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E9%A1%B5%E9%9D%A2%E6%A0%87%E9%A2%98%E5%92%8C%E6%8F%8F%E8%BF%B0)
+
+您还可以从任何 `layout.js` 或 `page.js` 文件中包含一个 [metadata(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields) 对象，以添加额外的页面信息，如标题和描述。在 layout.js 中的任何元数据都将被使用它的所有页面继承。
+
+在根布局中，创建一个新的 metadata 对象，具有以下字段：
+
+/app/layout.tsx
+
+```tsx
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Acme Dashboard',
+  description: 'The official Next.js Course Dashboard, built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
+ 
+export default function RootLayout() {
+  // ...
+}
+```
+
+Next.js 将自动将标题和元数据添加到您的应用程序。
+
+但是，如果您想为特定页面添加自定义标题怎么办？您可以通过向页面本身添加 `metadata` 对象来实现这一点。嵌套页面中的元数据将覆盖父级中的元数据。
+
+例如，在 `/dashboard/invoices` 页面中，您可以更新页面标题：
+
+/app/dashboard/invoices/page.tsx
+
+```tsx
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Invoices | Acme Dashboard',
+};
+```
+
+这样做是有效的，但我们在每个页面上都重复了应用程序的标题。如果发生更改，例如公司名称，您将不得不在每个页面上进行更新。
+
+相反，您可以使用 metadata 对象中的 title.template 字段来为页面标题定义模板。此模板可以包含页面标题以及其他您想包含的信息。
+
+在根布局中，更新 metadata 对象以包含一个模板：
+
+/app/layout.tsx
+
+```tsx
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme Dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'The official Next.js Learn Dashboard built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
+```
+
+模板中的 `%s` 将替换为特定的页面标题。
+
+现在，在 `/dashboard/invoices` 页面中，您可以添加页面标题：
+
+/app/dashboard/invoices/page.tsx
+
+```tsx
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
+```
+
+转到 `/dashboard/invoices` 页面并检查 `<head>` 元素。您应该看到页面标题现在是 `Invoices` | `Acme Dashboard`。
+
+## 练习：添加元数据[](https://qufei1993.github.io/nextjs-learn-cn/chapter16#%E7%BB%83%E4%B9%A0%E6%B7%BB%E5%8A%A0%E5%85%83%E6%95%B0%E6%8D%AE)
+
+现在您已经了解了元数据，通过为其他页面添加标题进行练习：
+
+1. `/login page.`
+2. `/dashboard/ page.`
+3. `/dashboard/customers page.`
+4. `/dashboard/invoices/create page.`
+5. `/dashboard/invoices/[id]/edit page.`
+
+Next.js 的 Metadata API 功能强大且灵活，使您可以完全掌控应用程序的元数据。在这里，我们向您展示了如何添加一些基本的元数据，但您可以添加多个字段，包括 `keywords`、`robots`、`canonical` 等。请随意查阅[文档(opens in a new tab)](https://nextjs.org/docs/app/api-reference/functions/generate-metadata)，并向您的应用程序添加任何额外的元数据。
+
+# Vercel Postgres 搭配本地数据库
+
+在 Learn Next.js 教程中数据库链接采用的是 `Vercel Postgres`，本地开发会遇到一些网络问题，导致体验并不是很好。 因此，在本地开发时我期望能将本地数据库与 Vercel Postgres 一起使用，但目前支持的并不是很好。才有了下面这篇文章介绍。
+
+## 安装 Postgres 数据库[](https://qufei1993.github.io/nextjs-learn-cn/chapter17#%E5%AE%89%E8%A3%85-postgres-%E6%95%B0%E6%8D%AE%E5%BA%93)
+
+选择你熟悉的方式搭建本地数据库，以下使用 Docker 命令：
+
+```
+docker run --name myPostgresDb -p 5432:5432 -e POSTGRES_USER=postgresUser -e POSTGRES_PASSWORD=postgresPW -e POSTGRES_DB=postgresDB -d postgres
+```
+
+## 遇到的问题[](https://qufei1993.github.io/nextjs-learn-cn/chapter17#%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98)
+
+替换 `.env` 中的数据库配置为本地数据库信息：
+
+```
+POSTGRES_URL="postgres://postgresUser:postgresPW@127.0.0.1:5432/postgresDB"POSTGRES_PRISMA_URL="postgres://postgresUser:postgresPW@127.0.0.1:5432/postgresDB?pgbouncer=true&connect_timeout=15"POSTGRES_URL_NON_POOLING="postgres://postgresUser:postgresPW@127.0.0.1:5432/postgresDB"POSTGRES_USER="postgresUser"POSTGRES_HOST="127.0.0.1"POSTGRES_PASSWORD="postgresPW"POSTGRES_DATABASE="postgresDB"
+```
+
+执行 Examples 的 `yarn seed` 命令，起初会得到如下错误：
+
+```
+An error occurred while attempting to seed the database: VercelPostgresError: VercelPostgresError - 'invalid_connection_string': This connection string is meant to be used with a direct connection. Make sure to use a pooled connection string or try `createClient()` instead.
+```
+
+这是因为 Vercel 对 URL 有一些硬编码的校验，这一块很难饶过，详情参见 [ISSUE#123(opens in a new tab)](https://github.com/vercel/storage/issues/123)。
+
+但根据上面的错误提示，可以导入 `createClient()` 方法进行尝试，于是修改代码 `scripts/seed.js` 如下所示：
+
+```
+const { db, createClient } = require('@vercel/postgres'); async function main() {  const client = await createClient({ connectionString: process.env.POSTGRES_URL })  await client.connect();  // ...}
+```
+
+尝试更改之后又报错了，这报错信息让人也很不理解，就本地连接个数据库，为什么还需要链接 443 端口？
+
+```
+  Error: connect ECONNREFUSED 127.0.0.1:443  at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1570:16) Emitted 'error' event on WebSocket instance at:  at ClientRequest.emit (node:events:511:28)  at TLSSocket.socketErrorListener (node:_http_client:495:9)  at TLSSocket.emit (node:events:511:28)  at emitErrorNT (node:internal/streams/destroy:151:8)  at emitErrorCloseNT (node:internal/streams/destroy:116:3)  at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {    errno: -61,    code: 'ECONNREFUSED',    syscall: 'connect',    address: '127.0.0.1',    port: 443  }
+```
+
+这是因为在底层，Vercel Postgres 连接器使用 WebSocket 连接。`createClient()` 返回的 client 实例是来自 [node-postgres(opens in a new tab)](https://node-postgres.com/apis/client) 模块，但是 PostgreSQL 本身并不支持 WebSocket。
+
+除了运行本地数据库还要运行一个代理，这里有一篇文章介绍 [https://gal.hagever.com/posts/running-vercel-postgres-locally(opens in a new tab)](https://gal.hagever.com/posts/running-vercel-postgres-locally) 。 但这种方式对本地开发不是太友好，没有一个清晰的步骤来介绍怎么使用。
+
+在这些问题上浪费了不少时间。最后，决定采用 pg 库，按照 Learn Next.js 教程的使用示例，做了一些修改。
+
+## seed 脚本中使用本地数据库 Postgres[](https://qufei1993.github.io/nextjs-learn-cn/chapter17#seed-%E8%84%9A%E6%9C%AC%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E5%BA%93-postgres)
+
+安装 pg 模块：`yarn add pg`。
+
+创建 `/scripts/pg-local.js` 文件。
+
+注意：因为 Vercel Postgres 并没有提供 "sql``" 这样模版字符串的方式来根据 SQL 内容查询数据，因此，我们这里也需要做些修改，来适配 Learn Next.js 教程示例中的写法。
+
+/scripts/pg-local.js
+
+```js
+const { Client } = require('pg');
+ 
+const client = new Client(process.env.POSTGRES_URL || "postgres://postgresUser:postgresPW@127.0.0.1:5432/postgresDB");
+ 
+exports.getClient = async () => {
+   if (!client._connected) {
+      await client.connect();
+   }
+ 
+   // 适配这样的语句查询数据：client.sql`SHOW TIME ZONE;`
+   client.sql = async (strings, ...values) => {
+      if (!strings) {
+         throw new ('sql is required')
+      }
+      const [query, params] = sqlTemplate(strings, ...values)
+      const res = await client.query(query, params);
+      return res;
+   }
+ 
+   return client;
+}
+ 
+function sqlTemplate(strings, ...values) {
+   if (!isTemplateStringsArray(strings) || !Array.isArray(values)) {
+     throw new Error(
+       'incorrect_tagged_template_call',
+       "It looks like you tried to call `sql` as a function. Make sure to use it as a tagged template.\n\tExample: sql`SELECT * FROM users`, not sql('SELECT * FROM users')",
+     );
+   }
+ 
+   let result = strings[0] ?? '';
+ 
+   for (let i = 1; i < strings.length; i++) {
+     result += `$${i}${strings[i] ?? ''}`;
+   }
+ 
+   return [result, values];
+}
+ 
+function isTemplateStringsArray(strings) {
+   return (
+      Array.isArray(strings) && 'raw' in strings && Array.isArray(strings.raw)
+   );
+}
+ 
+// (async () => {
+//    // Test script
+//    try {
+//       const clientInstance = await exports.getClient(); 
+//       const res = await clientInstance.sql`SHOW TIME ZONE;`
+//       console.log(res.rows[0].TimeZone) // 'Etc/UTC'
+//    } catch (err) {
+//       console.error(err);
+//    } finally {
+//       await client.end()
+//    }
+// })();
+```
+
+在 seed 脚本文件 `/scripts/seed.js` 中新增环境变量 LOCAL_VERCEL_POSTGRES 判断逻辑，如果是本地 postgres 数据库 调用我们刚写的 `getClient()` 方法获取 client 实例，否则还是使用 `Vercel Postgres` 提供的 client 实例。
+
+/scripts/pg-local.js
+
+```js
+const { db } = require('@vercel/postgres');
+const { getClient } = require('./pg-local');
+ 
+// ...
+ 
+async function main() {
+  const client = process.env.LOCAL_VERCEL_POSTGRES ? await getClient() : await db.connect();
+ 
+  await seedUsers(client);
+  await seedCustomers(client);
+  await seedInvoices(client);
+  await seedRevenue(client);
+ 
+  await client.end();
+}
+```
+
+## 业务代码中使用本地数据库 Postgres[](https://qufei1993.github.io/nextjs-learn-cn/chapter17#%E4%B8%9A%E5%8A%A1%E4%BB%A3%E7%A0%81%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E5%BA%93-postgres)
+
+与 seed 脚本不同，Learn Next.js 教程中的其余代码都采用的 TypeScript 写法，因此我们还需要在写一个 TS 版本。
+
+这里要使用的链接池，这里使用 `pg` 模块的 `Pool` 类创建链接池实例，详情参见 [Pooling(opens in a new tab)](https://node-postgres.com/features/pooling)
+
+创建 `/app/lib/pg-local.ts` 文件。
+
+/app/lib/pg-local.ts
+
+```ts
+import { Pool } from 'pg';
+import type {
+  QueryResult,
+  QueryResultRow,
+} from '@neondatabase/serverless';
+ 
+const connectionString = process.env.POSTGRES_URL;
+ 
+const pool = new Pool({
+  connectionString,
+})
+ 
+export async function sql<O extends QueryResultRow>(
+  strings: TemplateStringsArray,
+  ...values: Primitive[]
+): Promise<QueryResult<O>> {
+  const [query, params] = sqlTemplate(strings, ...values);
+ 
+  // @ts-ignore
+  const res = await pool.query(query, params);
+ 
+  // @ts-ignore
+  return res as unknown as Promise<QueryResult<O>>;
+}
+ 
+export type Primitive = string | number | boolean | undefined | null;
+ 
+export function sqlTemplate(
+  strings: TemplateStringsArray,
+  ...values: Primitive[]
+): [string, Primitive[]] {
+  if (!isTemplateStringsArray(strings) || !Array.isArray(values)) {
+    throw new Error("It looks like you tried to call `sql` as a function. Make sure to use it as a tagged template.\n\tExample: sql`SELECT * FROM users`, not sql('SELECT * FROM users')");
+  }
+ 
+  let result = strings[0] ?? '';
+ 
+  for (let i = 1; i < strings.length; i++) {
+    result += `$${i}${strings[i] ?? ''}`;
+  }
+ 
+  return [result, values];
+}
+ 
+function isTemplateStringsArray(
+  strings: unknown,
+): strings is TemplateStringsArray {
+  return (
+    Array.isArray(strings) && 'raw' in strings && Array.isArray(strings.raw)
+  );
+}
+```
+
+创建 `/app/lib/sql-hack.ts` 文件。根据环境变量做区分，本地开发时使用本地的 postgres 数据库。
+
+```
+import { sql as vercelSql } from '@vercel/postgres';
+import { sql as pgLocalSql } from './pg-local';
+ 
+export const sql = process.env.LOCAL_VERCEL_POSTGRES ? pgLocalSql : vercelSql
+```
+
+修改 `/app/lib/data.ts` 文件。
+
+```
+import { sql } from './sql-hack';
+```
+
+**请注意：以上是一个 hack 的解决方案，只适用解决本教程示例中遇到的问题。如果选用 Next.js 做开发时，推荐关注一些 ORM 框架，例如 Prisma 还是很好用的，这不是这篇教程的重点，这里不会展开介绍**。
+
+# Next.js 学习资源
+
+这里将汇总一些 Next.js 的学习资源，欢迎您分享!。
+
+## 文档[](https://qufei1993.github.io/nextjs-learn-cn/chapter18#%E6%96%87%E6%A1%A3)
+
+- [Next.js 官方文档(opens in a new tab)](https://nextjs.org/docs)：Next.js 的文档写的还是挺好的，刚开始接触 Next.js，笔者主要看的也是该文档。
+- [Learn Next.js 官方英文教程(opens in a new tab)](https://nextjs.org/learn)
+- [Learn Next.js 中文翻译教程(opens in a new tab)](https://qufei1993.github.io/nextjs-learn-cn/)
+
+## 项目[](https://qufei1993.github.io/nextjs-learn-cn/chapter18#%E9%A1%B9%E7%9B%AE)
+
+- [Next.js 模板(opens in a new tab)](https://vercel.com/templates?framework=next.js)：这是 Next.js 官方维护的 Next.js 模版仓库，包含很多应用类型，可以去看看哦！
+- [10 个 React Server Component + Next.js 开源项目分享(opens in a new tab)](https://mp.weixin.qq.com/s/hTM4hhL-ytcLJO-r8n_46w)
+
+## 视频[](https://qufei1993.github.io/nextjs-learn-cn/chapter18#%E8%A7%86%E9%A2%91)
+
+- [Vercel 的油管账号(opens in a new tab)](https://www.youtube.com/@VercelHQ/videos)：上面有很多 Next.js 相关视频教程
+
+...更多内容，等您来贡献，欢迎提 PR！
