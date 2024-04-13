@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "H-每日记录/2023-12-03/学习JavaScript数据结构与算法（第3版）.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "卡片/6-电视剧.md"
+                "file": "H-每日记录/2023-12-03/学习JavaScript数据结构与算法（第3版）.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "H-每日记录/2023-12-03/学习JavaScript数据结构与算法（第3版）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "H-每日记录/2023-12-03/学习JavaScript数据结构与算法（第3版）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,8 +205,15 @@
   },
   "active": "7274822e18e376e4",
   "lastOpenFiles": [
-    "Y-电视剧/最后一个道士.md",
+    "H-每日记录/2023-12-03/我的第一本算法书.md",
+    "H-每日记录/2023-12-03/图解设计模式.md",
+    "H-每日记录/2023-12-03/人月神话.md",
+    "H-每日记录/2023-12-03/前端程序员面试秘籍.md",
+    "H-每日记录/2023-12-03/漫画算法：小灰的算法之旅.md",
+    "H-每日记录/2023-12-03/代码整洁之道.md",
+    "Nest.js.md",
     "卡片/6-电视剧.md",
+    "Y-电视剧/最后一个道士.md",
     "卡片/6-文学.md",
     "卡片/1-电影2020.md",
     "Y-电视剧/9号秘事第一季.md",
@@ -216,7 +223,6 @@
     "卡片/0-电影2000.md",
     "卡片/5-游戏.md",
     "卡片/3-电影1900.md",
-    "H-每日记录/2023-12-02/Nest.js.md",
     "H-每日记录/2024-04-13.md",
     "08-Vue/01-Vue基础.md",
     "08-Vue/搭配 TypeScript 使用 Vue.md",
@@ -228,12 +234,6 @@
     "Z-附件/Pasted image 20240413154923.png",
     "04-Javascript/00-面试题/Class 继承.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
-    "04-Javascript/04-JavaScript-高级/27执行上下文.md",
-    "04-Javascript/03-JavaScript-异步编程/27Event loop 事件循环.md",
-    "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第一天.md",
-    "04-Javascript/03-JavaScript-异步编程/18Ajax.md",
-    "04-Javascript/05-JavaScript高级/第四天.md",
-    "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md",
     "Z-附件/08-模块_包_异常/01-异常.pdf",
     "Z-附件/00笔记未整理/07-面向对象/面向对象-继承.pdf",
     "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.pdf",

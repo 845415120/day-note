@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "学习JavaScript数据结构与算法（第3版）",
+      "path": "H-每日记录/2023-12-03/学习JavaScript数据结构与算法（第3版）.md"
+    },
+    {
+      "basename": "我的第一本算法书",
+      "path": "H-每日记录/2023-12-03/我的第一本算法书.md"
+    },
+    {
+      "basename": "图解设计模式",
+      "path": "H-每日记录/2023-12-03/图解设计模式.md"
+    },
+    {
+      "basename": "人月神话",
+      "path": "H-每日记录/2023-12-03/人月神话.md"
+    },
+    {
+      "basename": "前端程序员面试秘籍",
+      "path": "H-每日记录/2023-12-03/前端程序员面试秘籍.md"
+    },
+    {
+      "basename": "漫画算法：小灰的算法之旅",
+      "path": "H-每日记录/2023-12-03/漫画算法：小灰的算法之旅.md"
+    },
+    {
+      "basename": "代码整洁之道",
+      "path": "H-每日记录/2023-12-03/代码整洁之道.md"
+    },
+    {
+      "basename": "Nest.js",
+      "path": "Nest.js.md"
+    },
+    {
       "basename": "6-电视剧",
       "path": "卡片/6-电视剧.md"
     },
@@ -31,10 +63,6 @@
     {
       "basename": "3-电影1900",
       "path": "卡片/3-电影1900.md"
-    },
-    {
-      "basename": "Nest.js",
-      "path": "H-每日记录/2023-12-02/Nest.js.md"
     },
     {
       "basename": "2024-04-13",
@@ -171,34 +199,6 @@
     {
       "basename": "api地址",
       "path": "api地址.md"
-    },
-    {
-      "basename": "websocket",
-      "path": "04-Javascript/websocket.md"
-    },
-    {
-      "basename": "2-注释",
-      "path": "04-Javascript/代码质量/2-注释.md"
-    },
-    {
-      "basename": "27执行上下文",
-      "path": "04-Javascript/04-JavaScript-高级/27执行上下文.md"
-    },
-    {
-      "basename": "axios",
-      "path": "04-Javascript/03-JavaScript-异步编程/axios.md"
-    },
-    {
-      "basename": "03-JavaScript九九乘法表",
-      "path": "04-Javascript/01-JavaScript编程语言/03-JavaScript九九乘法表.md"
-    },
-    {
-      "basename": "20 Promise",
-      "path": "04-Javascript/03-JavaScript-异步编程/20 Promise.md"
-    },
-    {
-      "basename": "黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）",
-      "path": "0-前端视频记录/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md"
     }
   ],
   "omittedPaths": [],
