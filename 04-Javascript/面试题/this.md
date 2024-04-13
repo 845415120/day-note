@@ -49,29 +49,8 @@ const food ={
   food.eat()// 调用者 food 对象 {name: '猪脚饭', eat: ƒ}
 	
 ```
-## 1. this指向全局对象
 
-当函数没有所属对象而直接调用时，this指向的是全局对象
-
-```jsx
-var value = 10;
-var obj = {
-   value: 100,
-   method: function () {
-       var foo = function () {
-           console.log(this.value);  // 10
-           console.log(this);  // Window对象
-       };
-       foo();
-       return this.value;
-   }
-};
-obj.method();
-```
-
-## 2. this指向所属对象
-
-## 3. this指向对象实例
+##  this指向对象实例
 
 当通过new操作符调用构造函数生成对象的实例时，this指向该实例。
 
@@ -99,7 +78,43 @@ obj.method();
 ```
 
 # 指定this的值
-## this指向call()函数、apply()函数、bind()函数调用后重新绑定的对象
+
+```js
+ function func (numA,numB){
+  	console.log(this)
+  	console.log(numA,numB)
+  	}
+  const person = {
+    name:'jiang'
+}
+  func.call(person,1,2)
+```
+# 1.调用时指定：
+    1.call方法
+    2.appy方法
+### call :挨个传入参数
+```js
+func.call(person,1,2)
+```
+### apply :以数组的方式传入
+```js
+func.apply(person,[3,4])
+```
+## 2.创建时指定：
+    1.bind方法
+    2.箭头函数
+### bind方法
+```js
+const bindFunc = func.bind(person,666)
+	bindFunc(888)
+```
+### 箭头函数
+```js
+const food = {
+	eat()
+}
+
+```
 ## call()函数的基本使用
 
 call()函数调用一个函数时，会将该函数的执行对象上下文改变为另一个对象。其语法如下所示。

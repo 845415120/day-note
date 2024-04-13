@@ -13,18 +13,29 @@
     // console.log(this);
 
     // 函数内部
-    function fun () {
+    // function fun () {
+    //   console.log(this)
+    // }
+    // fun()
+    // // 对象
+    // const food = {
+    //   name: '猪脚饭',
+    //   eat () {
+    //     console.log(this)
+    //   }
+    // }
+    // food.eat()
+    //
+    function func (numA, numB) {
       console.log(this)
+      console.log(numA, numB)
     }
-    fun()
-    // 对象
-    const food ={
-      name:'猪脚饭',
-      eat(){
-        console.log(this);
-      }
+    const person = {
+      name: 'jiang'
     }
-    food.eat()
+    //func.call(person, 1, 2)
+    const bindFunc = func.bind(person,666)
+	  bindFunc(888)
   </script>
 </body>
 
