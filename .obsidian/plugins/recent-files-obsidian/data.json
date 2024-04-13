@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器",
+      "path": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md"
+    },
+    {
+      "basename": "日历",
+      "path": "H-每日记录/2024-04-13/日历.md"
+    },
+    {
+      "basename": "WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport",
+      "path": "H-每日记录/2024-04-13/WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport.md"
+    },
+    {
+      "basename": "使用 Node.js 和 htmx 构建全栈应用程序",
+      "path": "H-每日记录/2024-04-13/使用 Node.js 和 htmx 构建全栈应用程序.md"
+    },
+    {
       "basename": "轻松设计华丽轻量级的 SVG 地图",
       "path": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "0-卡片",
       "path": "09-小程序-UniApp/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "10-React/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "11-Linux/0-卡片.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "12-Python/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "05-网络/0-卡片/0-卡片.md"
     }
   ],
   "omittedPaths": [],

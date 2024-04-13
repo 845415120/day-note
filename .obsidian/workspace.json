@@ -116,6 +116,58 @@
             }
           },
           {
+            "id": "93bc91182d5b6c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/使用 Node.js 和 htmx 构建全栈应用程序.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32965d35b23b446b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5605c37128abce7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/日历.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06be81d5f5df61fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "679c3039f49efe79",
             "type": "leaf",
             "state": {
@@ -155,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -230,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md"
+                "file": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md"
               }
             }
           },
@@ -240,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
+                "file": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
+                "file": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,8 +333,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "c24874c13104afab",
+  "active": "06be81d5f5df61fa",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-13/日历.md",
+    "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md",
+    "代码/代码笔记/黑马程序员前端面试必看/日历.html",
+    "Z-附件/Pasted image 20240413133933.png",
+    "H-每日记录/2024-04-13/WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport.md",
+    "H-每日记录/2024-04-13/使用 Node.js 和 htmx 构建全栈应用程序.md",
+    "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
     "H-每日记录/2024-04-13/未命名.md",
     "H-每日记录/2024-04-13/1960年代的反主流文化.md",
     "Z-附件/Pasted image 20240413130734 2.png",
@@ -291,7 +350,6 @@
     "Z-附件/Pasted image 20240413130727.png",
     "Z-附件/Pasted image 20240413130725.png",
     "Z-附件/Pasted image 20240413130722.png",
-    "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
     "Z-附件/Pasted image 20240413123032.png",
     "Z-附件/Pasted image 20240413123023.png",
     "Z-附件/Pasted image 20240413123009.png",
@@ -322,11 +380,6 @@
     "H-每日记录/2024-04-11.md",
     "0-计算机书籍/0-卡片/0-卡片.md",
     "H-每日记录/2024-04-11/虎胆龙威.md",
-    "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md",
-    "H-每日记录/2023-09-19.md",
-    "0-前端资料/0-卡片/0-卡片.md",
-    "H-每日记录/2024-04-12.md",
-    "H-每日记录/2024-04-13",
-    "Z-附件/Pasted image 20240412215859.png"
+    "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md"
   ]
 }
