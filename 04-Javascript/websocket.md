@@ -1,3 +1,12 @@
+---
+标题: 
+图片: 
+链接: 
+时时: 
+评价: 
+tags:
+---
+
 什么是 websocket ? [https://websocket.org/](https://websocket.org/)
 
 - 是一种网络通信协议，和 HTTP 协议 一样。

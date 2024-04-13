@@ -12,7 +12,4 @@ tags:
 table "![]("+图片+")" as 图片
 from "04-Javascript"
 ```
-
-
-
-,"[地址]("+链接+")" as 链接
+ 

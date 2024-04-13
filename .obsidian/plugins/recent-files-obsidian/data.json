@@ -1,20 +1,160 @@
 {
   "recentFiles": [
     {
+      "basename": "第二天",
+      "path": "04-Javascript/05-JavaScript高级/第二天.md"
+    },
+    {
+      "basename": "forEach",
+      "path": "04-Javascript/04-JavaScript-高级/forEach.md"
+    },
+    {
+      "basename": "28原型对象-原型链",
+      "path": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md"
+    },
+    {
       "basename": "JavaScript卡片",
       "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "14-解构赋值",
+      "path": "04-Javascript/02-ES6/14-解构赋值.md"
+    },
+    {
+      "basename": "Ajax第一天",
+      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第一天.md"
+    },
+    {
+      "basename": "14-ES6新增的方法",
+      "path": "04-Javascript/02-ES6/14-ES6新增的方法.md"
+    },
+    {
+      "basename": "27闭包",
+      "path": "04-Javascript/04-JavaScript-高级/27闭包.md"
+    },
+    {
+      "basename": "27作用域",
+      "path": "04-Javascript/04-JavaScript-高级/27作用域.md"
+    },
+    {
+      "basename": "27函数作用域",
+      "path": "04-Javascript/04-JavaScript-高级/27函数作用域.md"
+    },
+    {
+      "basename": "Ajax第四天",
+      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第四天.md"
+    },
+    {
+      "basename": "Ajax第二天",
+      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第二天.md"
+    },
+    {
+      "basename": "18Ajax",
+      "path": "04-Javascript/03-JavaScript-异步编程/18Ajax.md"
+    },
+    {
+      "basename": "第四天",
+      "path": "04-Javascript/05-JavaScript高级/第四天.md"
+    },
+    {
+      "basename": "01-Symbol类型",
+      "path": "04-Javascript/01-JavaScript编程语言/01-Symbol类型.md"
+    },
+    {
+      "basename": "01-kerwin 面试题",
+      "path": "04-Javascript/00-面试题/01-kerwin 面试题.md"
+    },
+    {
+      "basename": "api地址",
+      "path": "api地址.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "08-Vue/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "Class 继承",
+      "path": "04-Javascript/00-面试题/Class 继承.md"
+    },
+    {
+      "basename": "websocket",
+      "path": "04-Javascript/websocket.md"
     },
     {
       "basename": "2-注释",
       "path": "04-Javascript/代码质量/2-注释.md"
     },
     {
-      "basename": "Class 继承",
-      "path": "04-Javascript/面试题/Class 继承.md"
+      "basename": "33垃圾回收机制",
+      "path": "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md"
+    },
+    {
+      "basename": "27执行上下文",
+      "path": "04-Javascript/04-JavaScript-高级/27执行上下文.md"
+    },
+    {
+      "basename": "axios",
+      "path": "04-Javascript/03-JavaScript-异步编程/axios.md"
+    },
+    {
+      "basename": "18模块化",
+      "path": "04-Javascript/02-ES6/18模块化.md"
+    },
+    {
+      "basename": "17-new 操作符",
+      "path": "04-Javascript/02-ES6/17-new 操作符.md"
+    },
+    {
+      "basename": "07-内置对象",
+      "path": "04-Javascript/01-JavaScript编程语言/07-内置对象.md"
+    },
+    {
+      "basename": "03-JavaScript九九乘法表",
+      "path": "04-Javascript/01-JavaScript编程语言/03-JavaScript九九乘法表.md"
+    },
+    {
+      "basename": "24-实现call、apply和bind",
+      "path": "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md"
+    },
+    {
+      "basename": "20 Promise",
+      "path": "04-Javascript/03-JavaScript-异步编程/20 Promise.md"
+    },
+    {
+      "basename": "黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）",
+      "path": "0-前端视频记录/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md"
+    },
+    {
+      "basename": "16-JavaScript执行（一）：Promise里的代码为什么比setTimeout先执行？",
+      "path": "23-重学前端笔记/16-JavaScript执行（一）：Promise里的代码为什么比setTimeout先执行？.md"
+    },
+    {
+      "basename": "04-Promise",
+      "path": "0-前端视频记录/01-千峰 kerwin/04-Promise.md"
+    },
+    {
+      "basename": "2024-04-13",
+      "path": "H-每日记录/2024-04-13.md"
+    },
+    {
+      "basename": "codepen",
+      "path": "H-每日记录/2024-04-13/codepen.md"
+    },
+    {
+      "basename": "this",
+      "path": "04-Javascript/00-面试题/this.md"
+    },
+    {
+      "basename": "继承",
+      "path": "17-JAVA/继承.md"
+    },
+    {
+      "basename": "黑马",
+      "path": "04-Javascript/9-前端黑马体系课/黑马.md"
     },
     {
       "basename": "16Class",
-      "path": "04-Javascript/01-ES6/16Class.md"
+      "path": "04-Javascript/02-ES6/16Class.md"
     },
     {
       "basename": "SVG 教程",
@@ -55,150 +195,6 @@
     {
       "basename": "typeof 与 instanceof",
       "path": "B-前端/05面试题/typeof 与 instanceof.md"
-    },
-    {
-      "basename": "webpack-Loader",
-      "path": "B-前端/05面试题/webpack-Loader.md"
-    },
-    {
-      "basename": "let、const、var的区别",
-      "path": "B-前端/05面试题/let、const、var的区别.md"
-    },
-    {
-      "basename": "JS严格模式",
-      "path": "B-前端/05面试题/JS严格模式.md"
-    },
-    {
-      "basename": "JS判断⼀个数组",
-      "path": "B-前端/05面试题/JS判断⼀个数组.md"
-    },
-    {
-      "basename": "解释input标签中自动对焦属性的用途",
-      "path": "B-前端/05面试题/解释input标签中自动对焦属性的用途.md"
-    },
-    {
-      "basename": "负载均衡",
-      "path": "B-前端/05面试题/负载均衡.md"
-    },
-    {
-      "basename": "服务器代理",
-      "path": "B-前端/05面试题/服务器代理.md"
-    },
-    {
-      "basename": "递归",
-      "path": "B-前端/05面试题/递归.md"
-    },
-    {
-      "basename": "变量提升",
-      "path": "B-前端/05面试题/变量提升.md"
-    },
-    {
-      "basename": "10 年使用 React 时要避免的 2024 大错误",
-      "path": "B-前端/0-Web Development/10 年使用 React 时要避免的 2024 大错误.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "B-前端/0-Web Development/0-卡片.md"
-    },
-    {
-      "basename": "开发日记",
-      "path": "B-前端/00-笔记/开发日记.md"
-    },
-    {
-      "basename": "继承",
-      "path": "17-JAVA/继承.md"
-    },
-    {
-      "basename": "3-继承 this",
-      "path": "17-JAVA/尚硅谷2024最新Java入门视频教程(下部) java零基础入门教程/3-继承 this.md"
-    },
-    {
-      "basename": "2-继承中 super",
-      "path": "17-JAVA/尚硅谷2024最新Java入门视频教程(下部) java零基础入门教程/2-继承中 super.md"
-    },
-    {
-      "basename": "0-继承的基本使用",
-      "path": "17-JAVA/尚硅谷2024最新Java入门视频教程(下部) java零基础入门教程/0-继承的基本使用.md"
-    },
-    {
-      "basename": "1-继承方法的重写",
-      "path": "17-JAVA/尚硅谷2024最新Java入门视频教程(下部) java零基础入门教程/1-继承方法的重写.md"
-    },
-    {
-      "basename": "面向对象-继承",
-      "path": "Z-附件/00笔记未整理/07-面向对象/面向对象-继承.pdf"
-    },
-    {
-      "basename": "说说Javascript中的继承如何实现继承",
-      "path": "JS每日一题/说说Javascript中的继承如何实现继承.md"
-    },
-    {
-      "basename": "02-面向对象-继承",
-      "path": "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.md"
-    },
-    {
-      "basename": "02-面向对象-继承",
-      "path": "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.pdf"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
-    },
-    {
-      "basename": "this",
-      "path": "04-Javascript/面试题/this.md"
-    },
-    {
-      "basename": "2024-04-13",
-      "path": "H-每日记录/2024-04-13.md"
-    },
-    {
-      "basename": "codepen",
-      "path": "H-每日记录/2024-04-13/codepen.md"
-    },
-    {
-      "basename": "框模型如何受到框大小的影响。",
-      "path": "H-每日记录/2024-04-13/框模型如何受到框大小的影响。.md"
-    },
-    {
-      "basename": "实现垂直窗体控件",
-      "path": "H-每日记录/2024-04-13/实现垂直窗体控件.md"
-    },
-    {
-      "basename": "您可能不知道的 CSS 按钮样式",
-      "path": "H-每日记录/2024-04-13/您可能不知道的 CSS 按钮样式.md"
-    },
-    {
-      "basename": "轻松设计华丽轻量级的 SVG 地图",
-      "path": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md"
-    },
-    {
-      "basename": "使用 Node.js 和 htmx 构建全栈应用程序",
-      "path": "H-每日记录/2024-04-13/使用 Node.js 和 htmx 构建全栈应用程序.md"
-    },
-    {
-      "basename": "WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport",
-      "path": "H-每日记录/2024-04-13/WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport.md"
-    },
-    {
-      "basename": "日历",
-      "path": "H-每日记录/2024-04-13/日历.md"
-    },
-    {
-      "basename": "✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器",
-      "path": "H-每日记录/2024-04-13/✨使用 PDF.js、vue3-pdf-app 等🚀构建用于Vue.js的 PDF 查看器.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "H-每日记录/2024-04-13/未命名.md"
-    },
-    {
-      "basename": "1960年代的反主流文化",
-      "path": "H-每日记录/2024-04-13/1960年代的反主流文化.md"
-    },
-    {
-      "basename": "this指向",
-      "path": "B-前端/05面试题/this指向.md"
     }
   ],
   "omittedPaths": [],

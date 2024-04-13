@@ -1,10 +1,28 @@
 ---
-标题: 
-图片: https://i0.imgs.ovh/2024/03/18/ehPQm.png
-链接: 
-时时: 
-评价:
+时间: 11分
+作者: "\r技术蛋老师"
+标题: 手写Promise核心代码
+图片: https://i1.hdslb.com/bfs/archive/3cea693de18cb017e41de1f2e977e5ae612b3276.jpg@480w_300h_1c_!web-space-channel-video.webp
+链接: https://www.bilibili.com/video/BV1RR4y1p7my
+评价: ★★★★★
 ---
+
+```js
+const p1 = new Promise((resolve,reject)=>{
+  resolve("任务成功得到的数据")
+  // reject()
+})
+p1.then(data =>{
+  console.log(data);
+  return new Promise((resolve,reject)=>{
+    reject('失败的信息')
+  })
+})
+.catch(err =>{
+  console.log(err);
+})
+p1.then().then()
+```
 
 
 # Promise
