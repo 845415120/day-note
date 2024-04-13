@@ -10,46 +10,63 @@
 
 ## Class的基本用法
 
-### 简介
-
-JavaScript语言中，生成实例对象的传统方法是通过构造函数
+```js
+class MyClass {
+  prop = value; // 属性
+  constructor(...) { // 构造器
+    // ...
+  }
+  method(...) {} // method
+  get something(...) {} // getter 方法
+  set something(...) {} // setter 方法
+  [Symbol.iterator]() {} // 有计算名称（computed name）的方法（此处为 symbol）
+  // ...
+}
+```
+然后使用 `new MyClass()` 来创建具有上述列出的所有方法的新对象。
+`new` 会自动调用 `constructor()` 方法，因此我们可以在 `constructor()` 中初始化对象。
 
 ```js
-function Person(name,age) {
-    this.name = name;
-    this.age = age;
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHi() {
+    alert(this.name);
+  }
 }
-Person.prototype.sayName  = function() {
-    return this.sayName;
-}
-let p = new Person('小马哥',18);
-console.log(p);
+// 用法：
+let user = new User("John");
+user.sayHi();
 ```
 
-上面这种写法跟传统的面向对象语言（比如 C++ 和 Java）差异很大，很容易让新学习这门语言的程序员感到困惑
+## [Getters/setters](https://zh.javascript.info/class#getterssetters)
 
-ES6 提供了更接近传统语言的写法，引入了 Class（类）这个概念，作为对象的模板。通过`class`关键字，可以定义类。
-
-基本上，ES6 的`class`可以看作只是一个语法糖，它的绝大部分功能，ES5 都可以做到，新的`class`写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已。上面的代码用 ES6 的`class`改写，就是下面这样
-
-```kotlin
-class Person {
-    // constructor方法 是类的默认方法,通过new命令生成对象实例时,自动调用该方法,一个类必须有constructor方法,如果没有定义,会被默认添加
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    //等同于Person.prototype = function sayName(){}
-    sayName(){
-        return this.name;
-    }
+就像对象字面量，类可能包括 getters/setters，计算属性（computed properties）等。
+```js
+class User {
+constructor(name) {
+  // 调用 setter
+  this.name = name;
 }
-console.log(Person===Person.prototype.constructor)
+get name() {
+  return this._name;
+}
+set name(value) {
+  if (value.length < 4) {
+    alert("Name is too short.");
+    return;
+  }
+  this._name = value;
+}
+}
+let user = new User("John");
+alert(user.name); // John
+user = new User(""); // Name is too short.
 ```
+# 类继承
+## “extends” 关键字 
 
-> 类的方法内部如果含有`this`，它默认指向类的实例
-
-### 继承
 
 ```js
 class Animal {
@@ -86,6 +103,39 @@ console.log(d1.sayColor());//=>'小红是8岁了，它的颜色是red'
 console.log(d1.sayName()); //=>'小红red'
 ```
 
+# 静态属性和静态方法
+我们可以把一个方法作为一个整体赋值给类。这样的方法被称为 **静态的（static）**。
+在一个类的声明中，它们以 `static` 关键字开头，如下所示：
+```js
+ class User {
+  static staticMethod() {
+    alert(this === User);
+  }
+}
+User.staticMethod(); // true
+```
+这实际上跟直接将其作为属性赋值的作用相同：
+```js
+class User { }
+User.staticMethod = function() {
+  alert(this === User);
+};
+User.staticMethod(); // true
+```
+## 静态属性
+  静态的属性也是可能的，它们看起来就像常规的类属性，但前面加有 static：
+```js
+class Article {
+  static publisher = "Levi Ding";
+}
+alert( Article.publisher ); // Levi Ding
+```
+  这等同于直接给 `Article` 赋值：
+
+``` Article.publisher ="Levi Ding";```
+  
+  
+  
   class (语法糖 =>  构造函数,babel-loader) 
 
 ```js
@@ -107,10 +157,4 @@ console.log(d1.sayName()); //=>'小红red'
        
 	}
 ```
-## class 静态属性 和私有属性
-
-# JavaScript 静态方法
-
-静态方法是使用 static 关键字修饰的方法，又叫类方法，属于类的，但不属于对象，在实例化对象之前可以通过 类名.方法名 调用静态方法。
-
-静态方法不能在对象上调用，只能在类中调用。
+ 

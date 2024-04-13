@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Javascript/02-ES6/16Class.md",
+                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:class",
+                "query": "file:JavaScript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-Javascript/02-ES6/16Class.md"
+                "file": "0-计算机书籍/JavaScript重难点实例精讲.md"
               }
             }
           },
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-Javascript/02-ES6/16Class.md",
+                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Javascript/02-ES6/16Class.md",
+                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 511.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,9 +162,11 @@
   },
   "active": "5f7083400c7adeb6",
   "lastOpenFiles": [
+    "04-Javascript/02-ES6/16Class.md",
+    "代码/代码笔记/黑马程序员前端面试必看/class.html",
+    "代码/代码笔记/黑马程序员前端面试必看/class",
     "Z-附件/Pasted image 20240413154923.png",
     "04-Javascript/00-面试题/Class 继承.md",
-    "04-Javascript/02-ES6/16Class.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
     "04-Javascript/04-JavaScript-高级/27执行上下文.md",
     "04-Javascript/03-JavaScript-异步编程/27Event loop 事件循环.md",
@@ -202,12 +203,9 @@
     "Z-附件/Pasted image 20240413130722.png",
     "Z-附件/Pasted image 20240413123032.png",
     "Z-附件/Pasted image 20240413123023.png",
-    "Z-附件/Pasted image 20240413123009.png",
     "代码/代码笔记/黑马程序员前端面试必看/手写call.html",
     "代码/代码笔记/黑马程序员前端面试必看/this.html",
     "04-Javascript/00-面试题",
-    "04-Javascript/新建文件夹",
-    "代码/代码笔记/黑马程序员前端面试必看/this.js",
-    "代码/代码笔记/黑马程序员前端面试必看"
+    "04-Javascript/新建文件夹"
   ]
 }
