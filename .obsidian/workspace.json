@@ -43,7 +43,85 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Javascript/面试题/this.md",
+                "file": "H-每日记录/2024-04-13.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "826c9a40a4dde057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/codepen.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "844417a61250c771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/框模型如何受到框大小的影响。.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "298301143406d8bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/实现垂直窗体控件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9194e62ad41d6c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/您可能不知道的 CSS 按钮样式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c24874c13104afab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d4d52f5f030d6b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-13/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -149,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "4c275809f335b52b",
@@ -166,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-Javascript/面试题/this.md"
+                "file": "H-每日记录/2024-04-13/未命名.md"
               }
             }
           },
@@ -176,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-Javascript/面试题/this.md",
+                "file": "H-每日记录/2024-04-13/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Javascript/面试题/this.md",
+                "file": "H-每日记录/2024-04-13/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,11 +294,21 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "cb782690d1e93207",
+  "active": "3d4d52f5f030d6b8",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
+    "H-每日记录/2024-04-13/未命名.md",
+    "Z-附件/Pasted image 20240413123032.png",
+    "Z-附件/Pasted image 20240413123023.png",
+    "Z-附件/Pasted image 20240413123009.png",
+    "H-每日记录/2024-04-13/您可能不知道的 CSS 按钮样式.md",
+    "H-每日记录/2024-04-13/实现垂直窗体控件.md",
+    "H-每日记录/2024-04-13/框模型如何受到框大小的影响。.md",
+    "H-每日记录/2024-04-13/codepen.md",
+    "H-每日记录/2024-04-13.md",
+    "04-Javascript/面试题/this.md",
     "代码/代码笔记/黑马程序员前端面试必看/手写call.html",
     "04-Javascript/00-卡片/JavaScript卡片.md",
-    "04-Javascript/面试题/this.md",
     "B-前端/05面试题/this指向.md",
     "H-每日记录/未命名.md",
     "H-每日记录/未命名 2.md",
@@ -236,8 +323,6 @@
     "代码/代码笔记/前端面试题",
     "代码/代码笔记",
     "代码",
-    "H-每日记录/2024-04-13/codepen.md",
-    "H-每日记录/2024-04-13.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-前端视频记录/算法训练营2021版第0期.md",
     "H-每日记录/2024-04-11.md",
@@ -249,21 +334,13 @@
     "H-每日记录/2024-04-12.md",
     "H-每日记录/2024-04-12/1.md",
     "H-每日记录/2024-04-12/AI学习.md",
-    "H-每日记录/2024-04-12/鸣梁海战.md",
-    "H-每日记录/2024-04-12/前端开发人员面试问题.md",
-    "H-每日记录/2024-04-12/太行山上.md",
-    "H-每日记录/2024-04-12/掌握 Python 的 10 个 GitHub 存储库.md",
     "H-每日记录/2024-04-13",
     "Z-附件/Pasted image 20240412215859.png",
     "Z-附件/Pasted image 20240412203752.png",
     "Z-附件/Pasted image 20240412152139.png",
-    "H-每日记录/2024-04-12",
     "Z-附件/Pasted image 20240402163836.png",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
-    "Z-附件/Pasted image 20240329215710.png",
-    "Z-附件/Pasted image 20240329215704.png",
-    "Z-附件/Pasted image 20240329215700.png",
-    "Z-附件/Pasted image 20240329215655.png"
+    "Z-附件/Pasted image 20240329215710.png"
   ]
 }
