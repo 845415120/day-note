@@ -9,6 +9,10 @@
       "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
+      "basename": "this指向",
+      "path": "B-前端/05面试题/this指向.md"
+    },
+    {
       "basename": "开源 免费 服务",
       "path": "H-每日记录/2024-04-13/开源 免费 服务.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NestJS 入门到实战 前端必学服务端新趋势",
       "path": "0-前端视频记录/14-慕课/NestJS 入门到实战 前端必学服务端新趋势.md"
-    },
-    {
-      "basename": "小岛浪吹",
-      "path": "H-每日记录/2024-04-11/小岛浪吹.md"
     }
   ],
   "omittedPaths": [],

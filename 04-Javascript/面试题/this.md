@@ -6,17 +6,49 @@
 评价: 
 tags:
 ---
-this ，函数执⾏的上下⽂，可以通过 apply ， call ， bind 改变 this 的指向。对于匿名函数或者直接调⽤的函数来说，this指向全局上下⽂（浏览 器为window，NodeJS为 global ），剩下的函数调⽤，那就是谁调⽤它， this 就指向谁。当然还有es6的箭头函数，箭头函数的指向取决于该箭头函 数声明的位置，在哪⾥声明， this 就指向哪⾥
-
+this ，函数执⾏的上下⽂，可以通过 apply ， call ， bind 改变 this 的指向。对于匿名函数或者直接调⽤的函数来说，this指向全局对象（浏览 器为window，NodeJS为 global ），剩下的函数调⽤，那就是谁调⽤它， this 就指向谁。当然还有es6的箭头函数，箭头函数的指向取决于该箭头函 数声明的位置，在哪⾥声明， this 就指向哪⾥
+ 
 # 如何确定this的值
 
-1.全局执行环境中，指向全局对象（非严格模式、严格模式）
+1.全局执行环境中，指向全局对象（非严格模式、严格模式）都是 window
+```js
+'use strict'
+console.log(this); //window
+
+console.log(this)  //window
+```
 2.函数内部，取决于函数被调用的方式
     1.直接调用的this值：
         非严格模式：全局对象(window)
         严格模式：undefined
     2.对象方法调用的this值：
         ①调用者
+```js
+非严格模式
+    function fun () {
+      console.log(this) //window
+    }
+    fun()
+ 严格模式
+     function fun () {
+       'use strict'   	
+      console.log(this)//undefined
+    }
+    fun()
+```
+
+```js
+对象方法调用的this值
+const food ={
+   name:'猪脚饭',
+   eat(){
+      console.log(this);
+    }
+ }
+ 
+  food.eat()// 调用者 food 对象 {name: '猪脚饭', eat: ƒ}
+	
+```
 ## 1. this指向全局对象
 
 当函数没有所属对象而直接调用时，this指向的是全局对象
@@ -43,7 +75,6 @@ obj.method();
 
 当通过new操作符调用构造函数生成对象的实例时，this指向该实例。
 
-## 4. this指向call()函数、apply()函数、bind()函数调用后重新绑定的对象
 
 ## 5. 闭包中的this
 
@@ -67,6 +98,8 @@ obj.method();
 15 user.clickHandler();
 ```
 
+# 指定this的值
+## this指向call()函数、apply()函数、bind()函数调用后重新绑定的对象
 ## call()函数的基本使用
 
 call()函数调用一个函数时，会将该函数的执行对象上下文改变为另一个对象。其语法如下所示。

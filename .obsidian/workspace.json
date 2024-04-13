@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "5324a32285ad491c",
+            "id": "cb782690d1e93207",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,6 +70,19 @@
               "type": "markdown",
               "state": {
                 "file": "H-每日记录/2024-04-13/codepen.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6824244555c89166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Javascript/面试题/this.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -203,15 +216,19 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "5324a32285ad491c",
+  "active": "cb782690d1e93207",
   "lastOpenFiles": [
     "04-Javascript/00-卡片/JavaScript卡片.md",
     "04-Javascript/面试题/this.md",
+    "B-前端/05面试题/this指向.md",
+    "H-每日记录/未命名.md",
+    "H-每日记录/未命名 2.md",
+    "H-每日记录/未命名 1.md",
+    "H-每日记录/2023-09-18.md",
+    "代码/代码笔记/黑马程序员前端面试必看/this.html",
     "H-每日记录/2024-04-13/开源 免费 服务.md",
-    "B-前端/05面试题/this.md",
     "04-Javascript/面试题",
     "04-Javascript/新建文件夹",
-    "B-前端/05面试题/this指向.md",
     "代码/代码笔记/黑马程序员前端面试必看/this.js",
     "代码/代码笔记/黑马程序员前端面试必看",
     "代码/代码笔记/前端面试题",
@@ -235,15 +252,10 @@
     "H-每日记录/2024-04-12/太行山上.md",
     "H-每日记录/2024-04-12/掌握 Python 的 10 个 GitHub 存储库.md",
     "H-每日记录/2024-04-13",
-    "H-每日记录/2024-04-12/掌握计算机科学的 10 个 GitHub 存储库.md",
-    "H-每日记录/2024-04-12/Next.js 中文教程.md",
     "Z-附件/Pasted image 20240412215859.png",
     "Z-附件/Pasted image 20240412203752.png",
-    "0-前端资料/web前端面试 - 面试官系列.md",
-    "0-前端资料/资源.md",
     "Z-附件/Pasted image 20240412152139.png",
     "H-每日记录/2024-04-12",
-    "C-英语/0-卡片",
     "Z-附件/Pasted image 20240402163836.png",
     "Z-附件/Pasted image 20240330122003.png",
     "Z-附件/Pasted image 20240330121956.png",
