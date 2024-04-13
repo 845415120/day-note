@@ -137,7 +137,24 @@ food.eat()
       return res
     }
 ```
-
+# 手写apply方法
+```js
+    Function.prototype.myApply = function (thisArg, ...args) {
+     const key = Symbol("key")
+     thisArg[key] = this
+     const res = thisArg[key](...args)
+     delete thisArg[key]
+      return res
+   }      
+```
+# 手写bind方法
+```js
+    Function.prototype.myBind = function (thisArg, ...args) {
+      return(...reArgs) => {
+      return  this.call(thisArg, ...args,...reArgs) 	
+     }
+   }   
+```
 ## call()函数的基本使用
 
 call()函数调用一个函数时，会将该函数的执行对象上下文改变为另一个对象。其语法如下所示。
