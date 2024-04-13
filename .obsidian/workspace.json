@@ -116,19 +116,6 @@
             }
           },
           {
-            "id": "3d4d52f5f030d6b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-13/未命名.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "679c3039f49efe79",
             "type": "leaf",
             "state": {
@@ -168,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -243,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-13/未命名.md"
+                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md"
               }
             }
           },
@@ -253,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-13/未命名.md",
+                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-13/未命名.md",
+                "file": "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,10 +281,17 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3d4d52f5f030d6b8",
+  "active": "c24874c13104afab",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
     "H-每日记录/2024-04-13/未命名.md",
+    "H-每日记录/2024-04-13/1960年代的反主流文化.md",
+    "Z-附件/Pasted image 20240413130734 2.png",
+    "Z-附件/Pasted image 20240413130734 1.png",
+    "Z-附件/Pasted image 20240413130734.png",
+    "Z-附件/Pasted image 20240413130727.png",
+    "Z-附件/Pasted image 20240413130725.png",
+    "Z-附件/Pasted image 20240413130722.png",
+    "H-每日记录/2024-04-13/轻松设计华丽轻量级的 SVG 地图.md",
     "Z-附件/Pasted image 20240413123032.png",
     "Z-附件/Pasted image 20240413123023.png",
     "Z-附件/Pasted image 20240413123009.png",
@@ -332,15 +326,7 @@
     "H-每日记录/2023-09-19.md",
     "0-前端资料/0-卡片/0-卡片.md",
     "H-每日记录/2024-04-12.md",
-    "H-每日记录/2024-04-12/1.md",
-    "H-每日记录/2024-04-12/AI学习.md",
     "H-每日记录/2024-04-13",
-    "Z-附件/Pasted image 20240412215859.png",
-    "Z-附件/Pasted image 20240412203752.png",
-    "Z-附件/Pasted image 20240412152139.png",
-    "Z-附件/Pasted image 20240402163836.png",
-    "Z-附件/Pasted image 20240330122003.png",
-    "Z-附件/Pasted image 20240330121956.png",
-    "Z-附件/Pasted image 20240329215710.png"
+    "Z-附件/Pasted image 20240412215859.png"
   ]
 }
