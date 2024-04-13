@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f03af4e8ab333a8f",
+        "id": "af9c1e305e3ef770",
         "type": "tabs",
         "children": [
           {
-            "id": "49e0b574ac9e195e",
+            "id": "bcdda5e4074ac443",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,155 +23,12 @@
             }
           },
           {
-            "id": "99e190c3bb9efc2a",
+            "id": "5f7083400c7adeb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11a2eca50b91994e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/04-JavaScript-高级/forEach.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00195be88f0fae69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/05-JavaScript高级/第二天.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aed821fd5e851c85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ca22cee977715ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70cfaa302e53d2e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/02-ES6/14-解构赋值.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4528aaa3647e6023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/04-JavaScript-高级/27作用域.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe7610ca865b172a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/01-JavaScript编程语言/07-内置对象.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07788b8d5e99e5d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/02-ES6/17-new 操作符.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f8f90a1d0750a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/02-ES6/18模块化.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c77b7a7d16e274cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbce4664b8762b73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md",
+                "file": "04-Javascript/02-ES6/16Class.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -179,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:原型",
-                "matchingCase": true,
+                "query": "file:class",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -254,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-Javascript/05-JavaScript高级/第二天.md"
+                "file": "04-Javascript/02-ES6/16Class.md"
               }
             }
           },
@@ -264,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-Javascript/05-JavaScript高级/第二天.md",
+                "file": "04-Javascript/02-ES6/16Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Javascript/05-JavaScript高级/第二天.md",
+                "file": "04-Javascript/02-ES6/16Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,34 +161,35 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "00195be88f0fae69",
+  "active": "5f7083400c7adeb6",
   "lastOpenFiles": [
-    "04-Javascript/04-JavaScript-高级/forEach.md",
-    "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
+    "Z-附件/Pasted image 20240413154923.png",
+    "04-Javascript/00-面试题/Class 继承.md",
+    "04-Javascript/02-ES6/16Class.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
-    "04-Javascript/05-JavaScript高级/第二天.md",
-    "04-Javascript/05-JavaScript高级/第三天.md",
-    "04-Javascript/04-JavaScript-高级/29原型链.md",
-    "H-每日记录/2023-12-06/解构赋值.md",
-    "04-Javascript/02-ES6/14-解构赋值.md",
-    "04-Javascript/05-JavaScript高级/第一天.md",
+    "04-Javascript/04-JavaScript-高级/27执行上下文.md",
+    "04-Javascript/03-JavaScript-异步编程/27Event loop 事件循环.md",
     "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第一天.md",
-    "04-Javascript/02-ES6/14-ES6新增的方法.md",
-    "04-Javascript/04-JavaScript-高级/27闭包.md",
-    "04-Javascript/04-JavaScript-高级/27作用域.md",
-    "04-Javascript/04-JavaScript-高级/27函数作用域.md",
-    "04-Javascript/03-JavaScript-异步编程/21-跨域.md",
-    "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第四天.md",
-    "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第二天.md",
     "04-Javascript/03-JavaScript-异步编程/18Ajax.md",
     "04-Javascript/05-JavaScript高级/第四天.md",
-    "04-Javascript/03-JavaScript-异步编程/20script标签defer和async的区别.md",
-    "04-Javascript/01-JavaScript编程语言/01-Symbol类型.md",
-    "04-Javascript/01-JavaScript编程语言/01-数据类型.md",
-    "04-Javascript/00-面试题/01-kerwin 面试题.md",
-    "04-Javascript/00-面试题/Class 继承.md",
-    "04-Javascript/代码质量/3-代码技巧(误).md",
-    "04-Javascript/01-JavaScript编程语言/05map()和parseInt().md",
+    "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md",
+    "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md",
+    "04-Javascript/02-ES6/18模块化.md",
+    "04-Javascript/02-ES6/17-new 操作符.md",
+    "04-Javascript/01-JavaScript编程语言/07-内置对象.md",
+    "04-Javascript/04-JavaScript-高级/27作用域.md",
+    "04-Javascript/02-ES6/14-解构赋值.md",
+    "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
+    "04-Javascript/04-JavaScript-高级/forEach.md",
+    "04-Javascript/04-JavaScript-高级/对象的拷贝.md",
+    "04-Javascript/00-面试题/this.md",
+    "04-Javascript/04-JavaScript-高级/31防抖.md",
+    "04-Javascript/04-JavaScript-高级/31节流.md",
+    "JS每日一题/说说函数节流和防抖有什么区别如何实现.md",
+    "12-Python/黑马程序员/16-异常.md",
+    "Z-附件/08-模块_包_异常/01-异常.pdf",
+    "17-JAVA/Java/异常处理.md",
+    "04-Javascript/04-JavaScript-高级/27函数作用域.md",
     "Z-附件/00笔记未整理/07-面向对象/面向对象-继承.pdf",
     "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.pdf",
     "代码/代码笔记/黑马程序员前端面试必看/日历.html",
@@ -350,7 +208,6 @@
     "04-Javascript/00-面试题",
     "04-Javascript/新建文件夹",
     "代码/代码笔记/黑马程序员前端面试必看/this.js",
-    "代码/代码笔记/黑马程序员前端面试必看",
-    "代码/代码笔记/前端面试题"
+    "代码/代码笔记/黑马程序员前端面试必看"
   ]
 }

@@ -6,27 +6,6 @@
 链接: https://www.bilibili.com/video/BV1tf4y1w7tv
 评价: ★★★★★
 ---
-#####  class (语法糖 =>  构造函数,babel-loader) 
-
-```js
-	class Person{
-		constructor(name,age) {
-		  this.name = name;
-		  this.age =age;
-		}
-		say=()=>{
-	
-		}
-	}
-	
-	class Test extends person{
-		constructor(name,age,location) {
-		  super(name,age);
-		  this.location = location;
-		}
-       
-	}
-```
 
 
 ## Class的基本用法
@@ -107,4 +86,31 @@ console.log(d1.sayColor());//=>'小红是8岁了，它的颜色是red'
 console.log(d1.sayName()); //=>'小红red'
 ```
 
-### 混入
+  class (语法糖 =>  构造函数,babel-loader) 
+
+```js
+	class Person{
+		constructor(name,age) {
+		  this.name = name;
+		  this.age =age;
+		}
+		say=()=>{
+	
+		}
+	}
+	
+	class Test extends person{
+		constructor(name,age,location) {
+		  super(name,age);
+		  this.location = location;
+		}
+       
+	}
+```
+## class 静态属性 和私有属性
+
+# JavaScript 静态方法
+
+静态方法是使用 static 关键字修饰的方法，又叫类方法，属于类的，但不属于对象，在实例化对象之前可以通过 类名.方法名 调用静态方法。
+
+静态方法不能在对象上调用，只能在类中调用。

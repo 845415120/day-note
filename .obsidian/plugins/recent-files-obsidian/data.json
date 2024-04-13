@@ -1,28 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "第二天",
-      "path": "04-Javascript/05-JavaScript高级/第二天.md"
-    },
-    {
-      "basename": "forEach",
-      "path": "04-Javascript/04-JavaScript-高级/forEach.md"
-    },
-    {
-      "basename": "28原型对象-原型链",
-      "path": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md"
+      "basename": "16Class",
+      "path": "04-Javascript/02-ES6/16Class.md"
     },
     {
       "basename": "JavaScript卡片",
       "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
+      "basename": "Ajax第一天",
+      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第一天.md"
+    },
+    {
+      "basename": "18Ajax",
+      "path": "04-Javascript/03-JavaScript-异步编程/18Ajax.md"
+    },
+    {
+      "basename": "24-实现call、apply和bind",
+      "path": "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md"
+    },
+    {
+      "basename": "33垃圾回收机制",
+      "path": "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md"
+    },
+    {
+      "basename": "18模块化",
+      "path": "04-Javascript/02-ES6/18模块化.md"
+    },
+    {
+      "basename": "17-new 操作符",
+      "path": "04-Javascript/02-ES6/17-new 操作符.md"
+    },
+    {
+      "basename": "07-内置对象",
+      "path": "04-Javascript/01-JavaScript编程语言/07-内置对象.md"
+    },
+    {
+      "basename": "27作用域",
+      "path": "04-Javascript/04-JavaScript-高级/27作用域.md"
+    },
+    {
       "basename": "14-解构赋值",
       "path": "04-Javascript/02-ES6/14-解构赋值.md"
     },
     {
-      "basename": "Ajax第一天",
-      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第一天.md"
+      "basename": "28原型对象-原型链",
+      "path": "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md"
+    },
+    {
+      "basename": "forEach",
+      "path": "04-Javascript/04-JavaScript-高级/forEach.md"
+    },
+    {
+      "basename": "对象的拷贝",
+      "path": "04-Javascript/04-JavaScript-高级/对象的拷贝.md"
+    },
+    {
+      "basename": "this",
+      "path": "04-Javascript/00-面试题/this.md"
+    },
+    {
+      "basename": "31防抖",
+      "path": "04-Javascript/04-JavaScript-高级/31防抖.md"
+    },
+    {
+      "basename": "31节流",
+      "path": "04-Javascript/04-JavaScript-高级/31节流.md"
+    },
+    {
+      "basename": "16-异常",
+      "path": "12-Python/黑马程序员/16-异常.md"
+    },
+    {
+      "basename": "异常处理",
+      "path": "17-JAVA/Java/异常处理.md"
+    },
+    {
+      "basename": "05-字符串方法",
+      "path": "04-Javascript/01-JavaScript编程语言/05-字符串方法.md"
+    },
+    {
+      "basename": "05-数组-方法",
+      "path": "04-Javascript/01-JavaScript编程语言/05-数组-方法.md"
     },
     {
       "basename": "14-ES6新增的方法",
@@ -31,10 +91,6 @@
     {
       "basename": "27闭包",
       "path": "04-Javascript/04-JavaScript-高级/27闭包.md"
-    },
-    {
-      "basename": "27作用域",
-      "path": "04-Javascript/04-JavaScript-高级/27作用域.md"
     },
     {
       "basename": "27函数作用域",
@@ -47,14 +103,6 @@
     {
       "basename": "Ajax第二天",
       "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第二天.md"
-    },
-    {
-      "basename": "18Ajax",
-      "path": "04-Javascript/03-JavaScript-异步编程/18Ajax.md"
-    },
-    {
-      "basename": "第四天",
-      "path": "04-Javascript/05-JavaScript高级/第四天.md"
     },
     {
       "basename": "01-Symbol类型",
@@ -73,20 +121,12 @@
       "path": "08-Vue/0-卡片/0-卡片.md"
     },
     {
-      "basename": "Class 继承",
-      "path": "04-Javascript/00-面试题/Class 继承.md"
-    },
-    {
       "basename": "websocket",
       "path": "04-Javascript/websocket.md"
     },
     {
       "basename": "2-注释",
       "path": "04-Javascript/代码质量/2-注释.md"
-    },
-    {
-      "basename": "33垃圾回收机制",
-      "path": "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md"
     },
     {
       "basename": "27执行上下文",
@@ -97,24 +137,8 @@
       "path": "04-Javascript/03-JavaScript-异步编程/axios.md"
     },
     {
-      "basename": "18模块化",
-      "path": "04-Javascript/02-ES6/18模块化.md"
-    },
-    {
-      "basename": "17-new 操作符",
-      "path": "04-Javascript/02-ES6/17-new 操作符.md"
-    },
-    {
-      "basename": "07-内置对象",
-      "path": "04-Javascript/01-JavaScript编程语言/07-内置对象.md"
-    },
-    {
       "basename": "03-JavaScript九九乘法表",
       "path": "04-Javascript/01-JavaScript编程语言/03-JavaScript九九乘法表.md"
-    },
-    {
-      "basename": "24-实现call、apply和bind",
-      "path": "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md"
     },
     {
       "basename": "20 Promise",
@@ -141,20 +165,12 @@
       "path": "H-每日记录/2024-04-13/codepen.md"
     },
     {
-      "basename": "this",
-      "path": "04-Javascript/00-面试题/this.md"
-    },
-    {
       "basename": "继承",
       "path": "17-JAVA/继承.md"
     },
     {
       "basename": "黑马",
       "path": "04-Javascript/9-前端黑马体系课/黑马.md"
-    },
-    {
-      "basename": "16Class",
-      "path": "04-Javascript/02-ES6/16Class.md"
     },
     {
       "basename": "SVG 教程",
@@ -171,30 +187,6 @@
     {
       "basename": "JWT",
       "path": "B-前端/JWT.md"
-    },
-    {
-      "basename": "深浅拷贝",
-      "path": "B-前端/深浅拷贝.md"
-    },
-    {
-      "basename": "文件上传",
-      "path": "B-前端/文件上传.md"
-    },
-    {
-      "basename": "快速排序",
-      "path": "00-数据结构与算法/快速排序.md"
-    },
-    {
-      "basename": "二分查找",
-      "path": "00-数据结构与算法/算法/二分查找.md"
-    },
-    {
-      "basename": "UDP",
-      "path": "B-前端/05面试题/UDP.md"
-    },
-    {
-      "basename": "typeof 与 instanceof",
-      "path": "B-前端/05面试题/typeof 与 instanceof.md"
     }
   ],
   "omittedPaths": [],
