@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "6-电视剧",
+      "path": "卡片/6-电视剧.md"
+    },
+    {
+      "basename": "6-文学",
+      "path": "卡片/6-文学.md"
+    },
+    {
+      "basename": "1-电影2020",
+      "path": "卡片/1-电影2020.md"
+    },
+    {
+      "basename": "9号秘事第一季",
+      "path": "Y-电视剧/9号秘事第一季.md"
+    },
+    {
+      "basename": "1-电影2010",
+      "path": "卡片/1-电影2010.md"
+    },
+    {
+      "basename": "0-电影2000",
+      "path": "卡片/0-电影2000.md"
+    },
+    {
+      "basename": "5-游戏",
+      "path": "卡片/5-游戏.md"
+    },
+    {
+      "basename": "3-电影1900",
+      "path": "卡片/3-电影1900.md"
+    },
+    {
+      "basename": "Nest.js",
+      "path": "H-每日记录/2023-12-02/Nest.js.md"
+    },
+    {
+      "basename": "2024-04-13",
+      "path": "H-每日记录/2024-04-13.md"
+    },
+    {
       "basename": "搭配 TypeScript 使用 Vue",
       "path": "08-Vue/搭配 TypeScript 使用 Vue.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）",
       "path": "0-前端视频记录/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md"
-    },
-    {
-      "basename": "16-JavaScript执行（一）：Promise里的代码为什么比setTimeout先执行？",
-      "path": "23-重学前端笔记/16-JavaScript执行（一）：Promise里的代码为什么比setTimeout先执行？.md"
-    },
-    {
-      "basename": "04-Promise",
-      "path": "0-前端视频记录/01-千峰 kerwin/04-Promise.md"
-    },
-    {
-      "basename": "2024-04-13",
-      "path": "H-每日记录/2024-04-13.md"
-    },
-    {
-      "basename": "codepen",
-      "path": "H-每日记录/2024-04-13/codepen.md"
-    },
-    {
-      "basename": "继承",
-      "path": "17-JAVA/继承.md"
-    },
-    {
-      "basename": "黑马",
-      "path": "04-Javascript/9-前端黑马体系课/黑马.md"
-    },
-    {
-      "basename": "SVG 教程",
-      "path": "B-前端/SVG 教程.md"
-    },
-    {
-      "basename": "Pinia",
-      "path": "B-前端/Pinia.md"
-    },
-    {
-      "basename": "Node.js 应用程序",
-      "path": "B-前端/Node.js 应用程序.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "B-前端/JWT.md"
     }
   ],
   "omittedPaths": [],

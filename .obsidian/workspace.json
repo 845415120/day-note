@@ -51,10 +51,25 @@
           {
             "id": "6cce5c0d2d800d7f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
+                "file": "卡片/1-电影2020.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7274822e18e376e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片/6-电视剧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -137,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08-Vue/搭配 TypeScript 使用 Vue.md"
+                "file": "卡片/6-电视剧.md"
               }
             }
           },
@@ -147,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
+                "file": "卡片/6-电视剧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
+                "file": "卡片/6-电视剧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,8 +203,21 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "6cce5c0d2d800d7f",
+  "active": "7274822e18e376e4",
   "lastOpenFiles": [
+    "Y-电视剧/最后一个道士.md",
+    "卡片/6-电视剧.md",
+    "卡片/6-文学.md",
+    "卡片/1-电影2020.md",
+    "Y-电视剧/9号秘事第一季.md",
+    "Y-电视剧/3·8大案.md",
+    "O-电影2020/2024中央广播电视总台春节联欢晚会.md",
+    "卡片/1-电影2010.md",
+    "卡片/0-电影2000.md",
+    "卡片/5-游戏.md",
+    "卡片/3-电影1900.md",
+    "H-每日记录/2023-12-02/Nest.js.md",
+    "H-每日记录/2024-04-13.md",
     "08-Vue/01-Vue基础.md",
     "08-Vue/搭配 TypeScript 使用 Vue.md",
     "08-Vue/0-卡片/0-卡片.md",
@@ -206,19 +234,6 @@
     "04-Javascript/03-JavaScript-异步编程/18Ajax.md",
     "04-Javascript/05-JavaScript高级/第四天.md",
     "04-Javascript/03-JavaScript-异步编程/24-实现call、apply和bind.md",
-    "04-Javascript/04-JavaScript-高级/33垃圾回收机制.md",
-    "04-Javascript/02-ES6/18模块化.md",
-    "04-Javascript/02-ES6/17-new 操作符.md",
-    "04-Javascript/01-JavaScript编程语言/07-内置对象.md",
-    "04-Javascript/04-JavaScript-高级/27作用域.md",
-    "04-Javascript/02-ES6/14-解构赋值.md",
-    "04-Javascript/04-JavaScript-高级/28原型对象-原型链.md",
-    "04-Javascript/04-JavaScript-高级/forEach.md",
-    "04-Javascript/04-JavaScript-高级/对象的拷贝.md",
-    "04-Javascript/00-面试题/this.md",
-    "04-Javascript/04-JavaScript-高级/31防抖.md",
-    "04-Javascript/04-JavaScript-高级/31节流.md",
-    "JS每日一题/说说函数节流和防抖有什么区别如何实现.md",
     "Z-附件/08-模块_包_异常/01-异常.pdf",
     "Z-附件/00笔记未整理/07-面向对象/面向对象-继承.pdf",
     "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.pdf",
