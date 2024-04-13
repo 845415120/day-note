@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "this",
+      "path": "04-Javascript/面试题/this.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "开源 免费 服务",
+      "path": "H-每日记录/2024-04-13/开源 免费 服务.md"
+    },
+    {
+      "basename": "codepen",
+      "path": "H-每日记录/2024-04-13/codepen.md"
+    },
+    {
+      "basename": "2024-04-13",
+      "path": "H-每日记录/2024-04-13.md"
+    },
+    {
       "basename": "0-前端视频记录卡",
       "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
     },
@@ -59,14 +79,6 @@
     {
       "basename": "掌握 Python 的 10 个 GitHub 存储库",
       "path": "H-每日记录/2024-04-12/掌握 Python 的 10 个 GitHub 存储库.md"
-    },
-    {
-      "basename": "2024-04-13",
-      "path": "H-每日记录/2024-04-13.md"
-    },
-    {
-      "basename": "开源 免费 服务",
-      "path": "H-每日记录/2024-04-13/开源 免费 服务.md"
     },
     {
       "basename": "掌握计算机科学的 10 个 GitHub 存储库",
@@ -187,18 +199,6 @@
     {
       "basename": "小岛浪吹",
       "path": "H-每日记录/2024-04-11/小岛浪吹.md"
-    },
-    {
-      "basename": "2024-04-10",
-      "path": "H-每日记录/2024-04-10.md"
-    },
-    {
-      "basename": "王蒙自传（第1部）",
-      "path": "H-每日记录/2024-04-10/王蒙自传（第1部）.md"
-    },
-    {
-      "basename": "王蒙自传（第2部）",
-      "path": "H-每日记录/2024-04-10/王蒙自传（第2部）.md"
     }
   ],
   "omittedPaths": [],
