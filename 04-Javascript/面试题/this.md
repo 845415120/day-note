@@ -111,10 +111,33 @@ const bindFunc = func.bind(person,666)
 ### 箭头函数
 ```js
 const food = {
-	eat()
+	eat(){
+		console.log(this)
+		setTimeout(()=>{
+		console.log(this)
+	},1000)
+    }
 }
-
+food.eat()
 ```
+
+# 手写call方法
+```js
+    // 1.定义Call方法
+    //3.接收剩余参数并返回结果
+    Function.prototype.myCall = function (thisArg, ...args) {
+      //2,设置this并调用原函数
+      //thisArg传入的设置为this的对象
+      //this原函数（原函数.myCall)
+      // 4.使用Symbol
+      const key = Symbol("key")
+      thisArg[key] = this
+      const res = thisArg[key](...args)
+      delete thisArg[key]
+      return res
+    }
+```
+
 ## call()函数的基本使用
 
 call()函数调用一个函数时，会将该函数的执行对象上下文改变为另一个对象。其语法如下所示。

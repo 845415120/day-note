@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 1.定义Call方法
+    //3.接收剩余参数并返回结果
+    Function.prototype.myCall = function (thisArg, ...args) {
+      //2,设置this并调用原函数
+      //thisArg传入的设置为this的对象
+      //this原函数（原函数.myCall)
+      // 4.使用Symbol
+      const key = Symbol("key")
+      thisArg[key] = this
+      const res = thisArg[key](...args)
+      delete thisArg[key]
+      return res
+    }
+
+    // 测试------------------------
+    const person = {
+      name: 'jiang'
+    }
+    function func (numA, numB) {
+      console.log(this)
+      console.log(numA, numB)
+      return numA + numB
+    }
+    const res = func.myCall(person, 2, 8)
+    func.call(person, 1, 2)
+    console.log('返回值', res);
+
+
+  </script>
+</body>
+
+</html>

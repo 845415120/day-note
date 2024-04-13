@@ -34,8 +34,18 @@
       name: 'jiang'
     }
     //func.call(person, 1, 2)
-    const bindFunc = func.bind(person,666)
-	  bindFunc(888)
+    const bindFunc = func.bind(person, 666)
+    bindFunc(888)
+
+    const food = {
+      eat () {
+        console.log(this)
+        setTimeout(() => {
+          console.log(this)
+        }, 1000)
+      }
+    }
+    food.eat()
   </script>
 </body>
 
