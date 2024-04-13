@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "搭配 TypeScript 使用 Vue",
+      "path": "08-Vue/搭配 TypeScript 使用 Vue.md"
+    },
+    {
+      "basename": "01-Vue基础",
+      "path": "08-Vue/01-Vue基础.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "08-Vue/0-卡片/0-卡片.md"
+    },
+    {
       "basename": "JavaScript重难点实例精讲",
       "path": "0-计算机书籍/JavaScript重难点实例精讲.md"
     },
@@ -119,10 +131,6 @@
     {
       "basename": "api地址",
       "path": "api地址.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "08-Vue/0-卡片/0-卡片.md"
     },
     {
       "basename": "websocket",

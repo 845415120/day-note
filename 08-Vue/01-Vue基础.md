@@ -1,4 +1,13 @@
+---
+标题: 
+图片: data:image/jpeg;base64,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
+链接: 
+时时: 
+评价: 
+tags:
+---
 # Vue 基础
+
 
 安装
 npm init vue@3
@@ -27,7 +36,7 @@ v-show
 
 v-for
 
-```Vue
+```js
 <div v-for="item in items" :key="item.id">
   <!-- 内容 -->
 </div>
@@ -41,7 +50,7 @@ v-for
 
 举例来说：
 
-```Vue
+```js
 data() {
   return {
     numbers: [1, 2, 3, 4, 5]
@@ -65,7 +74,7 @@ v-on 指令 (简写为 @) 来监听 DOM 事件
 
 举例
 
-```Vue
+```js
 data() {
   return {
     name: 'Vue.js'
@@ -90,7 +99,7 @@ Vue 为 v-on 提供了事件修饰符 修饰符是用` . `表示的指令后缀
 
 - .stop
 
-```Vue
+```js
 <!-- 单击事件将停止传递 -->
 <a @click.stop="doThis"></a>
 
@@ -106,7 +115,7 @@ Vue 为 v-on 提供了事件修饰符 修饰符是用` . `表示的指令后缀
 
 **文本**
 
-```Vue
+```js
 <p>Message is: {{ message }}</p>
 <input v-model="message" placeholder="edit me" />
 ```
@@ -115,7 +124,7 @@ Vue 为 v-on 提供了事件修饰符 修饰符是用` . `表示的指令后缀
 **复选框**
 单一的复选框，绑定布尔类型值：
 
-```Vue
+```js
 <input type="checkbox" id="checkbox" v-model="checked" />
 <label for="checkbox">{{ checked }}</label>
 ```
@@ -130,7 +139,7 @@ Vue 为 v-on 提供了事件修饰符 修饰符是用` . `表示的指令后缀
 ![alt](https://cdn.staticaly.com/gh/845415120/picx-images-hosting@master/20230712/image.o525o8q1b80.webp)
 选择器的选项可以使用 v-for 动态渲染：
 
-```Vue
+```js
 export default {
   data() {
     return {
@@ -156,7 +165,7 @@ export default {
 
 使用 v-bind 将值绑定到当前组件实例上的动态数据
 
-```Vue
+```js
 <input type="radio" v-model="pick" :value="first" />
 <input type="radio" v-model="pick" :value="second" />
 ```
@@ -168,7 +177,7 @@ pick 会在第一个按钮选中时被设为 first，在第二个按钮选中时
 举例来说，mounted 钩子可以用来在组件完成初始渲染并创建 DOM 节点后运行代码：
 注册周期钩子
 
-```vue
+```js
 export default {
   mounted() {
     console.log(`the component is now mounted.`)
@@ -183,7 +192,7 @@ export default {
 
 在每次响应式属性发生变化时触发一个函数。
 
-```Vue
+```js
 export default {
   data() {
     return {
@@ -305,7 +314,7 @@ export default {
 父组件 向 子组件 传值
 在组件的 props 列表上声明
 
-```Vue
+```js
 export default {
   // ...
   data() {
@@ -322,7 +331,7 @@ export default {
 
 这种情况下，我们可以使用 v-for 来渲染它们：
 
-``` Vue
+``` js
 
 <BlogPost
   v-for="post in posts"
@@ -335,7 +344,7 @@ export default {
 
 父组件可以通过 v-on 或 @ 来选择性地监听子组件上抛的事件，就像监听原生 DOM 事件那样：
 
-```Vue
+```js
 <BlogPost
   ...
   @enlarge-text="postFontSize += 0.1"
@@ -344,7 +353,7 @@ export default {
 
 子组件可以通过调用内置的 $emit 方法，通过传入事件名称来抛出一个事件：
 
-```Vue
+```js
 <!-- BlogPost.vue, 省略了 <script> -->
 <template>
   <div class="blog-post">
@@ -356,7 +365,7 @@ export default {
 
 我们可以通过 emits 选项来声明需要抛出的事件：
 
-```Vue
+```js
 <script>
 export default {
   props: ['title'],
@@ -372,7 +381,7 @@ export default {
 `<slot>`
 一些情况下我们会希望能和 HTML 元素一样向组件中传递内容：
 
-```vue
+```js
 
 <AlertBox>
   Something bad happened.    <slot />
@@ -389,7 +398,7 @@ export default {
 ![alt](https://cdn.staticaly.com/gh/845415120/picx-images-hosting@master/20230712/image.55g669x52qs0.webp)
 上面的例子是通过 Vue 的 `<component>`元素和特殊的 `is`  实现的：
 
-```Vue
+```js
 <!-- currentTab 改变时组件也改变 -->
 <component :is="currentTab"></component>
 ```

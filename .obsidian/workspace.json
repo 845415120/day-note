@@ -28,7 +28,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
+                "file": "08-Vue/0-卡片/0-卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f512b8d052f2589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08-Vue/01-Vue基础.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cce5c0d2d800d7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -55,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:JavaScript",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-计算机书籍/JavaScript重难点实例精讲.md"
+                "file": "08-Vue/搭配 TypeScript 使用 Vue.md"
               }
             }
           },
@@ -120,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
+                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-计算机书籍/JavaScript重难点实例精讲.md",
+                "file": "08-Vue/搭配 TypeScript 使用 Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 511.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,8 +188,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "5f7083400c7adeb6",
+  "active": "6cce5c0d2d800d7f",
   "lastOpenFiles": [
+    "08-Vue/01-Vue基础.md",
+    "08-Vue/搭配 TypeScript 使用 Vue.md",
+    "08-Vue/0-卡片/0-卡片.md",
+    "0-计算机书籍/JavaScript重难点实例精讲.md",
     "04-Javascript/02-ES6/16Class.md",
     "代码/代码笔记/黑马程序员前端面试必看/class.html",
     "代码/代码笔记/黑马程序员前端面试必看/class",
@@ -187,10 +219,7 @@
     "04-Javascript/04-JavaScript-高级/31防抖.md",
     "04-Javascript/04-JavaScript-高级/31节流.md",
     "JS每日一题/说说函数节流和防抖有什么区别如何实现.md",
-    "12-Python/黑马程序员/16-异常.md",
     "Z-附件/08-模块_包_异常/01-异常.pdf",
-    "17-JAVA/Java/异常处理.md",
-    "04-Javascript/04-JavaScript-高级/27函数作用域.md",
     "Z-附件/00笔记未整理/07-面向对象/面向对象-继承.pdf",
     "Z-附件/00笔记未整理/07-面向对象/02-面向对象-继承.pdf",
     "代码/代码笔记/黑马程序员前端面试必看/日历.html",
