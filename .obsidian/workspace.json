@@ -88,9 +88,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc2ed6d89d341683",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-14/追风者.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-14/功夫熊猫4.md"
+                "file": "H-每日记录/2024-04-14/追风者.md"
               }
             }
           },
@@ -175,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-14/功夫熊猫4.md",
+                "file": "H-每日记录/2024-04-14/追风者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-14/功夫熊猫4.md",
+                "file": "H-每日记录/2024-04-14/追风者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,10 +229,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "f8bdf9746f85c10b",
+  "active": "bc2ed6d89d341683",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-14.md",
     "H-每日记录/2024-04-14/功夫熊猫4.md",
+    "H-每日记录/2024-04-14/追风者.md",
+    "H-每日记录/2024-04-14.md",
     "H-每日记录/2024-04-14",
     "H-每日记录/2023-10-16.md",
     "H-每日记录/2023-10-14.md",
@@ -245,7 +259,6 @@
     "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md",
     "O-电影2010/永不消逝的电波.md",
     "O-电影2010/英雄虎胆.md",
-    "O-电影2010/向着明亮那方.md",
     "技术日常笔记/综合案例素材.html",
     "技术日常笔记/JavaScript高级第一天.pdf",
     "技术日常笔记/移动文件.js",
