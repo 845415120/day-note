@@ -1,64 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "1-电影2010",
-      "path": "卡片/1-电影2010.md"
-    },
-    {
-      "basename": "1-电影2020",
-      "path": "卡片/1-电影2020.md"
-    },
-    {
-      "basename": "国家的视角",
-      "path": "H-每日记录/2023-12-05/国家的视角.md"
-    },
-    {
-      "basename": "隐于书后",
-      "path": "H-每日记录/2023-12-05/隐于书后.md"
-    },
-    {
-      "basename": "洗澡 杨绛",
-      "path": "H-每日记录/2023-12-05/洗澡 杨绛.md"
-    },
-    {
-      "basename": "偷拐抢骗",
-      "path": "H-每日记录/2023-12-05/偷拐抢骗.md"
-    },
-    {
-      "basename": "苏联笑话250个合集",
-      "path": "H-每日记录/2023-12-05/苏联笑话250个合集.md"
-    },
-    {
-      "basename": "数学之美",
-      "path": "H-每日记录/2023-12-05/数学之美.md"
-    },
-    {
-      "basename": "迷失东京",
-      "path": "H-每日记录/2023-12-05/迷失东京.md"
-    },
-    {
-      "basename": "毛骨悚然！军国主义如何洗脑日本人【东瀛大宝荐01】",
-      "path": "H-每日记录/2023-12-05/毛骨悚然！军国主义如何洗脑日本人【东瀛大宝荐01】.md"
-    },
-    {
-      "basename": "3. Nestjs 装饰器 路由 底层详解",
-      "path": "H-每日记录/2023-12-05/3. Nestjs 装饰器 路由 底层详解.md"
-    },
-    {
-      "basename": "隐于书后",
-      "path": "O-电影2010/隐于书后.md"
+      "basename": "未命名",
+      "path": "H-每日记录/2024-04-14/未命名.md"
     },
     {
       "basename": "2024-04-14",
       "path": "H-每日记录/2024-04-14.md"
     },
     {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+      "basename": "2023-10-16",
+      "path": "H-每日记录/2023-10-16.md"
     },
     {
-      "basename": "Nest.js",
-      "path": "Nest.js.md"
+      "basename": "2023-10-14",
+      "path": "H-每日记录/2023-10-14.md"
+    },
+    {
+      "basename": "2023-10-12",
+      "path": "H-每日记录/2023-10-12.md"
+    },
+    {
+      "basename": "2023-10-09",
+      "path": "H-每日记录/2023-10-09.md"
+    },
+    {
+      "basename": "2023-10-07",
+      "path": "H-每日记录/2023-10-07.md"
+    },
+    {
+      "basename": "2023-10-04",
+      "path": "H-每日记录/2023-10-04.md"
+    },
+    {
+      "basename": "2023-10-03",
+      "path": "H-每日记录/2023-10-03.md"
+    },
+    {
+      "basename": "2023-09-30",
+      "path": "H-每日记录/2023-09-30.md"
+    },
+    {
+      "basename": "2023-09-28",
+      "path": "H-每日记录/2023-09-28.md"
+    },
+    {
+      "basename": "2023-09-27",
+      "path": "H-每日记录/2023-09-27.md"
+    },
+    {
+      "basename": "2023-09-26",
+      "path": "H-每日记录/2023-09-26.md"
+    },
+    {
+      "basename": "2023-09-25",
+      "path": "H-每日记录/2023-09-25.md"
+    },
+    {
+      "basename": "2023-09-24",
+      "path": "H-每日记录/2023-09-24.md"
+    },
+    {
+      "basename": "2023-09-23",
+      "path": "H-每日记录/2023-09-23.md"
+    },
+    {
+      "basename": "Vue.js中的插槽-React生命周期方法",
+      "path": "技术日常笔记/Vue.js中的插槽-React生命周期方法.md"
+    },
+    {
+      "basename": "1-电影2020",
+      "path": "卡片/1-电影2020.md"
+    },
+    {
+      "basename": "1-电影2010",
+      "path": "卡片/1-电影2010.md"
+    },
+    {
+      "basename": "隐于书后",
+      "path": "O-电影2010/隐于书后.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
       "basename": "6-电视剧",
@@ -175,26 +199,6 @@
     {
       "basename": "异常处理",
       "path": "17-JAVA/Java/异常处理.md"
-    },
-    {
-      "basename": "05-字符串方法",
-      "path": "04-Javascript/01-JavaScript编程语言/05-字符串方法.md"
-    },
-    {
-      "basename": "05-数组-方法",
-      "path": "04-Javascript/01-JavaScript编程语言/05-数组-方法.md"
-    },
-    {
-      "basename": "14-ES6新增的方法",
-      "path": "04-Javascript/02-ES6/14-ES6新增的方法.md"
-    },
-    {
-      "basename": "27闭包",
-      "path": "04-Javascript/04-JavaScript-高级/27闭包.md"
-    },
-    {
-      "basename": "27函数作用域",
-      "path": "04-Javascript/04-JavaScript-高级/27函数作用域.md"
     }
   ],
   "omittedPaths": [],
