@@ -1,28 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "缝纫机乐队",
-      "path": "H-每日记录/2023-12-04/缝纫机乐队.md"
-    },
-    {
-      "basename": "志愿军：雄兵出击",
-      "path": "H-每日记录/2023-12-04/志愿军：雄兵出击.md"
-    },
-    {
-      "basename": "特搜组大吾 救国的橘色部队",
-      "path": "H-每日记录/2023-12-04/特搜组大吾 救国的橘色部队.md"
-    },
-    {
-      "basename": "拿破仑",
-      "path": "H-每日记录/2023-12-04/拿破仑.md"
-    },
-    {
-      "basename": "局内人",
-      "path": "H-每日记录/2023-12-04/局内人.md"
+      "basename": "1-电影2010",
+      "path": "卡片/1-电影2010.md"
     },
     {
       "basename": "1-电影2020",
       "path": "卡片/1-电影2020.md"
+    },
+    {
+      "basename": "国家的视角",
+      "path": "H-每日记录/2023-12-05/国家的视角.md"
+    },
+    {
+      "basename": "隐于书后",
+      "path": "H-每日记录/2023-12-05/隐于书后.md"
+    },
+    {
+      "basename": "洗澡 杨绛",
+      "path": "H-每日记录/2023-12-05/洗澡 杨绛.md"
+    },
+    {
+      "basename": "偷拐抢骗",
+      "path": "H-每日记录/2023-12-05/偷拐抢骗.md"
+    },
+    {
+      "basename": "苏联笑话250个合集",
+      "path": "H-每日记录/2023-12-05/苏联笑话250个合集.md"
+    },
+    {
+      "basename": "数学之美",
+      "path": "H-每日记录/2023-12-05/数学之美.md"
+    },
+    {
+      "basename": "迷失东京",
+      "path": "H-每日记录/2023-12-05/迷失东京.md"
+    },
+    {
+      "basename": "毛骨悚然！军国主义如何洗脑日本人【东瀛大宝荐01】",
+      "path": "H-每日记录/2023-12-05/毛骨悚然！军国主义如何洗脑日本人【东瀛大宝荐01】.md"
+    },
+    {
+      "basename": "3. Nestjs 装饰器 路由 底层详解",
+      "path": "H-每日记录/2023-12-05/3. Nestjs 装饰器 路由 底层详解.md"
+    },
+    {
+      "basename": "隐于书后",
+      "path": "O-电影2010/隐于书后.md"
+    },
+    {
+      "basename": "2024-04-14",
+      "path": "H-每日记录/2024-04-14.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
       "basename": "Nest.js",
@@ -39,10 +71,6 @@
     {
       "basename": "9号秘事第一季",
       "path": "Y-电视剧/9号秘事第一季.md"
-    },
-    {
-      "basename": "1-电影2010",
-      "path": "卡片/1-电影2010.md"
     },
     {
       "basename": "0-电影2000",
@@ -79,10 +107,6 @@
     {
       "basename": "16Class",
       "path": "04-Javascript/02-ES6/16Class.md"
-    },
-    {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
       "basename": "Ajax第一天",
@@ -171,22 +195,6 @@
     {
       "basename": "27函数作用域",
       "path": "04-Javascript/04-JavaScript-高级/27函数作用域.md"
-    },
-    {
-      "basename": "Ajax第四天",
-      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第四天.md"
-    },
-    {
-      "basename": "Ajax第二天",
-      "path": "04-Javascript/03-JavaScript-异步编程/01-Ajax/Ajax第二天.md"
-    },
-    {
-      "basename": "01-Symbol类型",
-      "path": "04-Javascript/01-JavaScript编程语言/01-Symbol类型.md"
-    },
-    {
-      "basename": "01-kerwin 面试题",
-      "path": "04-Javascript/00-面试题/01-kerwin 面试题.md"
     }
   ],
   "omittedPaths": [],
