@@ -28,7 +28,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/内战中的美国黑人：美国黑人历史速成班18.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "952fef156c4d847c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/重建：美国黑人历史速成班19.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edbbab36018c8602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -55,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:小巷",
+                "query": "line:(2024-04-15)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md"
+                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md"
               }
             }
           },
@@ -120,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
+                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
+                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,35 +188,37 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3939391e1f1f738c",
+  "active": "edbbab36018c8602",
   "lastOpenFiles": [
-    "Y-电视剧/我们的歌 第五季.md",
-    "Y-美食/0-卡片/4-美食.md",
-    "Y-美食/两岸一味.md",
+    "Y-B站/YouTube/CrashCourse/正式组织：社会学速成课程 17.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/重建：美国黑人历史速成班19.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/4 奴隶代码： 速成班美国黑人历史.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/内战中的美国黑人：美国黑人历史速成班18.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/美国宪法，35 和奴隶贸易条款：速成班美国黑人历史 9.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/艾达·B·威尔斯：美国黑人历史速成班 20.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
+    "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
+    "Y-B站/「巴以1」百年冲突，为什么这是反侵略与民族解放斗争.md",
+    "Y-B站/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
+    "Y-B站/（全长2小时）国运之战结束，从此江北再无大战！古老的国家，迎来全新的希望！.md",
+    "Y-B站/YouTube/中越战争 维基百科.md",
+    "Y-B站/YouTube/CrashCourse/上大学还是不上大学  速成班  如何上大学.md",
+    "Y-B站/YouTube/上大学还是不上大学.md",
+    "Y-B站/wolf 复盘 SKT HLE.md",
+    "Y-B站/什么组织能在苏联和克格勃斗法？（上）.md",
+    "Y-B站/世界好好吃 选集1- 刀削面，汉堡和可颂面包的趣闻与史话.md",
+    "Y-B站/YouTube/CrashCourse/速成社会学第二课：社会学中重要的模型.md",
+    "Y-B站/为什么中国不帮助俄罗斯：主权、地缘政治角逐和金钱的故事.md",
+    "Y-B站/小心越共！爆肝三个月！一口气看完越南战争是怎么一回事！.md",
+    "Y-B站/辛亥革命是一场偶然？背后各方势力大盘点【晚清最后十三年·1911下】.md",
+    "Y-B站/巡游轨迹.md",
+    "Y-B站/一条闲木鱼.md",
+    "Y-B站/一小群开发者如何在 Facebook 创建 React React.js纪录片.md",
+    "Y-B站/应试教育的本质，与素质教育的迷思.md",
+    "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
-    "A-技术日常笔记/The BEST CLI Tool.md",
-    "卡片/3-电影1900.md",
-    "卡片/1-电影2020.md",
-    "O-电影2020/龙马精神.md",
-    "O-电影2020/龙与地下城侠盗荣耀.md",
-    "O-电影2020/默默无闻.md",
-    "O-电影2020/黑豹2.md",
-    "O-电影2020/黑白魔女库伊拉.md",
-    "O-电影2020/黑寡妇.md",
-    "O-电影2020/黑匣子.md",
-    "O-电影2020/黄石第四季.md",
-    "O-电影2020/麦克白的悲剧.md",
-    "O-电影2020/鱼之子.md",
-    "O-电影2020/魔道象人.md",
-    "O-电影2020/首尔之春.md",
-    "O-电影2020/飞驰人生2.md",
-    "O-电影2020/飞来横财.md",
-    "O-电影2020/领袖水准.md",
-    "O-电影2020/革命者.md",
-    "O-电影2020/革命之间.md",
-    "O-电影2020/青春变形记.md",
-    "O-电影2020/雷霆沙赞众神之怒.md",
-    "O-电影2020/雷神4爱与雷霆.md",
     "O-电影2020",
     "O-电影2000/0-卡片",
     "O-电影2000",
@@ -197,8 +226,6 @@
     "Y-B站/YouTube",
     "Y-B站/新建文件夹",
     "Y-B站/啊粥粥",
-    "醒言",
-    "A-技术日常笔记/综合案例素材.html",
     "Z-附件/Pasted image 20240413154923.png",
     "Z-附件/Pasted image 20240413133933.png",
     "Z-附件/Pasted image 20240413130734 2.png",
