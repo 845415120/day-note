@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-美食/0-卡片/4-美食.md",
+                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:隐于书后",
+                "query": "file:小巷",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-美食/0-卡片/4-美食.md"
+                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md"
               }
             }
           },
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-美食/0-卡片/4-美食.md",
+                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-美食/0-卡片/4-美食.md",
+                "file": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +163,8 @@
   },
   "active": "3939391e1f1f738c",
   "lastOpenFiles": [
+    "Y-电视剧/我们的歌 第五季.md",
+    "Y-美食/0-卡片/4-美食.md",
     "Y-美食/两岸一味.md",
     "Y-美食/0-卡片",
     "A-技术日常笔记/The BEST CLI Tool.md",
@@ -189,7 +190,6 @@
     "O-电影2020/青春变形记.md",
     "O-电影2020/雷霆沙赞众神之怒.md",
     "O-电影2020/雷神4爱与雷霆.md",
-    "O-电影2020/雄狮少年.md",
     "O-电影2020",
     "O-电影2000/0-卡片",
     "O-电影2000",

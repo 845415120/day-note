@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1-【小象学院】面试算法LeetCode刷题班",
+      "path": "00-数据结构与算法/视频学习/1-【小象学院】面试算法LeetCode刷题班.md"
+    },
+    {
+      "basename": "我们的歌 第五季",
+      "path": "Y-电视剧/我们的歌 第五季.md"
+    },
+    {
       "basename": "4-美食",
       "path": "Y-美食/0-卡片/4-美食.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "地球脉动 第三季",
       "path": "O-电影2010/地球脉动 第三季.md"
-    },
-    {
-      "basename": "Pinia",
-      "path": "A-技术日常笔记/Pinia.md"
-    },
-    {
-      "basename": "秦颂",
-      "path": "O-电影2010/秦颂.md"
     }
   ],
   "omittedPaths": [],
