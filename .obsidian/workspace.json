@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-02-22/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
+                "file": "H-每日记录/2024-02-26/未命名.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-02-22/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md"
+                "file": "H-每日记录/2024-02-26/未命名.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-02-22/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
+                "file": "H-每日记录/2024-02-26/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-02-22/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
+                "file": "H-每日记录/2024-02-26/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +175,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "0ab5db7c637b497d",
+  "active": "1f1c718126619a98",
   "lastOpenFiles": [
+    "H-每日记录/2024-02-26/理论与偏差：社会学速成课程 19.md",
+    "A-技术日常笔记/Visual Studio Code 的六个基本插件.md",
+    "A-技术日常笔记/RSSWorker.md",
+    "A-技术日常笔记/RSSHub.md",
+    "00-数据结构与算法/数据结构和算法.md",
+    "H-每日记录/2024-02-22/未命名.md",
+    "Y-B站/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
     "00-数据结构与算法/136. 只出现一次的数字.md",
     "00-数据结构与算法/389. 找不同.md",
     "A-技术日常笔记/15--第6周  动态规划（一）、（二）.md",
@@ -196,13 +203,6 @@
     "Y-B站/朝鲜战争 1950-1953 - 冷战纪录片.md",
     "Y-B站/一小群开发者如何在 Facebook 创建 React React.js纪录片.md",
     "Y-B站/小心越共！爆肝三个月！一口气看完越南战争是怎么一回事！.md",
-    "A-技术日常笔记/前端冰山图.md",
-    "O-电影2010/世界历史 1.md",
-    "O-电影2010/呖咕呖咕新年财.md",
-    "O-电影2010/花儿与少年·丝路季.md",
-    "O-电影2010/邓小平风采老一辈革命家风采.md",
-    "A-技术日常笔记/比较现代 CSS 解决方案（Tailwind vs MUI vs Bootstrap vs Chakra vs...）.md",
-    "Y-B站/爆肝三个月！一口气看完法越战争是怎么一回事！.md",
     "Y-B站/啊粥粥",
     "Y-B站/新建文件夹",
     "醒言",
