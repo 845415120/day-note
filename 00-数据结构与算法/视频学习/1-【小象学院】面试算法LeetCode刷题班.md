@@ -1,7 +1,7 @@
 ---
 时间: 2023-11-16
 标题: 【小象学院】面试算法LeetCode刷题班
-图片: https://tu.liupan.net/uploads/2020/07/1594981483-e006aa307ed5b52.png
+图片: https://i0.hdslb.com/bfs/article/158c99de404aedc01566ad7f9ba3a7db179257483.jpg@1256w_366h_!web-article-pic.avif
 链接: https://vip.xxketang.com/p/t_pc/goods_pc_detail/goods_detail/p_61978a09e4b0c005c9921804
 tags:
 ---
