@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-14/追风者.md",
+                "file": "H-每日记录/2024-04-15.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-14/追风者.md"
+                "file": "H-每日记录/2024-04-15.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-14/追风者.md",
+                "file": "H-每日记录/2024-04-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-14/追风者.md",
+                "file": "H-每日记录/2024-04-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,8 +231,9 @@
   },
   "active": "bc2ed6d89d341683",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-14/功夫熊猫4.md",
     "H-每日记录/2024-04-14/追风者.md",
+    "H-每日记录/2024-04-15.md",
+    "H-每日记录/2024-04-14/功夫熊猫4.md",
     "H-每日记录/2024-04-14.md",
     "H-每日记录/2024-04-14",
     "H-每日记录/2023-10-16.md",
@@ -258,7 +259,6 @@
     "H-每日记录/2023-09-18.md",
     "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md",
     "O-电影2010/永不消逝的电波.md",
-    "O-电影2010/英雄虎胆.md",
     "技术日常笔记/综合案例素材.html",
     "技术日常笔记/JavaScript高级第一天.pdf",
     "技术日常笔记/移动文件.js",
