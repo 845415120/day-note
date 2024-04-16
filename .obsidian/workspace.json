@@ -140,6 +140,19 @@
             }
           },
           {
+            "id": "5f59de53246a639c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3e27ad31f7b19ee0",
             "type": "leaf",
             "state": {
@@ -179,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -254,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md"
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md"
               }
             }
           },
@@ -264,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,10 +318,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "a61dc040c9ea20f9",
+  "active": "5f59de53246a639c",
   "lastOpenFiles": [
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
@@ -333,7 +347,6 @@
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/「巴以1」百年冲突，为什么这是反侵略与民族解放斗争.md",
     "Y-B站/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
-    "Y-B站/（全长2小时）国运之战结束，从此江北再无大战！古老的国家，迎来全新的希望！.md",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
     "O-电影2020",
