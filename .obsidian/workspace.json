@@ -23,163 +23,7 @@
             }
           },
           {
-            "id": "3939391e1f1f738c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "952fef156c4d847c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edbbab36018c8602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2159921be27513a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24f9ba6a13ba4404",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c8dc5e6d61d7298",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5202762c5dcfd16b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb23c5eaf4ad08f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a61dc040c9ea20f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5f59de53246a639c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e27ad31f7b19ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9a8b093a83dea7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41538f268428f5a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -190,9 +34,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e71edc6cf1d9e01c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-16/龙兽医.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05d1383406c39540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-16/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "845c4a5f662ea5ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-16/还有明天.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md"
+                "file": "H-每日记录/2024-04-16/还有明天.md"
               }
             }
           },
@@ -277,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
+                "file": "H-每日记录/2024-04-16/还有明天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
+                "file": "H-每日记录/2024-04-16/还有明天.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,35 +201,36 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "5f59de53246a639c",
+  "active": "845c4a5f662ea5ee",
   "lastOpenFiles": [
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/纪录片邓小平第三次复出.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+    "H-每日记录/2024-04-16/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
+    "H-每日记录/2024-04-16/还有明天.md",
+    "H-每日记录/2024-04-16/龙兽医.md",
     "H-每日记录/2024-04-16.md",
+    "04-Javascript/00-卡片/JavaScript卡片.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
+    "H-每日记录/2024-04-16/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
+    "H-每日记录/2024-04-16/纪录片邓小平第三次复出.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
+    "H-每日记录/2024-04-16",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
     "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/0-速成班美国黑人历史预览.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/3-伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/5-日耳曼敦反对奴隶制请愿书：速成班美国黑人历史.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/9-美国宪法，35 和奴隶贸易条款：速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/20-艾达·B·威尔斯：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/12-1793 年的逃亡奴隶法案：速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/4 奴隶代码： 速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
-    "Y-B站/YouTube/CrashCourse/正式组织：社会学速成课程 17.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
-    "Y-B站/「巴以1」百年冲突，为什么这是反侵略与民族解放斗争.md",
-    "Y-B站/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
     "O-电影2020",
@@ -355,7 +239,6 @@
     "O-电影1900",
     "Y-B站/YouTube",
     "Y-B站/新建文件夹",
-    "Y-B站/啊粥粥",
     "Z-附件/Pasted image 20240413154923.png",
     "Z-附件/Pasted image 20240413133933.png",
     "Z-附件/Pasted image 20240413130734 2.png",
