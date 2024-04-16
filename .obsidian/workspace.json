@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/内战中的美国黑人：美国黑人历史速成班18.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/重建：美国黑人历史速成班19.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -54,7 +54,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2159921be27513a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41538f268428f5a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -137,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md"
+                "file": "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md"
               }
             }
           },
@@ -147,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
+                "file": "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
+                "file": "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,18 +214,24 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "edbbab36018c8602",
+  "active": "41538f268428f5a6",
   "lastOpenFiles": [
-    "Y-B站/YouTube/CrashCourse/正式组织：社会学速成课程 17.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/重建：美国黑人历史速成班19.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史 3.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/日耳曼敦反对奴隶制请愿书：速成班美国黑人历史  5.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
+    "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/0-速成班美国黑人历史预览.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/3-伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/5-日耳曼敦反对奴隶制请愿书：速成班美国黑人历史.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/9-美国宪法，35 和奴隶贸易条款：速成班美国黑人历史.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/20-艾达·B·威尔斯：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/12-1793 年的逃亡奴隶法案：速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/4 奴隶代码： 速成班美国黑人历史.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/内战中的美国黑人：美国黑人历史速成班18.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/美国宪法，35 和奴隶贸易条款：速成班美国黑人历史 9.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/艾达·B·威尔斯：美国黑人历史速成班 20.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/YouTube/CrashCourse/Harriet Martineau 与性别冲突理论：社会学速成课程 8.md",
+    "Y-B站/YouTube/CrashCourse/正式组织：社会学速成课程 17.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/「巴以1」百年冲突，为什么这是反侵略与民族解放斗争.md",
     "Y-B站/《铁马冰河入梦来》等野战军评说系列，作者本老夫子。.md",
     "Y-B站/（全长2小时）国运之战结束，从此江北再无大战！古老的国家，迎来全新的希望！.md",
@@ -211,12 +243,6 @@
     "Y-B站/世界好好吃 选集1- 刀削面，汉堡和可颂面包的趣闻与史话.md",
     "Y-B站/YouTube/CrashCourse/速成社会学第二课：社会学中重要的模型.md",
     "Y-B站/为什么中国不帮助俄罗斯：主权、地缘政治角逐和金钱的故事.md",
-    "Y-B站/小心越共！爆肝三个月！一口气看完越南战争是怎么一回事！.md",
-    "Y-B站/辛亥革命是一场偶然？背后各方势力大盘点【晚清最后十三年·1911下】.md",
-    "Y-B站/巡游轨迹.md",
-    "Y-B站/一条闲木鱼.md",
-    "Y-B站/一小群开发者如何在 Facebook 创建 React React.js纪录片.md",
-    "Y-B站/应试教育的本质，与素质教育的迷思.md",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
     "O-电影2020",
