@@ -75,6 +75,45 @@
             }
           },
           {
+            "id": "24f9ba6a13ba4404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e27ad31f7b19ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9a8b093a83dea7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "41538f268428f5a6",
             "type": "leaf",
             "state": {
@@ -88,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -163,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-16.md"
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md"
               }
             }
           },
@@ -173,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-16.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-16.md",
+                "file": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,12 +253,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "41538f268428f5a6",
+  "active": "3e27ad31f7b19ee0",
   "lastOpenFiles": [
-    "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
-    "H-每日记录/2024-04-16.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/龙兽医.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+    "H-每日记录/2024-04-16.md",
+    "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/0-速成班美国黑人历史预览.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
@@ -240,9 +282,6 @@
     "Y-B站/YouTube/CrashCourse/上大学还是不上大学  速成班  如何上大学.md",
     "Y-B站/YouTube/上大学还是不上大学.md",
     "Y-B站/wolf 复盘 SKT HLE.md",
-    "Y-B站/什么组织能在苏联和克格勃斗法？（上）.md",
-    "Y-B站/世界好好吃 选集1- 刀削面，汉堡和可颂面包的趣闻与史话.md",
-    "Y-B站/YouTube/CrashCourse/速成社会学第二课：社会学中重要的模型.md",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
     "O-电影2020",
