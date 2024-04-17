@@ -132,7 +132,85 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "H-每日记录/2024-04-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d548e38456e004c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "H-每日记录/2024-04-17/假如我是真的.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a80238ea87885b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/stash-视频管理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e054a182c8b0f52f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "944a90980355f172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/Lobe Chat.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "144fd1dc617c752a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "397675b8956fd10b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -140,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -159,7 +237,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:书展20",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +272,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-17/假如我是真的.md"
+                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md"
               }
             }
           },
@@ -225,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-17/假如我是真的.md",
+                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-17/假如我是真的.md",
+                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,16 +343,24 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3db5f9e9c8995aea",
+  "active": "397675b8956fd10b",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-17/泪之女王.md",
+    "H-每日记录/2024-04-17.md",
+    "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+    "H-每日记录/2024-04-17/Lobe Chat.md",
+    "O-电影2000/邓小平.md",
+    "Y-历史-文学/邓小平/邓小平.md",
+    "卡片/邓小平.md",
+    "H-每日记录/2024-04-17/stash-视频管理.md",
     "H-每日记录/2024-04-17/假如我是真的.md",
+    "Y-B站/一战/1918皇帝会战，一场赌上德意志国运的终极决战【一战的故事】.md",
+    "Y-B站/一战",
+    "H-每日记录/2024-04-17/泪之女王.md",
     "H-每日记录/2024-04-17/黑土无言.md",
     "H-每日记录/2024-04-17/群星.md",
     "H-每日记录/2024-04-17/赛德克·巴莱.md",
     "H-每日记录/2024-04-17/香山叶正红.md",
     "H-每日记录/2024-04-16/子东时间.md",
-    "H-每日记录/2024-04-17.md",
     "H-每日记录/2024-04-16/龙兽医.md",
     "H-每日记录/2024-04-17/leetcode.md",
     "O-电影2010/早安越南.md",
@@ -292,18 +377,10 @@
     "O-电影2000/0-卡片/0-电影2000.md",
     "O-电影1900/0-卡片",
     "O-电影2000/未命名",
-    "04-Javascript/00-卡片/JavaScript卡片.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
     "H-每日记录/2024-04-16",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
-    "O-电影2020",
     "Z-附件/Pasted image 20240413154923.png",
     "Z-附件/Pasted image 20240413133933.png",
     "Z-附件/Pasted image 20240413130734 2.png",
