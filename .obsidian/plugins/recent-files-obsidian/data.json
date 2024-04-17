@@ -5,20 +5,44 @@
       "path": "H-每日记录/2024-04-16/子东时间.md"
     },
     {
+      "basename": "2024-04-17",
+      "path": "H-每日记录/2024-04-17.md"
+    },
+    {
+      "basename": "龙兽医",
+      "path": "H-每日记录/2024-04-16/龙兽医.md"
+    },
+    {
+      "basename": "leetcode",
+      "path": "H-每日记录/2024-04-17/leetcode.md"
+    },
+    {
+      "basename": "早安越南",
+      "path": "O-电影2010/早安越南.md"
+    },
+    {
+      "basename": "还有明天",
+      "path": "O-电影2020/还有明天.md"
+    },
+    {
+      "basename": "奥斯曼帝国史（全部） - 1299 年 - 1922 年",
+      "path": "H-每日记录/2024-04-16/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md"
+    },
+    {
+      "basename": "纪录片邓小平第三次复出",
+      "path": "O-电影1900/纪录片邓小平第三次复出.md"
+    },
+    {
+      "basename": "尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！",
+      "path": "0-前端视频记录/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md"
+    },
+    {
       "basename": "2024-04-16",
       "path": "H-每日记录/2024-04-16.md"
     },
     {
-      "basename": "早安越南",
-      "path": "H-每日记录/2024-04-16/早安越南.md"
-    },
-    {
       "basename": "书展2013：莫言为什么获诺贝尔文学奖  许子东",
       "path": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md"
-    },
-    {
-      "basename": "还有明天",
-      "path": "H-每日记录/2024-04-16/还有明天.md"
     },
     {
       "basename": "3-电影1900",
@@ -27,14 +51,6 @@
     {
       "basename": "0-电影2000",
       "path": "O-电影2000/0-卡片/0-电影2000.md"
-    },
-    {
-      "basename": "尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！",
-      "path": "H-每日记录/2024-04-16/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md"
-    },
-    {
-      "basename": "龙兽医",
-      "path": "H-每日记录/2024-04-16/龙兽医.md"
     },
     {
       "basename": "JavaScript卡片",
@@ -67,14 +83,6 @@
     {
       "basename": "26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班",
       "path": "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md"
-    },
-    {
-      "basename": "奥斯曼帝国史（全部） - 1299 年 - 1922 年",
-      "path": "H-每日记录/2024-04-16/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md"
-    },
-    {
-      "basename": "纪录片邓小平第三次复出",
-      "path": "H-每日记录/2024-04-16/纪录片邓小平第三次复出.md"
     },
     {
       "basename": "中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点",
@@ -191,14 +199,6 @@
     {
       "basename": "这一年泽连斯基如何改变世界",
       "path": "Y-B站/这一年泽连斯基如何改变世界.md"
-    },
-    {
-      "basename": "著名数字科普作者 3Blue1Brown 写的微积分系列教程。",
-      "path": "Y-B站/著名数字科普作者 3Blue1Brown 写的微积分系列教程。.md"
-    },
-    {
-      "basename": "中东与冲突（2）：从历史中解读无休止的冲突的原因",
-      "path": "Y-B站/中东与冲突（2）：从历史中解读无休止的冲突的原因.md"
     }
   ],
   "omittedPaths": [],

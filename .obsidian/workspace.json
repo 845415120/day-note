@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-16/还有明天.md",
+                "file": "O-电影2020/还有明天.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,45 +68,6 @@
               "type": "markdown",
               "state": {
                 "file": "H-每日记录/2024-04-16/子东时间.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e71edc6cf1d9e01c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-16/龙兽医.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05d1383406c39540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-16/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "845c4a5f662ea5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "O-电影1900/0-卡片/3-电影1900.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -242,20 +203,24 @@
   },
   "active": "8c30889103f83e1b",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-16.md",
+    "H-每日记录/2024-04-17.md",
+    "H-每日记录/2024-04-16/龙兽医.md",
+    "H-每日记录/2024-04-17/leetcode.md",
     "H-每日记录/2024-04-16/子东时间.md",
-    "H-每日记录/2024-04-16/纪录片邓小平第三次复出.md",
-    "H-每日记录/2024-04-16/早安越南.md",
+    "O-电影2010/早安越南.md",
+    "O-电影2020/还有明天.md",
+    "H-每日记录/2024-04-16/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
+    "O-电影1900/纪录片邓小平第三次复出.md",
+    "0-前端视频记录/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
+    "H-每日记录/2024-04-17",
+    "H-每日记录/2024-04-16.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
-    "H-每日记录/2024-04-16/还有明天.md",
     "O-电影1900/0-卡片/3-电影1900.md",
     "O-电影2020/0-卡片",
     "O-电影2010/0-卡片",
     "O-电影2000/0-卡片/0-电影2000.md",
     "O-电影1900/0-卡片",
     "O-电影2000/未命名",
-    "H-每日记录/2024-04-16/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
-    "H-每日记录/2024-04-16/龙兽医.md",
     "04-Javascript/00-卡片/JavaScript卡片.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
@@ -264,20 +229,16 @@
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
-    "H-每日记录/2024-04-16/奥斯曼帝国史（全部） - 1299 年 - 1922 年.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
     "H-每日记录/2024-04-16",
     "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/0-速成班美国黑人历史预览.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/3-伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/5-日耳曼敦反对奴隶制请愿书：速成班美国黑人历史.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/9-美国宪法，35 和奴隶贸易条款：速成班美国黑人历史.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
     "O-电影2020",
-    "O-电影2000/0-卡片",
     "Z-附件/Pasted image 20240413154923.png",
     "Z-附件/Pasted image 20240413133933.png",
     "Z-附件/Pasted image 20240413130734 2.png",
