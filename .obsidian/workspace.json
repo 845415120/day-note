@@ -210,7 +210,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -237,7 +237,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:邓小平：让中国再次伟大",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md"
+                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md"
               }
             }
           },
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -345,8 +345,8 @@
   },
   "active": "397675b8956fd10b",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-17.md",
     "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+    "H-每日记录/2024-04-17.md",
     "H-每日记录/2024-04-17/Lobe Chat.md",
     "O-电影2000/邓小平.md",
     "Y-历史-文学/邓小平/邓小平.md",
