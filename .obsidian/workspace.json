@@ -99,9 +99,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffc339093f076f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/黑土无言.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "634b4aa14ecd36e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/泪之女王.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -176,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-17/群星.md"
+                "file": "H-每日记录/2024-04-17/泪之女王.md"
               }
             }
           },
@@ -186,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-17/群星.md",
+                "file": "H-每日记录/2024-04-17/泪之女王.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-17/群星.md",
+                "file": "H-每日记录/2024-04-17/泪之女王.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,10 +253,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "1b20f6471d61bc53",
+  "active": "634b4aa14ecd36e5",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-17/赛德克·巴莱.md",
+    "H-每日记录/2024-04-17/黑土无言.md",
+    "H-每日记录/2024-04-17/泪之女王.md",
     "H-每日记录/2024-04-17/群星.md",
+    "H-每日记录/2024-04-17/赛德克·巴莱.md",
     "H-每日记录/2024-04-17/香山叶正红.md",
     "H-每日记录/2024-04-16/子东时间.md",
     "H-每日记录/2024-04-17.md",
@@ -258,9 +286,7 @@
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/未命名.md",
     "H-每日记录/2024-04-16",
-    "Y-B站/小岛浪吹/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
     "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
     "Y-B站/YouTube/CrashCourse",
     "Y-美食/0-卡片",
