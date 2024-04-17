@@ -210,7 +210,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
+                "file": "H-每日记录/2024-04-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "784754bdd8e30b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a371e1b6d7332ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e35c3d704a6e729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dd841745d9bcd77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -218,7 +270,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -272,7 +324,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -292,7 +345,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md"
+                "file": "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md"
               }
             }
           },
@@ -302,7 +355,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
+                "file": "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +367,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
+                "file": "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,10 +396,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "397675b8956fd10b",
+  "active": "1dd841745d9bcd77",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
     "H-每日记录/2024-04-17.md",
+    "H-每日记录/2024-04-17/特朗普的贸易战.md",
+    "H-每日记录/2024-04-17/共和党如何从林肯转向特朗普.md",
+    "H-每日记录/2024-04-17/邓小平——中国现代纪录片的奠基人.md",
+    "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
     "H-每日记录/2024-04-17/Lobe Chat.md",
     "O-电影2000/邓小平.md",
     "Y-历史-文学/邓小平/邓小平.md",
@@ -370,11 +426,8 @@
     "0-前端视频记录/尚硅谷大数据FlinkCDC3.0实战：从flinkcdc基础到进阶，深入解读DataStream和FlinkSQL 应用！.md",
     "H-每日记录/2024-04-17",
     "H-每日记录/2024-04-16.md",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
-    "O-电影1900/0-卡片/3-电影1900.md",
     "O-电影2020/0-卡片",
     "O-电影2010/0-卡片",
-    "O-电影2000/0-卡片/0-电影2000.md",
     "O-电影1900/0-卡片",
     "O-电影2000/未命名",
     "H-每日记录/2024-04-16",
