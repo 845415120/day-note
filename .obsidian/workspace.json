@@ -25,6 +25,21 @@
           {
             "id": "e2098355c8a9d391",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-18.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a873ecbd9650b67e",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -36,12 +51,51 @@
             }
           },
           {
-            "id": "a873ecbd9650b67e",
+            "id": "91eec1fa518d1189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md",
+                "file": "H-每日记录/2024-04-18/中华人民共和国史.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "362fa30adc70ef98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-18/从白人至上到巴拉克·奥巴马：民主党的历史.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05e1f3cc01ff63e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97e89d7ffaac2cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -68,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:莫言",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md"
+                "file": "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md"
               }
             }
           },
@@ -134,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md",
+                "file": "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md",
+                "file": "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +228,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "a873ecbd9650b67e",
+  "active": "97e89d7ffaac2cd5",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
+    "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md",
+    "H-每日记录/2024-04-18/从白人至上到巴拉克·奥巴马：民主党的历史.md",
+    "H-每日记录/2024-04-18/中华人民共和国史.md",
     "H-每日记录/2024-04-18.md",
     "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md",
     "H-每日记录/2024-04-17.md",
@@ -184,7 +241,6 @@
     "H-每日记录/2024-04-17/美国的巨大鸿沟：从奥巴马到特朗普，第一部分（完整纪录片）前线.md",
     "H-每日记录/2024-04-17/激烈的竞争对手：伊朗和沙特阿拉伯.md",
     "16-LangChain/LangChain 工程师讲解 RAG 入门.md",
-    "H-每日记录/2024-04-18/中华人民共和国史.md",
     "H-每日记录/2024-04-18",
     "H-每日记录/2024-04-17/伊斯兰教.md",
     "i.md",
@@ -201,9 +257,6 @@
     "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md",
     "Y-历史-文学/邓小平/邓小平 追悼大会.md",
     "Y-历史-文学/邓小平/邓小平实录1：1904—1945.md",
-    "O-电影2010/九天――1979年邓小平访美.md",
-    "Y-历史-文学/邓小平/江青 vs 邓小平 历史的决斗.md",
-    "O-电影1900/纪录片邓小平第三次复出.md",
     "Y-B站/一战",
     "H-每日记录/2024-04-17",
     "O-电影2020/0-卡片",
