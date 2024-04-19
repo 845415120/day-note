@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-电视剧/我的第二青春.md",
+                "file": "O-电影1900/为黛西小姐开车.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-电视剧/我的第二青春.md"
+                "file": "O-电影1900/为黛西小姐开车.md"
               }
             }
           },
@@ -213,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-电视剧/我的第二青春.md",
+                "file": "O-电影1900/为黛西小姐开车.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-电视剧/我的第二青春.md",
+                "file": "O-电影1900/为黛西小姐开车.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,10 +255,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "71428dd1d5256ed5",
+  "active": "3547f75835b99693",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-19.md",
+    "O-电影2010/滚烫的爱.md",
+    "O-电影1900/为黛西小姐开车.md",
     "Y-电视剧/我的第二青春.md",
+    "H-每日记录/2024-04-19.md",
     "H-每日记录/2024-04-18/布莱泽奥特曼 大电影.md",
     "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
     "H-每日记录/2024-04-18.md",
@@ -281,8 +284,6 @@
     "O-电影2010/邓小平时代.md",
     "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md",
     "Y-B站/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
-    "卡片/邓小平.md",
-    "Y-历史-文学/邓小平/邓小平 - 领导者的形成（2007年纪录片）.md",
     "Y-B站/一战",
     "H-每日记录/2024-04-17",
     "O-电影2020/0-卡片",
