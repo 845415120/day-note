@@ -127,9 +127,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62755fd597377fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/狂人皮埃罗.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "O-电影1900/为黛西小姐开车.md"
+                "file": "O-电影1900/狂人皮埃罗.md"
               }
             }
           },
@@ -214,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "O-电影1900/为黛西小姐开车.md",
+                "file": "O-电影1900/狂人皮埃罗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "O-电影1900/为黛西小姐开车.md",
+                "file": "O-电影1900/狂人皮埃罗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,10 +268,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3547f75835b99693",
+  "active": "62755fd597377fe1",
   "lastOpenFiles": [
-    "O-电影2010/滚烫的爱.md",
     "O-电影1900/为黛西小姐开车.md",
+    "O-电影1900/狂人皮埃罗.md",
+    "O-电影2010/滚烫的爱.md",
     "Y-电视剧/我的第二青春.md",
     "H-每日记录/2024-04-19.md",
     "H-每日记录/2024-04-18/布莱泽奥特曼 大电影.md",
@@ -283,7 +297,6 @@
     "Y-历史-文学/邓小平/邓小平.md",
     "O-电影2010/邓小平时代.md",
     "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md",
-    "Y-B站/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
     "Y-B站/一战",
     "H-每日记录/2024-04-17",
     "O-电影2020/0-卡片",
