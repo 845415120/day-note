@@ -148,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:React 实战进阶 45 讲",
+                "query": "line:(2024-04-19)",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,8 +183,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -255,7 +254,7 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3547f75835b99693",
+  "active": "71428dd1d5256ed5",
   "lastOpenFiles": [
     "H-每日记录/2024-04-19.md",
     "Y-电视剧/我的第二青春.md",
