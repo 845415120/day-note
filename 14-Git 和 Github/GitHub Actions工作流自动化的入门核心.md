@@ -82,21 +82,52 @@ jobs:
 ![](Pasted%20image%2020240419201340.png)
 
 ## 项目打包和部署
-
+安装react
+npx create-next-app@latest
+## 生成react项目 修改yml
 ```
 on: push
-
 jobs:
-
   job1:
-
     runs-on: ubuntu-latest
-
     steps:
-
       - run: pwd
-
       - run: npm --version
-
       - run: npm run build
 ```
+
+找不到 package.json 文件
+
+##  引入[actions](https://github.com/actions)/- [checkout](https://github.com/actions/checkout)
+```
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm run build
+```
+
+![](Pasted%20image%2020240419215315.png)
+
+## 书写步骤
+
+```
+name: 打包React项目
+on: push
+jobs:
+  npm-build:
+    name: npm-build工作
+    runs-on: ubuntu-latest
+    steps:
+      - name: 读取仓库内容
+        uses: actions/checkout@v4
+      - name: 安装依赖
+        run: npm install
+      - name: 项目打包
+        run: npm run build
+```
+
+# 部署
