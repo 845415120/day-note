@@ -82,3 +82,21 @@ jobs:
 ![](Pasted%20image%2020240419201340.png)
 
 ## 项目打包和部署
+
+```
+on: push
+
+jobs:
+
+  job1:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: pwd
+
+      - run: npm --version
+
+      - run: npm run build
+```

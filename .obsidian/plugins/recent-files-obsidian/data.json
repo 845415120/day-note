@@ -5,6 +5,10 @@
       "path": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md"
     },
     {
+      "basename": "NVM 切换node 版本",
+      "path": "06-Node/NVM 切换node 版本.md"
+    },
+    {
       "basename": "狂人皮埃罗",
       "path": "O-电影1900/狂人皮埃罗.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "邓小平登黄山",
       "path": "O-电影2010/邓小平登黄山.md"
-    },
-    {
-      "basename": "邓小平风采老一辈革命家风采",
-      "path": "O-电影2010/邓小平风采老一辈革命家风采.md"
     }
   ],
   "omittedPaths": [],
