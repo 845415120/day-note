@@ -147,20 +147,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-19.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4a6d4c854a17a7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/未命名.md",
+                "file": "O-电影2010/我是布莱克.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -168,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -243,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/未命名.md"
+                "file": "O-电影2010/我是布莱克.md"
               }
             }
           },
@@ -253,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/未命名.md",
+                "file": "O-电影2010/我是布莱克.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/未命名.md",
+                "file": "O-电影2010/我是布莱克.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,9 +281,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b4a6d4c854a17a7e",
+  "active": "844c1c45ebb33cab",
   "lastOpenFiles": [
     "H-每日记录/2024-04-19.md",
+    "O-电影2010/我是布莱克.md",
     "H-每日记录/未命名.md",
     "O-电影2010/妇女参政论者.md",
     "O-电影1900/狂人皮埃罗.md",
@@ -322,7 +310,6 @@
     "04-Javascript/00-卡片/JavaScript卡片.md",
     "O-电影2000/邓小平.md",
     "O-电影2020/007无暇赴死.md",
-    "Y-历史-文学/邓小平/邓小平.md",
     "Y-B站/一战",
     "H-每日记录/2024-04-17",
     "O-电影2020/0-卡片",
