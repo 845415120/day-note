@@ -131,3 +131,24 @@ jobs:
 ```
 
 # 部署
+
+```
+name: 打包React项目
+on: push
+jobs:
+  npm-build:
+    name: npm-build工作
+    runs-on: ubuntu-latest
+    steps:
+      - name: 读取仓库内容
+        uses: actions/checkout@v4
+      - name: 安装依赖和打包
+        run: |
+          npm install
+          npm run build
+      - name: 部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+            branch: gh-pages
+            folder: build
+```
