@@ -62,38 +62,12 @@
             }
           },
           {
-            "id": "e07ce57474c4978f",
+            "id": "81bd870a6b39e722",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-Git 和 Github/Github trending/用于生成虚假数据（如姓名、地址和电话号码）的库。.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a1037dbb2aaeb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae2598a9c85e495b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "14-Git 和 Github/02-git常用命令.md",
+                "file": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -101,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -155,11 +129,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5
   },
   "right": {
     "id": "4c275809f335b52b",
@@ -175,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14-Git 和 Github/02-git常用命令.md"
+                "file": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md"
               }
             }
           },
@@ -185,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14-Git 和 Github/02-git常用命令.md",
+                "file": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14-Git 和 Github/02-git常用命令.md",
+                "file": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,13 +201,14 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "ae2598a9c85e495b",
+  "active": "1f1c718126619a98",
   "lastOpenFiles": [
-    "14-Git 和 Github/03-vscode git 提交.md",
-    "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md",
-    "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md",
-    "14-Git 和 Github/Github trending/用于生成虚假数据（如姓名、地址和电话号码）的库。.md",
     "14-Git 和 Github/0-卡片/0-卡片.md",
+    "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md",
+    "14-Git 和 Github/Github trending/用于生成虚假数据（如姓名、地址和电话号码）的库。.md",
+    "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md",
+    "14-Git 和 Github/02-git常用命令.md",
+    "14-Git 和 Github/03-vscode git 提交.md",
     "H-每日记录/2024-04-20.md",
     "H-每日记录/2024-04-20/未命名.md",
     "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md",
@@ -254,7 +230,6 @@
     "Y-YouTube/CrashCourse/美国黑人历史速成班/4 奴隶代码： 速成班美国黑人历史.md",
     "Y-YouTube/CrashCourse/美国黑人历史速成班/3-伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史.md",
     "Y-YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
-    "Y-YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
     "Y-YouTube/CrashCourse/美国黑人历史速成班",
     "Y-YouTube/CrashCourse",
     "Y-YouTube",
