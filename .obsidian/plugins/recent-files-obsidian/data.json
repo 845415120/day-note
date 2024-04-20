@@ -1,20 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "遇见自然：无限人生书单第七季【完结】",
+      "path": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
+    },
+    {
+      "basename": "2024-04-20",
+      "path": "H-每日记录/2024-04-20.md"
+    },
+    {
+      "basename": "5.6验证码业务逻辑",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.6验证码业务逻辑.md"
+    },
+    {
+      "basename": "5.5Axios 拦截器",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.5Axios 拦截器.md"
+    },
+    {
+      "basename": "5.5 开发登录页面逻辑",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.5 开发登录页面逻辑.md"
+    },
+    {
       "basename": "3.6 项目初始化配置",
       "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+    },
+    {
+      "basename": "5.1路由重定向",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.1路由重定向.md"
+    },
+    {
+      "basename": "5.2制作登陆页面",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.2制作登陆页面.md"
+    },
+    {
+      "basename": "5.3el-",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.3el-.md"
+    },
+    {
+      "basename": "5.4 Vue.js 指令与页面交互",
+      "path": "Vue.js 3.0企业级管理后台开发实战/5.4 Vue.js 指令与页面交互.md"
+    },
+    {
+      "basename": "Vue.js面试",
+      "path": "A-技术日常笔记/Vue.js面试.md"
+    },
+    {
+      "basename": "Vue组件库",
+      "path": "0-前端视频记录/14-慕课/Vue组件库.md"
+    },
+    {
+      "basename": "JavaScript 可视化：Promise",
+      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "14-Git 和 Github/0-卡片/0-卡片.md"
     },
     {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
       "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
     },
     {
-      "basename": "Vue VSCode Snippets",
-      "path": "19-工具类/vscode插件/Vue VSCode Snippets.md"
+      "basename": "项目构建",
+      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
     },
     {
-      "basename": "2024-04-20",
-      "path": "H-每日记录/2024-04-20.md"
+      "basename": "Vue VSCode Snippets",
+      "path": "19-工具类/vscode插件/Vue VSCode Snippets.md"
     },
     {
       "basename": "卡片",
@@ -25,20 +77,8 @@
       "path": "Vue.js 3.0企业级管理后台开发实战/vue 模板.md"
     },
     {
-      "basename": "项目构建",
-      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
-    },
-    {
-      "basename": "Vue组件库",
-      "path": "0-前端视频记录/14-慕课/Vue组件库.md"
-    },
-    {
       "basename": "Vue-Router",
       "path": "08-Vue/Vue-Router.md"
-    },
-    {
-      "basename": "遇见自然：无限人生书单第七季【完结】",
-      "path": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
     },
     {
       "basename": "yarn",
@@ -55,10 +95,6 @@
     {
       "basename": "02-git常用命令",
       "path": "14-Git 和 Github/02-git常用命令.md"
-    },
-    {
-      "basename": "JavaScript 可视化：Promise",
-      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
     },
     {
       "basename": "Vue3和TypeScript模仿小红书的瀑布流组件",
@@ -87,10 +123,6 @@
     {
       "basename": "Vite + Vue 入门模板",
       "path": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "14-Git 和 Github/0-卡片/0-卡片.md"
     },
     {
       "basename": "用于生成虚假数据（如姓名、地址和电话号码）的库。",
@@ -167,34 +199,6 @@
     {
       "basename": "假如我是真的",
       "path": "O-电影1900/假如我是真的.md"
-    },
-    {
-      "basename": "黑土无言",
-      "path": "O-电影2020/黑土无言.md"
-    },
-    {
-      "basename": "邓小平——中国现代纪录片的奠基人",
-      "path": "Y-历史-文学/邓小平/邓小平——中国现代纪录片的奠基人.md"
-    },
-    {
-      "basename": "Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机",
-      "path": "A-技术日常笔记/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md"
-    },
-    {
-      "basename": "中华人民共和国史",
-      "path": "Y-历史-文学/中华人民共和国史.md"
-    },
-    {
-      "basename": "香港书展2007：我的文学经验 - 莫言",
-      "path": "Y-B站/香港书展2007：我的文学经验 - 莫言.md"
-    },
-    {
-      "basename": "美国最长的战争：阿富汗出了什么问题",
-      "path": "Y-B站/美国最长的战争：阿富汗出了什么问题.md"
-    },
-    {
-      "basename": "从白人至上到巴拉克·奥巴马：民主党的历史",
-      "path": "Y-B站/从白人至上到巴拉克·奥巴马：民主党的历史.md"
     }
   ],
   "omittedPaths": [],
