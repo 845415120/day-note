@@ -7,7 +7,7 @@
 tags: 
 时间: 2024-04-19
 ---
-
+[pages build and deployment · 845415120/GitHub-Actions@6619dc9 · GitHub](https://github.com/845415120/GitHub-Actions/actions/runs/8755507870)
 # 创建仓库
 
 .github和workflows文件夹
@@ -150,5 +150,40 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
             branch: gh-pages
-            folder: build
+            // folder: build
+            folder: .next
 ```
+
+  
+对于 Next.js 14.2.2 版本的项目，构建输出的默认目录是 `.next`，而不是 `build`。因此，在你的部署步骤中，需要将 `folder` 参数设置为 `.next`。
+
+```
+- name: 部署
+  uses: JamesIves/github-pages-deploy-action@v4
+  with: 
+    branch: gh-pages
+    folder: .next
+
+```
+
+这样设置后，GitHub Actions 就会在根目录下查找 `.next` 目录，并将其部署到 gh-pages 分支上。
+
+![](Pasted%20image%2020240419224935.png)
+
+![](Pasted%20image%2020240419225014.png)
+
+![](Pasted%20image%2020240419225452.png)
+
+# Docker
+
+```
+FROM node:18-alpine
+WORKIDIR /react-app
+COPY public / / react-app/public
+COPY src/ /react-app/src
+COPY package.json/ /react-app/package.json
+RUN npm install
+CMD ["npm","start"]
+```
+
+

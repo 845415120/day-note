@@ -160,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
+                "file": "H-每日记录/2024-04-20.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md"
+                "file": "H-每日记录/2024-04-20.md"
               }
             }
           },
@@ -253,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
+                "file": "H-每日记录/2024-04-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
+                "file": "H-每日记录/2024-04-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,9 +296,13 @@
   },
   "active": "d1b6ac84a2240450",
   "lastOpenFiles": [
+    "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
+    "H-每日记录/2024-04-20.md",
+    "Z-附件/Pasted image 20240419225452.png",
+    "Z-附件/Pasted image 20240419225014.png",
+    "Z-附件/Pasted image 20240419224935.png",
     "Z-附件/Pasted image 20240419215315.png",
     "06-Node/NVM 切换node 版本.md",
-    "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
     "O-电影1900/狂人皮埃罗.md",
     "Z-附件/Pasted image 20240419201340.png",
     "Z-附件/Pasted image 20240419201321.png",
@@ -306,9 +310,6 @@
     "Z-附件/Pasted image 20240419201044.png",
     "Z-附件/Pasted image 20240419201041.png",
     "Z-附件/Pasted image 20240419200642.png",
-    "Z-附件/Pasted image 20240419195900.png",
-    "Z-附件/Pasted image 20240419195156.png",
-    "Z-附件/Pasted image 20240419194157.png",
     "H-每日记录/2024-04-19.md",
     "H-每日记录/2016",
     "O-电影2010/我是布莱克.md",
@@ -340,7 +341,6 @@
     "O-电影1900/0-卡片",
     "O-电影2000/未命名",
     "H-每日记录/2024-04-16",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班",
-    "Z-附件/Pasted image 20240413154923.png"
+    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班"
   ]
 }
