@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "02-git常用命令",
+      "path": "14-Git 和 Github/02-git常用命令.md"
+    },
+    {
+      "basename": "03-vscode git 提交",
+      "path": "14-Git 和 Github/03-vscode git 提交.md"
+    },
+    {
+      "basename": "Vite + Vue 入门模板",
+      "path": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md"
+    },
+    {
+      "basename": "Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR",
+      "path": "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md"
+    },
+    {
+      "basename": "用于生成虚假数据（如姓名、地址和电话号码）的库。",
+      "path": "14-Git 和 Github/Github trending/用于生成虚假数据（如姓名、地址和电话号码）的库。.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "14-Git 和 Github/0-卡片/0-卡片.md"
+    },
+    {
       "basename": "2024-04-20",
       "path": "H-每日记录/2024-04-20.md"
     },
@@ -19,10 +43,6 @@
     {
       "basename": "使用 Vue 输入国际电话",
       "path": "14-Git 和 Github/Github trending/使用 Vue 输入国际电话.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "14-Git 和 Github/Github trending/未命名.md"
     },
     {
       "basename": "GitHub Actions工作流自动化的入门核心",
@@ -179,22 +199,6 @@
     {
       "basename": "《国家记忆》 20170829 《邓小平故事》",
       "path": "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md"
-    },
-    {
-      "basename": "大家谈讲坛 秦晖对话傅高义：为什么是邓小平？",
-      "path": "Y-B站/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md"
-    },
-    {
-      "basename": "邓小平 - 领导者的形成（2007年纪录片）",
-      "path": "Y-历史-文学/邓小平/邓小平 - 领导者的形成（2007年纪录片）.md"
-    },
-    {
-      "basename": "邓小平和他的对世界的开放",
-      "path": "Y-历史-文学/邓小平/邓小平和他的对世界的开放.md"
-    },
-    {
-      "basename": "邓小平：让中国再次伟大",
-      "path": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md"
     }
   ],
   "omittedPaths": [],
