@@ -55,10 +55,25 @@
           {
             "id": "bd4a29ba642efd67",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/5.5 开发登录页面逻辑.md",
+                "file": "Y-播客/0-卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f152df251847c24c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-播客/看理想/资本论及其创造的世界.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,12 +81,12 @@
             }
           },
           {
-            "id": "45a394a0e2dea299",
+            "id": "9c8e70dbf0d78b5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/5.5Axios 拦截器.md",
+                "file": "Y-播客/看理想/20世纪欧美经典小说.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,12 +94,12 @@
             }
           },
           {
-            "id": "fe46b1772a5ba8e9",
+            "id": "bc1864ebb4585ff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "Y-播客/看理想/中东往事.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,12 +107,38 @@
             }
           },
           {
-            "id": "a8cfc26b48ab40f3",
+            "id": "80098b03d5a1ff6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
+                "file": "Y-播客/看理想/20世纪中国小说.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "377d941de2de8b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-播客/看理想/从先锋到守望者：21世纪中国小说.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21e72edd656c05bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-播客/看理想/资本论及其创造的世界.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -124,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(Vue.js 指令)",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -180,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
+                "file": "Y-播客/看理想/资本论及其创造的世界.md"
               }
             }
           },
@@ -190,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
+                "file": "Y-播客/看理想/资本论及其创造的世界.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
+                "file": "Y-播客/看理想/资本论及其创造的世界.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,12 +272,34 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "a8cfc26b48ab40f3",
+  "active": "21e72edd656c05bf",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-20.md",
-    "Vue.js 3.0企业级管理后台开发实战/5.6验证码业务逻辑.md",
-    "Vue.js 3.0企业级管理后台开发实战/5.5Axios 拦截器.md",
+    "Y-播客/0-卡片.md",
+    "Y-播客/看理想/20世纪欧美经典小说.md",
+    "Y-播客/看理想/资本论及其创造的世界.md",
+    "Y-播客/看理想/从先锋到守望者：21世纪中国小说.md",
+    "Y-播客/看理想/20世纪中国小说.md",
+    "Y-播客/看理想/中东往事.md",
+    "Y-播客/八分.md",
     "Vue.js 3.0企业级管理后台开发实战/5.5 开发登录页面逻辑.md",
+    "Y-播客/子东时间.md",
+    "Y-播客/看理想/30本漫画环游世界.md",
+    "H-每日记录/2024-04-20.md",
+    "Y-播客/看理想/遇见自然：无限人生书单第七季.md",
+    "Vue.js 3.0企业级管理后台开发实战/5.5Axios 拦截器.md",
+    "Y-播客/看理想",
+    "Y-播客/新建文件夹",
+    "H-每日记录/2023-10-27.md",
+    "Y-播客/遇见自然：无限人生书单第七季.md",
+    "H-每日记录/2024-04-20/Vscode 让文件夹层级更清晰.md",
+    "Y-播客",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/router/ds/ewew 22",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/router/ds/ew",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/router/ds",
+    "Z-附件/Pasted image 20231027125324.png",
+    "Y-B站/看理想-自由的黎明：文艺复兴经典.md",
+    "H-每日记录/2023-10-22.md",
+    "Vue.js 3.0企业级管理后台开发实战/5.6验证码业务逻辑.md",
     "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
     "Vue.js 3.0企业级管理后台开发实战/5.1路由重定向.md",
     "Vue.js 3.0企业级管理后台开发实战/5.2制作登陆页面.md",
@@ -244,31 +307,10 @@
     "Vue.js 3.0企业级管理后台开发实战/5.4 Vue.js 指令与页面交互.md",
     "A-技术日常笔记/Vue.js面试.md",
     "0-前端视频记录/14-慕课/Vue组件库.md",
-    "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
-    "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md",
-    "14-Git 和 Github/0-卡片/0-卡片.md",
-    "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
-    "Vue.js 3.0企业级管理后台开发实战/项目构建.md",
-    "0-计算机书籍/LGD_前端书籍/《Vue.js设计与实现》/Vue.js 设计与实现.md",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.umd.min.js",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.umd.js",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.umd.min.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.esm.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.umd.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.mjs",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.esm.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.d.ts",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.d.mts",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@vueuse/shared/node_modules/vue-demi/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@vueuse/core/node_modules/vue-demi/README.md",
-    "19-工具类/vscode插件/未命名.md",
-    "19-工具类/vscode插件/Vue VSCode Snippets.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/vuex/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/vuex/CHANGELOG.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/vue-router/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/immutable/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/sass/README.md",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/dotenv-expand/dotenv-expand.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_world.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_word.png",
@@ -277,7 +319,6 @@
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_world.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_word.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_width.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_visualstudio.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_vector.png"
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_visualstudio.png"
   ]
 }
