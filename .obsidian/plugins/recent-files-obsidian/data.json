@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "3.6 项目初始化配置",
+      "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+    },
+    {
+      "basename": "vue 模板",
+      "path": "Vue.js 3.0企业级管理后台开发实战/vue 模板.md"
+    },
+    {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
       "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
     },
     {
-      "basename": "02-git常用命令",
-      "path": "14-Git 和 Github/02-git常用命令.md"
+      "basename": "Vue-Router",
+      "path": "08-Vue/Vue-Router.md"
+    },
+    {
+      "basename": "项目构建",
+      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
     },
     {
       "basename": "遇见自然：无限人生书单第七季【完结】",
       "path": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
     },
     {
-      "basename": "JavaScript 可视化：Promise",
-      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
-    },
-    {
       "basename": "2024-04-20",
       "path": "H-每日记录/2024-04-20.md"
+    },
+    {
+      "basename": "yarn",
+      "path": "H-每日记录/2024-04-20/yarn.md"
+    },
+    {
+      "basename": "0-前端视频记录卡",
+      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "尚硅谷2024最新Linux零基础教程",
+      "path": "0-前端视频记录/尚硅谷2024最新Linux零基础教程.md"
+    },
+    {
+      "basename": "02-git常用命令",
+      "path": "14-Git 和 Github/02-git常用命令.md"
+    },
+    {
+      "basename": "JavaScript 可视化：Promise",
+      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
     },
     {
       "basename": "Vue3和TypeScript模仿小红书的瀑布流组件",
@@ -31,14 +59,6 @@
     {
       "basename": "7-gitlab",
       "path": "13-大数据/7-gitlab.md"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
-    },
-    {
-      "basename": "项目构建",
-      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
     },
     {
       "basename": "JavaScript卡片",
@@ -179,22 +199,6 @@
     {
       "basename": "我是布莱克",
       "path": "O-电影2010/我是布莱克.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "H-每日记录/未命名.md"
-    },
-    {
-      "basename": "妇女参政论者",
-      "path": "O-电影2010/妇女参政论者.md"
-    },
-    {
-      "basename": "为黛西小姐开车",
-      "path": "O-电影1900/为黛西小姐开车.md"
-    },
-    {
-      "basename": "滚烫的爱",
-      "path": "O-电影2010/滚烫的爱.md"
     }
   ],
   "omittedPaths": [],

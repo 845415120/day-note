@@ -25,6 +25,7 @@
           {
             "id": "dd6158f7b4703975",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -32,29 +33,45 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "3d39f81037fdedd5",
+            "id": "db07be963cb8d17a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "9aeade4125ea5a3e",
+            "id": "91f07b096b9f1268",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "H-每日记录/2024-04-20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a7f1964e384a557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,6 +129,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f63635129baea939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01e71d60e7c16906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue.js 3.0企业级管理后台开发实战/项目构建.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -133,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:小红书",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,8 +211,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
               }
             }
           },
@@ -199,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,53 +282,53 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "1f1c718126619a98",
+  "active": "db07be963cb8d17a",
   "lastOpenFiles": [
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/utils/index.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/utils/colors.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/transformers/moduleNotFound.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/transformers/esLintError.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/transformers/babelSyntax.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/formatters/moduleNotFound.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/formatters/eslintError.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/formatters/defaultError.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/core/transformErrors.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/core/formatErrors.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/src/core/extractWebpackError.js",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/has-flag/readme.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/supports-color/readme.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/color-name/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/color-convert/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/color-convert/CHANGELOG.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/chalk/readme.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/node_modules/ansi-styles/readme.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/get-current-script/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@soda/friendly-errors-webpack-plugin/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/pinpoint/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/pinpoint/LICENSE.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/formula/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/formula/LICENSE.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/address/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@sideway/address/LICENSE.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@nodelib/fs.walk/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@nodelib/fs.stat/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@nodelib/fs.scandir/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/trace-mapping/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/sourcemap-codec/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/source-map/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/set-array/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/resolve-uri/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@jridgewell/gen-mapping/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@hapi/topo/README.md",
-    "代码/next中文教程/nextjs-dashboard/public/customers/steven-tey.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/steph-dietz.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/michael-novotny.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/lee-robinson.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/guillermo-rauch.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/jared-palmer.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/evil-rabbit.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/hector-simpson.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/emil-kowalski.png",
-    "代码/next中文教程/nextjs-dashboard/public/customers/delba-de-oliveira.png"
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/package-lock.json",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/fsevents",
+    "Vue.js 3.0企业级管理后台开发实战/vue 模板.md",
+    "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.8.1 useRoute当前路由对象信息.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.7.1 GetTableList接口响应报文.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.6.3服务器上传文件的详细参数.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.7 beforeClose回调函数的instance参数.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.5 树状菜单node节点数据.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.6 node节点父级数据.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.5.6 菜单导航选中状态.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.5.4 Props对象值类型定义.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.4.2 删除el-menu右侧竖线.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第4章/vue3生命周期.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第4章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第3章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第2章/包管理工具安装.txt",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第2章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第11章",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/views/Home",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/views/Home.vue",
+    "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+    "08-Vue/Vue-Router.md",
+    "B-前端/05面试题/项目题.md",
+    "Vue.js 3.0企业级管理后台开发实战/项目构建.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/README.md",
+    "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
+    "H-每日记录/2024-04-20.md",
+    "H-每日记录/2024-04-20/yarn.md",
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "0-前端视频记录/隐藏元素的 10 种 CSS 技术.md",
+    "0-前端视频记录/计算机视觉-Opencv项目实战(Python版).md",
+    "0-前端视频记录/尚硅谷2024最新Linux零基础教程.md",
+    "0-前端视频记录/尚硅谷2024最新Linux零基础教程 1.md",
+    "0-前端视频记录/14-慕课/Vue3+TS打造SSR网站应用，0到1实现服务端渲染.md",
+    "0-前端视频记录/14-慕课/Vue全家桶实战 从零独立开发企业级电商系统.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/nth-check/README.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/npm-run-path/readme.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-url/readme.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-range/readme.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-path/README.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/negotiator/README.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/negotiator/HISTORY.md",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/natural-compare/README.md"
   ]
 }
