@@ -23,125 +23,6 @@
             }
           },
           {
-            "id": "e2098355c8a9d391",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a873ecbd9650b67e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91eec1fa518d1189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18/中华人民共和国史.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "362fa30adc70ef98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18/从白人至上到巴拉克·奥巴马：民主党的历史.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05e1f3cc01ff63e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97e89d7ffaac2cd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "857a65838c6c419b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3547f75835b99693",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "O-电影1900/为黛西小姐开车.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62755fd597377fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "O-电影1900/狂人皮埃罗.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d977705cfc5994c8",
             "type": "leaf",
             "state": {
@@ -160,15 +41,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "H-每日记录/2024-04-20/Weekly Vue News.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -243,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-20.md"
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md"
               }
             }
           },
@@ -253,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,53 +174,53 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "d1b6ac84a2240450",
+  "active": "1f1c718126619a98",
   "lastOpenFiles": [
-    "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md",
+    "H-每日记录/2024-04-18.md",
+    "H-每日记录/2024-04-20/Weekly Vue News.md",
     "H-每日记录/2024-04-20.md",
+    "醒言/开发技巧.md",
+    "Y-B站/子东时间.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/书展2013：莫言为什么获诺贝尔文学奖  许子东.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/9-美国宪法，35 和奴隶贸易条款：速成班美国黑人历史.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/5-日耳曼敦反对奴隶制请愿书：速成班美国黑人历史.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/4 奴隶代码： 速成班美国黑人历史.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/3-伊丽莎白·基（Elizabeth Key） 速成班美国黑人历史.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/26哈莱姆文艺复兴的艺术与文学：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/25-The Red Summer of 1919Crash Course Black American History.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/24-大迁徙：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/22-布克·T·华盛顿和 W.E.B 杜波依斯：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/21-普莱西诉弗格森案和种族隔离：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/20-艾达·B·威尔斯：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/19-重建：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/18-内战中的美国黑人：美国黑人历史速成班.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/1-跨大西洋奴隶贸易.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/12-1793 年的逃亡奴隶法案：速成班美国黑人历史.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班/0-速成班美国黑人历史预览.md",
+    "Y-YouTube/CrashCourse/速成社会学第二课：社会学中重要的模型.md",
+    "Y-YouTube/CrashCourse/美国黑人历史速成班",
+    "Y-YouTube/CrashCourse/社会化：社会学速成课程 14.md",
+    "Y-YouTube/CrashCourse/正式组织：社会学速成课程 17.md",
+    "Y-YouTube/CrashCourse/如何选择学校.md",
+    "Y-YouTube/CrashCourse/如何申请大学.md",
+    "Y-YouTube/CrashCourse",
+    "Y-YouTube",
+    "YouTube/CrashCourse/美国黑人历史速成班",
+    "YouTube/CrashCourse",
+    "YouTube",
+    "Y-B站/新建文件夹",
+    "H-每日记录/2024-04-20",
     "Z-附件/Pasted image 20240419225452.png",
     "Z-附件/Pasted image 20240419225014.png",
     "Z-附件/Pasted image 20240419224935.png",
     "Z-附件/Pasted image 20240419215315.png",
-    "06-Node/NVM 切换node 版本.md",
-    "O-电影1900/狂人皮埃罗.md",
     "Z-附件/Pasted image 20240419201340.png",
     "Z-附件/Pasted image 20240419201321.png",
     "Z-附件/Pasted image 20240419201248.png",
     "Z-附件/Pasted image 20240419201044.png",
     "Z-附件/Pasted image 20240419201041.png",
     "Z-附件/Pasted image 20240419200642.png",
-    "H-每日记录/2024-04-19.md",
     "H-每日记录/2016",
-    "O-电影2010/我是布莱克.md",
-    "H-每日记录/未命名.md",
-    "O-电影2010/妇女参政论者.md",
-    "O-电影1900/为黛西小姐开车.md",
-    "O-电影2010/滚烫的爱.md",
-    "Y-电视剧/我的第二青春.md",
-    "H-每日记录/2024-04-18/布莱泽奥特曼 大电影.md",
-    "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md",
-    "H-每日记录/2024-04-18.md",
-    "0-前端视频记录/React 实战进阶 45 讲.md",
-    "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md",
-    "H-每日记录/2024-04-18/从白人至上到巴拉克·奥巴马：民主党的历史.md",
-    "H-每日记录/2024-04-18/中华人民共和国史.md",
-    "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md",
-    "H-每日记录/2024-04-17.md",
-    "H-每日记录/2024-04-17/特朗普的贸易战.md",
-    "H-每日记录/2024-04-17/美国的巨大鸿沟：从奥巴马到特朗普，第一部分（完整纪录片）前线.md",
-    "H-每日记录/2024-04-17/激烈的竞争对手：伊朗和沙特阿拉伯.md",
-    "16-LangChain/LangChain 工程师讲解 RAG 入门.md",
-    "H-每日记录/2024-04-18",
-    "H-每日记录/2024-04-17/伊斯兰教.md",
-    "i.md",
-    "Y-B站/一战",
-    "H-每日记录/2024-04-17",
-    "O-电影2020/0-卡片",
-    "O-电影2010/0-卡片",
-    "O-电影1900/0-卡片",
-    "O-电影2000/未命名",
-    "H-每日记录/2024-04-16",
-    "Y-B站/YouTube/CrashCourse/美国黑人历史速成班"
+    "H-每日记录/2024-04-18"
   ]
 }

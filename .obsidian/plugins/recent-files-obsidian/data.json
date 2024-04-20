@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "2024-04-18",
+      "path": "H-每日记录/2024-04-18.md"
+    },
+    {
+      "basename": "Weekly Vue News",
+      "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
+    },
+    {
       "basename": "2024-04-20",
       "path": "H-每日记录/2024-04-20.md"
+    },
+    {
+      "basename": "开发技巧",
+      "path": "醒言/开发技巧.md"
+    },
+    {
+      "basename": "子东时间",
+      "path": "Y-B站/子东时间.md"
+    },
+    {
+      "basename": "龙兽医",
+      "path": "Y-B站/龙兽医.md"
+    },
+    {
+      "basename": "stash-视频管理",
+      "path": "A-技术日常笔记/stash-视频管理.md"
+    },
+    {
+      "basename": "Lobe Chat",
+      "path": "A-技术日常笔记/Lobe Chat.md"
+    },
+    {
+      "basename": "leetcode",
+      "path": "00-数据结构与算法/leetcode.md"
+    },
+    {
+      "basename": "香山叶正红",
+      "path": "Y-电视剧/香山叶正红.md"
+    },
+    {
+      "basename": "赛德克·巴莱",
+      "path": "O-电影2000/赛德克·巴莱.md"
+    },
+    {
+      "basename": "群星",
+      "path": "Y-电视剧/群星.md"
+    },
+    {
+      "basename": "泪之女王",
+      "path": "Y-电视剧/泪之女王.md"
+    },
+    {
+      "basename": "假如我是真的",
+      "path": "O-电影1900/假如我是真的.md"
+    },
+    {
+      "basename": "黑土无言",
+      "path": "O-电影2020/黑土无言.md"
+    },
+    {
+      "basename": "邓小平——中国现代纪录片的奠基人",
+      "path": "Y-历史-文学/邓小平/邓小平——中国现代纪录片的奠基人.md"
+    },
+    {
+      "basename": "Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机",
+      "path": "A-技术日常笔记/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md"
+    },
+    {
+      "basename": "中华人民共和国史",
+      "path": "Y-历史-文学/中华人民共和国史.md"
+    },
+    {
+      "basename": "香港书展2007：我的文学经验 - 莫言",
+      "path": "Y-B站/香港书展2007：我的文学经验 - 莫言.md"
+    },
+    {
+      "basename": "美国最长的战争：阿富汗出了什么问题",
+      "path": "Y-B站/美国最长的战争：阿富汗出了什么问题.md"
+    },
+    {
+      "basename": "从白人至上到巴拉克·奥巴马：民主党的历史",
+      "path": "Y-B站/从白人至上到巴拉克·奥巴马：民主党的历史.md"
+    },
+    {
+      "basename": "布莱泽奥特曼 大电影",
+      "path": "O-电影2020/布莱泽奥特曼 大电影.md"
     },
     {
       "basename": "GitHub Actions工作流自动化的入门核心",
@@ -45,64 +133,16 @@
       "path": "Y-电视剧/我的第二青春.md"
     },
     {
-      "basename": "布莱泽奥特曼 大电影",
-      "path": "H-每日记录/2024-04-18/布莱泽奥特曼 大电影.md"
-    },
-    {
-      "basename": "美国最长的战争：阿富汗出了什么问题",
-      "path": "H-每日记录/2024-04-18/美国最长的战争：阿富汗出了什么问题.md"
-    },
-    {
-      "basename": "2024-04-18",
-      "path": "H-每日记录/2024-04-18.md"
-    },
-    {
       "basename": "React 实战进阶 45 讲",
       "path": "0-前端视频记录/React 实战进阶 45 讲.md"
-    },
-    {
-      "basename": "香港书展2007：我的文学经验 - 莫言",
-      "path": "H-每日记录/2024-04-18/香港书展2007：我的文学经验 - 莫言.md"
-    },
-    {
-      "basename": "从白人至上到巴拉克·奥巴马：民主党的历史",
-      "path": "H-每日记录/2024-04-18/从白人至上到巴拉克·奥巴马：民主党的历史.md"
-    },
-    {
-      "basename": "中华人民共和国史",
-      "path": "H-每日记录/2024-04-18/中华人民共和国史.md"
-    },
-    {
-      "basename": "Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机",
-      "path": "H-每日记录/2024-04-18/Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机 Free Control – 基于 Scrcpy，使用 Windows 控制安卓手机.md"
     },
     {
       "basename": "2024-04-17",
       "path": "H-每日记录/2024-04-17.md"
     },
     {
-      "basename": "特朗普的贸易战",
-      "path": "H-每日记录/2024-04-17/特朗普的贸易战.md"
-    },
-    {
-      "basename": "美国的巨大鸿沟：从奥巴马到特朗普，第一部分（完整纪录片）前线",
-      "path": "H-每日记录/2024-04-17/美国的巨大鸿沟：从奥巴马到特朗普，第一部分（完整纪录片）前线.md"
-    },
-    {
-      "basename": "激烈的竞争对手：伊朗和沙特阿拉伯",
-      "path": "H-每日记录/2024-04-17/激烈的竞争对手：伊朗和沙特阿拉伯.md"
-    },
-    {
       "basename": "LangChain 工程师讲解 RAG 入门",
       "path": "16-LangChain/LangChain 工程师讲解 RAG 入门.md"
-    },
-    {
-      "basename": "伊斯兰教",
-      "path": "H-每日记录/2024-04-17/伊斯兰教.md"
-    },
-    {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
       "basename": "邓小平",
@@ -147,58 +187,6 @@
     {
       "basename": "九天――1979年邓小平访美",
       "path": "O-电影2010/九天――1979年邓小平访美.md"
-    },
-    {
-      "basename": "江青 vs 邓小平 历史的决斗",
-      "path": "Y-历史-文学/邓小平/江青 vs 邓小平 历史的决斗.md"
-    },
-    {
-      "basename": "纪录片邓小平第三次复出",
-      "path": "O-电影1900/纪录片邓小平第三次复出.md"
-    },
-    {
-      "basename": "华东师大韩钢教授：邓小平与改革开放的关节点",
-      "path": "Y-B站/我是文婷WenTing/华东师大韩钢教授：邓小平与改革开放的关节点.md"
-    },
-    {
-      "basename": "邓小平遗物故事",
-      "path": "O-电影2010/邓小平遗物故事.md"
-    },
-    {
-      "basename": "邓小平文选",
-      "path": "Y-历史-文学/邓小平/邓小平文选.md"
-    },
-    {
-      "basename": "邓小平外交谋略",
-      "path": "Y-历史-文学/邓小平/邓小平外交谋略.md"
-    },
-    {
-      "basename": "邓小平实录4：1982—1997",
-      "path": "Y-历史-文学/邓小平/邓小平实录4：1982—1997.md"
-    },
-    {
-      "basename": "邓小平实录3：1966—1982",
-      "path": "Y-历史-文学/邓小平/邓小平实录3：1966—1982.md"
-    },
-    {
-      "basename": "邓小平实录2：1945—1966",
-      "path": "Y-历史-文学/邓小平/邓小平实录2：1945—1966.md"
-    },
-    {
-      "basename": "邓小平时代",
-      "path": "Y-历史-文学/邓小平/邓小平时代.md"
-    },
-    {
-      "basename": "邓小平传",
-      "path": "Y-历史-文学/邓小平/邓小平传.md"
-    },
-    {
-      "basename": "邓小平传_理查德•伊文思",
-      "path": "Y-历史-文学/邓小平/邓小平传_理查德•伊文思.md"
-    },
-    {
-      "basename": "邓小平的智慧",
-      "path": "Y-历史-文学/邓小平/邓小平的智慧.md"
     }
   ],
   "omittedPaths": [],
