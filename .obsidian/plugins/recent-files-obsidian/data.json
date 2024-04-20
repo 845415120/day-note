@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "3.6 项目初始化配置",
+      "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+    },
+    {
+      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
+      "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+    },
+    {
       "basename": "Vue VSCode Snippets",
       "path": "19-工具类/vscode插件/Vue VSCode Snippets.md"
+    },
+    {
+      "basename": "2024-04-20",
+      "path": "H-每日记录/2024-04-20.md"
     },
     {
       "basename": "卡片",
@@ -17,16 +29,8 @@
       "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
     },
     {
-      "basename": "3.6 项目初始化配置",
-      "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
-    },
-    {
       "basename": "Vue组件库",
       "path": "0-前端视频记录/14-慕课/Vue组件库.md"
-    },
-    {
-      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
-      "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
     },
     {
       "basename": "Vue-Router",
@@ -35,10 +39,6 @@
     {
       "basename": "遇见自然：无限人生书单第七季【完结】",
       "path": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
-    },
-    {
-      "basename": "2024-04-20",
-      "path": "H-每日记录/2024-04-20.md"
     },
     {
       "basename": "yarn",
@@ -195,10 +195,6 @@
     {
       "basename": "从白人至上到巴拉克·奥巴马：民主党的历史",
       "path": "Y-B站/从白人至上到巴拉克·奥巴马：民主党的历史.md"
-    },
-    {
-      "basename": "布莱泽奥特曼 大电影",
-      "path": "O-电影2020/布莱泽奥特曼 大电影.md"
     }
   ],
   "omittedPaths": [],
