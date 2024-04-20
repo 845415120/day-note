@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "3.6 项目初始化配置",
-      "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+      "basename": "Vue VSCode Snippets",
+      "path": "19-工具类/vscode插件/Vue VSCode Snippets.md"
+    },
+    {
+      "basename": "卡片",
+      "path": "19-工具类/00-卡片/卡片.md"
     },
     {
       "basename": "vue 模板",
       "path": "Vue.js 3.0企业级管理后台开发实战/vue 模板.md"
+    },
+    {
+      "basename": "项目构建",
+      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
+    },
+    {
+      "basename": "3.6 项目初始化配置",
+      "path": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+    },
+    {
+      "basename": "Vue组件库",
+      "path": "0-前端视频记录/14-慕课/Vue组件库.md"
     },
     {
       "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
@@ -15,10 +31,6 @@
     {
       "basename": "Vue-Router",
       "path": "08-Vue/Vue-Router.md"
-    },
-    {
-      "basename": "项目构建",
-      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
     },
     {
       "basename": "遇见自然：无限人生书单第七季【完结】",
@@ -187,18 +199,6 @@
     {
       "basename": "布莱泽奥特曼 大电影",
       "path": "O-电影2020/布莱泽奥特曼 大电影.md"
-    },
-    {
-      "basename": "狂人皮埃罗",
-      "path": "O-电影1900/狂人皮埃罗.md"
-    },
-    {
-      "basename": "2024-04-19",
-      "path": "H-每日记录/2024-04-19.md"
-    },
-    {
-      "basename": "我是布莱克",
-      "path": "O-电影2010/我是布莱克.md"
     }
   ],
   "omittedPaths": [],

@@ -53,6 +53,19 @@
             }
           },
           {
+            "id": "b7325024ef8b77dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/14-慕课/Vue组件库.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91f07b096b9f1268",
             "type": "leaf",
             "state": {
@@ -155,9 +168,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a854ee4cdb8ef93f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19-工具类/vscode插件/Vue VSCode Snippets.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -211,7 +237,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -231,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md"
+                "file": "19-工具类/vscode插件/Vue VSCode Snippets.md"
               }
             }
           },
@@ -241,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
+                "file": "19-工具类/vscode插件/Vue VSCode Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
+                "file": "19-工具类/vscode插件/Vue VSCode Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,36 +309,38 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "db07be963cb8d17a",
+  "active": "a854ee4cdb8ef93f",
   "lastOpenFiles": [
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/package-lock.json",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/fsevents",
+    "19-工具类/00-卡片/卡片.md",
+    "19-工具类/vscode插件/Vue VSCode Snippets.md",
     "Vue.js 3.0企业级管理后台开发实战/vue 模板.md",
-    "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.8.1 useRoute当前路由对象信息.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.7.1 GetTableList接口响应报文.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.6.3服务器上传文件的详细参数.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.7 beforeClose回调函数的instance参数.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.5 树状菜单node节点数据.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章/9.5.6 node节点父级数据.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第9章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.5.6 菜单导航选中状态.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.5.4 Props对象值类型定义.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章/6.4.2 删除el-menu右侧竖线.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第6章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第4章/vue3生命周期.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第4章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第3章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第2章/包管理工具安装.txt",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第2章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/第11章",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/views/Home",
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/components/HelloWorld.vue",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/src/views/Home.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/views/system/components/dialogUser.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/views/system/components/dialogRole.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/views/system/components/dialogPassword.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/user.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/system.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/menuBtn.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/logout.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/information.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/svgIcon/icon/home.svg",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/form/hook/rulesHook.js",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/form/hook/relationHook.js",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/control/wangeditor/index.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/control/upload/index.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/components/control/switch/index.vue",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/assets/images/logo.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/src/assets/images/logo-min.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/dist/img/logo.59907062.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/dist/img/logo-min.f87cd6ca.png",
+    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/README.md",
+    "Vue.js 3.0企业级管理后台开发实战/项目构建.md",
+    "Vue.js 3.0企业级管理后台开发实战/3.6 项目初始化配置.md",
+    "0-前端视频记录/14-慕课/Vue组件库.md",
     "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
     "08-Vue/Vue-Router.md",
     "B-前端/05面试题/项目题.md",
-    "Vue.js 3.0企业级管理后台开发实战/项目构建.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/44329《Vue.js 3.0企业级管理后台开发实战》配套下载资源0222更新/配套文件/项目源码/vue3-elementuiPlus-admin-master/README.md",
     "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md",
     "H-每日记录/2024-04-20.md",
     "H-每日记录/2024-04-20/yarn.md",
@@ -327,8 +356,6 @@
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-url/readme.md",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-range/readme.md",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/normalize-path/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/negotiator/README.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/negotiator/HISTORY.md",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/natural-compare/README.md"
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/negotiator/README.md"
   ]
 }
