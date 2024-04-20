@@ -60,6 +60,7 @@ git commit -m '初始化提交'
 
 ```javascript
 git remote add origin git@github.com:845415120/web-.git
+git@github.com:845415120/vue3-element-plus-admin.git
 ```
 
 - 本地推送到远程仓库

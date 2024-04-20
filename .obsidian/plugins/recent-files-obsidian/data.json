@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
+      "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+    },
+    {
+      "basename": "02-git常用命令",
+      "path": "14-Git 和 Github/02-git常用命令.md"
+    },
+    {
+      "basename": "遇见自然：无限人生书单第七季【完结】",
+      "path": "H-每日记录/2024-04-20/遇见自然：无限人生书单第七季【完结】.md"
+    },
+    {
+      "basename": "JavaScript 可视化：Promise",
+      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
+    },
+    {
+      "basename": "2024-04-20",
+      "path": "H-每日记录/2024-04-20.md"
+    },
+    {
+      "basename": "Vue3和TypeScript模仿小红书的瀑布流组件",
+      "path": "0-前端视频记录/Vue3和TypeScript模仿小红书的瀑布流组件.md"
+    },
+    {
+      "basename": "6-git 开发工作流",
+      "path": "13-大数据/6-git 开发工作流.md"
+    },
+    {
+      "basename": "7-gitlab",
+      "path": "13-大数据/7-gitlab.md"
+    },
+    {
+      "basename": "0-前端视频记录卡",
+      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "项目构建",
+      "path": "Vue.js 3.0企业级管理后台开发实战/项目构建.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "NVM 切换node 版本",
+      "path": "06-Node/NVM 切换node 版本.md"
+    },
+    {
+      "basename": "Weekly Vue News",
+      "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
+    },
+    {
       "basename": "Vite + Vue 入门模板",
       "path": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md"
     },
@@ -17,24 +69,8 @@
       "path": "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md"
     },
     {
-      "basename": "02-git常用命令",
-      "path": "14-Git 和 Github/02-git常用命令.md"
-    },
-    {
       "basename": "03-vscode git 提交",
       "path": "14-Git 和 Github/03-vscode git 提交.md"
-    },
-    {
-      "basename": "2024-04-20",
-      "path": "H-每日记录/2024-04-20.md"
-    },
-    {
-      "basename": "Weekly Vue News",
-      "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
-    },
-    {
-      "basename": "JavaScript 可视化：Promise",
-      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
     },
     {
       "basename": "优化 Javascript",
@@ -51,10 +87,6 @@
     {
       "basename": "0-卡片",
       "path": "08-Vue/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
     },
     {
       "basename": "2024-04-18",
@@ -137,10 +169,6 @@
       "path": "O-电影2020/布莱泽奥特曼 大电影.md"
     },
     {
-      "basename": "NVM 切换node 版本",
-      "path": "06-Node/NVM 切换node 版本.md"
-    },
-    {
       "basename": "狂人皮埃罗",
       "path": "O-电影1900/狂人皮埃罗.md"
     },
@@ -167,38 +195,6 @@
     {
       "basename": "滚烫的爱",
       "path": "O-电影2010/滚烫的爱.md"
-    },
-    {
-      "basename": "我的第二青春",
-      "path": "Y-电视剧/我的第二青春.md"
-    },
-    {
-      "basename": "React 实战进阶 45 讲",
-      "path": "0-前端视频记录/React 实战进阶 45 讲.md"
-    },
-    {
-      "basename": "2024-04-17",
-      "path": "H-每日记录/2024-04-17.md"
-    },
-    {
-      "basename": "LangChain 工程师讲解 RAG 入门",
-      "path": "16-LangChain/LangChain 工程师讲解 RAG 入门.md"
-    },
-    {
-      "basename": "邓小平",
-      "path": "O-电影2000/邓小平.md"
-    },
-    {
-      "basename": "007无暇赴死",
-      "path": "O-电影2020/007无暇赴死.md"
-    },
-    {
-      "basename": "邓小平时代",
-      "path": "O-电影2010/邓小平时代.md"
-    },
-    {
-      "basename": "《国家记忆》 20170829 《邓小平故事》",
-      "path": "O-电影2010/《国家记忆》 20170829 《邓小平故事》.md"
     }
   ],
   "omittedPaths": [],
