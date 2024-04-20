@@ -79,9 +79,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a347b2722ce24342",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-20/优化 Javascript.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "515b4c1fe68f656a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-20/乘风踏浪.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -156,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-20.md"
+                "file": "H-每日记录/2024-04-20/乘风踏浪.md"
               }
             }
           },
@@ -166,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "H-每日记录/2024-04-20/乘风踏浪.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-20.md",
+                "file": "H-每日记录/2024-04-20/乘风踏浪.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,8 +233,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "59fa1a2590957c58",
+  "active": "515b4c1fe68f656a",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-20/优化 Javascript.md",
+    "H-每日记录/2024-04-20/乘风踏浪.md",
+    "H-每日记录/2024-04-20.md",
     "Y-播客/0-卡片.md",
     "Y-播客/看理想/资本论及其创造的世界.md",
     "Y-播客/看理想/20世纪欧美经典小说.md",
@@ -219,7 +248,6 @@
     "Vue.js 3.0企业级管理后台开发实战/5.5 开发登录页面逻辑.md",
     "Y-播客/子东时间.md",
     "Y-播客/看理想/30本漫画环游世界.md",
-    "H-每日记录/2024-04-20.md",
     "Y-播客/看理想/遇见自然：无限人生书单第七季.md",
     "Vue.js 3.0企业级管理后台开发实战/5.5Axios 拦截器.md",
     "Y-播客/看理想",
@@ -240,8 +268,6 @@
     "Vue.js 3.0企业级管理后台开发实战/5.2制作登陆页面.md",
     "Vue.js 3.0企业级管理后台开发实战/5.3el-.md",
     "Vue.js 3.0企业级管理后台开发实战/5.4 Vue.js 指令与页面交互.md",
-    "A-技术日常笔记/Vue.js面试.md",
-    "0-前端视频记录/14-慕课/Vue组件库.md",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.umd.min.js",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.umd.js",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs",

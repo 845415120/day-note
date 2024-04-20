@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "乘风踏浪",
+      "path": "H-每日记录/2024-04-20/乘风踏浪.md"
+    },
+    {
+      "basename": "优化 Javascript",
+      "path": "H-每日记录/2024-04-20/优化 Javascript.md"
+    },
+    {
       "basename": "2024-04-20",
       "path": "H-每日记录/2024-04-20.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "03-vscode git 提交",
       "path": "14-Git 和 Github/03-vscode git 提交.md"
-    },
-    {
-      "basename": "优化 Javascript",
-      "path": "H-每日记录/2024-04-20/优化 Javascript.md"
-    },
-    {
-      "basename": "使用 Vue 输入国际电话",
-      "path": "14-Git 和 Github/Github trending/使用 Vue 输入国际电话.md"
     }
   ],
   "omittedPaths": [],
