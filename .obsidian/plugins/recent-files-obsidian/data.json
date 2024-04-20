@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "JavaScript卡片",
-      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
-    },
-    {
-      "basename": "2024-04-18",
-      "path": "H-每日记录/2024-04-18.md"
+      "basename": "2024-04-20",
+      "path": "H-每日记录/2024-04-20.md"
     },
     {
       "basename": "Weekly Vue News",
       "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
     },
     {
-      "basename": "2024-04-20",
-      "path": "H-每日记录/2024-04-20.md"
+      "basename": "JavaScript 可视化：Promise",
+      "path": "H-每日记录/2024-04-20/JavaScript 可视化：Promise.md"
+    },
+    {
+      "basename": "优化 Javascript",
+      "path": "H-每日记录/2024-04-20/优化 Javascript.md"
+    },
+    {
+      "basename": "使用 Vue 输入国际电话",
+      "path": "14-Git 和 Github/Github trending/使用 Vue 输入国际电话.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "14-Git 和 Github/Github trending/未命名.md"
+    },
+    {
+      "basename": "GitHub Actions工作流自动化的入门核心",
+      "path": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "08-Vue/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "JavaScript卡片",
+      "path": "04-Javascript/00-卡片/JavaScript卡片.md"
+    },
+    {
+      "basename": "2024-04-18",
+      "path": "H-每日记录/2024-04-18.md"
     },
     {
       "basename": "开发技巧",
@@ -91,10 +115,6 @@
     {
       "basename": "布莱泽奥特曼 大电影",
       "path": "O-电影2020/布莱泽奥特曼 大电影.md"
-    },
-    {
-      "basename": "GitHub Actions工作流自动化的入门核心",
-      "path": "14-Git 和 Github/GitHub Actions工作流自动化的入门核心.md"
     },
     {
       "basename": "NVM 切换node 版本",
@@ -175,18 +195,6 @@
     {
       "basename": "邓小平：让中国再次伟大",
       "path": "Y-历史-文学/邓小平/邓小平：让中国再次伟大.md"
-    },
-    {
-      "basename": "邓小平 追悼大会",
-      "path": "Y-历史-文学/邓小平/邓小平 追悼大会.md"
-    },
-    {
-      "basename": "邓小平实录1：1904—1945",
-      "path": "Y-历史-文学/邓小平/邓小平实录1：1904—1945.md"
-    },
-    {
-      "basename": "九天――1979年邓小平访美",
-      "path": "O-电影2010/九天――1979年邓小平访美.md"
     }
   ],
   "omittedPaths": [],
