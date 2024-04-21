@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-21",
+      "path": "H-每日记录/2024-04-21.md"
+    },
+    {
       "basename": "乘风踏浪",
       "path": "H-每日记录/2024-04-20/乘风踏浪.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR",
       "path": "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md"
-    },
-    {
-      "basename": "03-vscode git 提交",
-      "path": "14-Git 和 Github/03-vscode git 提交.md"
     }
   ],
   "omittedPaths": [],
