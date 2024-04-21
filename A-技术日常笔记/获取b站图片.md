@@ -16,8 +16,10 @@ document.querySelectorAll(".item > div > a > div.cover> img")
 document.querySelectorAll(".item > div > a > div.meta")
 document.querySelectorAll("#video-GMvDVz > div > a > div.video-title > strong")
 document.querySelectorAll("#page-collection-detail > div > div > div > ul > li.small-item.fakeDanmu-item.preview-danmu > a.cover.cover-normal > div.b-img > picture > img")
+
+document.querySelectorAll("#page-collection-detail > div > div > div > ul > li > a.cover.cover-normal > div.b-img > picture > img")
 ```js
-var imgElements = document.querySelectorAll("body > section > div > div > div > a > div.cover > img")
+var imgElements = document.querySelectorAll("#page-collection-detail > div > div > div > ul > li > a.cover.cover-normal > div.b-img > picture > img")
 
 // Check if any img elements are found
 if (imgElements.length > 0) {
@@ -36,8 +38,9 @@ if (imgElements.length > 0) {
 document.querySelectorAll("#content > div.grid-16-8.clearfix > div.article > ul > li > div.pic > a > img")
 document.querySelectorAll("#content > div.grid-16-8.clearfix > div.article > ul> li > div.info > h2 > a")
 document.querySelectorAll("#content > div.grid-16-8.clearfix > div.article > ul > li> div.info > div.pub")
+document.querySelectorAll("#page-collection-detail > div > div > div > ul > li> a.title")
 ```js
-var emElements = document.querySelectorAll("#content > div.grid-16-8.clearfix > div.article > ul > li> div.info > div.pub")
+var emElements =document.querySelectorAll("#page-collection-detail > div > div > div > ul > li > a")
 // Check if any em elements are found
 if (emElements.length > 0) {
   // Loop through each em element and retrieve the text content
@@ -52,6 +55,7 @@ if (emElements.length > 0) {
 
 ```
 document.querySelectorAll("#page-series-detail > div > div > div > ul > li> a")
+document.querySelectorAll("#page-collection-detail > div > div > div > ul > li > a")
 ## 豆瓣时间
 ```js
 var emElements = document.querySelectorAll("#content > div.grid-16-8.clearfix > div.article > div > div > div.info > ul > li.intro");
