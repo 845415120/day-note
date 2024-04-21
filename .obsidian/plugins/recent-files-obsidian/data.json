@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-04-21",
-      "path": "H-每日记录/2024-04-21.md"
+      "basename": "凭证",
+      "path": "驾照/凭证.md"
     },
     {
-      "basename": "乘风踏浪",
-      "path": "H-每日记录/2024-04-20/乘风踏浪.md"
+      "basename": "一口气看完伊朗（波斯）的历史！",
+      "path": "Y-历史-文学/一口气看完伊朗（波斯）的历史！.md"
+    },
+    {
+      "basename": "1960年代的反主流文化",
+      "path": "Y-历史-文学/1960年代的反主流文化.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "Y-历史-文学/0-卡片/0-卡片.md"
+    },
+    {
+      "basename": "0-卡片",
+      "path": "Y-播客/0-卡片.md"
     },
     {
       "basename": "优化 Javascript",
       "path": "H-每日记录/2024-04-20/优化 Javascript.md"
+    },
+    {
+      "basename": "乘风踏浪",
+      "path": "H-每日记录/2024-04-20/乘风踏浪.md"
     },
     {
       "basename": "2024-04-20",
@@ -19,10 +35,6 @@
     {
       "basename": "子东时间",
       "path": "Y-播客/子东时间.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "Y-播客/0-卡片.md"
     },
     {
       "basename": "资本论及其创造的世界",
@@ -187,18 +199,6 @@
     {
       "basename": "Weekly Vue News",
       "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
-    },
-    {
-      "basename": "Vite + Vue 入门模板",
-      "path": "14-Git 和 Github/Github trending/Vite + Vue 入门模板.md"
-    },
-    {
-      "basename": "用于生成虚假数据（如姓名、地址和电话号码）的库。",
-      "path": "14-Git 和 Github/Github trending/用于生成虚假数据（如姓名、地址和电话号码）的库。.md"
-    },
-    {
-      "basename": "Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR",
-      "path": "14-Git 和 Github/Github trending/Tesseract.js 是一个 JavaScript 库，可以从图像中获取几乎任何语言的单词。OCR.md"
     }
   ],
   "omittedPaths": [],
