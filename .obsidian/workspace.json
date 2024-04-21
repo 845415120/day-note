@@ -43,7 +43,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-历史/0-卡片.md",
+                "file": "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab05c3d917836071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/中东往事.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7561458aa16af836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5552568cfb46ff3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -70,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:b站",
+                "query": "file:中东往事",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史/0-卡片.md"
+                "file": "Y-历史/中东往事.md"
               }
             }
           },
@@ -136,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史/0-卡片.md",
+                "file": "Y-历史/中东往事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史/0-卡片.md",
+                "file": "Y-历史/中东往事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,9 +218,20 @@
   },
   "active": "1f1c718126619a98",
   "lastOpenFiles": [
+    "Y-历史/0-卡片.md",
+    "Y-历史/中东往事.md",
+    "Y-历史/巴以/「巴以3」进击的哈马斯与疯魔的以色列，从铸铅行动到护刃行动，看老乡们如何打怪升级！.md",
+    "Y-历史/中东/纳赛尔失败以后，中东反帝靠什么？【中东20】.md",
+    "Y-历史/一战/从战争巨兽到钢铁洪流，一战坦克进化史番外篇.md",
+    "Y-历史/伊朗（波斯）/伊朗简史第三期暴君？贤王？波斯帝国第二位皇帝，冈比西斯二世.md",
+    "Y-历史/纳赛尔和苏穗宗是什么关系？【奇葩小国29】.md",
+    "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
+    "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
+    "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
+    "H-每日记录/2024-04-21.md",
+    "04-Javascript/00-卡片/JavaScript卡片.md",
     "Y-历史/韩国",
     "Y-历史/伊朗（波斯）/伊朗简史第十期WHAT？萨珊波斯竟有共产主义宗教？.md",
-    "Y-历史/0-卡片.md",
     "Y-历史/伊朗（波斯）/伊朗简史第九期传统波斯的全力回归—萨珊王朝.md",
     "Y-历史/俄乌/基辅战役 - 俄罗斯入侵乌克兰 纪录片.md",
     "Y-历史/伊朗（波斯）/伊朗简史第八期丝绸之路的中间商，帕提亚（安息）帝国.md",
@@ -195,16 +245,6 @@
     "Y-历史/伊朗（波斯）/伊朗简史第六期征服近半个世界，却遗憾与中国失之交臂——亚历山大大帝.md",
     "Y-历史/伊朗（波斯）/伊朗简史第四期-大流士一世.md",
     "Y-历史/伊朗（波斯）/伊朗简史第五期希波战争—古代世界的全球化浪潮！.md",
-    "Y-历史/伊朗（波斯）/伊朗简史第三期暴君？贤王？波斯帝国第二位皇帝，冈比西斯二世.md",
-    "Y-历史/伊朗（波斯）/伊朗简史第二期伊朗国父居鲁士大帝，戎马一生，最后为何惨死女人之手身首异处？.md",
-    "Y-历史/伊朗（波斯）/伊朗简史第十二期欢迎来到！《一千零一夜》的世界，阿拔斯王朝！.md",
-    "Y-历史/中越战争/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
-    "Y-历史/伊朗（波斯）/希腊文明已经是个独立文明了斯巴达纯F波斯.md",
-    "Y-历史/一战/十月革命，布尔什维克是如何走向胜利的.md",
-    "Y-历史/伊朗（波斯）/【伊朗简史第十八期】从波斯雄狮到波斯喵，波斯屈辱史！.md",
-    "Y-历史/伊朗（波斯）/【伊朗简史第十九期（完结）】现代伊朗伊斯兰共和国的正式形成！.md",
-    "Y-历史-文学/0-卡片/0-卡片.md",
-    "A-技术日常笔记/获取b站图片.md",
     "Y-历史/中国",
     "Y-历史/越南战争",
     "Y-历史/朝鲜战争",
@@ -214,7 +254,6 @@
     "Y-历史/巴以",
     "Y-历史/中越战争",
     "Y-历史/一战",
-    "Y-历史/中国/明朝",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Z-附件/Pasted image 20231027125324.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/dotenv-expand/dotenv-expand.png",
