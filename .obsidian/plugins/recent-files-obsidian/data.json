@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "凭证",
-      "path": "驾照/凭证.md"
+      "basename": "一口气看完土耳其的历史！",
+      "path": "Y-历史-文学/一口气看完土耳其的历史！.md"
     },
     {
       "basename": "一口气看完伊朗（波斯）的历史！",
       "path": "Y-历史-文学/一口气看完伊朗（波斯）的历史！.md"
+    },
+    {
+      "basename": "凭证",
+      "path": "驾照/凭证.md"
     },
     {
       "basename": "1960年代的反主流文化",
@@ -195,10 +199,6 @@
     {
       "basename": "NVM 切换node 版本",
       "path": "06-Node/NVM 切换node 版本.md"
-    },
-    {
-      "basename": "Weekly Vue News",
-      "path": "H-每日记录/2024-04-20/Weekly Vue News.md"
     }
   ],
   "omittedPaths": [],

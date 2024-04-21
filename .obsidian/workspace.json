@@ -118,9 +118,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa341710b3804023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史-文学/一口气看完伊朗（波斯）的历史！.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb1f00c566d41758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史-文学/一口气看完土耳其的历史！.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -175,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -195,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "驾照/凭证.md"
+                "file": "Y-历史-文学/一口气看完土耳其的历史！.md"
               }
             }
           },
@@ -205,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "驾照/凭证.md",
+                "file": "Y-历史-文学/一口气看完土耳其的历史！.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "驾照/凭证.md",
+                "file": "Y-历史-文学/一口气看完土耳其的历史！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,11 +272,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "c02360bc7ae643b0",
+  "active": "cb1f00c566d41758",
   "lastOpenFiles": [
-    "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Y-历史-文学/一口气看完伊朗（波斯）的历史！.md",
+    "Y-历史-文学/一口气看完土耳其的历史！.md",
     "驾照/凭证.md",
+    "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Y-历史-文学/1960年代的反主流文化.md",
     "Y-历史-文学/0-卡片/0-卡片.md",
     "Y-播客/0-卡片.md",
@@ -292,7 +319,6 @@
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_wrench.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_world.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_word.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_width.png",
-    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_visualstudio.png"
+    "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/serve-index/public/icons/page_white_width.png"
   ]
 }
