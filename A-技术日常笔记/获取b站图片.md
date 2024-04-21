@@ -297,3 +297,12 @@ if (imgElements.length > 0) {
   console.error("No image elements found");
 }
 ```
+
+
+
+
+
+```
+  
+
+```
