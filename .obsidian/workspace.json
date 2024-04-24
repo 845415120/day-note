@@ -142,6 +142,19 @@
             }
           },
           {
+            "id": "30547d9e7dda9c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-23/阿尔及尔之战.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7561458aa16af836",
             "type": "leaf",
             "state": {
@@ -168,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -243,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-23/红军与白军.md"
+                "file": "H-每日记录/2024-04-23/阿尔及尔之战.md"
               }
             }
           },
@@ -253,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-23/红军与白军.md",
+                "file": "H-每日记录/2024-04-23/阿尔及尔之战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-23/红军与白军.md",
+                "file": "H-每日记录/2024-04-23/阿尔及尔之战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,10 +307,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b025f5590bb747c0",
+  "active": "30547d9e7dda9c89",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
     "H-每日记录/2024-04-23/红军与白军.md",
+    "H-每日记录/2024-04-23/阿尔及尔之战.md",
+    "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
     "Y-B站/戴锦华",
     "H-每日记录/2024-04-23/最长的一天.md",
     "H-每日记录/2024-04-23/土地与自由.md",
@@ -325,7 +339,6 @@
     "Y-历史/韩国",
     "Y-历史/伊朗（波斯）/伊朗简史第十期WHAT？萨珊波斯竟有共产主义宗教？.md",
     "Y-历史/伊朗（波斯）/伊朗简史第九期传统波斯的全力回归—萨珊王朝.md",
-    "Y-历史/俄乌/基辅战役 - 俄罗斯入侵乌克兰 纪录片.md",
     "Y-历史/中国",
     "Y-历史/越南战争",
     "Y-历史/朝鲜战争",
