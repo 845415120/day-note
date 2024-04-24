@@ -103,38 +103,12 @@
             }
           },
           {
-            "id": "4ea220eaedf373ad",
+            "id": "865bd5a41d07fc3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-23/最长的一天.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a268f917e16dae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b025f5590bb747c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-24.md",
+                "file": "0-前端视频记录/黑马vue2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -168,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -187,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:邓小平",
+                "query": "file:黑马",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,8 +196,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-24.md"
+                "file": "0-前端视频记录/黑马vue2.md"
               }
             }
           },
@@ -253,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-24.md",
+                "file": "0-前端视频记录/黑马vue2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-24.md",
+                "file": "0-前端视频记录/黑马vue2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,15 +267,19 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b025f5590bb747c0",
+  "active": "865bd5a41d07fc3a",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-23/土地与自由.md",
+    "H-每日记录/2024-04-23/最长的一天.md",
+    "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
+    "A-技术日常笔记/黑马前端V8.5.md",
+    "H-每日记录/2024-04-24/黑马vue1.md",
+    "0-前端视频记录/黑马vue2.md",
     "H-每日记录/2024-04-24.md",
+    "H-每日记录/2024-04-24",
     "H-每日记录/2024-04-23/阿尔及尔之战.md",
     "H-每日记录/2024-04-23/红军与白军.md",
-    "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
     "Y-B站/戴锦华",
-    "H-每日记录/2024-04-23/最长的一天.md",
-    "H-每日记录/2024-04-23/土地与自由.md",
     "H-每日记录/2024-04-23.md",
     "H-每日记录/2024-04-23/逃出绝命镇.md",
     "H-每日记录/2024-04-23",
@@ -322,16 +299,12 @@
     "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
     "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
     "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
-    "H-每日记录/2024-04-21.md",
-    "04-Javascript/00-卡片/JavaScript卡片.md",
     "Y-历史/韩国",
-    "Y-历史/伊朗（波斯）/伊朗简史第十期WHAT？萨珊波斯竟有共产主义宗教？.md",
     "Y-历史/中国",
     "Y-历史/越南战争",
     "Y-历史/朝鲜战争",
     "Y-历史/中印战争",
     "Y-历史/俄乌",
-    "Y-历史/中东",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Z-附件/Pasted image 20231027125324.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/dotenv-expand/dotenv-expand.png",
