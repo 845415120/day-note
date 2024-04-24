@@ -142,6 +142,45 @@
             }
           },
           {
+            "id": "3b3778f5e374c744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/时代周刊 邓小平 1979-2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a46a2a609b1f5ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/时代周刊 邓小平 1979-1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6eddc3328c7f49aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/时代周刊 邓小平 1976.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7561458aa16af836",
             "type": "leaf",
             "state": {
@@ -168,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -243,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1997.md"
+                "file": "0-前端视频记录/时代周刊 邓小平 1976.md"
               }
             }
           },
@@ -253,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1997.md",
+                "file": "0-前端视频记录/时代周刊 邓小平 1976.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1997.md",
+                "file": "0-前端视频记录/时代周刊 邓小平 1976.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,10 +333,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3296d9f362bc21a6",
+  "active": "6eddc3328c7f49aa",
   "lastOpenFiles": [
-    "0-前端视频记录/时代周刊 邓小平 1986.md",
+    "0-前端视频记录/时代周刊 邓小平 1979-1.md",
+    "0-前端视频记录/时代周刊 邓小平 1976.md",
+    "0-前端视频记录/时代周刊 邓小平 1979-2.md",
     "0-前端视频记录/时代周刊 邓小平 1997.md",
+    "0-前端视频记录/时代周刊 邓小平 1986.md",
     "0-前端视频记录/黑马vue2.md",
     "H-每日记录/2024-04-23/土地与自由.md",
     "H-每日记录/2024-04-23/最长的一天.md",
@@ -323,9 +365,6 @@
     "Y-历史/巴以/「巴以3」进击的哈马斯与疯魔的以色列，从铸铅行动到护刃行动，看老乡们如何打怪升级！.md",
     "Y-历史/中东/纳赛尔失败以后，中东反帝靠什么？【中东20】.md",
     "Y-历史/一战/从战争巨兽到钢铁洪流，一战坦克进化史番外篇.md",
-    "Y-历史/伊朗（波斯）/伊朗简史第三期暴君？贤王？波斯帝国第二位皇帝，冈比西斯二世.md",
-    "Y-历史/纳赛尔和苏穗宗是什么关系？【奇葩小国29】.md",
-    "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
     "Y-历史/韩国",
     "Y-历史/中国",
     "Y-历史/越南战争",
