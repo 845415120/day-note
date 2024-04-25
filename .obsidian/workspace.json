@@ -43,7 +43,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+                "file": "Y-历史/邓小平/时代周刊 邓小平 1979-1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0d6bdcc0dd94795",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/邓小平/00-卡片.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce858f452f14d5ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/邓小平/时代周刊 邓小平 1986.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md"
+                "file": "Y-历史/邓小平/时代周刊 邓小平 1986.md"
               }
             }
           },
@@ -136,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+                "file": "Y-历史/邓小平/时代周刊 邓小平 1986.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+                "file": "Y-历史/邓小平/时代周刊 邓小平 1986.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,10 +203,16 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "abc7e4e2658c007d",
+  "active": "ce858f452f14d5ae",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-24/王冠 第六季.md",
+    "Y-历史/邓小平/00-卡片.md",
+    "Y-历史/邓小平/时代周刊 邓小平 1986.md",
+    "Y-历史/邓小平/时代周刊 邓小平 1979-1.md",
+    "Y-历史/邓小平/时代周刊 邓小平 1979-2.md",
+    "Y-历史/邓小平/时代周刊 邓小平 1997.md",
+    "Y-历史/邓小平/时代周刊 邓小平 1976.md",
     "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+    "H-每日记录/2024-04-24/王冠 第六季.md",
     "H-每日记录/2024-04-25.md",
     "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
     "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
@@ -191,21 +223,15 @@
     "H-每日记录/2024-04-23.md",
     "H-每日记录/2024-04-23/土地与自由.md",
     "0-前端视频记录/黑马vue2.md",
-    "0-前端视频记录/时代周刊 邓小平 1986.md",
-    "0-前端视频记录/时代周刊 邓小平 1997.md",
-    "0-前端视频记录/时代周刊 邓小平 1979-2.md",
-    "0-前端视频记录/时代周刊 邓小平 1979-1.md",
     "H-每日记录/2024-04-24/囚徒.md",
     "H-每日记录/2024-04-24/哈哈哈哈哈 第4季.md",
     "H-每日记录/2024-04-24/英法百年战争第一阶段（1337-1360）.md",
     "12-Python/Miniconda.md",
     "Z-附件/Pasted image 20240425121344.png",
-    "0-前端视频记录/时代周刊 邓小平 1976.md",
     "H-每日记录/2024-04-23/最长的一天.md",
     "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
     "A-技术日常笔记/黑马前端V8.5.md",
     "H-每日记录/2024-04-24/黑马vue1.md",
-    "H-每日记录/2024-04-24.md",
     "H-每日记录/2024-04-24",
     "Y-B站/戴锦华",
     "H-每日记录/2024-04-23",
