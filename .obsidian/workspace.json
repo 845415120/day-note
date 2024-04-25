@@ -36,178 +36,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "e0c7f9a13b44115d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab05c3d917836071",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/中东往事.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46677533954e0cf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-23/逃出绝命镇.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12a597e1021dfae4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-23.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87464ae29345b7e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-23/土地与自由.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "865bd5a41d07fc3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/黑马vue2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9aadeea73d3f90ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1986.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3296d9f362bc21a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1997.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3778f5e374c744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1979-2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a46a2a609b1f5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/时代周刊 邓小平 1979-1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eddc3328c7f49aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-24/囚徒.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7561458aa16af836",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5552568cfb46ff3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -282,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-24/囚徒.md"
+                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
               }
             }
           },
@@ -292,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-24/囚徒.md",
+                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-24/囚徒.md",
+                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,19 +164,28 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "6eddc3328c7f49aa",
+  "active": "dd6158f7b4703975",
   "lastOpenFiles": [
-    "12-Python/Miniconda.md",
+    "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
+    "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
+    "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
+    "Y-历史/中东往事.md",
+    "H-每日记录/2024-04-23/逃出绝命镇.md",
+    "H-每日记录/2024-04-23.md",
+    "H-每日记录/2024-04-23/土地与自由.md",
+    "0-前端视频记录/黑马vue2.md",
+    "0-前端视频记录/时代周刊 邓小平 1986.md",
+    "0-前端视频记录/时代周刊 邓小平 1997.md",
+    "0-前端视频记录/时代周刊 邓小平 1979-2.md",
+    "0-前端视频记录/时代周刊 邓小平 1979-1.md",
     "H-每日记录/2024-04-24/囚徒.md",
+    "H-每日记录/2024-04-24/哈哈哈哈哈 第4季.md",
+    "H-每日记录/2024-04-24/王冠 第六季.md",
+    "H-每日记录/2024-04-24/英法百年战争第一阶段（1337-1360）.md",
+    "12-Python/Miniconda.md",
     "Z-附件/Pasted image 20240425121344.png",
     "H-每日记录/2024-04-25.md",
     "0-前端视频记录/时代周刊 邓小平 1976.md",
-    "0-前端视频记录/时代周刊 邓小平 1979-1.md",
-    "0-前端视频记录/时代周刊 邓小平 1979-2.md",
-    "0-前端视频记录/时代周刊 邓小平 1997.md",
-    "0-前端视频记录/时代周刊 邓小平 1986.md",
-    "0-前端视频记录/黑马vue2.md",
-    "H-每日记录/2024-04-23/土地与自由.md",
     "H-每日记录/2024-04-23/最长的一天.md",
     "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
     "A-技术日常笔记/黑马前端V8.5.md",
@@ -355,17 +195,8 @@
     "H-每日记录/2024-04-23/阿尔及尔之战.md",
     "H-每日记录/2024-04-23/红军与白军.md",
     "Y-B站/戴锦华",
-    "H-每日记录/2024-04-23.md",
-    "H-每日记录/2024-04-23/逃出绝命镇.md",
     "H-每日记录/2024-04-23",
-    "Y-历史/萨达姆/一场会议屠杀66人，波斯湾霸权不择手段【萨达姆系列01】.md",
-    "Y-历史/1997年纪录片《使命》，又名（中国现代战争实录）.md",
     "Y-历史/萨达姆",
-    "H-每日记录/2024-04-22.md",
-    "Y-历史/邓小平/邓小平 - 领导者的形成（2007年纪录片）.md",
-    "Y-历史/邓小平/邓小平：让中国再次伟大.md",
-    "Y-历史/中东往事.md",
-    "Y-历史/0-卡片.md",
     "Y-历史/韩国",
     "Y-历史/中国",
     "Y-历史/越南战争",
