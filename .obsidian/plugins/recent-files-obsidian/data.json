@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Miniconda",
+      "path": "12-Python/Miniconda.md"
+    },
+    {
+      "basename": "2024-04-25",
+      "path": "H-每日记录/2024-04-25.md"
+    },
+    {
       "basename": "时代周刊 邓小平 1976",
       "path": "0-前端视频记录/时代周刊 邓小平 1976.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "获取b站图片",
       "path": "A-技术日常笔记/获取b站图片.md"
-    },
-    {
-      "basename": "Vue.js 3.0企业级管理后台开发实战：基于Element Plus",
-      "path": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
-    },
-    {
-      "basename": "伊朗简史第十六期黄金时代的谢幕，再见，波斯第三帝国！",
-      "path": "Y-历史/伊朗（波斯）/伊朗简史第十六期黄金时代的谢幕，再见，波斯第三帝国！.md"
     }
   ],
   "omittedPaths": [],
