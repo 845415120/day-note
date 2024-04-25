@@ -36,9 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "abc7e4e2658c007d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md"
+                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md"
               }
             }
           },
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
+                "file": "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,8 +177,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "dd6158f7b4703975",
+  "active": "abc7e4e2658c007d",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-24/王冠 第六季.md",
+    "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
+    "H-每日记录/2024-04-25.md",
+    "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
     "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
     "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
     "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
@@ -180,11 +197,9 @@
     "0-前端视频记录/时代周刊 邓小平 1979-1.md",
     "H-每日记录/2024-04-24/囚徒.md",
     "H-每日记录/2024-04-24/哈哈哈哈哈 第4季.md",
-    "H-每日记录/2024-04-24/王冠 第六季.md",
     "H-每日记录/2024-04-24/英法百年战争第一阶段（1337-1360）.md",
     "12-Python/Miniconda.md",
     "Z-附件/Pasted image 20240425121344.png",
-    "H-每日记录/2024-04-25.md",
     "0-前端视频记录/时代周刊 邓小平 1976.md",
     "H-每日记录/2024-04-23/最长的一天.md",
     "H-每日记录/2024-04-23/戴锦华 电影与全球60年代（1 上部）.md",
@@ -192,8 +207,6 @@
     "H-每日记录/2024-04-24/黑马vue1.md",
     "H-每日记录/2024-04-24.md",
     "H-每日记录/2024-04-24",
-    "H-每日记录/2024-04-23/阿尔及尔之战.md",
-    "H-每日记录/2024-04-23/红军与白军.md",
     "Y-B站/戴锦华",
     "H-每日记录/2024-04-23",
     "Y-历史/萨达姆",
