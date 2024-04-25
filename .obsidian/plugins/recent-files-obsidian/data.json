@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "囚徒",
+      "path": "H-每日记录/2024-04-24/囚徒.md"
+    },
+    {
       "basename": "Miniconda",
       "path": "12-Python/Miniconda.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "0-卡片",
       "path": "Y-历史-文学/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "获取b站图片",
-      "path": "A-技术日常笔记/获取b站图片.md"
     }
   ],
   "omittedPaths": [],
