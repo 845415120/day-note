@@ -38,21 +38,9 @@
             }
           },
           {
-            "id": "abc7e4e2658c007d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/邓小平/时代周刊 邓小平 1979-1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f0d6bdcc0dd94795",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -60,16 +48,17 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "ce858f452f14d5ae",
+            "id": "ca02e3205e7cc939",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-26/新《变形金刚》.md",
+                "file": "Y-历史/邓小平/视频/邓小平和他的对世界的开放.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,25 +66,12 @@
             }
           },
           {
-            "id": "a60d4e1bdb007f27",
+            "id": "c487da7715fc1a32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-04-27/龙年档案.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61682d0216bdc8d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-27/成克杰.md",
+                "file": "H-每日记录/2024-04-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -127,9 +103,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b4b60234339f6ffe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/邓小平/视频/UP/邓小平——中国现代纪录片的奠基人.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:黑马",
+                "query": "file:邓小平",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-27/成克杰.md"
+                "file": "Y-历史/邓小平/00-卡片.md"
               }
             }
           },
@@ -214,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-27/成克杰.md",
+                "file": "Y-历史/邓小平/00-卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-27/成克杰.md",
+                "file": "Y-历史/邓小平/00-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,45 +244,45 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "61682d0216bdc8d3",
+  "active": "f0d6bdcc0dd94795",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-27/龙年档案.md",
-    "H-每日记录/2024-04-27/成克杰.md",
-    "H-每日记录/2024-04-27/沙丘2.md",
-    "H-每日记录/2024-04-27/什么是 CICD.md",
-    "H-每日记录/2024-04-27.md",
-    "H-每日记录/2024-04-27",
-    "H-每日记录/2024-04-26.md",
-    "H-每日记录/2024-04-26/新《变形金刚》.md",
-    "H-每日记录/2024-04-26/伪装者.md",
-    "H-每日记录/2024-04-26",
-    "Y-历史/邓小平/时代周刊 邓小平 1986.md",
+    "Y-历史/邓小平/视频/电视/CCTV大型纪录片《邓小平》 纪念邓小平诞辰100周年.md",
     "Y-历史/邓小平/00-卡片.md",
-    "Y-历史/邓小平/时代周刊 邓小平 1979-1.md",
-    "Y-历史/邓小平/时代周刊 邓小平 1979-2.md",
-    "Y-历史/邓小平/时代周刊 邓小平 1997.md",
-    "Y-历史/邓小平/时代周刊 邓小平 1976.md",
-    "0-前端视频记录/Webflow 入门教程 - 无代码网页开发.md",
-    "H-每日记录/2024-04-24/王冠 第六季.md",
-    "H-每日记录/2024-04-25.md",
+    "Y-历史/邓小平/书籍/邓小平传.md",
+    "Y-历史/邓小平/书籍/邓小平传_理查德•伊文思.md",
+    "Y-历史/邓小平/书籍/邓小平外交谋略.md",
+    "Y-历史/邓小平/视频/邓小平和他的对世界的开放.md",
+    "Y-历史/邓小平/视频",
+    "Y-历史/邓小平/视频/纪录片/邓小平1978十一届三中全会讲话：解放思想实是求是团结一致向前看.md",
+    "Y-历史/邓小平/视频/UP/凤凰大视野 我的1976.md",
+    "Y-历史/邓小平/视频/UP/今天，我們為什麼仍然懷念鄧小平？鄧小平誕辰118周年 香江仲夏情：鄧小平誕辰111周年特別紀念.md",
+    "Y-历史/邓小平/视频/纪录片/小平您好.md",
+    "Y-历史/邓小平/视频/纪录片/推动中国改革开放的日本人.md",
+    "Y-历史/邓小平/视频/电视/历史转折中的邓小平.md",
+    "Y-历史/邓小平/李克强在中央党校：全程脱稿讲授《经济学课程》.md",
+    "Y-历史/邓小平/视频/纪录片/邓小平登黄山.md",
+    "Y-历史/邓小平/视频/UP/邓小平：让中国再次伟大.md",
+    "Y-历史/邓小平/视频/UP/江青 vs 邓小平 历史的决斗.md",
+    "Y-历史/邓小平/讲座",
+    "Y-历史/邓小平/视频/纪录片/邓小平遗物故事.md",
+    "Y-历史/邓小平/视频/UP/邓小平——中国现代纪录片的奠基人.md",
+    "Y-历史/邓小平/视频/UP",
+    "Y-历史/邓小平/文章",
+    "Y-历史/邓小平/视频/电视",
+    "Y-历史/邓小平/up",
+    "Y-历史/邓小平/视频/纪录片",
+    "H-每日记录/2024-04-26/新《变形金刚》.md",
+    "Y-历史/邓小平/书籍/时代周刊 邓小平 1979-1.md",
+    "04-Javascript/00-卡片/JavaScript卡片.md",
     "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
-    "Y-历史/耶路撒冷究竟是谁老家？【奇葩小国28】.md",
-    "Y-历史/纳赛尔跟勋宗关系如何？【奇葩小国30】.md",
-    "Y-历史/埃及垦荒公司能整什么活？【奇葩小国31】.md",
-    "Y-历史/中东往事.md",
-    "H-每日记录/2024-04-23/逃出绝命镇.md",
-    "H-每日记录/2024-04-23.md",
-    "H-每日记录/2024-04-23/土地与自由.md",
-    "0-前端视频记录/黑马vue2.md",
+    "Y-历史/邓小平/书籍/我的父亲邓小平-戎马生涯.md",
+    "Y-历史/邓小平/书籍/邓小平风采老一辈革命家风采.md",
+    "Y-历史/邓小平/书籍/邓小平的智慧.md",
+    "Y-历史/邓小平/书籍/邓小平文选.md",
+    "Y-历史/邓小平/书籍",
+    "H-每日记录/2024-04-27",
+    "H-每日记录/2024-04-26",
     "Z-附件/Pasted image 20240425121344.png",
-    "H-每日记录/2024-04-24",
-    "Y-B站/戴锦华",
-    "H-每日记录/2024-04-23",
-    "Y-历史/萨达姆",
-    "Y-历史/韩国",
-    "Y-历史/中国",
-    "Y-历史/越南战争",
-    "Y-历史/朝鲜战争",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Z-附件/Pasted image 20231027125324.png",
     "代码/Vue.js 3.0企业级管理后台开发实战/vue3-element-plus-admin-main/node_modules/dotenv-expand/dotenv-expand.png",
