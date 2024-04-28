@@ -51,9 +51,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "abc0e8e96277aad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-28/Flutter 教程 – 如何从头开始使用 Flutter 开发应用程序.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "105161dc229f7041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史/邓小平/00-卡片.md"
+                "file": "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md"
               }
             }
           },
@@ -138,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史/邓小平/00-卡片.md",
+                "file": "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史/邓小平/00-卡片.md",
+                "file": "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,11 +205,15 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "f0d6bdcc0dd94795",
+  "active": "105161dc229f7041",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-28/Flutter 教程 – 如何从头开始使用 Flutter 开发应用程序.md",
+    "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
+    "H-每日记录/2024-04-28.md",
+    "H-每日记录/2024-04-28",
+    "Y-历史/邓小平/00-卡片.md",
     "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md",
     "Y-历史/邓小平/视频/纪录片/香港回归历史影像.md",
-    "Y-历史/邓小平/00-卡片.md",
     "Y-历史/邓小平/视频/纪录片/中英香港问题谈判始末.md",
     "Y-历史/邓小平/视频/纪录片/1997年香港回归（香港主权回归中华人民共和国）全程直播【CCTV全程记录片】_1997.07.01.md",
     "Y-历史/邓小平/视频/纪录片/紫荆花开.md",
@@ -205,9 +235,6 @@
     "Y-历史/邓小平/视频/讲座/华东师大韩钢教授：邓小平与改革开放的关节点.md",
     "Y-历史/邓小平/视频/讲座/邓小平和他的对世界的开放.md",
     "Y-历史/邓小平/书籍/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
-    "Y-B站/我是文婷WenTing/华东师大韩钢教授：邓小平与改革开放的关节点.md",
-    "Y-历史/邓小平/视频/电视/历史转折中的邓小平.md",
-    "Y-历史/邓小平/视频/纪录片/九天――1979年邓小平访美.md",
     "Y-历史/邓小平/视频/讲座",
     "Y-历史/邓小平/视频",
     "Y-历史/邓小平/讲座",
@@ -216,7 +243,6 @@
     "Y-历史/邓小平/视频/电视",
     "Y-历史/邓小平/up",
     "Y-历史/邓小平/视频/纪录片",
-    "Y-历史/邓小平/书籍",
     "Z-附件/Pasted image 20240425121344.png",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Z-附件/Pasted image 20231027125324.png",
