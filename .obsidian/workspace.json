@@ -77,9 +77,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7400600152e5a5e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影2000/濠江风云.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "O-电影2000/角斗士 Gladiator.md"
+                "file": "O-电影2000/濠江风云.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "O-电影2000/角斗士 Gladiator.md",
+                "file": "O-电影2000/濠江风云.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "O-电影2000/角斗士 Gladiator.md",
+                "file": "O-电影2000/濠江风云.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,10 +218,11 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "105161dc229f7041",
+  "active": "7400600152e5a5e1",
   "lastOpenFiles": [
-    "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
     "O-电影2000/角斗士 Gladiator.md",
+    "O-电影2000/濠江风云.md",
+    "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md",
     "H-每日记录/2024-04-28/Flutter 教程 – 如何从头开始使用 Flutter 开发应用程序.md",
     "H-每日记录/2024-04-28.md",
     "H-每日记录/2024-04-28",
@@ -234,7 +248,6 @@
     "Y-历史/邓小平/视频/邓小平.md",
     "Y-历史/邓小平/视频/讲座/华东师大韩钢教授：权力的转移——从华国锋主政到邓小平核心.md",
     "Y-历史/邓小平/视频/讲座/华东师大韩钢教授：邓小平与改革开放的关节点.md",
-    "Y-历史/邓小平/视频/讲座/邓小平和他的对世界的开放.md",
     "Y-历史/邓小平/视频/讲座",
     "Y-历史/邓小平/视频",
     "Y-历史/邓小平/讲座",
