@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "角斗士 Gladiator",
+      "path": "O-电影2000/角斗士 Gladiator.md"
+    },
+    {
       "basename": "使用 Next.js 和 Cloudinary 创建克隆 Google Photos",
       "path": "H-每日记录/2024-04-28/使用 Next.js 和 Cloudinary 创建克隆 Google Photos.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "邓小平 追悼大会",
       "path": "Y-历史/邓小平/视频/纪录片/邓小平 追悼大会.md"
-    },
-    {
-      "basename": "邓小平登黄山",
-      "path": "Y-历史/邓小平/视频/纪录片/邓小平登黄山.md"
     }
   ],
   "omittedPaths": [],
