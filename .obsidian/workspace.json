@@ -51,35 +51,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "2e2904b286ee1f7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/邓小平/视频/纪录片/香港回归历史影像.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b93ef1da9efb3fb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md"
+                "file": "Y-历史/邓小平/00-卡片.md"
               }
             }
           },
@@ -164,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md",
+                "file": "Y-历史/邓小平/00-卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md",
+                "file": "Y-历史/邓小平/00-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,10 +179,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "b93ef1da9efb3fb6",
+  "active": "f0d6bdcc0dd94795",
   "lastOpenFiles": [
-    "Y-历史/邓小平/视频/纪录片/香港回归历史影像.md",
     "Y-历史/邓小平/视频/纪录片/1984年国庆大阅兵.md",
+    "Y-历史/邓小平/视频/纪录片/香港回归历史影像.md",
     "Y-历史/邓小平/00-卡片.md",
     "Y-历史/邓小平/视频/纪录片/中英香港问题谈判始末.md",
     "Y-历史/邓小平/视频/纪录片/1997年香港回归（香港主权回归中华人民共和国）全程直播【CCTV全程记录片】_1997.07.01.md",
