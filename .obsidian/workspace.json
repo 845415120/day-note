@@ -64,35 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4f07ea2791330db5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-30/徒步101.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf09036d7a20e169",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-04-30/这就是中国.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-04-30/这就是中国.md"
+                "file": "H-每日记录/2024-04-30.md"
               }
             }
           },
@@ -177,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-04-30/这就是中国.md",
+                "file": "H-每日记录/2024-04-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-04-30/这就是中国.md",
+                "file": "H-每日记录/2024-04-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +192,7 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "bf09036d7a20e169",
+  "active": "abc0e8e96277aad5",
   "lastOpenFiles": [
     "H-每日记录/2024-04-30/徒步101.md",
     "H-每日记录/2024-04-30/这就是中国.md",
