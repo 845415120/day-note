@@ -64,9 +64,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22d4d2cfb2a4fb79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-30/徒步101.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65566d5fd65d9d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-30/荒野求生 第一季.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "756c5ed3bdb7384a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-04-30.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -192,11 +231,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "abc0e8e96277aad5",
+  "active": "756c5ed3bdb7384a",
   "lastOpenFiles": [
+    "H-每日记录/2024-04-30/普京的见证.md",
+    "H-每日记录/2024-04-30/荒野求生 第一季.md",
     "H-每日记录/2024-04-30/徒步101.md",
-    "H-每日记录/2024-04-30/国家葬礼.md",
     "H-每日记录/2024-04-30.md",
+    "H-每日记录/2024-04-30/国家葬礼.md",
     "H-每日记录/2024-04-30/这就是中国.md",
     "H-每日记录/2024-04-28/Flutter 教程 – 如何从头开始使用 Flutter 开发应用程序.md",
     "O-电影2000/角斗士 Gladiator.md",
@@ -222,8 +263,6 @@
     "Y-历史/邓小平/视频/纪录片/1997年香港回归（香港主权回归中华人民共和国）全程直播【CCTV全程记录片】_1997.07.01.md",
     "Y-历史/邓小平/视频/纪录片/紫荆花开.md",
     "Y-历史/邓小平/视频/UP/邓小平——中国现代纪录片的奠基人.md",
-    "Y-历史/邓小平/视频/纪录片/珍贵纪录片《邓小平访美》.md",
-    "Y-历史/邓小平/视频/纪录片/《国家记忆》 20170829 《邓小平故事》.md",
     "Y-历史/邓小平/视频/纪录片/未命名",
     "Y-历史/邓小平/视频/讲座",
     "Y-历史/邓小平/视频",
