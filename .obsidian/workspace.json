@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "6ba47dc411f5502f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-游戏/双人成行.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "166f1df0b582e203",
             "type": "leaf",
             "pinned": true,
@@ -49,9 +36,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "78c6046df266bc4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8720bc5a4917347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-01/习时代的政坛金融战 李克强金融创新全面溃败 习近平二次征战党管金融.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-游戏/双人成行.md"
+                "file": "H-每日记录/2024-05-01/习时代的政坛金融战 李克强金融创新全面溃败 习近平二次征战党管金融.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-游戏/双人成行.md",
+                "file": "H-每日记录/2024-05-01/习时代的政坛金融战 李克强金融创新全面溃败 习近平二次征战党管金融.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-游戏/双人成行.md",
+                "file": "H-每日记录/2024-05-01/习时代的政坛金融战 李克强金融创新全面溃败 习近平二次征战党管金融.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,11 +190,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "6ba47dc411f5502f",
+  "active": "b8720bc5a4917347",
   "lastOpenFiles": [
-    "0-前端视频记录/Vue 开发实战 1.md",
-    "Y-游戏/双人成行.md",
+    "H-每日记录/2024-05-01.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "Y-游戏/双人成行.md",
+    "0-前端视频记录/Vue 开发实战 1.md",
     "Y-历史/0-历史卡片.md",
     "0-前端视频记录/02-极客时间/Vue 开发实战.md",
     "Vue 开发实战 1.md",
@@ -207,7 +221,6 @@
     "0-前端视频记录/未整理/【开课吧】数字化就业班 - Web企业项目实战.md",
     "0-前端视频记录/未整理/2023年 CSS 发展总结（中文）.md",
     "0-前端视频记录/未整理/【网易云课堂-1202908603】微专业 - 网易9大前端项目就业实训营.md",
-    "0-前端视频记录/未整理/【尚学堂】前端练手项目实训.md",
     "0-前端视频记录/未整理",
     "0-前端视频记录/新建文件夹",
     "0-前端视频记录/数据结构",
