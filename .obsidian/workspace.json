@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "0c8ccac8b90d2031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/04-B站视频/峰华前端工程师.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "166f1df0b582e203",
             "type": "leaf",
             "pinned": true,
@@ -50,7 +37,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+                "file": "Y-历史/0-历史卡片.md"
               }
             }
           },
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史/0-历史卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史/0-历史卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,18 +164,25 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "7c37f47a4ffd0ca3",
+  "active": "166f1df0b582e203",
   "lastOpenFiles": [
-    "0-前端视频记录/15-体系课/黑马前端V8.5.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md",
+    "0-前端视频记录/02-极客时间/Vue 开发实战 1.md",
+    "0-前端视频记录/01-黑马 pink 老师/黑马vue2.md",
+    "0-前端视频记录/05-freecodecamp/Webflow 入门教程 - 无代码网页开发.md",
     "0-前端视频记录/02-慕课/SpringBoot2.X+Vue+UniAPP，全栈开发医疗小程序 毕设求职可用的新潮优秀案例（Web管理端+小程序用户端）.md",
+    "0-前端视频记录/02-慕课/Taro3+Mysql+Express开发企业级出行全栈项目.md",
+    "0-前端视频记录/05-freecodecamp/准备开发人员面试求职：freecodecamp.md",
+    "0-前端视频记录/01-计算机书籍/ChatGPT_AI革命 1.md",
+    "0-前端视频记录/01-计算机书籍/CPU通识课.md",
+    "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md",
+    "0-前端视频记录/15-体系课/黑马前端V8.5.md",
+    "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md",
     "0-前端视频记录/01-计算机书籍/CSS权威指南.md",
     "0-前端视频记录/01-计算机书籍/CSS选择器世界.md",
     "0-前端视频记录/01-计算机书籍/JavaScript设计模式.md",
     "0-前端视频记录/01-计算机书籍/Head First HTML与CSS（第2版）.md",
     "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md",
-    "0-前端视频记录/02-慕课/Taro3+Mysql+Express开发企业级出行全栈项目.md",
     "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md",
     "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
     "0-前端视频记录/01-计算机书籍/React快速上手开发.md",
@@ -197,13 +192,6 @@
     "0-前端视频记录/01-计算机书籍/Webpack+Babel入门与实例详解.md",
     "0-前端视频记录/01-计算机书籍/Vue.js3应用开发与核心源码解析.md",
     "0-前端视频记录/01-计算机书籍/代码奔腾.md",
-    "0-前端视频记录/01-计算机书籍/你好哇，程序员.md",
-    "0-前端视频记录/01-计算机书籍/信息传.md",
-    "0-前端视频记录/01-计算机书籍/前端技术架构与工程.md",
-    "0-前端视频记录/01-计算机书籍/前端程序员面试秘籍.md",
-    "0-前端视频记录/02-极客时间/Web 协议详解与抓包实战.md",
-    "0-前端视频记录/02-极客时间/极客时间-Python进阶训练营.md",
-    "0-前端视频记录/02-极客时间/玩转 webpack.md",
     "Z-附件/Pasted image 20240501154057.png",
     "Z-附件/Pasted image 20240501154029.png",
     "Z-附件/Pasted image 20240501154017.png",
