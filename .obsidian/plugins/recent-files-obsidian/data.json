@@ -1,12 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "GitHub入门与实践",
-      "path": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md"
+      "basename": "前端开发库React-freecodecamp",
+      "path": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
     },
     {
       "basename": "0-前端视频记录卡",
       "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
+      "basename": "传统的响应式网页设计挑战-freecodecamp",
+      "path": "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md"
+    },
+    {
+      "basename": "如何获得开发人员的工作-即使在这种经济中[完整课程]",
+      "path": "0-前端视频记录/05-freecodecamp/如何获得开发人员的工作-即使在这种经济中[完整课程].md"
+    },
+    {
+      "basename": "P7大前端架构师1期",
+      "path": "0-前端视频记录/02-慕课/P7大前端架构师1期.md"
+    },
+    {
+      "basename": "Flutter从入门到进阶 实战携程网App 一网打尽核心技术",
+      "path": "0-前端视频记录/02-慕课/Flutter从入门到进阶 实战携程网App 一网打尽核心技术.md"
+    },
+    {
+      "basename": "图解HTTP",
+      "path": "0-前端视频记录/01-计算机书籍/图解HTTP.md"
+    },
+    {
+      "basename": "漫画算法：小灰的算法之旅",
+      "path": "0-前端视频记录/01-计算机书籍/漫画算法：小灰的算法之旅.md"
+    },
+    {
+      "basename": "计算机是怎样跑起来的",
+      "path": "0-前端视频记录/01-计算机书籍/计算机是怎样跑起来的.md"
+    },
+    {
+      "basename": "十分钟速成课计算机科学",
+      "path": "0-前端视频记录/01-计算机书籍/十分钟速成课计算机科学.md"
+    },
+    {
+      "basename": "JavaScript设计模式与开发实践",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md"
+    },
+    {
+      "basename": "Node.js+Webpack开发实战",
+      "path": "0-前端视频记录/01-计算机书籍/Node.js+Webpack开发实战.md"
+    },
+    {
+      "basename": "程序员的数学",
+      "path": "0-前端视频记录/01-计算机书籍/程序员的数学.md"
+    },
+    {
+      "basename": "浪潮之巅",
+      "path": "0-前端视频记录/01-计算机书籍/浪潮之巅.md"
+    },
+    {
+      "basename": "JavaScript 算法和数据结构-freecodecamp",
+      "path": "0-前端视频记录/05-freecodecamp/JavaScript 算法和数据结构-freecodecamp.md"
+    },
+    {
+      "basename": "技术蛋老师",
+      "path": "0-前端视频记录/04-B站视频/技术蛋老师.md"
+    },
+    {
+      "basename": "算法训练营2021版第0期",
+      "path": "0-前端视频记录/02-极客时间/算法训练营2021版第0期.md"
+    },
+    {
+      "basename": "左耳听风",
+      "path": "0-前端视频记录/02-极客时间/左耳听风.md"
+    },
+    {
+      "basename": "重学前端",
+      "path": "0-前端视频记录/02-极客时间/重学前端.md"
+    },
+    {
+      "basename": "前端开发核心知识进阶：从夯实基础到突破瓶颈",
+      "path": "0-前端视频记录/01-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md"
+    },
+    {
+      "basename": "深入理解现代 JavaScript",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md"
+    },
+    {
+      "basename": "《JavaScript权威指南第7版》上",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
+    },
+    {
+      "basename": "JavaScript重难点实例精讲",
+      "path": "0-前端视频记录/01-计算机书籍/JavaScript重难点实例精讲.md"
+    },
+    {
+      "basename": "极客时间 - Electron 开发实战",
+      "path": "0-前端视频记录/02-极客时间/极客时间 - Electron 开发实战.md"
+    },
+    {
+      "basename": "JavaScript高级程序设计",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
+    },
+    {
+      "basename": "JavaScript从入门到实战开发最强教科书",
+      "path": "0-前端视频记录/01-计算机书籍/JavaScript从入门到实战开发最强教科书.md"
+    },
+    {
+      "basename": "JavaScript 工程师的 Python 指南",
+      "path": "0-前端视频记录/01-计算机书籍/JavaScript 工程师的 Python 指南.md"
+    },
+    {
+      "basename": "GitHub入门与实践",
+      "path": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md"
     },
     {
       "basename": "面向初学者的 Google Gemini AI 课程",
@@ -15,10 +119,6 @@
     {
       "basename": "React入门到实战",
       "path": "0-前端视频记录/11-React/React入门到实战.md"
-    },
-    {
-      "basename": "图解HTTP",
-      "path": "0-前端视频记录/01-计算机书籍/图解HTTP.md"
     },
     {
       "basename": "图解设计模式",
@@ -73,10 +173,6 @@
       "path": "0-前端视频记录/01-计算机书籍/数据结构与算法JavaScript描述.md"
     },
     {
-      "basename": "深入理解现代JavaScript",
-      "path": "0-前端视频记录/01-计算机书籍/深入理解现代JavaScript.md"
-    },
-    {
       "basename": "现代JavaScript库开发：原理、技术与实战",
       "path": "0-前端视频记录/01-计算机书籍/现代JavaScript库开发：原理、技术与实战.md"
     },
@@ -103,102 +199,6 @@
     {
       "basename": "AIGC未来已来",
       "path": "0-前端视频记录/01-计算机书籍/AIGC未来已来.md"
-    },
-    {
-      "basename": "使用 ChatGPT 编写全栈应用程序 – 完整课程",
-      "path": "0-前端视频记录/05-freecodecamp/使用 ChatGPT 编写全栈应用程序 – 完整课程.md"
-    },
-    {
-      "basename": "Vue3和TypeScript模仿小红书的瀑布流组件",
-      "path": "0-前端视频记录/02-掘金/Vue3和TypeScript模仿小红书的瀑布流组件.md"
-    },
-    {
-      "basename": "【尚硅谷】Vue全家桶 - 带源码课件",
-      "path": "0-前端视频记录/01-尚硅谷/【尚硅谷】Vue全家桶 - 带源码课件.md"
-    },
-    {
-      "basename": "尚硅谷2024最新Linux零基础教程",
-      "path": "0-前端视频记录/01-尚硅谷/尚硅谷2024最新Linux零基础教程.md"
-    },
-    {
-      "basename": "【直播回放】AI时代的编程开发 2024年3月20日19点场",
-      "path": "0-前端视频记录/01-尚硅谷/【直播回放】AI时代的编程开发 2024年3月20日19点场.md"
-    },
-    {
-      "basename": "千锋教育web前端开发教程，React项目实战教程（全球新闻发布管理系统）",
-      "path": "0-前端视频记录/01-千峰 kerwin/千锋教育web前端开发教程，React项目实战教程（全球新闻发布管理系统）.md"
-    },
-    {
-      "basename": "【千锋教育】前端项目_uni-app入门到实战项目之《仿网易云音乐》",
-      "path": "0-前端视频记录/01-千峰 kerwin/【千锋教育】前端项目_uni-app入门到实战项目之《仿网易云音乐》.md"
-    },
-    {
-      "basename": "漫画Java",
-      "path": "0-前端视频记录/01-计算机书籍/漫画Java.md"
-    },
-    {
-      "basename": "算法之美",
-      "path": "0-前端视频记录/01-计算机书籍/算法之美.md"
-    },
-    {
-      "basename": "网络是怎样连接的",
-      "path": "0-前端视频记录/01-计算机书籍/网络是怎样连接的.md"
-    },
-    {
-      "basename": "解忧程序员——高薪编程、求职面试与成长转型宝典",
-      "path": "0-前端视频记录/01-计算机书籍/解忧程序员——高薪编程、求职面试与成长转型宝典.md"
-    },
-    {
-      "basename": "计算机是怎样跑起来的",
-      "path": "0-前端视频记录/01-计算机书籍/计算机是怎样跑起来的.md"
-    },
-    {
-      "basename": "面向对象是怎样工作的",
-      "path": "0-前端视频记录/01-计算机书籍/面向对象是怎样工作的.md"
-    },
-    {
-      "basename": "编码",
-      "path": "0-前端视频记录/01-计算机书籍/编码.md"
-    },
-    {
-      "basename": "黑客与画家",
-      "path": "0-前端视频记录/01-计算机书籍/黑客与画家.md"
-    },
-    {
-      "basename": "《你不知道的JavaScript上》",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md"
-    },
-    {
-      "basename": "数据结构与算法之美",
-      "path": "0-前端视频记录/02-慕课/数据结构与算法之美.md"
-    },
-    {
-      "basename": "算法图解",
-      "path": "0-前端视频记录/01-计算机书籍/算法图解.md"
-    },
-    {
-      "basename": "Hello 算法",
-      "path": "0-前端视频记录/01-计算机书籍/Hello 算法.md"
-    },
-    {
-      "basename": "学习JavaScript数据结构与算法（第3版）",
-      "path": "0-前端视频记录/01-计算机书籍/学习JavaScript数据结构与算法（第3版）.md"
-    },
-    {
-      "basename": "Web 前端面试指南与高频考题解析",
-      "path": "0-前端视频记录/02-掘金/Web 前端面试指南与高频考题解析.md"
-    },
-    {
-      "basename": "前端工程化：基于Vue.js 3.0的设计与实践",
-      "path": "0-前端视频记录/01-计算机书籍/前端工程化：基于Vue.js 3.0的设计与实践.md"
-    },
-    {
-      "basename": "Node.js+Webpack开发实战",
-      "path": "0-前端视频记录/01-计算机书籍/Node.js+Webpack开发实战.md"
-    },
-    {
-      "basename": "TCP_IP网络编程 1",
-      "path": "0-前端视频记录/01-计算机书籍/TCP_IP网络编程 1.md"
     }
   ],
   "omittedPaths": [],

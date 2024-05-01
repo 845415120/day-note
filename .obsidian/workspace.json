@@ -23,64 +23,12 @@
             }
           },
           {
-            "id": "40b0823504ba07ed",
+            "id": "71f6f2a26b79611e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1512fcdff2a08815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/01-计算机书籍/图解HTTP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36470e459a888c55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/01-计算机书籍/Node.js+Webpack开发实战.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3832a7ed5215f76c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/01-计算机书籍/程序员的数学.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e84028287ae754b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/01-计算机书籍/0-卡片/0-卡片.md",
+                "file": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 232.5
   },
   "right": {
     "id": "4c275809f335b52b",
@@ -178,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md"
+                "file": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
               }
             }
           },
@@ -188,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md",
+                "file": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md",
+                "file": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,34 +177,34 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "40b0823504ba07ed",
+  "active": "71f6f2a26b79611e",
   "lastOpenFiles": [
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "0-前端视频记录/05-freecodecamp/面向初学者的 Google Gemini AI 课程.md",
-    "0-前端视频记录/11-React/React入门到实战.md",
+    "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md",
+    "0-前端视频记录/15-体系课/【黑马程序员】JavaEE就业课 V13.0 - 带源码课件.md",
+    "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md",
+    "0-前端视频记录/05-freecodecamp/如何获得开发人员的工作-即使在这种经济中[完整课程].md",
+    "0-前端视频记录/02-慕课/P7大前端架构师1期.md",
+    "0-前端视频记录/02-慕课/Flutter从入门到进阶 实战携程网App 一网打尽核心技术.md",
     "0-前端视频记录/01-计算机书籍/图解HTTP.md",
-    "0-前端视频记录/01-计算机书籍/图解设计模式.md",
+    "0-前端视频记录/01-计算机书籍/漫画算法：小灰的算法之旅.md",
+    "0-前端视频记录/01-计算机书籍/计算机是怎样跑起来的.md",
+    "0-前端视频记录/01-计算机书籍/十分钟速成课计算机科学.md",
+    "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md",
+    "0-前端视频记录/01-计算机书籍/Node.js+Webpack开发实战.md",
+    "0-前端视频记录/01-计算机书籍/程序员的数学.md",
     "0-前端视频记录/01-黑马 pink 老师/03-Echarts-数据可视化.md",
-    "0-前端视频记录/01-计算机书籍/大话程序员：从入门到优秀全攻略.md",
-    "0-前端视频记录/01-计算机书籍/失控.md",
-    "0-前端视频记录/01-计算机书籍/安卓传奇.md",
-    "0-前端视频记录/01-计算机书籍/师兄教你找工作.md",
-    "0-前端视频记录/01-计算机书籍/循序渐进Vue.js 3前端开发实战.md",
-    "0-前端视频记录/01-计算机书籍/微信小程序开发入门与实践.md",
-    "0-前端视频记录/01-计算机书籍/必然.md",
-    "0-前端视频记录/01-计算机书籍/我的第一本算法书.md",
-    "0-前端视频记录/01-计算机书籍/技术为径.md",
-    "0-前端视频记录/01-计算机书籍/操作系统革命.md",
-    "0-前端视频记录/01-计算机书籍/数学之美（第三版）.md",
-    "0-前端视频记录/01-计算机书籍/数据结构与算法JavaScript描述.md",
-    "0-前端视频记录/01-计算机书籍/深入理解现代JavaScript.md",
-    "0-前端视频记录/01-计算机书籍/现代JavaScript库开发：原理、技术与实战.md",
-    "0-前端视频记录/01-计算机书籍/程序员的README.md",
-    "0-前端视频记录/01-计算机书籍/程序员超强大脑.md",
-    "0-前端视频记录/01-计算机书籍/程序是怎样跑起来的.md",
-    "0-前端视频记录/01-计算机书籍/JavaScript 二十年.md",
-    "0-前端视频记录/01-计算机书籍/04.廖雪峰 JavaScript教程.md",
-    "0-前端视频记录/01-计算机书籍/AIGC未来已来.md",
+    "0-前端视频记录/01-计算机书籍/浪潮之巅.md",
+    "0-前端视频记录/05-freecodecamp/JavaScript 算法和数据结构-freecodecamp.md",
+    "0-前端视频记录/04-B站视频/技术蛋老师.md",
+    "0-前端视频记录/04-B站视频/00-技术蛋老师/技术蛋老师-CSS.md",
+    "0-前端视频记录/02-极客时间/算法训练营2021版第0期.md",
+    "0-前端视频记录/02-极客时间/左耳听风.md",
+    "0-前端视频记录/02-极客时间/重学前端.md",
+    "0-前端视频记录/01-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md",
+    "0-前端视频记录/02-极客时间/极客时间-Python进阶训练营.md",
+    "0-前端视频记录/01-计算机书籍/CSS选择器世界.md",
+    "0-前端视频记录/01-计算机书籍/JavaScript设计模式与开发实践.md",
     "Z-附件/Pasted image 20240501154057.png",
     "Z-附件/Pasted image 20240501154029.png",
     "Z-附件/Pasted image 20240501154017.png",
