@@ -8,52 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bcdda5e4074ac443",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Javascript/00-卡片/JavaScript卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "dd6158f7b4703975",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue.js 3.0企业级管理后台开发实战/Vue.js 3.0企业级管理后台开发实战：基于Element Plus.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f0d6bdcc0dd94795",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/邓小平/00-卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "abc0e8e96277aad5",
+            "id": "7c37f47a4ffd0ca3",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -66,74 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c388d9a910f6fdca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/freecodecamp/准备开发人员面试求职：freecodecamp.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3b3f00b2a9631f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-B站/美团技术博客十周年.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3774896095eb083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/计算机视觉-Opencv项目实战(Python版).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8173d430d3c5e909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/算法和数据结构新手班.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22d4d2cfb2a4fb79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Vue 开发实战",
+                "query": "file:佛朗哥",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/freecodecamp/准备开发人员面试求职：freecodecamp.md"
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
               }
             }
           },
@@ -218,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/freecodecamp/准备开发人员面试求职：freecodecamp.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/freecodecamp/准备开发人员面试求职：freecodecamp.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,36 +148,38 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "c388d9a910f6fdca",
+  "active": "7c37f47a4ffd0ca3",
   "lastOpenFiles": [
-    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "0-前端视频记录/freecodecamp/准备开发人员面试求职：freecodecamp.md",
-    "0-前端视频记录/01-尚硅谷/【尚硅谷】Vue全家桶 - 带源码课件.md",
-    "0-前端视频记录/01-尚硅谷",
-    "0-前端视频记录/【BitTiger】CS501硅谷程序员直通车.md",
-    "0-前端视频记录/16-掘金/Vue3和TypeScript模仿小红书的瀑布流组件.md",
-    "0-前端视频记录/16-掘金",
-    "0-前端视频记录/freecodecamp/Webflow 入门教程 - 无代码网页开发.md",
-    "0-前端视频记录/Web 前端面试指南与高频考题解析.md",
-    "0-前端视频记录/14-慕课/互联网人副业指南 启动你的首个副业项目.md",
-    "0-前端视频记录/2023年 CSS 发展总结（中文）.md",
-    "H-每日记录/2024-05-01.md",
-    "0-前端视频记录/B站视频/吴悠讲编程.md",
-    "0-前端视频记录/B站视频/技术蛋老师.md",
-    "0-前端视频记录/面向初学者☕的 Java 教程 1.md",
-    "Y-B站/美团技术博客十周年.md",
-    "Y-B站/科技爱好者周刊（第 284 期）.md",
-    "0-前端视频记录/05-极客时间/重学前端 1.md",
-    "0-前端视频记录/开课吧-数字化就业班《Web企业项目实战》2022 完结.md",
-    "0-前端视频记录/算法训练营2021版第0期 1.md",
-    "0-前端视频记录/计算机视觉-Opencv项目实战(Python版).md",
-    "0-前端视频记录/算法和数据结构新手班.md",
-    "0-前端视频记录/极客时间-Python进阶训练营.md",
-    "0-前端视频记录/黑马vue2.md",
-    "0-前端视频记录/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md",
-    "0-前端视频记录/构建 25 个 React 项目 – 教程.md",
     "0-前端视频记录/高阶前端进阶必修，自主打造同比AntD的React组件库 1.md",
-    "0-前端视频记录/程序员-纪录片.md",
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+    "0-前端视频记录/02-慕课/Flutter从入门到进阶 实战携程网App 一网打尽核心技术.md",
+    "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md",
+    "Y-历史/曼纳海姆.md",
+    "0-前端视频记录/05-freecodecamp/如何获得开发人员的工作-即使在这种经济中[完整课程].md",
+    "0-前端视频记录/05-freecodecamp/准备开发人员面试求职：freecodecamp.md",
+    "0-前端视频记录/05-freecodecamp/使用 ChatGPT 编写全栈应用程序 – 完整课程.md",
+    "Y-历史/李光耀/李光耀.md",
+    "Y-历史/0-卡片.md",
+    "Y-历史/邓小平/视频/UP/中国为什么举倾国之力援助越南，转头又发动中越战争，普金大弟和邓小平谁更会打仗一点.md",
+    "Y-历史/邓小平/书籍/“历史上重大问题的议论到此基本结束” ——邓小平在评价毛泽东和毛泽东思想的争论中.md",
+    "Y-历史/邓小平/书籍/大家谈讲坛 秦晖对话傅高义：为什么是邓小平？.md",
+    "Y-历史/邓小平/视频/UP/今天，我們為什麼仍然懷念鄧小平？鄧小平誕辰118周年 香江仲夏情：鄧小平誕辰111周年特別紀念.md",
+    "Y-历史/邓小平/视频/纪录片/九天――1979年邓小平访美.md",
+    "Y-历史/邓小平/书籍/我的父亲邓小平：“文革”岁月.md",
+    "Y-历史/李光耀",
+    "0-前端视频记录/02-慕课/Vue全家桶实战 从零独立开发企业级电商系统.md",
+    "0-前端视频记录/02-慕课/Vue组件库.md",
+    "0-前端视频记录/01-黑马 pink 老师/黑马vue2.md",
+    "0-前端视频记录/01-黑马 pink 老师/黑马程序员python教程.md",
+    "0-前端视频记录/01-黑马 pink 老师/黑马程序员前端面试必看视频教程（手写Promise+js设计模式+继承+函数柯里化等）.md",
+    "0-前端视频记录/02-极客时间/趣谈网络协议.md",
+    "0-前端视频记录/02-极客时间/算法训练营2021版第0期.md",
+    "0-前端视频记录/王红元 - 前端体系课-2614集 - 带源码课件.md",
+    "0-前端视频记录/02-极客时间/极客时间-Python进阶训练营.md",
+    "0-前端视频记录/01-黑马 pink 老师/【2024年3月】最新计算机二级MS office考试全套教程，高频考点真题全覆盖（Word、Excel、PPT、Python完成Excel数据分析）.md",
+    "0-前端视频记录/01-尚硅谷",
+    "0-前端视频记录/01-尚硅谷",
+    "0-前端视频记录/02-掘金",
     "H-每日记录/2024-05-01",
     "H-每日记录/2024-04-30",
     "H-每日记录/2024-04-29",
@@ -296,8 +187,6 @@
     "H-每日记录/2024-04-28",
     "Y-历史/邓小平/视频/纪录片/未命名",
     "Y-历史/邓小平/视频/讲座",
-    "Y-历史/邓小平/视频",
-    "Y-历史/邓小平/讲座",
     "Z-附件/Pasted image 20240425121344.png",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
     "Z-附件/Pasted image 20231027125324.png",
