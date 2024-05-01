@@ -1,16 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "前端开发库React-freecodecamp",
-      "path": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
-    },
-    {
       "basename": "0-前端视频记录卡",
       "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
     },
     {
+      "basename": "Go 语言从入门到实战",
+      "path": "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md"
+    },
+    {
+      "basename": "CSS权威指南",
+      "path": "0-前端视频记录/01-计算机书籍/CSS权威指南.md"
+    },
+    {
+      "basename": "CSS选择器世界",
+      "path": "0-前端视频记录/01-计算机书籍/CSS选择器世界.md"
+    },
+    {
+      "basename": "JavaScript设计模式",
+      "path": "0-前端视频记录/01-计算机书籍/JavaScript设计模式.md"
+    },
+    {
+      "basename": "Head First HTML与CSS（第2版）",
+      "path": "0-前端视频记录/01-计算机书籍/Head First HTML与CSS（第2版）.md"
+    },
+    {
+      "basename": "NestJS 入门到实战 前端必学服务端新趋势",
+      "path": "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md"
+    },
+    {
+      "basename": "Taro3+Mysql+Express开发企业级出行全栈项目",
+      "path": "0-前端视频记录/02-慕课/Taro3+Mysql+Express开发企业级出行全栈项目.md"
+    },
+    {
+      "basename": "现代 JavaScript 库开发",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
+    },
+    {
+      "basename": "React快速上手开发",
+      "path": "0-前端视频记录/01-计算机书籍/React快速上手开发.md"
+    },
+    {
+      "basename": "人月神话",
+      "path": "0-前端视频记录/01-计算机书籍/人月神话.md"
+    },
+    {
       "basename": "传统的响应式网页设计挑战-freecodecamp",
       "path": "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md"
+    },
+    {
+      "basename": "代码",
+      "path": "0-前端视频记录/01-计算机书籍/代码.md"
+    },
+    {
+      "basename": "Web性能权威指南",
+      "path": "0-前端视频记录/01-计算机书籍/Web性能权威指南.md"
+    },
+    {
+      "basename": "Webpack+Babel入门与实例详解",
+      "path": "0-前端视频记录/01-计算机书籍/Webpack+Babel入门与实例详解.md"
+    },
+    {
+      "basename": "Vue.js3应用开发与核心源码解析",
+      "path": "0-前端视频记录/01-计算机书籍/Vue.js3应用开发与核心源码解析.md"
+    },
+    {
+      "basename": "代码奔腾",
+      "path": "0-前端视频记录/01-计算机书籍/代码奔腾.md"
+    },
+    {
+      "basename": "你好哇，程序员",
+      "path": "0-前端视频记录/01-计算机书籍/你好哇，程序员.md"
+    },
+    {
+      "basename": "信息传",
+      "path": "0-前端视频记录/01-计算机书籍/信息传.md"
+    },
+    {
+      "basename": "前端技术架构与工程",
+      "path": "0-前端视频记录/01-计算机书籍/前端技术架构与工程.md"
+    },
+    {
+      "basename": "前端程序员面试秘籍",
+      "path": "0-前端视频记录/01-计算机书籍/前端程序员面试秘籍.md"
+    },
+    {
+      "basename": "Web 协议详解与抓包实战",
+      "path": "0-前端视频记录/02-极客时间/Web 协议详解与抓包实战.md"
+    },
+    {
+      "basename": "极客时间-Python进阶训练营",
+      "path": "0-前端视频记录/02-极客时间/极客时间-Python进阶训练营.md"
+    },
+    {
+      "basename": "玩转 webpack",
+      "path": "0-前端视频记录/02-极客时间/玩转 webpack.md"
+    },
+    {
+      "basename": "峰华前端工程师",
+      "path": "0-前端视频记录/04-B站视频/峰华前端工程师.md"
+    },
+    {
+      "basename": "浏览器渲染",
+      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/浏览器渲染.md"
+    },
+    {
+      "basename": "技术蛋老师-CSS",
+      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/技术蛋老师-CSS.md"
+    },
+    {
+      "basename": "移动端自动化测试实战",
+      "path": "0-前端视频记录/02-极客时间/移动端自动化测试实战.md"
+    },
+    {
+      "basename": "JavaScript知识点",
+      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md"
+    },
+    {
+      "basename": "MongoDB 高手课",
+      "path": "0-前端视频记录/02-极客时间/MongoDB 高手课.md"
+    },
+    {
+      "basename": "基于 Flutter 3.x 仿抖音跨平台混合开发",
+      "path": "0-前端视频记录/02-慕课/基于 Flutter 3.x 仿抖音跨平台混合开发.md"
+    },
+    {
+      "basename": "Vue3+TS打造SSR网站应用，0到1实现服务端渲染",
+      "path": "0-前端视频记录/02-慕课/Vue3+TS打造SSR网站应用，0到1实现服务端渲染.md"
+    },
+    {
+      "basename": "慕课体系课-前端工程师2022年",
+      "path": "0-前端视频记录/15-体系课/慕课体系课-前端工程师2022年.md"
+    },
+    {
+      "basename": "前端开发库React-freecodecamp",
+      "path": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
     },
     {
       "basename": "如何获得开发人员的工作-即使在这种经济中[完整课程]",
@@ -61,10 +185,6 @@
       "path": "0-前端视频记录/05-freecodecamp/JavaScript 算法和数据结构-freecodecamp.md"
     },
     {
-      "basename": "技术蛋老师",
-      "path": "0-前端视频记录/04-B站视频/技术蛋老师.md"
-    },
-    {
       "basename": "算法训练营2021版第0期",
       "path": "0-前端视频记录/02-极客时间/算法训练营2021版第0期.md"
     },
@@ -79,126 +199,6 @@
     {
       "basename": "前端开发核心知识进阶：从夯实基础到突破瓶颈",
       "path": "0-前端视频记录/01-计算机书籍/前端开发核心知识进阶：从夯实基础到突破瓶颈.md"
-    },
-    {
-      "basename": "深入理解现代 JavaScript",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《深入理解现代JavaScript》/深入理解现代 JavaScript.md"
-    },
-    {
-      "basename": "《JavaScript权威指南第7版》上",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript权威指南第7版》上.md"
-    },
-    {
-      "basename": "JavaScript重难点实例精讲",
-      "path": "0-前端视频记录/01-计算机书籍/JavaScript重难点实例精讲.md"
-    },
-    {
-      "basename": "极客时间 - Electron 开发实战",
-      "path": "0-前端视频记录/02-极客时间/极客时间 - Electron 开发实战.md"
-    },
-    {
-      "basename": "JavaScript高级程序设计",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript高级程序设计第四版》/JavaScript高级程序设计.md"
-    },
-    {
-      "basename": "JavaScript从入门到实战开发最强教科书",
-      "path": "0-前端视频记录/01-计算机书籍/JavaScript从入门到实战开发最强教科书.md"
-    },
-    {
-      "basename": "JavaScript 工程师的 Python 指南",
-      "path": "0-前端视频记录/01-计算机书籍/JavaScript 工程师的 Python 指南.md"
-    },
-    {
-      "basename": "GitHub入门与实践",
-      "path": "0-前端视频记录/01-计算机书籍/GitHub入门与实践.md"
-    },
-    {
-      "basename": "面向初学者的 Google Gemini AI 课程",
-      "path": "0-前端视频记录/05-freecodecamp/面向初学者的 Google Gemini AI 课程.md"
-    },
-    {
-      "basename": "React入门到实战",
-      "path": "0-前端视频记录/11-React/React入门到实战.md"
-    },
-    {
-      "basename": "图解设计模式",
-      "path": "0-前端视频记录/01-计算机书籍/图解设计模式.md"
-    },
-    {
-      "basename": "大话程序员：从入门到优秀全攻略",
-      "path": "0-前端视频记录/01-计算机书籍/大话程序员：从入门到优秀全攻略.md"
-    },
-    {
-      "basename": "失控",
-      "path": "0-前端视频记录/01-计算机书籍/失控.md"
-    },
-    {
-      "basename": "安卓传奇",
-      "path": "0-前端视频记录/01-计算机书籍/安卓传奇.md"
-    },
-    {
-      "basename": "师兄教你找工作",
-      "path": "0-前端视频记录/01-计算机书籍/师兄教你找工作.md"
-    },
-    {
-      "basename": "循序渐进Vue.js 3前端开发实战",
-      "path": "0-前端视频记录/01-计算机书籍/循序渐进Vue.js 3前端开发实战.md"
-    },
-    {
-      "basename": "微信小程序开发入门与实践",
-      "path": "0-前端视频记录/01-计算机书籍/微信小程序开发入门与实践.md"
-    },
-    {
-      "basename": "必然",
-      "path": "0-前端视频记录/01-计算机书籍/必然.md"
-    },
-    {
-      "basename": "我的第一本算法书",
-      "path": "0-前端视频记录/01-计算机书籍/我的第一本算法书.md"
-    },
-    {
-      "basename": "技术为径",
-      "path": "0-前端视频记录/01-计算机书籍/技术为径.md"
-    },
-    {
-      "basename": "操作系统革命",
-      "path": "0-前端视频记录/01-计算机书籍/操作系统革命.md"
-    },
-    {
-      "basename": "数学之美（第三版）",
-      "path": "0-前端视频记录/01-计算机书籍/数学之美（第三版）.md"
-    },
-    {
-      "basename": "数据结构与算法JavaScript描述",
-      "path": "0-前端视频记录/01-计算机书籍/数据结构与算法JavaScript描述.md"
-    },
-    {
-      "basename": "现代JavaScript库开发：原理、技术与实战",
-      "path": "0-前端视频记录/01-计算机书籍/现代JavaScript库开发：原理、技术与实战.md"
-    },
-    {
-      "basename": "程序员的README",
-      "path": "0-前端视频记录/01-计算机书籍/程序员的README.md"
-    },
-    {
-      "basename": "程序员超强大脑",
-      "path": "0-前端视频记录/01-计算机书籍/程序员超强大脑.md"
-    },
-    {
-      "basename": "程序是怎样跑起来的",
-      "path": "0-前端视频记录/01-计算机书籍/程序是怎样跑起来的.md"
-    },
-    {
-      "basename": "JavaScript 二十年",
-      "path": "0-前端视频记录/01-计算机书籍/JavaScript 二十年.md"
-    },
-    {
-      "basename": "04.廖雪峰 JavaScript教程",
-      "path": "0-前端视频记录/01-计算机书籍/04.廖雪峰 JavaScript教程.md"
-    },
-    {
-      "basename": "AIGC未来已来",
-      "path": "0-前端视频记录/01-计算机书籍/AIGC未来已来.md"
     }
   ],
   "omittedPaths": [],
