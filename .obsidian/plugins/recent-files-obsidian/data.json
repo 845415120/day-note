@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-05-01",
-      "path": "H-每日记录/2024-05-01.md"
+      "basename": "6-电视剧",
+      "path": "卡片/6-电视剧.md"
+    },
+    {
+      "basename": "一口气看完英国历史",
+      "path": "Y-历史/一口气看完英国历史.md"
+    },
+    {
+      "basename": "中国通史",
+      "path": "Y-历史/中国通史.md"
     },
     {
       "basename": "0-历史卡片",
       "path": "Y-历史/0-历史卡片.md"
+    },
+    {
+      "basename": "越南战争",
+      "path": "Y-历史/越南战争.md"
+    },
+    {
+      "basename": "周恩来 1",
+      "path": "Y-历史/周恩来 1.md"
+    },
+    {
+      "basename": "周恩来",
+      "path": "O-电影1900/周恩来.md"
+    },
+    {
+      "basename": "发现工具",
+      "path": "H-每日记录/2024-05-02/发现工具.md"
+    },
+    {
+      "basename": "2024-05-02",
+      "path": "H-每日记录/2024-05-02.md"
+    },
+    {
+      "basename": "2024-05-01",
+      "path": "H-每日记录/2024-05-01.md"
     },
     {
       "basename": "0-前端视频记录卡",
@@ -167,38 +199,6 @@
     {
       "basename": "前端开发库React-freecodecamp",
       "path": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
-    },
-    {
-      "basename": "如何获得开发人员的工作-即使在这种经济中[完整课程]",
-      "path": "0-前端视频记录/05-freecodecamp/如何获得开发人员的工作-即使在这种经济中[完整课程].md"
-    },
-    {
-      "basename": "P7大前端架构师1期",
-      "path": "0-前端视频记录/02-慕课/P7大前端架构师1期.md"
-    },
-    {
-      "basename": "Flutter从入门到进阶 实战携程网App 一网打尽核心技术",
-      "path": "0-前端视频记录/02-慕课/Flutter从入门到进阶 实战携程网App 一网打尽核心技术.md"
-    },
-    {
-      "basename": "图解HTTP",
-      "path": "0-前端视频记录/01-计算机书籍/图解HTTP.md"
-    },
-    {
-      "basename": "漫画算法：小灰的算法之旅",
-      "path": "0-前端视频记录/01-计算机书籍/漫画算法：小灰的算法之旅.md"
-    },
-    {
-      "basename": "计算机是怎样跑起来的",
-      "path": "0-前端视频记录/01-计算机书籍/计算机是怎样跑起来的.md"
-    },
-    {
-      "basename": "十分钟速成课计算机科学",
-      "path": "0-前端视频记录/01-计算机书籍/十分钟速成课计算机科学.md"
-    },
-    {
-      "basename": "JavaScript设计模式与开发实践",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《JavaScript设计模式与开发实践》/JavaScript设计模式与开发实践.md"
     }
   ],
   "omittedPaths": [],

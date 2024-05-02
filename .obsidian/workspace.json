@@ -38,12 +38,38 @@
             }
           },
           {
+            "id": "7297e92ee48748e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/越南战争.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "27d791c757301cb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "H-每日记录/2024-05-01.md",
+                "file": "H-每日记录/2024-05-02/发现工具.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ce9900a3290bbd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "卡片/6-电视剧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -70,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(2024-05-01)",
+                "query": "file:周恩来",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-05-01.md"
+                "file": "卡片/6-电视剧.md"
               }
             }
           },
@@ -136,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-05-01.md",
+                "file": "卡片/6-电视剧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-05-01.md",
+                "file": "卡片/6-电视剧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,9 +203,22 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "27d791c757301cb7",
+  "active": "5ce9900a3290bbd8",
   "lastOpenFiles": [
+    "Y-历史/一口气看完英国历史.md",
+    "卡片/6-电视剧.md",
+    "Y-历史/中国通史.md",
     "Y-历史/0-历史卡片.md",
+    "Y-历史/周恩来.md",
+    "Y-历史/越南战争.md",
+    "Y-历史/周恩来 1.md",
+    "O-电影1900/周恩来.md",
+    "Y-历史/百家讲坛/百家讲坛：大明嘉靖往事.md",
+    "Y-历史/百家讲坛/百家讲坛：万历兴亡录.md",
+    "H-每日记录/2024-05-02/发现工具.md",
+    "H-每日记录/2024-05-02.md",
+    "H-每日记录/2024-05-02",
+    "H-每日记录/2024-05-01.md",
     "Y-历史/中国/中国文化大革命：全解析（微纪录片）.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-前端视频记录/02-极客时间/Vue 开发实战 1.md",
@@ -193,18 +232,6 @@
     "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md",
     "0-前端视频记录/15-体系课/黑马前端V8.5.md",
     "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md",
-    "0-前端视频记录/01-计算机书籍/CSS权威指南.md",
-    "0-前端视频记录/01-计算机书籍/CSS选择器世界.md",
-    "0-前端视频记录/01-计算机书籍/JavaScript设计模式.md",
-    "0-前端视频记录/01-计算机书籍/Head First HTML与CSS（第2版）.md",
-    "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md",
-    "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md",
-    "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
-    "0-前端视频记录/01-计算机书籍/React快速上手开发.md",
-    "0-前端视频记录/01-计算机书籍/人月神话.md",
-    "0-前端视频记录/01-计算机书籍/代码.md",
-    "0-前端视频记录/01-计算机书籍/Web性能权威指南.md",
-    "0-前端视频记录/01-计算机书籍/Webpack+Babel入门与实例详解.md",
     "Z-附件/Pasted image 20240501154057.png",
     "Z-附件/Pasted image 20240501154029.png",
     "Z-附件/Pasted image 20240501154017.png",
@@ -217,7 +244,6 @@
     "Y-历史/中东/王骁-中东",
     "Y-历史/中东/王骁-中东/东盟十国",
     "Y-历史/中东/王骁-中东/美帝",
-    "Y-历史/中东/南亚",
     "Z-附件/Pasted image 20240428152411.png",
     "Z-附件/Pasted image 20240425121344.png",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
