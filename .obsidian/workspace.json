@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "7297e92ee48748e0",
+            "id": "5d8f715bf40e2c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y-历史/越南战争.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27d791c757301cb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-02/发现工具.md",
+                "file": "Y-历史/凤凰大视野/太平天国运动——凤凰大视野.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,7 +64,7 @@
             }
           },
           {
-            "id": "e3afc9e9570ebbaa",
+            "id": "0a84a1608d7e70a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-05-02.md"
+                "file": "Y-历史/0-历史卡片.md"
               }
             }
           },
@@ -175,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-05-02.md",
+                "file": "Y-历史/0-历史卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-05-02.md",
+                "file": "Y-历史/0-历史卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,11 +203,21 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "e3afc9e9570ebbaa",
+  "active": "166f1df0b582e203",
   "lastOpenFiles": [
+    "Y-历史/凤凰大视野/凤凰大视野 我的1976.md",
+    "Y-历史/0-历史卡片.md",
+    "Y-历史/凤凰大视野/太平天国运动——凤凰大视野.md",
+    "Y-历史/凤凰大视野/凤凰大视野 1973 中国往事.md",
+    "Y-历史/美帝/【美帝三头犬04牵绳人】为什么美国是最差的帝国主义.md",
+    "H-每日记录/2024-05-02.md",
+    "H-每日记录/2024-05-02/太平天国运动——凤凰大视野 1.md",
+    "Y-历史/帝国的崛起奥斯曼第一季.md",
+    "H-每日记录/2024-05-02/帝国的崛起奥斯曼第一季 1.md",
+    "Y-历史/2003年纪录片《世界大战100年》冷战全程实录.md",
+    "Y-历史/历史调研室/罗斯福.md",
     "H-每日记录/2024-05-02/发现工具.md",
     "H-每日记录/2024-05-02/苏联解体20周年特别节目——红色帝国的最后记忆.md",
-    "H-每日记录/2024-05-02.md",
     "O-电影2000/0-卡片/0-电影2000.md",
     "O-电影2000/陆小凤传奇之绣花大盗.md",
     "O-电影2000/谍影重重3.md",
@@ -234,16 +231,6 @@
     "Y-历史/解放1炮火弧线.md",
     "Y-历史/解放5最后一击.md",
     "Y-历史/解放4柏林之战.md",
-    "Y-历史/解放3主攻方向.md",
-    "Y-历史/莫斯科保卫战.md",
-    "Y-历史/大决战之辽沈战役.md",
-    "Y-历史/大决战之淮海战役.md",
-    "Y-历史/大决战之平津战役.md",
-    "Y-历史/大进军——解放大西北.md",
-    "Y-历史/大转折——鏖战鲁西南.md",
-    "Y-历史/大转折——挺进大别山.md",
-    "Y-历史/大进军——南线大追歼.md",
-    "Y-历史/大进军——席卷大西南.md",
     "Y-历史/二战",
     "H-每日记录/2024-05-02",
     "Z-附件/Pasted image 20240501154057.png",
