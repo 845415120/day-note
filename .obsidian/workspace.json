@@ -36,9 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "27d791c757301cb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史/0-历史卡片.md"
+                "file": "H-每日记录/2024-05-01.md"
               }
             }
           },
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史/0-历史卡片.md",
+                "file": "H-每日记录/2024-05-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史/0-历史卡片.md",
+                "file": "H-每日记录/2024-05-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,8 +177,10 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "166f1df0b582e203",
+  "active": "27d791c757301cb7",
   "lastOpenFiles": [
+    "Y-历史/0-历史卡片.md",
+    "Y-历史/中国/中国文化大革命：全解析（微纪录片）.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-前端视频记录/02-极客时间/Vue 开发实战 1.md",
     "0-前端视频记录/01-黑马 pink 老师/黑马vue2.md",
@@ -190,8 +205,6 @@
     "0-前端视频记录/01-计算机书籍/代码.md",
     "0-前端视频记录/01-计算机书籍/Web性能权威指南.md",
     "0-前端视频记录/01-计算机书籍/Webpack+Babel入门与实例详解.md",
-    "0-前端视频记录/01-计算机书籍/Vue.js3应用开发与核心源码解析.md",
-    "0-前端视频记录/01-计算机书籍/代码奔腾.md",
     "Z-附件/Pasted image 20240501154057.png",
     "Z-附件/Pasted image 20240501154029.png",
     "Z-附件/Pasted image 20240501154017.png",
