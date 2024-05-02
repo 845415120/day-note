@@ -62,9 +62,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c4631c451a8ced94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-02/变局1962：七千人大会始末.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c82cbf738a13d392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-02/荒野求生 第二季.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "H-每日记录/2024-05-02.md"
+                "file": "H-每日记录/2024-05-02/荒野求生 第二季.md"
               }
             }
           },
@@ -149,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "H-每日记录/2024-05-02.md",
+                "file": "H-每日记录/2024-05-02/荒野求生 第二季.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H-每日记录/2024-05-02.md",
+                "file": "H-每日记录/2024-05-02/荒野求生 第二季.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,11 +216,12 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "0a84a1608d7e70a6",
+  "active": "c82cbf738a13d392",
   "lastOpenFiles": [
-    "H-每日记录/2024-05-02/原始求生记：安地斯山脉.md",
     "H-每日记录/2024-05-02/变局1962：七千人大会始末.md",
+    "H-每日记录/2024-05-02/荒野求生 第二季.md",
     "H-每日记录/2024-05-02.md",
+    "H-每日记录/2024-05-02/原始求生记：安地斯山脉.md",
     "Y-历史/0-历史卡片.md",
     "H-每日记录/2024-05-02/帝国的崛起奥斯曼第一季 1.md",
     "Y-历史/凤凰大视野/太平天国运动——凤凰大视野.md",
@@ -217,7 +244,6 @@
     "O-电影2000/浪潮 1.md",
     "O-电影1900/0-卡片/3-电影1900.md",
     "Y-历史/解放2突破.md",
-    "Y-历史/解放1炮火弧线.md",
     "Y-历史/二战",
     "H-每日记录/2024-05-02",
     "Z-附件/Pasted image 20240501154057.png",
