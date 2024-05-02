@@ -1,8 +1,192 @@
 {
   "recentFiles": [
     {
+      "basename": "莫斯科保卫战",
+      "path": "O-电影1900/莫斯科保卫战.md"
+    },
+    {
+      "basename": "大决战之辽沈战役",
+      "path": "Y-历史/大决战之辽沈战役.md"
+    },
+    {
+      "basename": "大决战之淮海战役",
+      "path": "Y-历史/大决战之淮海战役.md"
+    },
+    {
+      "basename": "大决战之平津战役",
+      "path": "Y-历史/大决战之平津战役.md"
+    },
+    {
+      "basename": "大进军——解放大西北",
+      "path": "Y-历史/大进军——解放大西北.md"
+    },
+    {
+      "basename": "大转折——鏖战鲁西南",
+      "path": "Y-历史/大转折——鏖战鲁西南.md"
+    },
+    {
+      "basename": "大转折——挺进大别山",
+      "path": "Y-历史/大转折——挺进大别山.md"
+    },
+    {
+      "basename": "大进军——南线大追歼",
+      "path": "Y-历史/大进军——南线大追歼.md"
+    },
+    {
+      "basename": "大进军——席卷大西南",
+      "path": "Y-历史/大进军——席卷大西南.md"
+    },
+    {
+      "basename": "3-电影1900",
+      "path": "O-电影1900/0-卡片/3-电影1900.md"
+    },
+    {
+      "basename": "解放2突破",
+      "path": "O-电影1900/解放2突破.md"
+    },
+    {
+      "basename": "解放1炮火弧线",
+      "path": "O-电影1900/解放1炮火弧线.md"
+    },
+    {
+      "basename": "解放5最后一击",
+      "path": "O-电影1900/解放5最后一击.md"
+    },
+    {
+      "basename": "解放4柏林之战",
+      "path": "O-电影1900/解放4柏林之战.md"
+    },
+    {
+      "basename": "解放3主攻方向",
+      "path": "O-电影1900/解放3主攻方向.md"
+    },
+    {
+      "basename": "革命中的中国：1911-1949",
+      "path": "Y-历史/革命中的中国：1911-1949.md"
+    },
+    {
+      "basename": "诞生在红旗下：1976-1997",
+      "path": "Y-历史/诞生在红旗下：1976-1997.md"
+    },
+    {
+      "basename": "毛泽东时代：1949-1976",
+      "path": "Y-历史/毛泽东时代：1949-1976.md"
+    },
+    {
+      "basename": "细细的红线",
+      "path": "O-电影1900/细细的红线.md"
+    },
+    {
+      "basename": "0-历史卡片",
+      "path": "Y-历史/0-历史卡片.md"
+    },
+    {
+      "basename": "刘伯承元帅",
+      "path": "Y-电视剧/刘伯承元帅.md"
+    },
+    {
+      "basename": "发现工具",
+      "path": "H-每日记录/2024-05-02/发现工具.md"
+    },
+    {
+      "basename": "袁腾飞经典 世界大战",
+      "path": "Y-历史/二战/袁腾飞经典 世界大战.md"
+    },
+    {
+      "basename": "伟大的卫国战争第一季",
+      "path": "Y-历史/二战/伟大的卫国战争第一季.md"
+    },
+    {
+      "basename": "伟大的卫国战争第二季",
+      "path": "Y-历史/二战/伟大的卫国战争第二季.md"
+    },
+    {
+      "basename": "越南战争",
+      "path": "Y-历史/越南战争.md"
+    },
+    {
       "basename": "6-电视剧",
       "path": "卡片/6-电视剧.md"
+    },
+    {
+      "basename": "泪之女王",
+      "path": "Y-电视剧/泪之女王.md"
+    },
+    {
+      "basename": "爱情公寓5",
+      "path": "Y-电视剧/爱情公寓5.md"
+    },
+    {
+      "basename": "大江大河之岁月如歌",
+      "path": "Y-电视剧/大江大河之岁月如歌.md"
+    },
+    {
+      "basename": "9号秘事第二季",
+      "path": "Y-电视剧/9号秘事第二季.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "Y-电视剧/未命名.md"
+    },
+    {
+      "basename": "香山叶正红",
+      "path": "Y-电视剧/香山叶正红.md"
+    },
+    {
+      "basename": "2003年纪录片《世界大战100年》冷战全程实录",
+      "path": "Y-历史/2003年纪录片《世界大战100年》冷战全程实录.md"
+    },
+    {
+      "basename": "《世界大战100年》马岛战争全程实录",
+      "path": "Y-历史/《世界大战100年》马岛战争全程实录.md"
+    },
+    {
+      "basename": "《世界大战100年》海湾战争全程实录",
+      "path": "Y-历史/《世界大战100年》海湾战争全程实录.md"
+    },
+    {
+      "basename": "《世界大战100年》第二次世界大战全程实录",
+      "path": "Y-历史/二战/《世界大战100年》第二次世界大战全程实录.md"
+    },
+    {
+      "basename": "世界历史",
+      "path": "Y-历史/世界历史.md"
+    },
+    {
+      "basename": "大抗战",
+      "path": "Y-历史/大抗战.md"
+    },
+    {
+      "basename": "帝国的崛起奥斯曼第一季",
+      "path": "Y-历史/帝国的崛起奥斯曼第一季.md"
+    },
+    {
+      "basename": "激荡三十年",
+      "path": "Y-历史/激荡三十年.md"
+    },
+    {
+      "basename": "公元一六四四",
+      "path": "Y-历史/公元一六四四.md"
+    },
+    {
+      "basename": "二战全史",
+      "path": "Y-历史/二战/二战全史.md"
+    },
+    {
+      "basename": "二次大战全彩实录",
+      "path": "Y-历史/二战/二次大战全彩实录.md"
+    },
+    {
+      "basename": "突围",
+      "path": "Y-历史-文学/邓小平/突围.md"
+    },
+    {
+      "basename": "刘伯承影像记忆",
+      "path": "Y-历史/刘伯承影像记忆.md"
+    },
+    {
+      "basename": "十分钟速成课大历史第一季 1",
+      "path": "Y-历史/十分钟速成课大历史第一季 1.md"
     },
     {
       "basename": "一口气看完英国历史",
@@ -13,192 +197,8 @@
       "path": "Y-历史/中国通史.md"
     },
     {
-      "basename": "0-历史卡片",
-      "path": "Y-历史/0-历史卡片.md"
-    },
-    {
-      "basename": "越南战争",
-      "path": "Y-历史/越南战争.md"
-    },
-    {
       "basename": "周恩来 1",
       "path": "Y-历史/周恩来 1.md"
-    },
-    {
-      "basename": "周恩来",
-      "path": "O-电影1900/周恩来.md"
-    },
-    {
-      "basename": "发现工具",
-      "path": "H-每日记录/2024-05-02/发现工具.md"
-    },
-    {
-      "basename": "2024-05-02",
-      "path": "H-每日记录/2024-05-02.md"
-    },
-    {
-      "basename": "2024-05-01",
-      "path": "H-每日记录/2024-05-01.md"
-    },
-    {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
-    },
-    {
-      "basename": "黑马vue2",
-      "path": "0-前端视频记录/01-黑马 pink 老师/黑马vue2.md"
-    },
-    {
-      "basename": "Webflow 入门教程 - 无代码网页开发",
-      "path": "0-前端视频记录/05-freecodecamp/Webflow 入门教程 - 无代码网页开发.md"
-    },
-    {
-      "basename": "SpringBoot2.X+Vue+UniAPP，全栈开发医疗小程序 毕设求职可用的新潮优秀案例（Web管理端+小程序用户端）",
-      "path": "0-前端视频记录/02-慕课/SpringBoot2.X+Vue+UniAPP，全栈开发医疗小程序 毕设求职可用的新潮优秀案例（Web管理端+小程序用户端）.md"
-    },
-    {
-      "basename": "Taro3+Mysql+Express开发企业级出行全栈项目",
-      "path": "0-前端视频记录/02-慕课/Taro3+Mysql+Express开发企业级出行全栈项目.md"
-    },
-    {
-      "basename": "准备开发人员面试求职：freecodecamp",
-      "path": "0-前端视频记录/05-freecodecamp/准备开发人员面试求职：freecodecamp.md"
-    },
-    {
-      "basename": "ChatGPT_AI革命 1",
-      "path": "0-前端视频记录/01-计算机书籍/ChatGPT_AI革命 1.md"
-    },
-    {
-      "basename": "CPU通识课",
-      "path": "0-前端视频记录/01-计算机书籍/CPU通识课.md"
-    },
-    {
-      "basename": "Go 语言从入门到实战",
-      "path": "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md"
-    },
-    {
-      "basename": "CSS权威指南",
-      "path": "0-前端视频记录/01-计算机书籍/CSS权威指南.md"
-    },
-    {
-      "basename": "CSS选择器世界",
-      "path": "0-前端视频记录/01-计算机书籍/CSS选择器世界.md"
-    },
-    {
-      "basename": "JavaScript设计模式",
-      "path": "0-前端视频记录/01-计算机书籍/JavaScript设计模式.md"
-    },
-    {
-      "basename": "Head First HTML与CSS（第2版）",
-      "path": "0-前端视频记录/01-计算机书籍/Head First HTML与CSS（第2版）.md"
-    },
-    {
-      "basename": "NestJS 入门到实战 前端必学服务端新趋势",
-      "path": "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md"
-    },
-    {
-      "basename": "现代 JavaScript 库开发",
-      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
-    },
-    {
-      "basename": "React快速上手开发",
-      "path": "0-前端视频记录/01-计算机书籍/React快速上手开发.md"
-    },
-    {
-      "basename": "人月神话",
-      "path": "0-前端视频记录/01-计算机书籍/人月神话.md"
-    },
-    {
-      "basename": "传统的响应式网页设计挑战-freecodecamp",
-      "path": "0-前端视频记录/05-freecodecamp/传统的响应式网页设计挑战-freecodecamp.md"
-    },
-    {
-      "basename": "代码",
-      "path": "0-前端视频记录/01-计算机书籍/代码.md"
-    },
-    {
-      "basename": "Web性能权威指南",
-      "path": "0-前端视频记录/01-计算机书籍/Web性能权威指南.md"
-    },
-    {
-      "basename": "Webpack+Babel入门与实例详解",
-      "path": "0-前端视频记录/01-计算机书籍/Webpack+Babel入门与实例详解.md"
-    },
-    {
-      "basename": "Vue.js3应用开发与核心源码解析",
-      "path": "0-前端视频记录/01-计算机书籍/Vue.js3应用开发与核心源码解析.md"
-    },
-    {
-      "basename": "代码奔腾",
-      "path": "0-前端视频记录/01-计算机书籍/代码奔腾.md"
-    },
-    {
-      "basename": "你好哇，程序员",
-      "path": "0-前端视频记录/01-计算机书籍/你好哇，程序员.md"
-    },
-    {
-      "basename": "信息传",
-      "path": "0-前端视频记录/01-计算机书籍/信息传.md"
-    },
-    {
-      "basename": "前端技术架构与工程",
-      "path": "0-前端视频记录/01-计算机书籍/前端技术架构与工程.md"
-    },
-    {
-      "basename": "前端程序员面试秘籍",
-      "path": "0-前端视频记录/01-计算机书籍/前端程序员面试秘籍.md"
-    },
-    {
-      "basename": "Web 协议详解与抓包实战",
-      "path": "0-前端视频记录/02-极客时间/Web 协议详解与抓包实战.md"
-    },
-    {
-      "basename": "极客时间-Python进阶训练营",
-      "path": "0-前端视频记录/02-极客时间/极客时间-Python进阶训练营.md"
-    },
-    {
-      "basename": "玩转 webpack",
-      "path": "0-前端视频记录/02-极客时间/玩转 webpack.md"
-    },
-    {
-      "basename": "峰华前端工程师",
-      "path": "0-前端视频记录/04-B站视频/峰华前端工程师.md"
-    },
-    {
-      "basename": "浏览器渲染",
-      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/浏览器渲染.md"
-    },
-    {
-      "basename": "技术蛋老师-CSS",
-      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/技术蛋老师-CSS.md"
-    },
-    {
-      "basename": "移动端自动化测试实战",
-      "path": "0-前端视频记录/02-极客时间/移动端自动化测试实战.md"
-    },
-    {
-      "basename": "JavaScript知识点",
-      "path": "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md"
-    },
-    {
-      "basename": "MongoDB 高手课",
-      "path": "0-前端视频记录/02-极客时间/MongoDB 高手课.md"
-    },
-    {
-      "basename": "基于 Flutter 3.x 仿抖音跨平台混合开发",
-      "path": "0-前端视频记录/02-慕课/基于 Flutter 3.x 仿抖音跨平台混合开发.md"
-    },
-    {
-      "basename": "Vue3+TS打造SSR网站应用，0到1实现服务端渲染",
-      "path": "0-前端视频记录/02-慕课/Vue3+TS打造SSR网站应用，0到1实现服务端渲染.md"
-    },
-    {
-      "basename": "慕课体系课-前端工程师2022年",
-      "path": "0-前端视频记录/15-体系课/慕课体系课-前端工程师2022年.md"
-    },
-    {
-      "basename": "前端开发库React-freecodecamp",
-      "path": "0-前端视频记录/05-freecodecamp/前端开发库React-freecodecamp.md"
     }
   ],
   "omittedPaths": [],

@@ -64,12 +64,90 @@
             }
           },
           {
-            "id": "5ce9900a3290bbd8",
+            "id": "d201fe740cdc1632",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "O-电影1900/0-卡片/3-电影1900.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "638a6e010647f508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/解放2突破.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1beeb3c61a01f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/解放1炮火弧线.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8cc77d3280bc61e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/解放5最后一击.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89a2101c182121b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/解放4柏林之战.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0685ef0ccb130111",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/解放3主攻方向.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f312f7091e54ba30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-电影1900/莫斯科保卫战.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -77,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -152,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "卡片/6-电视剧.md"
+                "file": "O-电影1900/莫斯科保卫战.md"
               }
             }
           },
@@ -162,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "O-电影1900/莫斯科保卫战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "卡片/6-电视剧.md",
+                "file": "O-电影1900/莫斯科保卫战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,35 +281,36 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "5ce9900a3290bbd8",
+  "active": "f312f7091e54ba30",
   "lastOpenFiles": [
-    "Y-历史/一口气看完英国历史.md",
-    "卡片/6-电视剧.md",
-    "Y-历史/中国通史.md",
-    "Y-历史/0-历史卡片.md",
-    "Y-历史/周恩来.md",
-    "Y-历史/越南战争.md",
-    "Y-历史/周恩来 1.md",
-    "O-电影1900/周恩来.md",
-    "Y-历史/百家讲坛/百家讲坛：大明嘉靖往事.md",
-    "Y-历史/百家讲坛/百家讲坛：万历兴亡录.md",
-    "H-每日记录/2024-05-02/发现工具.md",
-    "H-每日记录/2024-05-02.md",
+    "Y-历史/大决战之辽沈战役.md",
+    "Y-历史/大决战之淮海战役.md",
+    "Y-历史/大决战之平津战役.md",
+    "Y-历史/大进军——解放大西北.md",
+    "Y-历史/大转折——鏖战鲁西南.md",
+    "Y-历史/大转折——挺进大别山.md",
+    "Y-历史/大进军——南线大追歼.md",
+    "Y-历史/大进军——席卷大西南.md",
+    "O-电影1900/0-卡片/3-电影1900.md",
+    "O-电影1900/燎原.md",
+    "O-电影1900/大闹天宫.md",
+    "O-电影1900/解放2突破.md",
+    "O-电影1900/解放1炮火弧线.md",
+    "O-电影1900/解放5最后一击.md",
+    "O-电影1900/解放4柏林之战.md",
+    "O-电影1900/解放3主攻方向.md",
+    "O-电影1900/楢山节考.md",
+    "O-电影1900/莫斯科保卫战.md",
+    "Y-历史/革命中的中国：1911-1949.md",
+    "Y-历史/诞生在红旗下：1976-1997.md",
+    "O-电影1900/铁血昆仑关.md",
+    "Y-历史/毛泽东时代：1949-1976.md",
+    "O-电影1900/大话西游之大圣娶亲.md",
+    "O-电影1900/古惑仔3之只手遮天.md",
+    "O-电影1900/美丽人生.md",
+    "O-电影1900/细细的红线.md",
+    "Y-历史/二战",
     "H-每日记录/2024-05-02",
-    "H-每日记录/2024-05-01.md",
-    "Y-历史/中国/中国文化大革命：全解析（微纪录片）.md",
-    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "0-前端视频记录/02-极客时间/Vue 开发实战 1.md",
-    "0-前端视频记录/01-黑马 pink 老师/黑马vue2.md",
-    "0-前端视频记录/05-freecodecamp/Webflow 入门教程 - 无代码网页开发.md",
-    "0-前端视频记录/02-慕课/SpringBoot2.X+Vue+UniAPP，全栈开发医疗小程序 毕设求职可用的新潮优秀案例（Web管理端+小程序用户端）.md",
-    "0-前端视频记录/02-慕课/Taro3+Mysql+Express开发企业级出行全栈项目.md",
-    "0-前端视频记录/05-freecodecamp/准备开发人员面试求职：freecodecamp.md",
-    "0-前端视频记录/01-计算机书籍/ChatGPT_AI革命 1.md",
-    "0-前端视频记录/01-计算机书籍/CPU通识课.md",
-    "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md",
-    "0-前端视频记录/15-体系课/黑马前端V8.5.md",
-    "0-前端视频记录/02-极客时间/Go 语言从入门到实战.md",
     "Z-附件/Pasted image 20240501154057.png",
     "Z-附件/Pasted image 20240501154029.png",
     "Z-附件/Pasted image 20240501154017.png",
@@ -243,7 +322,6 @@
     "Y-历史/历史调研室",
     "Y-历史/中东/王骁-中东",
     "Y-历史/中东/王骁-中东/东盟十国",
-    "Y-历史/中东/王骁-中东/美帝",
     "Z-附件/Pasted image 20240428152411.png",
     "Z-附件/Pasted image 20240425121344.png",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg",
