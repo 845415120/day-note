@@ -49,8 +49,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5d6b4fdb16f4e225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "H-每日记录/2024-05-03.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+                "file": "H-每日记录/2024-05-03.md"
               }
             }
           },
@@ -135,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "H-每日记录/2024-05-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "H-每日记录/2024-05-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,8 +190,9 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "7c37f47a4ffd0ca3",
+  "active": "5d6b4fdb16f4e225",
   "lastOpenFiles": [
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "Y-历史/0-历史卡片.md",
     "Y-历史/莫卧儿帝国.md",
     "10-React/项目重点.md",
@@ -193,7 +208,6 @@
     "10-React/React2022全网最新/A- Vs code 配置.md",
     "0-前端视频记录/11-React/React入门到实战.md",
     "0-前端视频记录/11-React/React入门到实战 1.md",
-    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-未整理/【网易云课堂-1202908603】微专业 - 网易9大前端项目就业实训营.md",
     "0-前端视频记录/15-体系课/大前端.md",
     "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md",
