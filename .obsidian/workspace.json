@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "ab04af44ac8a5ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "166f1df0b582e203",
             "type": "leaf",
             "pinned": true,
@@ -36,126 +49,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8d5e12dacdfdf544",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/凤凰大视野/黑潮：逃港三十年风波纪事.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8b1d2829257d155",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/凤凰大视野/凤凰大视野：回望1972——尼克松访华日记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "faccb5e0a538e815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-03.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d201fe740cdc1632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "O-电影2000/0-卡片/0-电影2000.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a84a1608d7e70a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-02.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c82cbf738a13d392",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-02/荒野求生 第二季.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cc33ff8d140e6c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-数据结构与算法/0-卡片/0-数据结构与算法卡片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0402b19299e8e010",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H-每日记录/2024-05-03/Codesnap 代码片段.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3912c0f2176217a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y-历史/央视频/大先生杨振宁.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:React入门到实战",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 307.5
   },
   "right": {
     "id": "4c275809f335b52b",
@@ -230,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y-历史/0-历史卡片.md"
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
               }
             }
           },
@@ -240,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y-历史/0-历史卡片.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y-历史/0-历史卡片.md",
+                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,35 +176,35 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "166f1df0b582e203",
+  "active": "7c37f47a4ffd0ca3",
   "lastOpenFiles": [
-    "Y-历史/央视频/归来.md",
-    "Y-历史/央视频/刘邓大军挺进大别山.md",
     "Y-历史/0-历史卡片.md",
-    "Y-历史/央视频/“三个面向”.md",
-    "Y-历史/央视频/《抗美援朝保家卫国》.md",
-    "Y-历史/央视频/大先生杨振宁.md",
-    "Y-历史/央视频/太行山上的一二九师.md",
-    "Y-历史/央视频",
+    "Y-历史/莫卧儿帝国.md",
+    "10-React/项目重点.md",
+    "10-React/React2022全网最新/K-项目.md",
+    "10-React/React2022全网最新/I-Router.md",
+    "10-React/React2022全网最新/H-Hooks.md",
+    "10-React/React2022全网最新/G-生命周期.md",
+    "10-React/React2022全网最新/F_React组件进阶.md",
+    "10-React/React2022全网最新/E-组件通信.md",
+    "10-React/React2022全网最新/D-组件基础.md",
+    "10-React/React2022全网最新/C-JSX基础.md",
+    "10-React/React2022全网最新/B- 初始化_目录.md",
+    "10-React/React2022全网最新/A- Vs code 配置.md",
+    "0-前端视频记录/11-React/React入门到实战.md",
+    "0-前端视频记录/11-React/React入门到实战 1.md",
     "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
-    "0-前端视频记录/大圣编程 前端工程师算法课 1.md",
-    "0-前端视频记录/大厂算法和数据结构刷题.md",
+    "0-未整理/【网易云课堂-1202908603】微专业 - 网易9大前端项目就业实训营.md",
     "0-前端视频记录/15-体系课/大前端.md",
-    "Y-历史/凤凰大视野/凤凰大视野：回望1972——尼克松访华日记.md",
-    "Y-历史/凤凰大视野/黑潮：逃港三十年风波纪事.md",
-    "Y-历史/凤凰大视野/变局1962：七千人大会始末.md",
-    "Y-历史/凤凰大视野/太平天国运动——凤凰大视野 1.md",
+    "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md",
+    "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《你不知道的JavaScript上》.md",
+    "0-前端视频记录/01-计算机书籍/现代JavaScript库开发：原理、技术与实战.md",
+    "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md",
+    "0-前端视频记录/01-计算机书籍/数据结构与算法JavaScript描述.md",
+    "0-前端视频记录/02-极客时间/算法训练营2021版第0期.md",
+    "0-前端视频记录/02-慕课/Vue3 + React18 + TS4 入门到实战.md",
     "H-每日记录/2024-05-03.md",
-    "H-每日记录/2024-05-02/折戟沉沙铁未销 913事件再追踪.md",
-    "Y-历史/凤凰大视野/折戟沉沙铁未销 913事件再追踪.md",
-    "Y-历史/凤凰大视野/苏联解体20周年特别节目——红色帝国的最后记忆.md",
-    "Y-历史/凤凰大视野/凤凰大视野：春雷——邓小平九二南巡始末.md",
-    "Y-历史/凤凰大视野/凤凰大视野 1973 中国往事.md",
-    "Y-历史/凤凰大视野/国光幻灭：蒋介石的反攻大计.md",
-    "Y-历史/中亚五国/什么神秘国家，紧闭国门，又穷又富的？【中亚五国04丨土库曼斯坦】.md",
-    "Y-历史/中东/「也门2」纳赛尔的野望与保皇派的绝活，冷战热战，难觅新生，南北也门，挣扎轮回。.md",
-    "Y-历史/1997年纪录片《使命》，又名（中国现代战争实录）.md",
-    "Y-历史/一战/凡尔登战役是如何毁掉一代法国人的.md",
+    "Y-历史/央视频",
     "H-每日记录/2024-05-03",
     "Z-附件/Pasted image 20240503140913.png",
     "Z-附件/Pasted image 20240503140904.png",

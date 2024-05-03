@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "0-前端视频记录卡",
+      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+    },
+    {
       "basename": "0-历史卡片",
       "path": "Y-历史/0-历史卡片.md"
+    },
+    {
+      "basename": "项目重点",
+      "path": "10-React/项目重点.md"
+    },
+    {
+      "basename": "K-项目",
+      "path": "10-React/React2022全网最新/K-项目.md"
+    },
+    {
+      "basename": "I-Router",
+      "path": "10-React/React2022全网最新/I-Router.md"
+    },
+    {
+      "basename": "H-Hooks",
+      "path": "10-React/React2022全网最新/H-Hooks.md"
+    },
+    {
+      "basename": "G-生命周期",
+      "path": "10-React/React2022全网最新/G-生命周期.md"
+    },
+    {
+      "basename": "F_React组件进阶",
+      "path": "10-React/React2022全网最新/F_React组件进阶.md"
+    },
+    {
+      "basename": "E-组件通信",
+      "path": "10-React/React2022全网最新/E-组件通信.md"
+    },
+    {
+      "basename": "D-组件基础",
+      "path": "10-React/React2022全网最新/D-组件基础.md"
+    },
+    {
+      "basename": "C-JSX基础",
+      "path": "10-React/React2022全网最新/C-JSX基础.md"
+    },
+    {
+      "basename": "B- 初始化_目录",
+      "path": "10-React/React2022全网最新/B- 初始化_目录.md"
+    },
+    {
+      "basename": "A- Vs code 配置",
+      "path": "10-React/React2022全网最新/A- Vs code 配置.md"
+    },
+    {
+      "basename": "React入门到实战",
+      "path": "0-前端视频记录/11-React/React入门到实战.md"
+    },
+    {
+      "basename": "React入门到实战 1",
+      "path": "0-前端视频记录/11-React/React入门到实战 1.md"
+    },
+    {
+      "basename": "【网易云课堂-1202908603】微专业 - 网易9大前端项目就业实训营",
+      "path": "0-未整理/【网易云课堂-1202908603】微专业 - 网易9大前端项目就业实训营.md"
+    },
+    {
+      "basename": "大前端",
+      "path": "0-前端视频记录/15-体系课/大前端.md"
+    },
+    {
+      "basename": "NestJS 入门到实战 前端必学服务端新趋势",
+      "path": "0-前端视频记录/02-慕课/NestJS 入门到实战 前端必学服务端新趋势.md"
+    },
+    {
+      "basename": "现代 JavaScript 库开发",
+      "path": "0-前端视频记录/01-计算机书籍/LGD_前端书籍/《现代JavaScript库开发》/现代 JavaScript 库开发.md"
+    },
+    {
+      "basename": "2024-05-03",
+      "path": "H-每日记录/2024-05-03.md"
+    },
+    {
+      "basename": "黑潮：逃港三十年风波纪事",
+      "path": "Y-历史/凤凰大视野/黑潮：逃港三十年风波纪事.md"
     },
     {
       "basename": "归来",
@@ -29,10 +109,6 @@
       "path": "Y-历史/央视频/太行山上的一二九师.md"
     },
     {
-      "basename": "0-前端视频记录卡",
-      "path": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
-    },
-    {
       "basename": "大圣编程 前端工程师算法课 1",
       "path": "0-前端视频记录/大圣编程 前端工程师算法课 1.md"
     },
@@ -41,24 +117,12 @@
       "path": "0-前端视频记录/大厂算法和数据结构刷题.md"
     },
     {
-      "basename": "大前端",
-      "path": "0-前端视频记录/15-体系课/大前端.md"
-    },
-    {
       "basename": "凤凰大视野：回望1972——尼克松访华日记",
       "path": "Y-历史/凤凰大视野/凤凰大视野：回望1972——尼克松访华日记.md"
     },
     {
-      "basename": "黑潮：逃港三十年风波纪事",
-      "path": "Y-历史/凤凰大视野/黑潮：逃港三十年风波纪事.md"
-    },
-    {
       "basename": "变局1962：七千人大会始末",
       "path": "Y-历史/凤凰大视野/变局1962：七千人大会始末.md"
-    },
-    {
-      "basename": "2024-05-03",
-      "path": "H-每日记录/2024-05-03.md"
     },
     {
       "basename": "凤凰大视野 1973 中国往事",
@@ -135,70 +199,6 @@
     {
       "basename": "2-链表",
       "path": "00-数据结构与算法/数据结构/2-链表.md"
-    },
-    {
-      "basename": "1-数组",
-      "path": "00-数据结构与算法/数据结构/1-数组.md"
-    },
-    {
-      "basename": "0-卡片",
-      "path": "17-JAVA/0-卡片/0-卡片.md"
-    },
-    {
-      "basename": "5-接口",
-      "path": "17-JAVA/尚硅谷2024最新Java入门视频教程(下部) java零基础入门教程/5-接口.md"
-    },
-    {
-      "basename": "Java基础",
-      "path": "17-JAVA/0-java体系课/Java基础.md"
-    },
-    {
-      "basename": "Java 路线图",
-      "path": "17-JAVA/0-java体系课/Java 路线图.md"
-    },
-    {
-      "basename": "2024-05-02",
-      "path": "H-每日记录/2024-05-02.md"
-    },
-    {
-      "basename": "荒野求生 第二季",
-      "path": "H-每日记录/2024-05-02/荒野求生 第二季.md"
-    },
-    {
-      "basename": "0-电影2000",
-      "path": "O-电影2000/0-卡片/0-电影2000.md"
-    },
-    {
-      "basename": "大年初一从沈阳出发，开启全国自驾",
-      "path": "Y-旅行/马蜂窝/大年初一从沈阳出发，开启全国自驾.md"
-    },
-    {
-      "basename": "原始求生记：安地斯山脉",
-      "path": "H-每日记录/2024-05-02/原始求生记：安地斯山脉.md"
-    },
-    {
-      "basename": "帝国的崛起奥斯曼第一季 1",
-      "path": "H-每日记录/2024-05-02/帝国的崛起奥斯曼第一季 1.md"
-    },
-    {
-      "basename": "太平天国运动——凤凰大视野",
-      "path": "Y-历史/凤凰大视野/太平天国运动——凤凰大视野.md"
-    },
-    {
-      "basename": "凤凰大视野 我的1976",
-      "path": "Y-历史/凤凰大视野/凤凰大视野 我的1976.md"
-    },
-    {
-      "basename": "帝国的崛起奥斯曼第一季",
-      "path": "Y-历史/帝国的崛起奥斯曼第一季.md"
-    },
-    {
-      "basename": "发现工具",
-      "path": "H-每日记录/2024-05-02/发现工具.md"
-    },
-    {
-      "basename": "第五共和国",
-      "path": "Y-电视剧/第五共和国.md"
     }
   ],
   "omittedPaths": [],
