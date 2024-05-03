@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "ba9aef98463433ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-前端视频记录/大圣编程 前端工程师算法课 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "166f1df0b582e203",
             "type": "leaf",
             "pinned": true,
@@ -48,6 +35,32 @@
                 "source": false
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "604ccc6fd249c6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/央视频/归来.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6bebf8c6713e92d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/央视频/刘邓大军挺进大别山.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -153,8 +166,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3912c0f2176217a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y-历史/央视频/大先生杨振宁.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md"
+                "file": "Y-历史/央视频/刘邓大军挺进大别山.md"
               }
             }
           },
@@ -239,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史/央视频/刘邓大军挺进大别山.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
+                "file": "Y-历史/央视频/刘邓大军挺进大别山.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,15 +307,22 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "7c37f47a4ffd0ca3",
+  "active": "b6bebf8c6713e92d",
   "lastOpenFiles": [
+    "Y-历史/央视频/归来.md",
+    "Y-历史/央视频/刘邓大军挺进大别山.md",
+    "Y-历史/0-历史卡片.md",
+    "Y-历史/央视频/“三个面向”.md",
+    "Y-历史/央视频/《抗美援朝保家卫国》.md",
+    "Y-历史/央视频/大先生杨振宁.md",
+    "Y-历史/央视频/太行山上的一二九师.md",
+    "Y-历史/央视频",
+    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-前端视频记录/大圣编程 前端工程师算法课 1.md",
     "0-前端视频记录/大厂算法和数据结构刷题.md",
-    "0-前端视频记录/00-卡片/0-前端视频记录卡.md",
     "0-前端视频记录/15-体系课/大前端.md",
     "Y-历史/凤凰大视野/凤凰大视野：回望1972——尼克松访华日记.md",
     "Y-历史/凤凰大视野/黑潮：逃港三十年风波纪事.md",
-    "Y-历史/0-历史卡片.md",
     "Y-历史/凤凰大视野/变局1962：七千人大会始末.md",
     "Y-历史/凤凰大视野/太平天国运动——凤凰大视野 1.md",
     "H-每日记录/2024-05-03.md",
@@ -302,12 +336,6 @@
     "Y-历史/中东/「也门2」纳赛尔的野望与保皇派的绝活，冷战热战，难觅新生，南北也门，挣扎轮回。.md",
     "Y-历史/1997年纪录片《使命》，又名（中国现代战争实录）.md",
     "Y-历史/一战/凡尔登战役是如何毁掉一代法国人的.md",
-    "0-前端视频记录/互联网人副业指南 启动你的首个副业项目.md",
-    "0-前端视频记录/02-极客时间/Vue 开发实战 1 1.md",
-    "0-前端视频记录/02-极客时间/Vue 开发实战 1.md",
-    "0-前端视频记录/04-B站视频/00-技术蛋老师/JavaScript知识点.md",
-    "0-前端视频记录/04-B站视频/00-技术蛋老师/浏览器渲染.md",
-    "00-数据结构与算法/视频学习/大圣编程 前端工程师算法课.md",
     "H-每日记录/2024-05-03",
     "Z-附件/Pasted image 20240503140913.png",
     "Z-附件/Pasted image 20240503140904.png",
@@ -324,7 +352,6 @@
     "0-前端视频记录/数据结构",
     "Y-历史/凤凰大视野",
     "Y-历史/百家讲坛",
-    "Y-历史/历史调研室",
     "Z-附件/Pasted image 20240428152411.png",
     "Z-附件/Pasted image 20240425121344.png",
     "Z-附件/073b7f18678740d9ed128074aef41cb.jpg"
